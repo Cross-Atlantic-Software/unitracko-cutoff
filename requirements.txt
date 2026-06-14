@@ -1,0 +1,15 @@
+# Pinned to versions with prebuilt Python 3.14 wheels (Python-only stack).
+# Core data stack
+pandas==3.0.3
+pyarrow==24.0.0
+duckdb==1.5.3
+
+# Fetching (Phase 2+)
+httpx==0.28.1
+pdfplumber==0.11.9
+
+# Frontend (Phase 3)
+streamlit==1.58.0
+
+# Dev / tests
+pytest==9.1.0
