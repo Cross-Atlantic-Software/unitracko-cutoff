@@ -5,9 +5,12 @@
 pandas==3.0.3
 pyarrow==24.0.0
 duckdb==1.5.3
-# pandas optional backends we rely on (not auto-installed by pandas):
+# pandas optional backend needed at startup (pure-Python, not auto-installed):
 openpyxl==3.1.5   # read_excel — parse cutoffexamsheet.xlsx (catalog build)
-lxml==6.1.1       # read_html — generic HTML table scraper
+# NOTE: lxml (read_html backend for the on-demand scraper) is intentionally NOT
+# pinned here — it needs native compilation and can break wheel-less deploys.
+# The scraper degrades gracefully without it. For full local scraping support,
+# install from requirements.lock (which pins lxml) instead.
 
 # Fetching (Phase 2+)
 httpx==0.28.1
