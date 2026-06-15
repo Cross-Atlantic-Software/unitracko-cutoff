@@ -5,6 +5,9 @@
 pandas==3.0.3
 pyarrow==24.0.0
 duckdb==1.5.3
+# pandas optional backends we rely on (not auto-installed by pandas):
+openpyxl==3.1.5   # read_excel — parse cutoffexamsheet.xlsx (catalog build)
+lxml==6.1.1       # read_html — generic HTML table scraper
 
 # Fetching (Phase 2+)
 httpx==0.28.1
