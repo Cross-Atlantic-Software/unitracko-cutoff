@@ -1,0 +1,2032 @@
+[
+{
+"exam": "ACCA FOUNDATION",
+"body": "ACCA",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Foundation-level accountancy qualification by UK ACCA body"
+},
+{
+"exam": "Actuarial Common Entrance Test",
+"body": "Institute of Actuaries of India",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Entry test for actuarial science membership and study"
+},
+{
+"exam": "Cost Management Accountancy Foundation Examination",
+"body": "ICMAI",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Foundation entry to Cost & Management Accountancy course"
+},
+{
+"exam": "Assam Agriculture Entrance Examination",
+"body": "Assam Agricultural University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to UG agriculture programs in Assam"
+},
+{
+"exam": "Chhattisgarh Agriculture Entrance Examination",
+"body": "Chhattisgarh Vyavsayik Pariksha Mandal (CG Vyapam)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to UG agriculture courses in Chhattisgarh"
+},
+{
+"exam": "Haryana Agriculture Entrance Examination",
+"body": "Chaudhary Charan Singh Haryana Agricultural University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to UG agriculture programs in Haryana"
+},
+{
+"exam": "Indian Council of Agricultural Research All India Entrance Examination for Admission Undergraduate",
+"body": "NTA",
+"level": "UG",
+"metric": "Rank",
+"scope": "All-India UG admission to agricultural universities (ICAR AIEEA)"
+},
+{
+"exam": "Joint Entrance Test Agriculture",
+"body": "Swami Keshwanand Rajasthan Agricultural University, Bikaner",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG agriculture admission across Rajasthan agricultural universities"
+},
+{
+"exam": "Kerala Dairy Technology Entrance",
+"body": "CEE Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG dairy technology admission in Kerala via KEAM"
+},
+{
+"exam": "Kerala Fisheries Entrance Examination",
+"body": "CEE Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG fisheries admission in Kerala via KEAM/NEET"
+},
+{
+"exam": "Kerala Food Technology Entrance",
+"body": "CEE Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG food technology admission in Kerala via KEAM"
+},
+{
+"exam": "Kerala Forestry Entrance Examination",
+"body": "CEE Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG forestry admission in Kerala via KEAM/NEET"
+},
+{
+"exam": "Madhya Pradesh Pre Agriculture Test",
+"body": "MP Professional Examination Board (MP ESB)",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG agriculture admission in Madhya Pradesh"
+},
+{
+"exam": "Odisha University of Agriculture and Technology Entrance Examination",
+"body": "Odisha University of Agriculture and Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to UG agriculture/technology programs at OUAT Odisha"
+},
+{
+"exam": "Tata Institute of Social Sciences Bachelor of Vocation Agriculture Entrance Examination",
+"body": "Tata Institute of Social Sciences",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Voc agriculture program at TISS"
+},
+{
+"exam": "Uttar Pradesh Combined Agriculture and Technology Entrance Test",
+"body": "Sardar Vallabhbhai Patel University of Agriculture and Technology, Meerut",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG agriculture/technology admission in Uttar Pradesh (UPCATET)"
+},
+{
+"exam": "Air India Cadet Pilot Program",
+"body": "Air India",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Selects cadets for commercial pilot license training"
+},
+{
+"exam": "Amadeus GDS Certification Examination",
+"body": "Amadeus",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Certifies travel professionals on Amadeus GDS system"
+},
+{
+"exam": "Bachelor of Business Administration in Aviation Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Aviation-management BBA at private institutes; merit/Class 12 based"
+},
+{
+"exam": "Bachelor of Science in Aviation Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "B.Sc Aviation at private institutes; merit/Class 12 based"
+},
+{
+"exam": "Bachelor of Science in Nautical Science Admission",
+"body": "Indian Maritime University",
+"level": "UG",
+"metric": "Rank",
+"scope": "B.Sc Nautical Science for merchant-navy deck officers"
+},
+{
+"exam": "Cabin Crew Training Programme Admission",
+"body": "",
+"level": "Certification",
+"metric": "None/NA",
+"scope": "Cabin crew/air-hostess training at private institutes"
+},
+{
+"exam": "Diploma in Aviation Admission",
+"body": "",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Aviation diploma at private institutes; merit based"
+},
+{
+"exam": "Frankfinn Institute of Air Hostess Training Entrance Test",
+"body": "Frankfinn Institute of Air Hostess Training",
+"level": "Certification",
+"metric": "None/NA",
+"scope": "Air-hostess/hospitality training admission at Frankfinn"
+},
+{
+"exam": "General Purpose Rating Course Admission",
+"body": "Directorate General of Shipping",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Pre-sea GP Rating course for merchant-navy ratings"
+},
+{
+"exam": "Indian Maritime University Common Entrance Test",
+"body": "Indian Maritime University",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG/PG maritime programmes across IMU campuses"
+},
+{
+"exam": "Indira Gandhi Rashtriya Uran Akademi Entrance Examination",
+"body": "Indira Gandhi Rashtriya Uran Akademi",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Commercial pilot/flying training admission at IGRUA"
+},
+{
+"exam": "International Air Transport Association Certification",
+"body": "International Air Transport Association",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Global aviation/travel professional certification courses"
+},
+{
+"exam": "Consortium of Medical Engineering and Dental Colleges of Karnataka Undergraduate Entrance Test",
+"body": "COMEDK",
+"level": "UG",
+"metric": "Rank",
+"scope": "Engineering/dental seats in Karnataka private colleges"
+},
+{
+"exam": "All India Entrance Examination for Design - Interaction Design",
+"body": "ARCH College of Design & Business",
+"level": "UG",
+"metric": "Score",
+"scope": "Design admission via AIEED at ARCH College"
+},
+{
+"exam": "Anant National University Design Entrance Examination",
+"body": "Anant National University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "B.Des admission at Anant National University"
+},
+{
+"exam": "Apeejay Design Entrance Examination",
+"body": "Apeejay Stya University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programme admission at Apeejay institutions"
+},
+{
+"exam": "Army Institute of Fashion and Design Entrance Examination",
+"body": "Army Institute of Fashion and Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Fashion/interior design admission at AIFD Bengaluru"
+},
+{
+"exam": "Avantika University Design Entrance Examination",
+"body": "Avantika University",
+"level": "UG",
+"metric": "Score",
+"scope": "B.Des admission via Design Scholarship Test at Avantika"
+},
+{
+"exam": "Common Design Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Score",
+"scope": "Common design admission test across participating institutes"
+},
+{
+"exam": "Footwear Design and Development Institute All India Selection Test",
+"body": "Footwear Design and Development Institute",
+"level": "UG",
+"metric": "Rank",
+"scope": "Footwear/fashion/retail programmes at FDDI campuses"
+},
+{
+"exam": "GLS University Design Entrance Examination",
+"body": "GLS University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs at GLS University, Ahmedabad"
+},
+{
+"exam": "IMS Design and Innovation Academy Entrance Examination",
+"body": "IMS Design and Innovation Academy",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design and innovation programs, Noida"
+},
+{
+"exam": "ITM Design Entrance Examination",
+"body": "ITM Institute of Design and Media",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design and media programs at ITM"
+},
+{
+"exam": "Indian Institute of Art and Design Entrance Test",
+"body": "Indian Institute of Art and Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Art and design programs, New Delhi"
+},
+{
+"exam": "Inter National Institute of Fashion Design Entrance Examination",
+"body": "INIFD (Inter National Institute of Fashion Design)",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Fashion and interior design diploma programs"
+},
+{
+"exam": "JD Institute of Fashion Technology Design Entrance Examination",
+"body": "JD Institute of Fashion Technology",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Fashion and design diploma programs"
+},
+{
+"exam": "JK Lakshmipat University Design Entrance Examination",
+"body": "JK Lakshmipat University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs at JKLU, Jaipur"
+},
+{
+"exam": "LISAA School of Design Entrance Test",
+"body": "LISAA School of Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs across LISAA campuses"
+},
+{
+"exam": "Lovely Professional University National Entrance and Scholarship Test Design",
+"body": "Lovely Professional University",
+"level": "UG",
+"metric": "Score",
+"scope": "Design admission and scholarship via LPUNEST"
+},
+{
+"exam": "MIT Institute of Design Design Aptitude Test",
+"body": "MIT Institute of Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design aptitude entry at MIT-ID, Pune"
+},
+{
+"exam": "MIT Institute of Design Entrance Examination",
+"body": "MIT Institute of Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs at MIT-ID, Pune"
+},
+{
+"exam": "MIT Institute of Design Product Design Entrance Examination",
+"body": "MIT Institute of Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Product design programs at MIT-ID, Pune"
+},
+{
+"exam": "Manipal Academy of Higher Education Design Entrance Examination",
+"body": "Manipal Academy of Higher Education",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs at Manipal institutions"
+},
+{
+"exam": "Panjab University Design Entrance Examination",
+"body": "Panjab University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs at Panjab University, Chandigarh"
+},
+{
+"exam": "Raffles Design Entrance Examination",
+"body": "Raffles Design International (Raffles Millennium International)",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Fashion and design programs at Raffles"
+},
+{
+"exam": "School of Fashion India Entrance Test",
+"body": "",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Fashion design programs admission"
+},
+{
+"exam": "School of Fashion Technology Entrance Test",
+"body": "School of Fashion Technology (SOFT), Pune",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Fashion technology and design programs, Pune"
+},
+{
+"exam": "Sikkim Manipal University Design Entrance Examination",
+"body": "Sikkim Manipal University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Design programs at SMU, Sikkim"
+},
+{
+"exam": "Somaiya Design Entrance Examination",
+"body": "Somaiya Vidyavihar University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Des programs at Somaiya School of Design"
+},
+{
+"exam": "Srishti Manipal (Design)",
+"body": "Srishti Manipal Institute of Art, Design and Technology",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Des/art-design programs at Srishti Manipal"
+},
+{
+"exam": "Symbiosis Institute of Design Entrance Test",
+"body": "Symbiosis International University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to B.Des programs at Symbiosis Institute of Design"
+},
+{
+"exam": "The Design Village Entrance Test",
+"body": "The Design Village",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to undergraduate design programs at The Design Village"
+},
+{
+"exam": "Undergraduate Common Entrance Examination for Design",
+"body": "IIT Bombay (on behalf of IITs/IISc)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to B.Des at IITs and member institutes"
+},
+{
+"exam": "Unitedworld Institute of Design Entrance Examination",
+"body": "Karnavati University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Des programs at Unitedworld Institute of Design"
+},
+{
+"exam": "University of Petroleum and Energy Studies Design Entrance Examination",
+"body": "University of Petroleum and Energy Studies",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Des programs at UPES School of Design"
+},
+{
+"exam": "Vellore Institute of Technology Design Entrance Examination",
+"body": "Vellore Institute of Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to B.Des programs at VIT School of Design"
+},
+{
+"exam": "Vogue Institute of Art and Design Entrance Examination",
+"body": "Vogue Institute of Art and Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to design/fashion programs at Vogue Institute"
+},
+{
+"exam": "Vogue University Design Entrance Examination",
+"body": "Vogue Institute of Art and Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to design programs at Vogue University"
+},
+{
+"exam": "Whistling Woods International Design Entrance Examination",
+"body": "Whistling Woods International",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to design programs at Whistling Woods International"
+},
+{
+"exam": "World University of Design Aptitude Test Visual Arts",
+"body": "World University of Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to visual arts/design programs at WUD"
+},
+{
+"exam": "World University of Design Entrance Test",
+"body": "World University of Design",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to undergraduate design programs at WUD"
+},
+{
+"exam": "Amrita Engineering Entrance Examination",
+"body": "Amrita Vishwa Vidyapeetham",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to B.Tech programs across Amrita campuses"
+},
+{
+"exam": "Bennett University Engineering Entrance Test",
+"body": "Bennett University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Tech programs at Bennett University"
+},
+{
+"exam": "Bihar Engineering Entrance Examination",
+"body": "Bihar Combined Entrance Competitive Examination Board",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to B.Tech in Bihar government/private engineering colleges"
+},
+{
+"exam": "Birla Institute of Technology Mesra Entrance Examination",
+"body": "Birla Institute of Technology, Mesra",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Tech programs at BIT Mesra and campuses"
+},
+{
+"exam": "Chandigarh University Common Entrance Test - Engineering",
+"body": "Chandigarh University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to B.Tech programs at Chandigarh University"
+},
+{
+"exam": "Chhattisgarh Pre Engineering Test",
+"body": "CG Vyapam (Chhattisgarh Professional Examination Board)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to engineering colleges in Chhattisgarh"
+},
+{
+"exam": "Cochin University of Science and Technology Combined Admission Test - Marine Engineering",
+"body": "Cochin University of Science and Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to CUSAT B.Tech Marine Engineering programme"
+},
+{
+"exam": "Defence Institute of Advanced Technology Entrance Examination",
+"body": "Defence Institute of Advanced Technology",
+"level": "PG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to DIAT Pune defence-tech postgraduate programmes"
+},
+{
+"exam": "Goa Common Entrance Test - Engineering",
+"body": "Goa Directorate of Technical Education",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to engineering colleges in Goa"
+},
+{
+"exam": "ICFAI Technology School Admission Test",
+"body": "ICFAI University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to ICFAI Tech School B.Tech programmes"
+},
+{
+"exam": "Indian Institute of Petroleum and Energy Entrance Examination",
+"body": "Indian Institute of Petroleum and Energy, Visakhapatnam",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to IIPE B.Tech via JEE Main rank"
+},
+{
+"exam": "Indian Institute of Space Science and Technology Admission",
+"body": "Indian Institute of Space Science and Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to IIST B.Tech via JEE Advanced rank"
+},
+{
+"exam": "Jamia Millia Islamia Engineering Entrance Examination",
+"body": "Jamia Millia Islamia",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to JMI B.Tech engineering programmes"
+},
+{
+"exam": "Madhya Pradesh Pre Engineering Test",
+"body": "MP Professional Examination Board (Vyapam)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to engineering colleges in Madhya Pradesh"
+},
+{
+"exam": "Meghalaya Engineering Entrance Examination",
+"body": "Meghalaya Directorate of Technical Education",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to engineering colleges in Meghalaya"
+},
+{
+"exam": "Mizoram Engineering Entrance Examination",
+"body": "Mizoram Directorate of Technical Education",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to engineering colleges in Mizoram"
+},
+{
+"exam": "Nagaland Engineering Entrance Examination",
+"body": "Nagaland Directorate of Technical Education",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to engineering colleges in Nagaland"
+},
+{
+"exam": "National Rail and Transportation Institute Transport Technology Entrance Examination",
+"body": "Gati Shakti Vishwavidyalaya",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to transport technology programmes at GSV Vadodara"
+},
+{
+"exam": "Plaksha University Undergraduate Tech Entrance Test",
+"body": "Plaksha University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to Plaksha University B.Tech programmes"
+},
+{
+"exam": "Rajasthan Engineering Admission Process",
+"body": "Board of Technical Education, Rajasthan",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Counseling admission to Rajasthan engineering colleges"
+},
+{
+"exam": "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination",
+"body": "Rajiv Gandhi Institute of Petroleum Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to RGIPT B.Tech via JEE Advanced rank"
+},
+{
+"exam": "SRM Joint Engineering Entrance Examination",
+"body": "SRM Institute of Science and Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to SRM group B.Tech programmes"
+},
+{
+"exam": "Sharda University Admission Test Engineering",
+"body": "Sharda University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to Sharda University B.Tech engineering programmes"
+},
+{
+"exam": "Symbiosis Institute of Technology Engineering Entrance Examination",
+"body": "Symbiosis International University",
+"level": "UG",
+"metric": "Score",
+"scope": "BTech admission to Symbiosis Institute of Technology, Pune"
+},
+{
+"exam": "Tamil Nadu Engineering Admissions",
+"body": "Anna University (TNEA / DoTE Tamil Nadu)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Marks-based counseling for BE/BTech in Tamil Nadu colleges"
+},
+{
+"exam": "University of Petroleum and Energy Studies Engineering Aptitude Test",
+"body": "University of Petroleum and Energy Studies",
+"level": "UG",
+"metric": "Rank",
+"scope": "BTech engineering admission at UPES Dehradun"
+},
+{
+"exam": "University of Petroleum and Energy Studies Entrance Test",
+"body": "University of Petroleum and Energy Studies",
+"level": "UG",
+"metric": "Score",
+"scope": "Entrance for various UPES Dehradun programs"
+},
+{
+"exam": "Uttar Pradesh State Entrance Examination Abdul Kalam Technical University",
+"body": "Dr. A.P.J. Abdul Kalam Technical University",
+"level": "UG",
+"metric": "Rank",
+"scope": "UPSEE/AKTU counseling for engineering and professional courses"
+},
+{
+"exam": "College of Art Chandigarh Entrance Examination",
+"body": "Government College of Art, Chandigarh",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BFA admission at Government College of Art, Chandigarh"
+},
+{
+"exam": "Delhi College of Art Entrance Examination",
+"body": "College of Art, Delhi (Ambedkar University Delhi)",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BFA admission at College of Art, New Delhi"
+},
+{
+"exam": "Indira Kala Sangeet University Entrance",
+"body": "Indira Kala Sangeet Vishwavidyalaya",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Music, dance and fine arts admission, Khairagarh"
+},
+{
+"exam": "Karnataka Chitrakala Parishath Entrance",
+"body": "Karnataka Chitrakala Parishath",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BVA/fine arts admission at Bengaluru institution"
+},
+{
+"exam": "Maharaja Sayajirao University of Baroda Fine Arts Entrance Examination",
+"body": "Maharaja Sayajirao University of Baroda",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BFA admission at MSU Baroda Faculty of Fine Arts"
+},
+{
+"exam": "Sir Jamsetjee Jeejebhoy School of Art Entrance Examination",
+"body": "Sir J.J. School of Art (University of Mumbai)",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Fine arts admission at Sir JJ School of Art, Mumbai"
+},
+{
+"exam": "National Forensic Sciences University Forensic Science Entrance Examination",
+"body": "National Forensic Sciences University",
+"level": "PG",
+"metric": "Score",
+"scope": "Forensic science program admission at NFSU Gandhinagar"
+},
+{
+"exam": "Bachelor of Hotel Management and Catering Technology Entrance Exam",
+"body": "NTA (NCHMCT JEE)",
+"level": "UG",
+"metric": "Rank",
+"scope": "BHMCT admission to NCHMCT-affiliated hotel management institutes"
+},
+{
+"exam": "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Hotel Management and Catering Technology",
+"body": "Guru Gobind Singh Indraprastha University",
+"level": "UG",
+"metric": "Rank",
+"scope": "BHMCT admission at GGSIPU-affiliated colleges, Delhi"
+},
+{
+"exam": "Institute of Hotel Management Aurangabad Entrance Test",
+"body": "Institute of Hotel Management, Aurangabad",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BHM admission via profiling test, GD and interview"
+},
+{
+"exam": "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts",
+"body": "NTA (NCHMCT JEE)",
+"level": "UG",
+"metric": "Rank",
+"scope": "BSc vegetarian culinary arts admission at NCHMCT institutes"
+},
+{
+"exam": "International Institute of Hotel Management Electronic Common Hospitality Admission Test",
+"body": "International Institute of Hotel Management",
+"level": "UG",
+"metric": "Score",
+"scope": "eCHAT admission to IIHM hospitality programs across India"
+},
+{
+"exam": "Uttar Pradesh State Entrance Examination Bachelor of Hotel Management and Catering Technology",
+"body": "Dr. A.P.J. Abdul Kalam Technical University",
+"level": "UG",
+"metric": "Rank",
+"scope": "UPSEE BHMCT counseling for UP hotel management colleges"
+},
+{
+"exam": "Bihar Sanskrit Studies Entrance",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to Sanskrit UG programmes in Bihar institutions"
+},
+{
+"exam": "Central Sanskrit University Entrance Examination - Sanskrit Studies",
+"body": "Central Sanskrit University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to Sanskrit shastri/UG programmes across CSU campuses"
+},
+{
+"exam": "Chhattisgarh Sanskrit Studies Entrance",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to Sanskrit UG programmes in Chhattisgarh institutions"
+},
+{
+"exam": "English and Foreign Languages University Entrance Examination - Pashto and Persian",
+"body": "English and Foreign Languages University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to Pashto and Persian language UG programmes"
+},
+{
+"exam": "Haryana Bachelor of Arts Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to BA programmes in Haryana colleges"
+},
+{
+"exam": "Himachal Pradesh Bachelor of Arts Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to BA programmes in Himachal Pradesh colleges"
+},
+{
+"exam": "Indira Gandhi National Tribal University Entrance Examination Folk Literature",
+"body": "Indira Gandhi National Tribal University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to Folk Literature programme at IGNTU Amarkantak"
+},
+{
+"exam": "Krea University Liberal Arts Entrance Examination",
+"body": "Krea University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to liberal arts and sciences UG at Krea"
+},
+{
+"exam": "Madhya Pradesh Bachelor of Arts Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to BA programmes in Madhya Pradesh colleges"
+},
+{
+"exam": "Swami Vivekananda Yoga Anusandhana Samsthana Bachelor of Science Yoga Entrance Examination",
+"body": "Swami Vivekananda Yoga Anusandhana Samsthana",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to BSc Yoga programme at SVYASA"
+},
+{
+"exam": "Symbiosis Liberal Arts Entrance",
+"body": "Symbiosis International University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to liberal arts UG at Symbiosis School"
+},
+{
+"exam": "West Bengal Bachelor of Arts Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to BA programmes in West Bengal colleges"
+},
+{
+"exam": "Aligarh Muslim University Entrance Examination - Law",
+"body": "Aligarh Muslim University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to law programmes at AMU"
+},
+{
+"exam": "Andhra Pradesh Law Common Entrance Test",
+"body": "APSCHE",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to LLB/integrated law in Andhra Pradesh"
+},
+{
+"exam": "Banaras Hindu University Undergraduate Entrance Test - Law",
+"body": "Banaras Hindu University",
+"level": "Integrated",
+"metric": "Merit/Cutoff",
+"scope": "Admits to integrated law programme at BHU"
+},
+{
+"exam": "Christ University Law Entrance Examination",
+"body": "Christ University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to BA/BBA LLB programmes at Christ University"
+},
+{
+"exam": "Kerala Law Entrance Examination",
+"body": "CEE Kerala",
+"level": "Integrated",
+"metric": "Rank",
+"scope": "Admits to integrated five-year LLB in Kerala"
+},
+{
+"exam": "Law Aptitude Test",
+"body": "",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to undergraduate law programmes"
+},
+{
+"exam": "Narsee Monjee Institute of Management Studies Law Aptitude Test",
+"body": "SVKM's NMIMS",
+"level": "Integrated",
+"metric": "Score",
+"scope": "Integrated BA/BBA LLB (Hons) at NMIMS law campuses"
+},
+{
+"exam": "Panjab University Undergraduate Law Entrance Test",
+"body": "Panjab University",
+"level": "Integrated",
+"metric": "Merit/Cutoff",
+"scope": "Integrated BA/BCom LLB at Panjab University, Chandigarh"
+},
+{
+"exam": "Rajasthan University Law Entrance Test",
+"body": "University of Rajasthan",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "LLB and integrated law programmes at University of Rajasthan"
+},
+{
+"exam": "Tamil Nadu Dr Ambedkar Law University Entrance Test",
+"body": "Tamil Nadu Dr. Ambedkar Law University",
+"level": "Integrated",
+"metric": "Merit/Cutoff",
+"scope": "Integrated and three-year law degrees in Tamil Nadu"
+},
+{
+"exam": "Telangana Law Common Entrance Test",
+"body": "Osmania University (TGCHE)",
+"level": "Integrated",
+"metric": "Rank",
+"scope": "LLB and integrated law admissions in Telangana"
+},
+{
+"exam": "Haryana Bachelor of Business Administration Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Haryana universities/colleges"
+},
+{
+"exam": "Himachal Pradesh Bachelor of Business Administration Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Himachal Pradesh institutions"
+},
+{
+"exam": "Jammu and Kashmir Bachelor of Business Administration Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Jammu & Kashmir institutions"
+},
+{
+"exam": "Jharkhand Bachelor of Business Administration Admission",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Jharkhand institutions"
+},
+{
+"exam": "Joint Integrated Programme in Management Admission Test",
+"body": "NTA",
+"level": "Integrated",
+"metric": "Score",
+"scope": "Five-year IPM at IIM Bodh Gaya and IIM Jammu"
+},
+{
+"exam": "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate",
+"body": "KIIT University",
+"level": "UG",
+"metric": "Rank",
+"scope": "BBA/BBA-LLB at KIIT School of Management, Bhubaneswar"
+},
+{
+"exam": "Karnataka Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Karnataka universities/colleges"
+},
+{
+"exam": "Ladakh Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Ladakh institutions"
+},
+{
+"exam": "Lakshadweep Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Lakshadweep institutions"
+},
+{
+"exam": "Madhya Pradesh Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Madhya Pradesh institutions"
+},
+{
+"exam": "Manipur Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Manipur institutions"
+},
+{
+"exam": "Meghalaya Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Meghalaya institutions"
+},
+{
+"exam": "Mizoram Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Mizoram institutions"
+},
+{
+"exam": "Narsee Monjee Institute of Management Studies National Test for Programs After Twelfth",
+"body": "NMIMS (SVKM's Narsee Monjee Institute of Management Studies)",
+"level": "UG",
+"metric": "Score",
+"scope": "NMIMS UG programs (BBA, B.Com, BSc) admission via NPAT"
+},
+{
+"exam": "Puducherry Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Puducherry colleges"
+},
+{
+"exam": "Punjab Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Punjab institutions"
+},
+{
+"exam": "Rajasthan Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Rajasthan institutions"
+},
+{
+"exam": "Shiv Nadar University Management Aptitude Test and Entrance Examination",
+"body": "Shiv Nadar University",
+"level": "UG",
+"metric": "Score",
+"scope": "SNU management/UG programs admission via SNUSAT"
+},
+{
+"exam": "Sikkim Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Sikkim institutions"
+},
+{
+"exam": "Tamil Nadu Bachelor of Business Administration Entrance Examination",
+"body": "",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BBA admission in Tamil Nadu colleges"
+},
+{
+"exam": "University of Petroleum and Energy Studies Disaster Management Entrance Examination",
+"body": "University of Petroleum and Energy Studies",
+"level": "UG",
+"metric": "Score",
+"scope": "UPES disaster management program admission"
+},
+{
+"exam": "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Journalism and Mass Communication",
+"body": "Guru Gobind Singh Indraprastha University",
+"level": "UG",
+"metric": "Rank",
+"scope": "GGSIPU BJMC journalism/mass comm admission via CET"
+},
+{
+"exam": "Jamia Millia Islamia Mass Communication Entrance",
+"body": "Jamia Millia Islamia",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "JMI mass communication program admission"
+},
+{
+"exam": "Manipal Media Entrance",
+"body": "Manipal Academy of Higher Education",
+"level": "UG",
+"metric": "Score",
+"scope": "Manipal media/journalism program admission"
+},
+{
+"exam": "Symbiosis Institute Of Media Entrance",
+"body": "Symbiosis International University",
+"level": "UG",
+"metric": "Score",
+"scope": "Symbiosis media and communication program admission"
+},
+{
+"exam": "Armed Forces Medical College Entrance Examination",
+"body": "Armed Forces Medical College, Pune",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "AFMC MBBS admission (NEET-UG plus AFMC test/interview)"
+},
+{
+"exam": "Kerala Engineering Architecture Medical Entrance Examination",
+"body": "CEE Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "Kerala engineering, architecture, pharmacy, medical admission (KEAM)"
+},
+{
+"exam": "National Institute of Mental Health and Neuro Sciences Bachelor of Science Neurophysiology Entrance Examination",
+"body": "NIMHANS, Bengaluru",
+"level": "UG",
+"metric": "Score",
+"scope": "NIMHANS BSc Neurophysiology technology admission"
+},
+{
+"exam": "Rajasthan University of Health Sciences Entrance Examination",
+"body": "Rajasthan University of Health Sciences",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "RUHS health science and medical programs admission"
+},
+{
+"exam": "Telangana State Engineering Agriculture and Medical Common Entrance Test",
+"body": "TSCHE (JNTU Hyderabad)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Telangana engineering, agriculture, medical admission (TS EAMCET)"
+},
+{
+"exam": "ALLIANCE UNIVERSITY ENTRANCE TEST",
+"body": "Alliance University",
+"level": "UG",
+"metric": "Score",
+"scope": "Alliance University UG/PG programs admission"
+},
+{
+"exam": "Aligarh Muslim University Undergraduate Entrance Test",
+"body": "Aligarh Muslim University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "UG admissions across AMU faculties and courses"
+},
+{
+"exam": "Amity University Entrance Examination",
+"body": "Amity University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admissions to Amity University programs"
+},
+{
+"exam": "Aryabhatta Knowledge University Entrance Examination",
+"body": "Aryabhatta Knowledge University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admissions to AKU-affiliated professional/technical colleges, Bihar"
+},
+{
+"exam": "Ashoka University Aptitude and Aptitude Test - Interdisciplinary",
+"body": "Ashoka University",
+"level": "UG",
+"metric": "None/NA",
+"scope": "Holistic UG admissions to Ashoka University"
+},
+{
+"exam": "Assam Combined Entrance Examination",
+"body": "ASTU / Assam Science and Technology University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Engineering UG admissions in Assam"
+},
+{
+"exam": "Azim Premji University Undergraduate Entrance Examination",
+"body": "Azim Premji University",
+"level": "UG",
+"metric": "None/NA",
+"scope": "UG admissions to Azim Premji University programs"
+},
+{
+"exam": "Bharati Vidyapeeth Common Entrance Test",
+"body": "Bharati Vidyapeeth Deemed University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG/PG admissions to Bharati Vidyapeeth programs"
+},
+{
+"exam": "Bihar Combined Entrance Competitive Examination",
+"body": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Engineering, pharmacy, agriculture admissions in Bihar"
+},
+{
+"exam": "Chandigarh University Common Entrance Test",
+"body": "Chandigarh University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admissions and scholarships at Chandigarh University"
+},
+{
+"exam": "Christ University Entrance Examination",
+"body": "Christ University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admissions to Christ University programs"
+},
+{
+"exam": "DAIICT Entrance Test",
+"body": "Dhirubhai Ambani Institute of Information and Communication Technology",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "UG ICT/technology admissions at DAIICT"
+},
+{
+"exam": "FLAME University Entrance Examination",
+"body": "FLAME University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG liberal education admissions at FLAME University"
+},
+{
+"exam": "Galgotias University Entrance Test",
+"body": "Galgotias University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admissions to Galgotias University programs"
+},
+{
+"exam": "Galileo Global Distribution System Certification Examination",
+"body": "Galileo (Travelport)",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Travel/GDS booking software certification for travel professionals"
+},
+{
+"exam": "Goa Common Entrance Test",
+"body": "Directorate of Technical Education, Goa",
+"level": "UG",
+"metric": "Rank",
+"scope": "Engineering, pharmacy, architecture admissions in Goa"
+},
+{
+"exam": "Graphic Era University Entrance Test",
+"body": "Graphic Era University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admissions to Graphic Era University programs"
+},
+{
+"exam": "Gujarat Common Entrance Test",
+"body": "Gujarat Secondary and Higher Secondary Education Board",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Engineering/pharmacy admissions in Gujarat"
+},
+{
+"exam": "Guru Gobind Singh Indraprastha University Common Entrance Test",
+"body": "Guru Gobind Singh Indraprastha University",
+"level": "UG",
+"metric": "Rank",
+"scope": "UG/PG admissions across GGSIPU-affiliated colleges, Delhi"
+},
+{
+"exam": "Himachal Pradesh Common Entrance Test",
+"body": "Himachal Pradesh Takniki Shiksha Board (HPTSB)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to professional/technical courses in HP institutions"
+},
+{
+"exam": "Indian Institute of Foreign Trade Entrance Examination",
+"body": "Indian Institute of Foreign Trade (IIFT)",
+"level": "PG",
+"metric": "Percentile",
+"scope": "Admits to IIFT MBA (International Business) programs"
+},
+{
+"exam": "Jain Entrance Test",
+"body": "Jain (Deemed-to-be University)",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at Jain University Bengaluru"
+},
+{
+"exam": "Jharkhand Combined Entrance Competitive Examination",
+"body": "Jharkhand Combined Entrance Competitive Examination Board (JCECEB)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to professional courses in Jharkhand colleges"
+},
+{
+"exam": "K. R. Mangalam University Entrance Test",
+"body": "K. R. Mangalam University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at K.R. Mangalam University"
+},
+{
+"exam": "Krea University Entrance",
+"body": "Krea University",
+"level": "UG",
+"metric": "None/NA",
+"scope": "Admits to UG programs via holistic application process"
+},
+{
+"exam": "Lovely Professional University National Entrance and Scholarship Test",
+"body": "Lovely Professional University (LPU)",
+"level": "UG",
+"metric": "Score",
+"scope": "Admission and scholarships across LPU UG/PG programs"
+},
+{
+"exam": "MIT World Peace University Entrance Test",
+"body": "MIT World Peace University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at MIT-WPU Pune"
+},
+{
+"exam": "Manipal Entrance Test",
+"body": "Manipal Academy of Higher Education (MAHE)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to UG/PG programs at Manipal campuses"
+},
+{
+"exam": "O. P. Jindal Global University Entrance Test",
+"body": "O. P. Jindal Global University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at JGU Sonipat"
+},
+{
+"exam": "Online Facilitation System for Students Bihar University Admission",
+"body": "Bihar State Universities (via OFSS Bihar)",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Centralized UG admission to Bihar state universities/colleges"
+},
+{
+"exam": "PES Scholastic Aptitude Test",
+"body": "PES University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits to UG programs at PES University Bengaluru"
+},
+{
+"exam": "Parul University Entrance Test",
+"body": "Parul University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at Parul University Vadodara"
+},
+{
+"exam": "Pearl Academy Entrance Examination",
+"body": "Pearl Academy",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to design, fashion and business programs"
+},
+{
+"exam": "Presidency University Bachelor Degree Entrance Test",
+"body": "Presidency University, Kolkata",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to undergraduate programs at Presidency University Kolkata"
+},
+{
+"exam": "Presidency University Entrance Test",
+"body": "Presidency University, Bengaluru",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at Presidency University Bengaluru"
+},
+{
+"exam": "REVA University Entrance Test",
+"body": "REVA University",
+"level": "UG",
+"metric": "Score",
+"scope": "Admits to UG/PG programs at REVA University Bengaluru"
+},
+{
+"exam": "Rabindra Bharati University Entrance",
+"body": "Rabindra Bharati University",
+"level": "PG",
+"metric": "Merit/Cutoff",
+"scope": "Admits to UG/PG programs at Rabindra Bharati University Kolkata"
+},
+{
+"exam": "Rashtriya Raksha University (Police)",
+"body": "Rashtriya Raksha University",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits UG students to police/security studies programs"
+},
+{
+"exam": "SRM Institute Admission Test",
+"body": "SRM Institute of Science and Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "SRMJEEE for UG engineering admission at SRMIST"
+},
+{
+"exam": "Sharda University Admission Test",
+"body": "Sharda University",
+"level": "UG",
+"metric": "Score",
+"scope": "SUAT for UG admission across Sharda University programs"
+},
+{
+"exam": "Shiv Nadar University Entrance Test",
+"body": "Shiv Nadar University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admission entrance test at Shiv Nadar University"
+},
+{
+"exam": "Shiv Nadar University Scholastic Aptitude Test",
+"body": "Shiv Nadar University",
+"level": "UG",
+"metric": "Score",
+"scope": "SNUSAT for all UG programs at SNU"
+},
+{
+"exam": "Sikkim Manipal University Entrance Test",
+"body": "Sikkim Manipal University",
+"level": "UG",
+"metric": "Score",
+"scope": "UG admission test at Sikkim Manipal University"
+},
+{
+"exam": "St Joseph's University Entrance Examination",
+"body": "St Joseph's University, Bengaluru",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "UG admission to St Joseph's University programs"
+},
+{
+"exam": "St Xavier's College Entrance Examination",
+"body": "St Xavier's College (Autonomous)",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "UG admission to St Xavier's College programs"
+},
+{
+"exam": "Symbiosis Entrance Test",
+"body": "Symbiosis International University",
+"level": "UG",
+"metric": "Percentile",
+"scope": "SET for UG admission across Symbiosis institutes"
+},
+{
+"exam": "Tata Institute of Social Sciences Bachelor Admission Test",
+"body": "Tata Institute of Social Sciences",
+"level": "UG",
+"metric": "Score",
+"scope": "TISS-BAT for UG social sciences admission"
+},
+{
+"exam": "Uttarakhand State Entrance Examination",
+"body": "Uttarakhand Technical University",
+"level": "UG",
+"metric": "Rank",
+"scope": "UKSEE for UG/PG professional courses in Uttarakhand"
+},
+{
+"exam": "Auxiliary Nurse Midwifery Admission",
+"body": "Indian Nursing Council",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "ANM diploma admission for auxiliary nurse midwives"
+},
+{
+"exam": "General Nursing and Midwifery Admission",
+"body": "Indian Nursing Council",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "GNM diploma admission for general nursing midwifery"
+},
+{
+"exam": "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination",
+"body": "JIPMER",
+"level": "UG",
+"metric": "Rank",
+"scope": "BSc Nursing admission at JIPMER Puducherry"
+},
+{
+"exam": "Kerala Nursing Entrance Examination",
+"body": "LBS Centre for Science and Technology",
+"level": "UG",
+"metric": "Rank",
+"scope": "BSc Nursing/paramedical admission in Kerala"
+},
+{
+"exam": "Madhya Pradesh Pre Nursing Selection Test",
+"body": "MP Professional Examination Board",
+"level": "UG",
+"metric": "Rank",
+"scope": "Pre-nursing selection test for nursing courses in MP"
+},
+{
+"exam": "Maharashtra Bachelor of Science Nursing Common Entrance Test",
+"body": "Maharashtra State CET Cell",
+"level": "UG",
+"metric": "Score",
+"scope": "BSc Nursing CET admission in Maharashtra"
+},
+{
+"exam": "Military Nursing Service Entrance Examination",
+"body": "Indian Army (Military Nursing Service)",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "BSc Nursing admission to Armed Forces nursing colleges"
+},
+{
+"exam": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences Bachelor of Science Nursing Entrance Examination",
+"body": "NEIGRIHMS",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits B.Sc Nursing students at NEIGRIHMS Shillong"
+},
+{
+"exam": "Rajasthan University of Health Sciences Bachelor of Science Nursing Entrance Examination",
+"body": "Rajasthan University of Health Sciences",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits B.Sc Nursing students in Rajasthan colleges"
+},
+{
+"exam": "Uttar Pradesh Common Nursing Entrance Test",
+"body": "Atal Bihari Vajpayee Medical University, UP",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits nursing students in Uttar Pradesh institutions"
+},
+{
+"exam": "Uttarakhand Nursing Entrance Exam",
+"body": "HNB Uttarakhand Medical Education University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits nursing students in Uttarakhand colleges"
+},
+{
+"exam": "West Bengal Joint Entrance Test for Nursing, Paramedical and Allied Sciences Undergraduate",
+"body": "West Bengal Joint Entrance Examinations Board",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits nursing, paramedical, allied science UG students in West Bengal"
+},
+{
+"exam": "Baba Farid University of Health Sciences Punjab Para Medical Entrance Test",
+"body": "Baba Farid University of Health Sciences",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Punjab colleges"
+},
+{
+"exam": "Kerala Paramedical Entrance Examination",
+"body": "LBS Centre for Science and Technology, Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Kerala institutions"
+},
+{
+"exam": "Maharashtra Paramedical Common Entrance Test",
+"body": "Maharashtra State CET Cell",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits paramedical students in Maharashtra colleges"
+},
+{
+"exam": "Paramedical State Common Entrance Test",
+"body": "",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students at state level"
+},
+{
+"exam": "Punjab Para Medical Entrance Test Baba Farid University of Health Sciences",
+"body": "Baba Farid University of Health Sciences",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Punjab colleges"
+},
+{
+"exam": "Rajasthan University of Health Sciences Paramedical Entrance Examination",
+"body": "Rajasthan University of Health Sciences",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Rajasthan colleges"
+},
+{
+"exam": "Uttar Pradesh Combined Paramedical Entrance Test",
+"body": "Atal Bihari Vajpayee Medical University, UP",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Uttar Pradesh institutions"
+},
+{
+"exam": "Uttar Pradesh Paramedical Entrance Test",
+"body": "Atal Bihari Vajpayee Medical University, UP",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Uttar Pradesh institutions"
+},
+{
+"exam": "Uttarakhand Paramedical Entrance Exam",
+"body": "HNB Uttarakhand Medical Education University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in Uttarakhand colleges"
+},
+{
+"exam": "West Bengal Paramedical Entrance Test",
+"body": "West Bengal Joint Entrance Examinations Board",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits paramedical students in West Bengal colleges"
+},
+{
+"exam": "Andhra Pradesh Engineering and Agriculture and Pharmacy Common Entrance Test",
+"body": "JNTU Kakinada (APSCHE)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits engineering, agriculture, pharmacy students in Andhra Pradesh"
+},
+{
+"exam": "Chhattisgarh Pre Pharmacy and Health Sciences Test",
+"body": "Chhattisgarh Professional Examination Board (CGPEB)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admits pharmacy and health science students in Chhattisgarh"
+},
+{
+"exam": "Gujarat Common Entrance Test - Medical and Pharmacy",
+"body": "Gujarat Common Entrance Test Cell",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admits medical and pharmacy students in Gujarat colleges"
+},
+{
+"exam": "Telangana Engineering Agriculture and Pharmacy Common Entrance Test Biology Physics Chemistry Stream",
+"body": "JNTU Hyderabad (on behalf of TGCHE)",
+"level": "UG",
+"metric": "Rank",
+"scope": "Pharmacy/agriculture/biology-stream UG admissions in Telangana"
+},
+{
+"exam": "Andhra Pradesh Polytechnic Entrance Examination",
+"body": "State Board of Technical Education and Training, Andhra Pradesh",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to AP polytechnic colleges"
+},
+{
+"exam": "Arunachal Pradesh Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Arunachal Pradesh",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Arunachal polytechnic institutes"
+},
+{
+"exam": "Assam Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Assam",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Assam polytechnic colleges"
+},
+{
+"exam": "Bihar Polytechnic Common Entrance Competitive Examination",
+"body": "Bihar Combined Entrance Competitive Examination Board (BCECEB)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Bihar polytechnic institutes"
+},
+{
+"exam": "Chandigarh Polytechnic Entrance",
+"body": "",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Diploma admissions to Chandigarh polytechnic institutes"
+},
+{
+"exam": "Chhattisgarh Pre Polytechnic Test",
+"body": "Chhattisgarh Professional Examination Board (CG Vyapam)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Chhattisgarh polytechnic colleges"
+},
+{
+"exam": "Dadra & Nagar Haveli Polytechnic Entrance",
+"body": "",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Diploma admissions to Dadra & Nagar Haveli polytechnic"
+},
+{
+"exam": "Delhi Common Entrance Test for Polytechnic Admission",
+"body": "Department of Training and Technical Education, Delhi",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Delhi polytechnic institutes"
+},
+{
+"exam": "Goa Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Goa",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Diploma admissions to Goa polytechnic institutes"
+},
+{
+"exam": "Gujarat Common Entrance Test - Polytechnic",
+"body": "Admission Committee for Professional Diploma Courses (ACPDC), Gujarat",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Diploma admissions to Gujarat polytechnic colleges"
+},
+{
+"exam": "Himachal Pradesh Polytechnic Admission Test",
+"body": "Himachal Pradesh Takniki Shiksha Board (HPTSB)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Himachal polytechnic institutes"
+},
+{
+"exam": "Himachal Pradesh Polytechnic Entrance",
+"body": "Himachal Pradesh Takniki Shiksha Board (HPTSB)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Himachal polytechnic institutes"
+},
+{
+"exam": "Jharkhand Combined Entrance Competitive Examination Pre Polytechnic Test",
+"body": "Jharkhand Combined Entrance Competitive Examination Board (JCECEB)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Jharkhand polytechnic colleges"
+},
+{
+"exam": "Kashmir Polytechnic Entrance",
+"body": "Jammu & Kashmir Board of Professional Entrance Examinations (BOPEE)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to J&K polytechnic institutes"
+},
+{
+"exam": "Kerala Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Kerala",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Kerala polytechnic colleges"
+},
+{
+"exam": "Madhya Pradesh Polytechnic Entrance Examination",
+"body": "MP Professional Examination Board (MP ESB/Vyapam)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Madhya Pradesh polytechnic colleges"
+},
+{
+"exam": "Madhya Pradesh Pre Polytechnic Test",
+"body": "MP Professional Examination Board (MP ESB/Vyapam)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Diploma admissions to Madhya Pradesh polytechnic colleges"
+},
+{
+"exam": "Maharashtra Polytechnic Entrance Examination",
+"body": "Maharashtra State CET Cell",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Admission to first-year diploma engineering polytechnic courses"
+},
+{
+"exam": "Manipur Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Manipur",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Manipur"
+},
+{
+"exam": "Meghalaya Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Meghalaya",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Meghalaya"
+},
+{
+"exam": "Mizoram Polytechnic Entrance",
+"body": "Directorate of Higher & Technical Education, Mizoram",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Mizoram"
+},
+{
+"exam": "Nagaland Polytechnic Entrance",
+"body": "Directorate of Technical Education, Nagaland",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Nagaland"
+},
+{
+"exam": "Odisha Diploma Entrance Test",
+"body": "Odisha JEE Cell (DTET Odisha)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma engineering courses in Odisha"
+},
+{
+"exam": "Odisha Polytechnic Entrance Examination",
+"body": "Odisha JEE Cell (DTET Odisha)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to polytechnic diploma courses in Odisha"
+},
+{
+"exam": "Puducherry Polytechnic Entrance",
+"body": "Centralised Admission Committee, Puducherry (CENTAC)",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Puducherry"
+},
+{
+"exam": "Punjab Joint Entrance Test Diploma",
+"body": "Punjab State Board of Technical Education",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic engineering courses in Punjab"
+},
+{
+"exam": "Punjab State Board of Technical Education Polytechnic Admission Test",
+"body": "Punjab State Board of Technical Education",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Punjab"
+},
+{
+"exam": "Rajasthan Polytechnic Entrance Examination",
+"body": "Board of Technical Education, Rajasthan",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Admission to diploma polytechnic courses in Rajasthan"
+},
+{
+"exam": "Sikkim Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Sikkim",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Sikkim"
+},
+{
+"exam": "Tamil Nadu Polytechnic Entrance Examination",
+"body": "Directorate of Technical Education, Tamil Nadu",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Admission to diploma polytechnic courses via merit in Tamil Nadu"
+},
+{
+"exam": "Telangana State Polytechnic Common Entrance Test",
+"body": "State Board of Technical Education & Training, Telangana",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Telangana"
+},
+{
+"exam": "Tripura Polytechnic Entrance Examination",
+"body": "Tripura Board of Joint Entrance Examination",
+"level": "Diploma",
+"metric": "Rank",
+"scope": "Admission to diploma polytechnic courses in Tripura"
+},
+{
+"exam": "Chennai Mathematical Institute Entrance Examination",
+"body": "Chennai Mathematical Institute",
+"level": "UG",
+"metric": "Pass/Fail",
+"scope": "Admission to BSc/MSc mathematics, physics, computer science programmes"
+},
+{
+"exam": "Indian Institute of Science Bachelor of Science Research Admission",
+"body": "Indian Institute of Science, Bangalore",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admission to four-year BS Research undergraduate programme"
+},
+{
+"exam": "National Standard Examination",
+"body": "Indian Association of Physics Teachers (IAPT)",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "First stage of Science Olympiads selecting school students"
+},
+{
+"exam": "Jamia Social Work Entrance",
+"body": "Jamia Millia Islamia",
+"level": "UG",
+"metric": "Merit/Cutoff",
+"scope": "Admission to BSW/MSW at Jamia's social work department"
+},
+{
+"exam": "Loyola College Social Work Admission",
+"body": "Loyola College Chennai",
+"level": "PG",
+"metric": "Merit/Cutoff",
+"scope": "Admission to MSW programme at Loyola College Chennai"
+},
+{
+"exam": "Madras School Of Social Work Entrance",
+"body": "Madras School of Social Work",
+"level": "PG",
+"metric": "Merit/Cutoff",
+"scope": "Admission to BSW/MSW at Madras School of Social Work"
+},
+{
+"exam": "Central Teacher Eligibility Test",
+"body": "CBSE",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Eligibility test for teachers in central government schools"
+},
+{
+"exam": "Integrated Bachelor of Arts and Bachelor of Education Entrance Examination",
+"body": "NCTE",
+"level": "Integrated",
+"metric": "Merit/Cutoff",
+"scope": "Admission to four-year integrated BA B.Ed teacher programmes"
+},
+{
+"exam": "Rajasthan Pre Bachelor of Education and Basic School Teaching Certificate Entrance Examination",
+"body": "Rajasthan Directorate of Elementary Education",
+"level": "Diploma",
+"metric": "Merit/Cutoff",
+"scope": "Admission to BSTC/Pre D.El.Ed teacher training in Rajasthan"
+},
+{
+"exam": "State Teacher Eligibility Tests",
+"body": "State Education Boards",
+"level": "Certification",
+"metric": "Pass/Fail",
+"scope": "Eligibility test for teachers in state government schools"
+},
+{
+"exam": "AVEE - Assam Veterinary Entrance Examination",
+"body": "Assam Agricultural University",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admission to BVSc & AH veterinary programme in Assam"
+},
+{
+"exam": "All India Veterinary Entrance Test",
+"body": "Veterinary Council of India",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admission to BVSc & AH seats across India"
+},
+{
+"exam": "Kerala Veterinary Entrance Examination",
+"body": "CEE Kerala",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admission to veterinary BVSc programmes in Kerala"
+},
+{
+"exam": "Madhya Pradesh Pre Veterinary and Fisheries Test",
+"body": "MP Professional Examination Board",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admission to veterinary and fisheries courses in Madhya Pradesh"
+},
+{
+"exam": "Rajasthan Pre Veterinary Test",
+"body": "Rajasthan University of Veterinary and Animal Sciences",
+"level": "UG",
+"metric": "Rank",
+"scope": "Admission to BVSc & AH veterinary programmes in Rajasthan"
+},
+{
+"exam": "Advanced Industrial Training Institute Courses Admission",
+"body": "Directorate General of Training",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Admission to advanced ITI vocational training courses"
+},
+{
+"exam": "Craft Instructor Training Scheme Admission",
+"body": "Directorate General of Training",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Trains instructors for ITIs under CITS scheme"
+},
+{
+"exam": "Dual System Training Admission",
+"body": "Directorate General of Training",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Industry-linked dual-mode ITI vocational training admission"
+},
+{
+"exam": "Industrial Training Institute Admission National Council for Vocational Training",
+"body": "National Council for Vocational Training",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Admission to NCVT-affiliated ITI trades"
+},
+{
+"exam": "Industrial Training Institute Admission State Council for Vocational Training",
+"body": "State Council for Vocational Training",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Admission to SCVT-affiliated ITI trades"
+},
+{
+"exam": "Industrial Training Institute Trades Admission",
+"body": "Directorate General of Training",
+"level": "Certification",
+"metric": "Merit/Cutoff",
+"scope": "Admission to engineering/non-engineering ITI trade courses"
+},
+{
+"exam": "Oberoi Systematic Training and Education Programme",
+"body": "The Oberoi Group (Oberoi Centre of Learning and Development)",
+"level": "Certification",
+"metric": "None/NA",
+"scope": "Hospitality management training program by Oberoi hotels for graduates"
+},
+{
+"exam": "Pradhan Mantri Kaushal Vikas Yojana",
+"body": "Ministry of Skill Development and Entrepreneurship (NSDC)",
+"level": "Certification",
+"metric": "None/NA",
+"scope": "Government skill-training scheme certifying youth in vocational trades"
+}
+]
