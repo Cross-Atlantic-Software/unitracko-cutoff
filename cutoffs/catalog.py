@@ -22,6 +22,9 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
 XLSX = ROOT / "cutoffexamsheet.xlsx"
+# CSV mirror of the exam sheet, committed so the catalog builds with pandas core
+# only (no openpyxl) — important for minimal deploy environments.
+SHEET_CSV = ROOT / "cutoffexamsheet.csv"
 PROBE = ROOT / "data" / "source_probe.csv"
 CATALOG_PATH = ROOT / "data" / "catalog.parquet"
 ENRICHMENT_PATH = Path(__file__).resolve().parent / "data" / "enrichment.json"
@@ -258,8 +261,12 @@ def _clean(text: object) -> str:
 
 
 def build_catalog(xlsx: Path = XLSX, probe: Path = PROBE) -> pd.DataFrame:
-    """Read the sheet, classify every exam, fold in probe + reference metadata."""
-    df = pd.read_excel(xlsx)
+    """Read the sheet, classify every exam, fold in probe + reference metadata.
+
+    Prefers the committed CSV mirror (pandas core only); falls back to the xlsx
+    (needs openpyxl) if the CSV is absent.
+    """
+    df = pd.read_csv(SHEET_CSV) if SHEET_CSV.exists() else pd.read_excel(xlsx)
     df.columns = ["Exam", "Homepage", "CutoffURL"]
     df["Exam"] = df["Exam"].map(_clean)
     df["Homepage"] = df["Homepage"].map(_clean)
