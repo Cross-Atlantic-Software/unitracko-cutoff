@@ -6,6 +6,8 @@ is identical: load bundled CSV, else download + pdfplumber-parse the official PD
 """
 from __future__ import annotations
 
+import logging
+
 import httpx
 import pandas as pd
 
@@ -13,6 +15,8 @@ from cutoffs.adapters._bundled import read_bundled
 from cutoffs.adapters._pdf import parse_cutoff_pdf
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
+
+_log = logging.getLogger(__name__)
 
 _HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
@@ -29,14 +33,21 @@ class _BundledPDFSource(CutoffSource):
     body_label: str = ""
 
     def load_cached(self) -> pd.DataFrame:
-        return self.normalize(read_bundled(self.cached_csv))
+        df = self.normalize(read_bundled(self.cached_csv))
+        # Canonicalize Body so cached and fetch_latest agree on one label.
+        if self.body_label:
+            df["Body"] = self.body_label
+        # Some merit-list PDFs publish a single list with no category split;
+        # label the gap explicitly so those rows stay filterable, not invisible.
+        df["Category"] = df["Category"].fillna("Unspecified")
+        return df
 
     def fetch_latest(self) -> pd.DataFrame:
         if not self.pdf_url:
             return self.load_cached()
         try:
             resp = httpx.get(self.pdf_url, headers=_HEADERS, timeout=45,
-                             follow_redirects=True, verify=False)
+                             follow_redirects=True)
             resp.raise_for_status()
             state = self.meta.states[0] if self.meta.states else "All India"
             df = self.normalize(parse_cutoff_pdf(
@@ -44,8 +55,9 @@ class _BundledPDFSource(CutoffSource):
                 level=self.meta.level, state=state))
             if not df.empty:
                 return df
-        except Exception:
-            pass
+        except Exception as exc:
+            _log.debug("%s fetch_latest fell back to cached: %s",
+                       self.meta.name, exc)
         return self.load_cached()
 
 

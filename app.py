@@ -76,7 +76,7 @@ with tab_explore:
     if sel_state != "All":
         view = view[view["State"] == sel_state]
     if search:
-        view = view[view["Exam"].str.contains(search, case=False, na=False)]
+        view = view[view["Exam"].str.contains(search, case=False, na=False, regex=False)]
 
     n_home = (view["Homepage"].astype(str).str.strip() != "").sum()
     n_cut = (view["CutoffURL"].astype(str).str.strip() != "").sum()
@@ -141,7 +141,7 @@ with tab_cutoffs:
         f_branch = st.selectbox("Branch", [""] + distinct_values("Branch", PARQUET), key="f_branch")
     with c3:
         f_cat = st.selectbox("Category", [""] + distinct_values("Category", PARQUET), key="f_cat")
-        f_round = st.selectbox("Round", ["", "1", "2", "3", "4", "5", "6"], key="f_round")
+        f_round = st.selectbox("Round", [""] + distinct_values("Round", PARQUET), key="f_round")
 
     rank = st.number_input(
         "🎯 Your rank — show seats you could plausibly get (closing rank ≥ this; 0 = ignore)",

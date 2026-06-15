@@ -13,9 +13,9 @@ from pathlib import Path
 
 import pandas as pd
 
+from cutoffs.schema import COLUMNS as COLS  # single source of truth for the schema
+
 DATA = Path(__file__).resolve().parent.parent / "cutoffs" / "data"
-COLS = ["Body", "Exam", "Level", "State", "Year", "Round", "Institute", "Branch",
-        "Category", "Quota", "Gender", "OpeningRank", "ClosingRank"]
 
 
 def _rows(base: list[dict], years: dict[int, float], body: str, exam: str,

@@ -88,6 +88,11 @@ def normalize(df: pd.DataFrame) -> pd.DataFrame:
     if df is None or len(df.columns) == 0:
         return empty_frame()
 
+    # Tolerate duplicate column labels: a repeated header would make ``df[col]``
+    # return a DataFrame (not a Series) and break coercion. Keep the first.
+    if df.columns.duplicated().any():
+        df = df.loc[:, ~df.columns.duplicated()]
+
     out = pd.DataFrame(index=df.index)
     for col in COLUMNS:
         if col in df.columns:

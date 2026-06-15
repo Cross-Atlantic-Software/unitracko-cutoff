@@ -86,7 +86,8 @@ _CATEGORY_RULES: list[tuple[str, str]] = [
                    r"\bpgdm\b|commerce|national test for programs|foreign trade|"
                    r"international business"),
     ("Engineering & Technology", r"engineering|technolog|technical|\bjee\b|petroleum|"
-                                 r"\bb\.?tech\b|\btech\b|\biit\b|\bnit\b|space science"),
+                                 r"joint entrance exam|\bb\.?tech\b|\btech\b|\biit\b|"
+                                 r"\bnit\b|space science"),
     ("Defence & Security", r"\braksha\b|\bpolice\b|\bdefence\b|armed forces|\bnda\b|"
                            r"military"),
     ("Multidisciplinary / University", r".*"),  # catch-all

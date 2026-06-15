@@ -1,4 +1,6 @@
 # Pinned to versions with prebuilt Python 3.14 wheels (Python-only stack).
+# These are the direct deps. For a fully reproducible install (all transitive
+# deps pinned), use the resolved lockfile: pip install -r requirements.lock
 # Core data stack
 pandas==3.0.3
 pyarrow==24.0.0

@@ -7,6 +7,8 @@ and parses it live; ``load_cached()`` serves a bundled snapshot (~430 rows acros
 """
 from __future__ import annotations
 
+import logging
+
 import httpx
 import pandas as pd
 
@@ -14,6 +16,8 @@ from cutoffs.adapters._bundled import read_bundled
 from cutoffs.adapters._pdf import parse_cutoff_pdf
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
+
+_log = logging.getLogger(__name__)
 
 _CUTOFF_PDF = "https://bceceboard.bihar.gov.in/pdf_Web/DC_PE25_FOCFF.pdf"
 _HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -31,18 +35,21 @@ class BiharPolytechnic(CutoffSource):
     )
 
     def load_cached(self) -> pd.DataFrame:
-        return self.normalize(read_bundled("biharpoly_cached.csv"))
+        df = self.normalize(read_bundled("biharpoly_cached.csv"))
+        df["Body"] = "BCECE"                   # match fetch_latest's label
+        df["Year"] = df["Year"].fillna(2025)   # DCECE 2025 snapshot
+        return df
 
     def fetch_latest(self) -> pd.DataFrame:
         try:
             resp = httpx.get(_CUTOFF_PDF, headers=_HEADERS, timeout=40,
-                             follow_redirects=True, verify=False)
+                             follow_redirects=True)
             resp.raise_for_status()
             df = self.normalize(parse_cutoff_pdf(
                 resp.content, exam=self.meta.exam, body="BCECE",
                 level="Diploma", state="Bihar"))
             if not df.empty:
                 return df
-        except Exception:
-            pass
+        except Exception as exc:
+            _log.debug("biharpoly fetch_latest fell back to cached: %s", exc)
         return self.load_cached()

@@ -9,6 +9,8 @@ so the body is always usable.
 
 from __future__ import annotations
 
+import logging
+
 import httpx
 import pandas as pd
 
@@ -16,6 +18,8 @@ from cutoffs.adapters._bundled import read_bundled
 from cutoffs.adapters._pdf import parse_cutoff_pdf
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
+
+_log = logging.getLogger(__name__)
 
 # Official CAP cutoff PDFs are published per round on the CET Cell portal. Set a
 # concrete round PDF URL here (or pass one to fetch_latest) to pull live data.
@@ -57,6 +61,6 @@ class MHTCET(CutoffSource):
             df = self.normalize(df)
             if not df.empty:
                 return df
-        except Exception:
-            pass
+        except Exception as exc:
+            _log.debug("mhtcet fetch_latest fell back to cached: %s", exc)
         return self.load_cached()

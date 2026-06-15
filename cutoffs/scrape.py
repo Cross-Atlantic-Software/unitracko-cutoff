@@ -55,12 +55,12 @@ class FetchResult:
 
 def fetch(url: str, *, retries: int = 2, timeout: float = 15.0,
           delay: float = 0.6) -> FetchResult:
-    """Polite GET with retries; tolerates bad TLS. Never raises."""
+    """Polite GET with retries; verifies TLS. Never raises."""
     last = ""
     for attempt in range(retries + 1):
         try:
             with httpx.Client(headers=_HEADERS, timeout=timeout,
-                              follow_redirects=True, verify=False) as client:
+                              follow_redirects=True) as client:
                 r = client.get(url)
             if r.status_code < 400 and r.text:
                 return FetchResult(url, True, r.status_code, "", r.text)

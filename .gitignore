@@ -5,3 +5,6 @@ venv/
 .pytest_cache/
 data/
 *.parquet
+.env
+*.key
+secrets.*

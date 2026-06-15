@@ -29,6 +29,13 @@ def test_category_classification_examples():
     assert classify_category("All India Veterinary Entrance Test") == "Veterinary"
 
 
+def test_flagship_joint_entrance_exams_are_engineering():
+    # Regression: JEE/WBJEE full names fell into the "Multidisciplinary" catch-all.
+    assert classify_category("Joint Entrance Examination (Main)") == "Engineering & Technology"
+    assert classify_category("Joint Entrance Examination (Advanced)") == "Engineering & Technology"
+    assert classify_category("West Bengal Joint Entrance Examination") == "Engineering & Technology"
+
+
 def test_state_classification_examples():
     assert classify_state("West Bengal Joint Entrance Examination") == "West Bengal"
     assert classify_state("Maharashtra Common Entrance Test") == "Maharashtra"

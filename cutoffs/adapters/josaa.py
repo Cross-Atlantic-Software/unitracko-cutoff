@@ -8,12 +8,16 @@
 
 from __future__ import annotations
 
+import logging
+
 import httpx
 import pandas as pd
 
 from cutoffs.adapters._bundled import read_bundled
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
+
+_log = logging.getLogger(__name__)
 
 _ORCR_URL = (
     "https://josaa.admissions.nic.in/applicant/seatallotmentresult/"
@@ -56,9 +60,9 @@ class JoSAA(CutoffSource):
             frames = [t for t in tables if self._looks_like_orcr(t)]
             if frames:
                 return self.normalize(self._reshape(pd.concat(frames)))
-        except Exception:
+        except Exception as exc:
             # Network error, page changed, or no parseable table: fall back.
-            pass
+            _log.debug("josaa fetch_latest fell back to cached: %s", exc)
         return self.load_cached()
 
     @staticmethod

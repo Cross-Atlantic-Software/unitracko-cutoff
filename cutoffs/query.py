@@ -64,7 +64,9 @@ class CutoffQuery:
         return self
 
     def limit(self, n: int | None) -> "CutoffQuery":
-        self._limit = int(n) if n else None
+        # Clamp to a non-negative value; a negative LIMIT would raise a raw
+        # DuckDB BinderException. Falsy (0/None) means "no limit".
+        self._limit = max(int(n), 0) if n else None
         return self
 
     # -- execution -----------------------------------------------------------

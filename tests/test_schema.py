@@ -71,5 +71,15 @@ def test_normalize_trims_text_and_blanks_to_na():
     assert pd.isna(out["Institute"].iloc[2])
 
 
+def test_normalize_never_crashes_on_duplicate_columns():
+    # Regression: a repeated header made df[col] a DataFrame and crashed coercion.
+    df = pd.DataFrame([["JoSAA", "extra", 100]],
+                      columns=["Body", "Body", "ClosingRank"])
+    out = normalize(df)
+    assert list(out.columns) == COLUMNS
+    assert out["Body"].iloc[0] == "JoSAA"   # first duplicate kept
+    assert out["ClosingRank"].iloc[0] == 100
+
+
 def test_dtypes_cover_every_column():
     assert set(DTYPES) == set(COLUMNS)

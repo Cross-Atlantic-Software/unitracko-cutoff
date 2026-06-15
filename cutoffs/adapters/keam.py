@@ -8,6 +8,7 @@ bundled snapshot parsed the same way (4k+ rows across ~140 Kerala colleges).
 from __future__ import annotations
 
 import io
+import logging
 import re
 
 import httpx
@@ -16,6 +17,8 @@ import pandas as pd
 from cutoffs.adapters._bundled import read_bundled
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
+
+_log = logging.getLogger(__name__)
 
 _LASTRANK_PDF = "https://cee.kerala.gov.in/keam2025/list/lastrank/eng-trial.pdf"
 _HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -65,7 +68,7 @@ def parse_keam_pdf(content: bytes, *, exam: str, year: int = 2025) -> pd.DataFra
                         for idx, code in cats:
                             if idx < len(cells) and _is_rank(cells[idx].replace(",", "")):
                                 rows.append({
-                                    "Body": "KEAM", "Exam": exam, "Level": "UG",
+                                    "Body": "CEE Kerala", "Exam": exam, "Level": "UG",
                                     "State": "Kerala", "Year": year, "Round": "Trial",
                                     "Institute": college, "Branch": branch,
                                     "Category": code, "Quota": "State",
@@ -93,11 +96,11 @@ class KEAM(CutoffSource):
     def fetch_latest(self) -> pd.DataFrame:
         try:
             resp = httpx.get(_LASTRANK_PDF, headers=_HEADERS, timeout=40,
-                             follow_redirects=True, verify=False)
+                             follow_redirects=True)
             resp.raise_for_status()
             df = self.normalize(parse_keam_pdf(resp.content, exam=self.meta.exam))
             if not df.empty:
                 return df
-        except Exception:
-            pass
+        except Exception as exc:
+            _log.debug("keam fetch_latest fell back to cached: %s", exc)
         return self.load_cached()
