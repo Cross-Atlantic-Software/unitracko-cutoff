@@ -41,19 +41,10 @@ def _rows(base: list[dict], years: dict[int, float], body: str, exam: str,
     return out
 
 
-# --- JoSAA (JEE Advanced/Main; IITs + NITs), All-India, Round 6 -------------
-_JOSAA_BASE = [
-    {"inst": "Indian Institute of Technology Bombay", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 1, "close": 68},
-    {"inst": "Indian Institute of Technology Bombay", "branch": "Electrical Engineering", "cat": "OPEN", "open": 350, "close": 720},
-    {"inst": "Indian Institute of Technology Delhi", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 69, "close": 118},
-    {"inst": "Indian Institute of Technology Delhi", "branch": "Computer Science and Engineering", "cat": "OBC-NCL", "open": 30, "close": 79},
-    {"inst": "Indian Institute of Technology Madras", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 119, "close": 228},
-    {"inst": "Indian Institute of Technology Madras", "branch": "Electrical Engineering", "cat": "OPEN", "open": 485, "close": 888},
-    {"inst": "Indian Institute of Technology Kanpur", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 152, "close": 251},
-    {"inst": "Indian Institute of Technology Kharagpur", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 231, "close": 423},
-    {"inst": "National Institute of Technology Tiruchirappalli", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 1100, "close": 2300},
-    {"inst": "National Institute of Technology Karnataka Surathkal", "branch": "Computer Science and Engineering", "cat": "OPEN", "open": 1600, "close": 3100},
-]
+# NOTE: JoSAA (JEE) is no longer a hand-curated stub. The full real OR-CR
+# dataset (~130 institutes / ~1000 programs across recent years) is scraped by
+# ``scripts/scrape_josaa.py`` into ``cutoffs/data/josaa_cached.csv.gz``. Run that
+# script to refresh JEE; the bodies below remain small curated samples.
 
 # --- MHT-CET (Maharashtra CET Cell), state engineering, Round 1 -------------
 _MHTCET_BASE = [
@@ -89,7 +80,6 @@ _YEARS = {2022: 0.86, 2023: 0.93, 2024: 1.0}
 
 def build() -> dict[str, pd.DataFrame]:
     out = {
-        "josaa_cached.csv": _rows(_JOSAA_BASE, _YEARS, "JoSAA", "JEE Advanced / JEE Main", "UG", "All India", "6", "AI"),
         "mhtcet_cached.csv": _rows(_MHTCET_BASE, _YEARS, "MHT-CET", "MHT-CET", "UG", "Maharashtra", "1", "HS"),
         "kcet_cached.csv": _rows(_KCET_BASE, _YEARS, "KCET", "KCET", "UG", "Karnataka", "1", "HS"),
         "wbjee_cached.csv": _rows(_WBJEE_BASE, _YEARS, "WBJEE", "WBJEE", "UG", "West Bengal", "1", "HS"),
