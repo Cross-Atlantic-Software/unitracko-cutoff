@@ -89,7 +89,7 @@ NAMES = ingest.available()
 LABELS = {n: f"{get_source(n).meta.exam}  ({n})" for n in NAMES}
 
 st.title("🎓 Indian Admission Cutoff Aggregator")
-st.caption("Browse **all 317 catalogued exams** · explore real **opening/closing "
+st.caption("Browse **all 321 catalogued exams** · explore real **opening/closing "
            "ranks** · predict colleges by rank. Cutoff data is curated/scraped; "
            "refresh via adapters for the latest.")
 

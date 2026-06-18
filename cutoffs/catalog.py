@@ -230,6 +230,14 @@ def _probe_status(bucket: str) -> tuple[str, str]:
 # JoSAA figures. Numbers are approximate orders of magnitude.
 # --------------------------------------------------------------------------
 _REFERENCE: list[tuple[str, dict]] = [
+    # JEE splits into separate counselling bodies — match the specific ones first
+    # so each gets its own Body (the generic "joint entrance examination" below
+    # would otherwise swallow all five into one "NTA / JoSAA" label).
+    ("josaa joint seat allocation", {"Body": "JoSAA", "Metric": "Rank", "Applicants": 1300000, "Seats": 57000}),
+    ("csab special rounds", {"Body": "CSAB", "Metric": "Rank", "Applicants": 200000, "Seats": 30000}),
+    ("csab neut", {"Body": "CSAB-NEUT", "Metric": "Rank", "Applicants": 20000, "Seats": 2000}),
+    ("jac delhi joint admission", {"Body": "JAC Delhi", "Metric": "Rank", "Applicants": 90000, "Seats": 5500}),
+    ("advanced iit joint admission", {"Body": "IIT (JEE Advanced)", "Metric": "Rank", "Applicants": 180000, "Seats": 17000}),
     ("joint entrance examination", {"Body": "NTA / JoSAA", "Metric": "Rank", "Applicants": 1300000, "Seats": 57000}),
     ("national eligibility cum entrance", {"Body": "NTA / MCC", "Metric": "Rank", "Applicants": 2400000, "Seats": 110000}),
     ("common law admission test", {"Body": "Consortium of NLUs", "Metric": "Rank", "Applicants": 70000, "Seats": 3000}),

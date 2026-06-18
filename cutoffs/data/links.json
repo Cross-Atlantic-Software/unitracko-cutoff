@@ -1,1904 +1,1928 @@
 [
-{
-"exam": "ACCA FOUNDATION",
-"homepage": "https://www.accaglobal.com/",
-"cutoff": "https://www.accaglobal.com/gb/en/student/exam-support-resources/foundation-level-study-resources/pass-rates-foundation-level-exams.html",
-"acronym": ""
-},
-{
-"exam": "Actuarial Common Entrance Test",
-"homepage": "https://actuariesindia.org/",
-"cutoff": "https://actuariesindia.org/entrance-exam-result",
-"acronym": "ACET"
-},
-{
-"exam": "Chartered Accountancy Final Examination",
-"homepage": "https://www.icai.org/",
-"cutoff": "",
-"acronym": "CA Final"
-},
-{
-"exam": "Chartered Accountancy Foundation Examination",
-"homepage": "https://www.icai.org/",
-"cutoff": "",
-"acronym": "CA Foundation"
-},
-{
-"exam": "Chartered Accountancy Intermediate Examination",
-"homepage": "https://www.icai.org/",
-"cutoff": "",
-"acronym": "CA Inter"
-},
-{
-"exam": "Company Secretary Executive Entrance Test",
-"homepage": "https://www.icsi.edu/",
-"cutoff": "https://www.icsi.edu/exam/exam-results/",
-"acronym": "CSEET"
-},
-{
-"exam": "Cost Management Accountancy Foundation Examination",
-"homepage": "https://icmai.in/",
-"cutoff": "https://icmai.in/ClntStudents/Result",
-"acronym": "CMA Foundation"
-},
-{
-"exam": "Assam Agriculture Entrance Examination",
-"homepage": "https://www.aau.ac.in/",
-"cutoff": "https://admission.aau.ac.in/",
-"acronym": "AAU CET"
-},
-{
-"exam": "Chhattisgarh Agriculture Entrance Examination",
-"homepage": "https://vyapamcg.cgstate.gov.in/",
-"cutoff": "https://vyapamcg.cgstate.gov.in/Post?PostID=RESULT",
-"acronym": "CG PAT"
-},
-{
-"exam": "Haryana Agriculture Entrance Examination",
-"homepage": "https://admissions.hau.ac.in/",
-"cutoff": "https://admissions.hau.ac.in/",
-"acronym": "CCS HAU CET"
-},
-{
-"exam": "Indian Council of Agricultural Research All India Entrance Examination for Admission Undergraduate",
-"homepage": "https://icar.org.in/",
-"cutoff": "https://icarcounseling.com/",
-"acronym": "ICAR AIEEA UG / CUET (ICAR-UG)"
-},
-{
-"exam": "Joint Entrance Test Agriculture",
-"homepage": "https://raubikaner.org/",
-"cutoff": "https://raubikaner.org/",
-"acronym": "Rajasthan JET"
-},
-{
-"exam": "Kerala Dairy Technology Entrance",
-"homepage": "https://admissions.kau.in/",
-"cutoff": "https://cee.kerala.gov.in/cee/",
-"acronym": "KEAM"
-},
-{
-"exam": "Kerala Fisheries Entrance Examination",
-"homepage": "https://cee.kerala.gov.in/",
-"cutoff": "https://cee.kerala.gov.in/cee/",
-"acronym": "KEAM"
-},
-{
-"exam": "Kerala Food Technology Entrance",
-"homepage": "https://admissions.kau.in/",
-"cutoff": "https://cee.kerala.gov.in/cee/",
-"acronym": "KEAM"
-},
-{
-"exam": "Kerala Forestry Entrance Examination",
-"homepage": "https://admissions.kau.in/",
-"cutoff": "https://cee.kerala.gov.in/cee/",
-"acronym": "KEAM"
-},
-{
-"exam": "Madhya Pradesh Pre Agriculture Test",
-"homepage": "https://esb.mp.gov.in/",
-"cutoff": "https://esb.mp.gov.in/",
-"acronym": "MP PAT"
-},
-{
-"exam": "Odisha Joint Entrance Examination Agriculture",
-"homepage": "https://ojee.nic.in/",
-"cutoff": "https://ojee.nic.in/opening-closing-rank/",
-"acronym": "OJEE"
-},
-{
-"exam": "Odisha University of Agriculture and Technology Entrance Examination",
-"homepage": "https://ouat.ac.in/",
-"cutoff": "https://ouat.ac.in/admissions/",
-"acronym": "OUAT Entrance"
-},
-{
-"exam": "Tata Institute of Social Sciences Bachelor of Vocation Agriculture Entrance Examination",
-"homepage": "https://www.tiss.edu/",
-"cutoff": "https://admissions.tiss.ac.in/",
-"acronym": "TISS B.Voc"
-},
-{
-"exam": "Uttar Pradesh Combined Agriculture and Technology Entrance Test",
-"homepage": "https://www.svpuat.edu.in/",
-"cutoff": "https://upcatet.net/",
-"acronym": "UPCATET"
-},
-{
-"exam": "National Aptitude Test in Architecture",
-"homepage": "https://www.nata.in/",
-"cutoff": "https://stureg.nata-app.org/auth/login",
-"acronym": "NATA"
-},
-{
-"exam": "Air India Cadet Pilot Program",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Amadeus GDS Certification Examination",
-"homepage": "https://amadeus.com/en",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Bachelor of Business Administration in Aviation Admission",
-"homepage": "https://www.rgnau.ac.in/",
-"cutoff": "https://rgnauadm.samarth.edu.in/",
-"acronym": "RGNAU BBA Aviation"
-},
-{
-"exam": "Bachelor of Science in Aviation Admission",
-"homepage": "https://www.rgnau.ac.in/",
-"cutoff": "https://rgnauadm.samarth.edu.in/",
-"acronym": "RGNAU BSc Aviation"
-},
-{
-"exam": "Bachelor of Science in Nautical Science Admission",
-"homepage": "https://www.imu.edu.in/",
-"cutoff": "https://www.imu.edu.in/imunew/index.php?prod_id=101",
-"acronym": ""
-},
-{
-"exam": "Cabin Crew Training Programme Admission",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Cochin University of Science and Technology Combined Admission Test - Marine Engineering",
-"homepage": "https://admissions.cusat.ac.in/",
-"cutoff": "https://admissions.cusat.ac.in/",
-"acronym": "CUSAT CAT"
-},
-{
-"exam": "Diploma in Aviation Admission",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Frankfinn Institute of Air Hostess Training Entrance Test",
-"homepage": "https://www.frankfinn.com/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Galileo Global Distribution System Certification Examination",
-"homepage": "https://www.travelport.com/",
-"cutoff": "",
-"acronym": "Galileo GDS"
-},
-{
-"exam": "General Purpose Rating Course Admission",
-"homepage": "https://www.dgshipping.gov.in/",
-"cutoff": "https://www.dgshipping.gov.in/Content/ExamCertificSeafarersView.aspx?modul_id=3",
-"acronym": "GP Rating"
-},
-{
-"exam": "Indian Maritime University Common Entrance Test",
-"homepage": "https://www.imu.edu.in/",
-"cutoff": "https://www.imu.edu.in/imunew/index.php?prod_id=101",
-"acronym": ""
-},
-{
-"exam": "Indira Gandhi Rashtriya Uran Akademi Entrance Examination",
-"homepage": "https://igrua.gov.in/",
-"cutoff": "https://igrua.gov.in/selection-procedure",
-"acronym": "IGRUA"
-},
-{
-"exam": "International Air Transport Association Certification",
-"homepage": "https://www.iata.org/",
-"cutoff": "",
-"acronym": "IATA"
-},
-{
-"exam": "Rashtriya Raksha University (Police)",
-"homepage": "https://rru.ac.in/",
-"cutoff": "https://rru.ac.in/admission",
-"acronym": "RRU RCET"
-},
-{
-"exam": "All India Entrance Examination for Design - Interaction Design",
-"homepage": "https://www.aieed.com/",
-"cutoff": "",
-"acronym": "AIEED"
-},
-{
-"exam": "Anant National University Design Entrance Examination",
-"homepage": "https://anu.edu.in/",
-"cutoff": "https://anu.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Apeejay Design Entrance Examination",
-"homepage": "https://www.apeejay.edu/",
-"cutoff": "",
-"acronym": "DAT"
-},
-{
-"exam": "Army Institute of Fashion and Design Entrance Examination",
-"homepage": "https://www.aifd.edu.in/",
-"cutoff": "https://www.aifd.edu.in/admission.php",
-"acronym": ""
-},
-{
-"exam": "Avantika University Design Entrance Examination",
-"homepage": "https://www.avantikauniversity.edu.in/",
-"cutoff": "",
-"acronym": "DST"
-},
-{
-"exam": "Common Design Entrance Examination",
-"homepage": "https://www.ceed.iitb.ac.in/",
-"cutoff": "https://www.ceed.iitb.ac.in/2025/",
-"acronym": ""
-},
-{
-"exam": "Footwear Design and Development Institute All India Selection Test",
-"homepage": "https://fddiindia.com/",
-"cutoff": "https://admissions.fddiindia.com/",
-"acronym": "FDDI AIST"
-},
-{
-"exam": "GLS University Design Entrance Examination",
-"homepage": "https://www.glsuniversity.ac.in/",
-"cutoff": "",
-"acronym": "GLS DAT"
-},
-{
-"exam": "IMS Design and Innovation Academy Entrance Examination",
-"homepage": "https://www.imsdia.in",
-"cutoff": "",
-"acronym": "IMS-DIA"
-},
-{
-"exam": "ITM Design Entrance Examination",
-"homepage": "https://www.itm.edu/design-school/",
-"cutoff": "https://www.itm.edu/design-school/admissions",
-"acronym": ""
-},
-{
-"exam": "Indian Institute of Art and Design Entrance Test",
-"homepage": "https://www.iiad.edu.in/",
-"cutoff": "",
-"acronym": "iDAT"
-},
-{
-"exam": "Inter National Institute of Fashion Design Entrance Examination",
-"homepage": "https://www.inifd.org/",
-"cutoff": "https://www.inifd.org/admissions",
-"acronym": ""
-},
-{
-"exam": "JD Institute of Fashion Technology Design Entrance Examination",
-"homepage": "https://www.jdinstitute.edu.in/",
-"cutoff": "https://www.jdinstitute.edu.in/admission/",
-"acronym": ""
-},
-{
-"exam": "JK Lakshmipat University Design Entrance Examination",
-"homepage": "https://www.jklu.edu.in/",
-"cutoff": "",
-"acronym": "JKLU-DET"
-},
-{
-"exam": "LISAA School of Design Entrance Test",
-"homepage": "https://lisaabangalore.com",
-"cutoff": "",
-"acronym": "LISAA CAT"
-},
-{
-"exam": "Lovely Professional University National Entrance and Scholarship Test Design",
-"homepage": "https://nest.lpu.in/design/",
-"cutoff": "https://nest.lpu.in/design/",
-"acronym": "LPUNEST Design"
-},
-{
-"exam": "MIT Institute of Design Design Aptitude Test",
-"homepage": "https://mitid.edu.in/",
-"cutoff": "https://mitid.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "MIT Institute of Design Entrance Examination",
-"homepage": "https://mitid.edu.in/",
-"cutoff": "https://mitid.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "MIT Institute of Design Product Design Entrance Examination",
-"homepage": "https://mitid.edu.in/",
-"cutoff": "https://mitid.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Manipal Academy of Higher Education Design Entrance Examination",
-"homepage": "https://manipal.edu/",
-"cutoff": "https://manipal.edu/mu/admission.html",
-"acronym": ""
-},
-{
-"exam": "National Institute of Design Design Aptitude Test Toy Design",
-"homepage": "https://www.nid.edu/",
-"cutoff": "https://admissions.nid.edu/",
-"acronym": "NID DAT"
-},
-{
-"exam": "National Institute of Fashion Technology Entrance Examination",
-"homepage": "https://www.nift.ac.in/",
-"cutoff": "https://www.nift.ac.in/admission",
-"acronym": ""
-},
-{
-"exam": "Panjab University Design Entrance Examination",
-"homepage": "https://puchd.ac.in",
-"cutoff": "https://admissions.puchd.ac.in/",
-"acronym": "PU-CET UG"
-},
-{
-"exam": "Raffles Design Entrance Examination",
-"homepage": "https://rafflesmumbai.com/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "School of Fashion India Entrance Test",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "School of Fashion Technology Entrance Test",
-"homepage": "https://www.soft.ac.in/",
-"cutoff": "https://soft.ac.in/pune/apply-now/eligibility/",
-"acronym": "SOFT-CET"
-},
-{
-"exam": "Sikkim Manipal University Design Entrance Examination",
-"homepage": "https://smu.edu.in/smu.html",
-"cutoff": "https://smu.edu.in/smu/admissions.html",
-"acronym": ""
-},
-{
-"exam": "Somaiya Design Entrance Examination",
-"homepage": "https://kjsieit.somaiya.edu/en",
-"cutoff": "https://ssd.somaiya.edu/admission/index.html",
-"acronym": "SVUET"
-},
-{
-"exam": "Srishti Manipal (Design)",
-"homepage": "https://srishtimanipalinstitute.in/",
-"cutoff": "https://srishtimanipalinstitute.in/admissions/admissions-process/",
-"acronym": "SMEAT"
-},
-{
-"exam": "Symbiosis Institute of Design Entrance Test",
-"homepage": "https://www.sid.edu.in/",
-"cutoff": "https://siu26.ishinfo.com/BDESY26PRPIResult/",
-"acronym": "SEED"
-},
-{
-"exam": "The Design Village Entrance Test",
-"homepage": "https://www.thedesignvillage.org/",
-"cutoff": "https://www.thedesignvillage.org/admissions",
-"acronym": ""
-},
-{
-"exam": "Undergraduate Common Entrance Examination for Design",
-"homepage": "https://www.uceed.iitb.ac.in/",
-"cutoff": "https://www.uceed.iitb.ac.in/2025/",
-"acronym": ""
-},
-{
-"exam": "Unitedworld Institute of Design Entrance Examination",
-"homepage": "https://www.uid.edu.in/",
-"cutoff": "https://www.uid.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "University of Petroleum and Energy Studies Design Entrance Examination",
-"homepage": "https://www.upes.ac.in/",
-"cutoff": "https://www.upes.ac.in/admissions/admission-alerts/upesdat",
-"acronym": "UPESDAT"
-},
-{
-"exam": "Vellore Institute of Technology Design Entrance Examination",
-"homepage": "https://vit.ac.in/admissions/ug",
-"cutoff": "https://vit.ac.in/all-courses/ug/bachelor-of-design-programme",
-"acronym": "VIT-DAT"
-},
-{
-"exam": "Vogue Institute of Art and Design Entrance Examination",
-"homepage": "https://voguefashioninstitute.com/",
-"cutoff": "https://voguefashioninstitute.com/admission/",
-"acronym": ""
-},
-{
-"exam": "Vogue University Design Entrance Examination",
-"homepage": "https://voguefashioninstitute.com/",
-"cutoff": "https://voguefashioninstitute.com/admission/",
-"acronym": ""
-},
-{
-"exam": "Whistling Woods International Design Entrance Examination",
-"homepage": "https://www.whistlingwoods.net/",
-"cutoff": "https://www.whistlingwoods.net/admissions/",
-"acronym": ""
-},
-{
-"exam": "World University of Design Aptitude Test Visual Arts",
-"homepage": "https://www.worlduniversityofdesign.ac.in/",
-"cutoff": "",
-"acronym": "WUD-AAT"
-},
-{
-"exam": "World University of Design Entrance Test",
-"homepage": "https://www.worlduniversityofdesign.ac.in/",
-"cutoff": "",
-"acronym": "WUDAT"
-},
-{
-"exam": "Amrita Engineering Entrance Examination",
-"homepage": "https://www.amrita.edu/admissions/btech/",
-"cutoff": "https://www.amrita.edu/admissions/btech/cutoff/",
-"acronym": ""
-},
-{
-"exam": "Andhra Pradesh Engineering and Agriculture and Pharmacy Common Entrance Test",
-"homepage": "https://cets.apsche.ap.gov.in/",
-"cutoff": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/EAPCET_HomePage.aspx",
-"acronym": "AP EAPCET"
-},
-{
-"exam": "Bennett University Engineering Entrance Test",
-"homepage": "https://www.bennett.edu.in/admission/",
-"cutoff": "https://www.bennett.edu.in/admission/btech/",
-"acronym": ""
-},
-{
-"exam": "Bihar Engineering Entrance Examination",
-"homepage": "https://bceceboard.bihar.gov.in/",
-"cutoff": "https://bceceboard.bihar.gov.in/",
-"acronym": "UGEAC"
-},
-{
-"exam": "Birla Institute of Technology Mesra Entrance Examination",
-"homepage": "https://www.bitmesra.ac.in/",
-"cutoff": "",
-"acronym": "BIT Mesra"
-},
-{
-"exam": "Birla Institute of Technology and Science Admission Test",
-"homepage": "https://www.bitsadmission.com/",
-"cutoff": "https://www.bits-pilani.ac.in/cut-off-bitsat-scores/",
-"acronym": "BITSAT"
-},
-{
-"exam": "Chandigarh University Common Entrance Test - Engineering",
-"homepage": "https://cucet.cuchd.in/",
-"cutoff": "",
-"acronym": "CUCET"
-},
-{
-"exam": "Chhattisgarh Pre Engineering Test",
-"homepage": "",
-"cutoff": "https://cgdte.admissions.nic.in/opening-and-closing-ranks/",
-"acronym": "CG PET"
-},
-{
-"exam": "Consortium of Medical Engineering and Dental Colleges of Karnataka Undergraduate Entrance Test",
-"homepage": "https://www.comedk.org/",
-"cutoff": "https://www.comedk.org/counselling-document-2025",
-"acronym": "COMEDK UGET"
-},
-{
-"exam": "Defence Institute of Advanced Technology Entrance Examination",
-"homepage": "https://www.diat.ac.in/",
-"cutoff": "https://www.diat.ac.in/admission",
-"acronym": ""
-},
-{
-"exam": "Goa Common Entrance Test - Engineering",
-"homepage": "https://dte.goa.gov.in/",
-"cutoff": "https://dte.goa.gov.in/admission",
-"acronym": "GCET"
-},
-{
-"exam": "ICFAI Technology School Admission Test",
-"homepage": "https://www.ifheindia.org/itsat/",
-"cutoff": "https://www.ifheindia.org/itsat/",
-"acronym": "ATIT"
-},
-{
-"exam": "Indian Institute of Petroleum and Energy Entrance Examination",
-"homepage": "https://www.iipe.ac.in/",
-"cutoff": "https://iipe.ac.in/Academics/Cutoff.html",
-"acronym": "IIPE"
-},
-{
-"exam": "Indian Institute of Space Science and Technology Admission",
-"homepage": "https://www.iist.ac.in/",
-"cutoff": "https://www.iist.ac.in/admission/undergraduate-admissions-archives",
-"acronym": "IIST"
-},
-{
-"exam": "Jamia Millia Islamia Engineering Entrance Examination",
-"homepage": "https://www.jmi.ac.in/",
-"cutoff": "https://admission.jmi.ac.in/",
-"acronym": "JMI EEE"
-},
-{
-"exam": "Kerala Engineering Architecture Medical Entrance Examination",
-"homepage": "https://cee.kerala.gov.in/",
-"cutoff": "https://cee.kerala.gov.in/keam2025/list/lastrank/eng-trial.pdf",
-"acronym": "KEAM"
-},
-{
-"exam": "Madhya Pradesh Pre Engineering Test",
-"homepage": "https://dte.mponline.gov.in/",
-"cutoff": "https://dte.mponline.gov.in/portal/",
-"acronym": ""
-},
-{
-"exam": "Meghalaya Engineering Entrance Examination",
-"homepage": "https://megeducation.gov.in/dhte/",
-"cutoff": "https://megeducation.gov.in/dhte/pages/merit%20list.html",
-"acronym": ""
-},
-{
-"exam": "Mizoram Engineering Entrance Examination",
-"homepage": "https://mzu.edu.in/",
-"cutoff": "https://dhte.mizoram.gov.in/category/notice-board",
-"acronym": ""
-},
-{
-"exam": "Nagaland Engineering Entrance Examination",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "National Rail and Transportation Institute Transport Technology Entrance Examination",
-"homepage": "https://gsv.ac.in/",
-"cutoff": "https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?instcd=443",
-"acronym": "GSV"
-},
-{
-"exam": "Plaksha University Undergraduate Tech Entrance Test",
-"homepage": "https://plaksha.edu.in/",
-"cutoff": "https://plaksha.edu.in/admissions/undergraduate",
-"acronym": ""
-},
-{
-"exam": "Rajasthan Engineering Admission Process",
-"homepage": "https://reap2025.com/",
-"cutoff": "https://reap2025.com/seat-allotment.php",
-"acronym": ""
-},
-{
-"exam": "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination",
-"homepage": "https://www.rgipt.ac.in/",
-"cutoff": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf",
-"acronym": "RGIPT B.Tech"
-},
-{
-"exam": "SRM Joint Engineering Entrance Examination",
-"homepage": "https://applications.srmist.edu.in/",
-"cutoff": "https://applications.srmist.edu.in/btech",
-"acronym": "SRMJEEE"
-},
-{
-"exam": "Sharda University Admission Test Engineering",
-"homepage": "https://www.sharda.ac.in/admissions/suat",
-"cutoff": "https://www.sharda.ac.in/admissions/suat",
-"acronym": "SUAT"
-},
-{
-"exam": "Symbiosis Institute of Technology Engineering Entrance Examination",
-"homepage": "https://www.sitpune.edu.in/",
-"cutoff": "https://www.sitpune.edu.in/admissions",
-"acronym": ""
-},
-{
-"exam": "Tamil Nadu Engineering Admissions",
-"homepage": "https://www.tneaonline.org/",
-"cutoff": "https://www.tneaonline.org/pages/opening-closing-ranks.html",
-"acronym": ""
-},
-{
-"exam": "Telangana Engineering Agriculture and Pharmacy Common Entrance Test Biology Physics Chemistry Stream",
-"homepage": "https://eapcet.tgche.ac.in/",
-"cutoff": "https://eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx",
-"acronym": ""
-},
-{
-"exam": "Telangana State Engineering Agriculture and Medical Common Entrance Test",
-"homepage": "https://eapcet.tgche.ac.in/",
-"cutoff": "https://eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx",
-"acronym": ""
-},
-{
-"exam": "University of Petroleum and Energy Studies Disaster Management Entrance Examination",
-"homepage": "https://www.upes.ac.in/",
-"cutoff": "https://admissions.upes.ac.in/",
-"acronym": ""
-},
-{
-"exam": "University of Petroleum and Energy Studies Engineering Aptitude Test",
-"homepage": "https://www.upes.ac.in/",
-"cutoff": "https://www.upes.ac.in/admissions/admission-alerts/upeseat",
-"acronym": "UPESEAT"
-},
-{
-"exam": "University of Petroleum and Energy Studies Entrance Test",
-"homepage": "https://www.upes.ac.in/",
-"cutoff": "https://www.upes.ac.in/admissions/admission-alerts/upeseat",
-"acronym": "UPESEAT"
-},
-{
-"exam": "Uttar Pradesh State Entrance Examination Abdul Kalam Technical University",
-"homepage": "https://uptac.admissions.nic.in/",
-"cutoff": "https://uptac.admissions.nic.in/or-cr/",
-"acronym": ""
-},
-{
-"exam": "Vellore Institute of Technology Engineering Entrance Examination",
-"homepage": "https://viteee.vit.ac.in/",
-"cutoff": "https://viteee.vit.ac.in/",
-"acronym": "VITEEE"
-},
-{
-"exam": "College of Art Chandigarh Entrance Examination",
-"homepage": "",
-"cutoff": "",
-"acronym": "GCA Chandigarh Aptitude Test"
-},
-{
-"exam": "Delhi College of Art Entrance Examination",
-"homepage": "https://colart.delhi.gov.in/",
-"cutoff": "https://colart.delhi.gov.in/colart/admission",
-"acronym": "CoA Delhi"
-},
-{
-"exam": "Indira Kala Sangeet University Entrance",
-"homepage": "https://iksv.ac.in/",
-"cutoff": "https://iksv.ac.in/admission/",
-"acronym": ""
-},
-{
-"exam": "Karnataka Chitrakala Parishath Entrance",
-"homepage": "https://www.chitrakalaparishath.org/",
-"cutoff": "",
-"acronym": "KCP"
-},
-{
-"exam": "Maharaja Sayajirao University of Baroda Fine Arts Entrance Examination",
-"homepage": "https://msubaroda.ac.in/",
-"cutoff": "https://msubaroda.ac.in/academics/FFA",
-"acronym": "MSU Baroda FFA Aptitude Test"
-},
-{
-"exam": "Sir Jamsetjee Jeejebhoy School of Art Entrance Examination",
-"homepage": "",
-"cutoff": "https://cetcell.mahacet.org/results/",
-"acronym": "MAH AAC CET"
-},
-{
-"exam": "National Forensic Sciences University Forensic Science Entrance Examination",
-"homepage": "https://nfsu.ac.in/",
-"cutoff": "https://nfsu.ac.in/admission",
-"acronym": ""
-},
-{
-"exam": "Bachelor of Hotel Management and Catering Technology Entrance Exam",
-"homepage": "https://exams.nta.nic.in/nchm-jee/",
-"cutoff": "https://nchmcounselling.nic.in/or-cr/",
-"acronym": "NCHM JEE"
-},
-{
-"exam": "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Hotel Management and Catering Technology",
-"homepage": "https://ipu.ac.in/",
-"cutoff": "https://ipu.admissions.nic.in/create-cut-off-2025-2026/",
-"acronym": "IPU CET BHMCT"
-},
-{
-"exam": "Institute of Hotel Management Aurangabad Entrance Test",
-"homepage": "https://ihmaurangabad.ac.in/",
-"cutoff": "",
-"acronym": "IHM Aurangabad"
-},
-{
-"exam": "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts",
-"homepage": "https://www.ihmjaipur.com/",
-"cutoff": "https://nchmcounselling.nic.in/",
-"acronym": "NCHMCT JEE"
-},
-{
-"exam": "International Institute of Hotel Management Electronic Common Hospitality Admission Test",
-"homepage": "https://www.iihm.ac.in/echat/",
-"cutoff": "https://echat.elink.in/result/",
-"acronym": "IIHM eCHAT"
-},
-{
-"exam": "National Council for Hotel Management Joint Entrance Examination",
-"homepage": "",
-"cutoff": "https://nchmcounselling.nic.in/",
-"acronym": "NCHMCT JEE"
-},
-{
-"exam": "National Council for Hotel Management and Catering Technology Joint Entrance Examination",
-"homepage": "",
-"cutoff": "https://nchmcounselling.nic.in/",
-"acronym": "NCHMCT JEE"
-},
-{
-"exam": "Uttar Pradesh State Entrance Examination Bachelor of Hotel Management and Catering Technology",
-"homepage": "https://uptac.admissions.nic.in/",
-"cutoff": "https://uptac.admissions.nic.in/or-cr/",
-"acronym": ""
-},
-{
-"exam": "Bihar Sanskrit Studies Entrance",
-"homepage": "https://bssb.bihar.gov.in/",
-"cutoff": "",
-"acronym": "BSSB"
-},
-{
-"exam": "Central Sanskrit University Entrance Examination - Sanskrit Studies",
-"homepage": "https://www.sanskrit.nic.in/",
-"cutoff": "https://www.sanskrit.nic.in/admission.php",
-"acronym": ""
-},
-{
-"exam": "Chhattisgarh Sanskrit Studies Entrance",
-"homepage": "https://www.csbraipur.org/",
-"cutoff": "",
-"acronym": "CGSVM"
-},
-{
-"exam": "English and Foreign Languages University Entrance Examination - Pashto and Persian",
-"homepage": "https://www.efluniversity.ac.in/",
-"cutoff": "https://www.efluniversity.ac.in/academic-updates.php",
-"acronym": "EFLU"
-},
-{
-"exam": "Haryana Bachelor of Arts Entrance Examination",
-"homepage": "https://highereduhry.ac.in/",
-"cutoff": "https://admissions.highereduhry.ac.in/",
-"acronym": "DHE Haryana"
-},
-{
-"exam": "Himachal Pradesh Bachelor of Arts Entrance Examination",
-"homepage": "https://www.hpuniv.ac.in/",
-"cutoff": "https://nadmissions.hpushimla.in/",
-"acronym": "HPU"
-},
-{
-"exam": "Indira Gandhi National Tribal University Entrance Examination Folk Literature",
-"homepage": "https://igntu.ac.in/",
-"cutoff": "https://igntu.ac.in/admission.aspx",
-"acronym": ""
-},
-{
-"exam": "Krea University Liberal Arts Entrance Examination",
-"homepage": "https://krea.edu.in/",
-"cutoff": "",
-"acronym": "Krea SIAS"
-},
-{
-"exam": "Madhya Pradesh Bachelor of Arts Entrance Examination",
-"homepage": "https://highereducation.mp.gov.in/",
-"cutoff": "",
-"acronym": "MP ePravesh UG"
-},
-{
-"exam": "Swami Vivekananda Yoga Anusandhana Samsthana Bachelor of Science Yoga Entrance Examination",
-"homepage": "https://svyasa.edu.in/",
-"cutoff": "",
-"acronym": "S-VYASA"
-},
-{
-"exam": "Symbiosis Liberal Arts Entrance",
-"homepage": "https://ssla.edu.in/",
-"cutoff": "https://ssla.edu.in/admissions",
-"acronym": ""
-},
-{
-"exam": "West Bengal Bachelor of Arts Admission",
-"homepage": "https://wbcap.in/",
-"cutoff": "https://wbcap.in/",
-"acronym": "WBCAP"
-},
-{
-"exam": "Aligarh Muslim University Entrance Examination - Law",
-"homepage": "https://www.amucontrollerexams.com/",
-"cutoff": "https://counselling.amuonline.ac.in/",
-"acronym": "AMU BA LLB"
-},
-{
-"exam": "All India Law Entrance Test",
-"homepage": "https://nationallawuniversitydelhi.in/",
-"cutoff": "https://nationallawuniversitydelhi.in/",
-"acronym": "AILET"
-},
-{
-"exam": "Andhra Pradesh Law Common Entrance Test",
-"homepage": "https://cets.apsche.ap.gov.in/",
-"cutoff": "https://lawcet-sche.aptonline.in/LAWCET/",
-"acronym": ""
-},
-{
-"exam": "Banaras Hindu University Undergraduate Entrance Test - Law",
-"homepage": "https://www.bhu.ac.in/",
-"cutoff": "https://bhucuet.samarth.edu.in/",
-"acronym": "BHU UET Law"
-},
-{
-"exam": "Christ University Law Entrance Examination",
-"homepage": "https://christuniversity.in/",
-"cutoff": "https://christuniversity.in/admission-all",
-"acronym": ""
-},
-{
-"exam": "Common Law Admission Test - Undergraduate",
-"homepage": "https://consortiumofnlus.ac.in/",
-"cutoff": "https://consortiumofnlus.ac.in/clat-2025/notifications.html",
-"acronym": ""
-},
-{
-"exam": "Kerala Law Entrance Examination",
-"homepage": "https://cee.kerala.gov.in/",
-"cutoff": "https://cee.kerala.gov.in/",
-"acronym": "KLEE"
-},
-{
-"exam": "Law Aptitude Test",
-"homepage": "https://www.slat-test.org/",
-"cutoff": "https://slat2026.ishinfosys.com/SLAT-SCD26/",
-"acronym": "SLAT"
-},
-{
-"exam": "Narsee Monjee Institute of Management Studies Law Aptitude Test",
-"homepage": "https://www.nmims.edu/",
-"cutoff": "https://www.nmims.edu/admission",
-"acronym": ""
-},
-{
-"exam": "Panjab University Undergraduate Law Entrance Test",
-"homepage": "https://pglaw.puchd.ac.in/",
-"cutoff": "https://results.puexam.in/EntranceHome2026.aspx",
-"acronym": "PU UGLAW"
-},
-{
-"exam": "Rajasthan University Law Entrance Test",
-"homepage": "https://www.uniraj.ac.in/",
-"cutoff": "https://admissions.univraj.org/rul/",
-"acronym": "RULET"
-},
-{
-"exam": "Symbiosis Law Admission Test",
-"homepage": "https://www.slat-test.org/",
-"cutoff": "https://slat2026.ishinfosys.com/SLAT-SCD26/",
-"acronym": "SLAT"
-},
-{
-"exam": "Tamil Nadu Dr Ambedkar Law University Entrance Test",
-"homepage": "https://tndalu.ac.in/",
-"cutoff": "https://www.tndalu.ac.in/",
-"acronym": "TNDALU"
-},
-{
-"exam": "Telangana Law Common Entrance Test",
-"homepage": "https://lawcet.tgche.ac.in/",
-"cutoff": "https://lawcetadm.tgche.ac.in/",
-"acronym": "TG LAWCET"
-},
-{
-"exam": "Haryana Bachelor of Business Administration Admission",
-"homepage": "https://highereduhry.ac.in/",
-"cutoff": "https://admissions.highereduhry.ac.in/",
-"acronym": "DHE Haryana UG"
-},
-{
-"exam": "Himachal Pradesh Bachelor of Business Administration Admission",
-"homepage": "https://www.hpuniv.ac.in/",
-"cutoff": "https://nadmissions.hpushimla.in/",
-"acronym": "HPU"
-},
-{
-"exam": "Indian Institute of Foreign Trade Entrance Examination",
-"homepage": "https://www.iift.ac.in/",
-"cutoff": "https://www.iift.ac.in/iift/new-admissions.php",
-"acronym": "IIFT"
-},
-{
-"exam": "Jammu and Kashmir Bachelor of Business Administration Admission",
-"homepage": "https://www.jammuuniversity.ac.in/",
-"cutoff": "https://www.jammuuniversity.ac.in/node/5007",
-"acronym": ""
-},
-{
-"exam": "Jharkhand Bachelor of Business Administration Admission",
-"homepage": "https://universities.jharkhand.gov.in/",
-"cutoff": "https://universities.jharkhand.gov.in/",
-"acronym": "Chancellor Portal"
-},
-{
-"exam": "Joint Integrated Programme in Management Admission Test",
-"homepage": "https://www.iimj.ac.in/",
-"cutoff": "https://exams.nta.nic.in/jipmat/",
-"acronym": "JIPMAT"
-},
-{
-"exam": "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate",
-"homepage": "https://kiit.ac.in/",
-"cutoff": "https://kiitee.kiit.ac.in/",
-"acronym": "KIITEE"
-},
-{
-"exam": "Karnataka Bachelor of Business Administration Entrance Examination",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Ladakh Bachelor of Business Administration Entrance Examination",
-"homepage": "https://highereducation.ladakh.gov.in/",
-"cutoff": "https://universityofladakhadmission.samarth.edu.in/",
-"acronym": ""
-},
-{
-"exam": "Lakshadweep Bachelor of Business Administration Entrance Examination",
-"homepage": "https://lakshadweep.gov.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Madhya Pradesh Bachelor of Business Administration Entrance Examination",
-"homepage": "https://dte.mponline.gov.in/",
-"cutoff": "https://dte.mponline.gov.in/Portal/Services/OnlineCounselling/NW/Utilities/Citizen/frmYearWiseCutoff.aspx",
-"acronym": ""
-},
-{
-"exam": "Manipur Bachelor of Business Administration Entrance Examination",
-"homepage": "https://www.manipuruniv.ac.in/",
-"cutoff": "https://manipurunivcuet.samarth.edu.in/",
-"acronym": ""
-},
-{
-"exam": "Meghalaya Bachelor of Business Administration Entrance Examination",
-"homepage": "https://www.nehu.ac.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Mizoram Bachelor of Business Administration Entrance Examination",
-"homepage": "https://mzu.edu.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Narsee Monjee Institute of Management Studies National Test for Programs After Twelfth",
-"homepage": "https://npat.nmims.edu/",
-"cutoff": "https://npat.nmims.edu/",
-"acronym": "NPAT"
-},
-{
-"exam": "Puducherry Bachelor of Business Administration Entrance Examination",
-"homepage": "https://www.pondiuni.edu.in/",
-"cutoff": "https://admissions.pondiuni.edu.in/admissions/index.php",
-"acronym": ""
-},
-{
-"exam": "Punjab Bachelor of Business Administration Entrance Examination",
-"homepage": "https://www.punjabiuniversity.ac.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Rajasthan Bachelor of Business Administration Entrance Examination",
-"homepage": "https://hte.rajasthan.gov.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Shiv Nadar University Management Aptitude Test and Entrance Examination",
-"homepage": "https://snu.edu.in",
-"cutoff": "",
-"acronym": "SNUSAT"
-},
-{
-"exam": "Sikkim Bachelor of Business Administration Entrance Examination",
-"homepage": "https://cus.ac.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Tamil Nadu Bachelor of Business Administration Entrance Examination",
-"homepage": "https://www.tngasa.in/",
-"cutoff": "https://www.tngasa.in/",
-"acronym": "TNGASA"
-},
-{
-"exam": "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Journalism and Mass Communication",
-"homepage": "https://ipu.ac.in/",
-"cutoff": "https://ipu.admissions.nic.in/create-cut-off-2025-2026/",
-"acronym": "IPU CET BJMC"
-},
-{
-"exam": "Jamia Millia Islamia Mass Communication Entrance",
-"homepage": "https://www.jmi.ac.in/",
-"cutoff": "https://admission.jmi.ac.in/EntranceResults/UniversityResult",
-"acronym": "JMI"
-},
-{
-"exam": "Manipal Media Entrance",
-"homepage": "https://www.manipal.edu",
-"cutoff": "https://manipal.edu/mu/admission.html",
-"acronym": "MET"
-},
-{
-"exam": "Symbiosis Institute Of Media Entrance",
-"homepage": "https://www.simc.edu/",
-"cutoff": "https://www.simc.edu/admissions",
-"acronym": ""
-},
-{
-"exam": "Armed Forces Medical College Entrance Examination",
-"homepage": "https://afmc.nic.in/",
-"cutoff": "https://afmc.nic.in/",
-"acronym": "AFMC"
-},
-{
-"exam": "National Eligibility cum Entrance Test Undergraduate",
-"homepage": "https://neet.nta.nic.in/",
-"cutoff": "https://mcc.nic.in/ug-medical-counselling/",
-"acronym": "NEET UG"
-},
-{
-"exam": "National Institute of Mental Health and Neuro Sciences Bachelor of Science Neurophysiology Entrance Examination",
-"homepage": "https://www.nimhans.ac.in/",
-"cutoff": "https://nimhans.ac.in/academics/admissions/",
-"acronym": "NIMHANS"
-},
-{
-"exam": "Rajasthan University of Health Sciences Entrance Examination",
-"homepage": "https://www.ruhsraj.org/",
-"cutoff": "https://www.ruhsraj.org/admission/",
-"acronym": ""
-},
-{
-"exam": "ALLIANCE UNIVERSITY ENTRANCE TEST",
-"homepage": "https://www.alliance.edu.in/",
-"cutoff": "https://www.alliance.edu.in/admissions",
-"acronym": ""
-},
-{
-"exam": "Aligarh Muslim University Undergraduate Entrance Test",
-"homepage": "https://www.amucontrollerexams.com/",
-"cutoff": "https://www.amucontrollerexams.com/page/view/results-of-examination-1765513237",
-"acronym": "AMU Entrance Test"
-},
-{
-"exam": "Amity University Entrance Examination",
-"homepage": "https://www.amity.edu/admission",
-"cutoff": "",
-"acronym": "Amity JEE"
-},
-{
-"exam": "Aryabhatta Knowledge University Entrance Examination",
-"homepage": "https://akubihar.ac.in/",
-"cutoff": "https://akubihar.ac.in/Administration/ShowNotices.aspx",
-"acronym": "AKUET"
-},
-{
-"exam": "Ashoka University Aptitude and Aptitude Test - Interdisciplinary",
-"homepage": "https://www.ashoka.edu.in/",
-"cutoff": "",
-"acronym": "AAT"
-},
-{
-"exam": "Assam Combined Entrance Examination",
-"homepage": "https://astu.ac.in/",
-"cutoff": "https://astu.ac.in/?page_id=37683",
-"acronym": "Assam CEE"
-},
-{
-"exam": "Azim Premji University Undergraduate Entrance Examination",
-"homepage": "https://azimpremjiuniversity.edu.in/admissions",
-"cutoff": "",
-"acronym": "APU Entrance"
-},
-{
-"exam": "Bharati Vidyapeeth Common Entrance Test",
-"homepage": "https://www.bvuniversity.edu.in/",
-"cutoff": "https://www.bvuniversity.edu.in/admission-process",
-"acronym": "BVP CET"
-},
-{
-"exam": "Bihar Combined Entrance Competitive Examination",
-"homepage": "https://bceceboard.bihar.gov.in/",
-"cutoff": "https://bcece.admissions.nic.in/",
-"acronym": "BCECE"
-},
-{
-"exam": "Chandigarh University Common Entrance Test",
-"homepage": "https://cucet.cuchd.in/",
-"cutoff": "https://www.cuchd.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Christ University Entrance Examination",
-"homepage": "https://christuniversity.in/",
-"cutoff": "https://christuniversity.in/admission-all",
-"acronym": ""
-},
-{
-"exam": "Common University Entrance Test - Undergraduate",
-"homepage": "https://cuet.nta.nic.in/",
-"cutoff": "",
-"acronym": "CUET UG"
-},
-{
-"exam": "DAIICT Entrance Test",
-"homepage": "https://www.daiict.ac.in/",
-"cutoff": "https://www.daiict.ac.in/admissions",
-"acronym": ""
-},
-{
-"exam": "FLAME University Entrance Examination",
-"homepage": "https://www.flame.edu.in/",
-"cutoff": "https://www.flame.edu.in/admissions/undergraduate",
-"acronym": ""
-},
-{
-"exam": "Galgotias University Entrance Test",
-"homepage": "https://www.galgotiasuniversity.edu.in/",
-"cutoff": "",
-"acronym": "GEUT"
-},
-{
-"exam": "Goa Common Entrance Test",
-"homepage": "https://dte.goa.gov.in/",
-"cutoff": "https://dte.goa.gov.in/admission/degree-admission-lists",
-"acronym": "GCET"
-},
-{
-"exam": "Graphic Era University Entrance Test",
-"homepage": "https://www.geu.ac.in/",
-"cutoff": "https://www.geu.ac.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Gujarat Common Entrance Test",
-"homepage": "https://gujcet.gseb.org/",
-"cutoff": "https://gujacpc.admissions.nic.in/",
-"acronym": "GUJCET"
-},
-{
-"exam": "Guru Gobind Singh Indraprastha University Common Entrance Test",
-"homepage": "https://ipu.ac.in/",
-"cutoff": "https://ipu.admissions.nic.in/cut-off-2026-27/",
-"acronym": "IPU CET"
-},
-{
-"exam": "Himachal Pradesh Common Entrance Test",
-"homepage": "https://www.hptechboard.com/",
-"cutoff": "https://counselling-hptu.hp.gov.in/",
-"acronym": "HPCET"
-},
-{
-"exam": "Jain Entrance Test",
-"homepage": "https://www.jainuniversity.ac.in",
-"cutoff": "",
-"acronym": "JET"
-},
-{
-"exam": "Jharkhand Combined Entrance Competitive Examination",
-"homepage": "https://jceceb.jharkhand.gov.in/",
-"cutoff": "https://jceceb.jharkhand.gov.in/",
-"acronym": "JCECE"
-},
-{
-"exam": "Joint Entrance Examination",
-"homepage": "https://jeemain.nta.nic.in/",
-"cutoff": "https://josaa.nic.in/or-cr/",
-"acronym": ""
-},
-{
-"exam": "K. R. Mangalam University Entrance Test",
-"homepage": "https://www.krmangalam.edu.in/",
-"cutoff": "https://www.krmangalam.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Karnataka Common Entrance Test",
-"homepage": "https://cetonline.karnataka.gov.in/kea/",
-"cutoff": "https://keaonline.karnataka.gov.in/ugcet_result_2025/main/results.php",
-"acronym": ""
-},
-{
-"exam": "Krea University Entrance",
-"homepage": "https://krea.edu.in/",
-"cutoff": "",
-"acronym": "KAT"
-},
-{
-"exam": "Lovely Professional University National Entrance and Scholarship Test",
-"homepage": "https://nest.lpu.in/",
-"cutoff": "https://nest.lpu.in/",
-"acronym": "LPUNEST"
-},
-{
-"exam": "MIT World Peace University Entrance Test",
-"homepage": "https://mitwpu.edu.in/",
-"cutoff": "https://mitwpu.edu.in/admissions",
-"acronym": ""
-},
-{
-"exam": "Maharashtra Common Entrance Test",
-"homepage": "https://cetcell.mahacet.org/",
-"cutoff": "https://fe2025.mahacet.org/StaticPages/HomePage",
-"acronym": ""
-},
-{
-"exam": "Manipal Entrance Test",
-"homepage": "https://manipal.edu/mu/admission.html",
-"cutoff": "https://manipal.edu/mu/admission/counseling.html",
-"acronym": "MET"
-},
-{
-"exam": "National Entrance Screening Test",
-"homepage": "https://www.nestexam.in/",
-"cutoff": "https://www.nestexam.in/",
-"acronym": "NEST"
-},
-{
-"exam": "O. P. Jindal Global University Entrance Test",
-"homepage": "https://jgu.edu.in/",
-"cutoff": "https://jgu.edu.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Odisha Joint Entrance Examination",
-"homepage": "https://ojee.nic.in/",
-"cutoff": "https://ojee.nic.in/opening-closing-rank/",
-"acronym": "OJEE"
-},
-{
-"exam": "Online Facilitation System for Students Bihar University Admission",
-"homepage": "https://www.ofssbihar.in/",
-"cutoff": "https://www.ofssbihar.net/sams/CollegeCutOffMarksCurr.aspx?id=1&yr=2026",
-"acronym": "OFSS Bihar"
-},
-{
-"exam": "PES Scholastic Aptitude Test",
-"homepage": "https://www.pessat.com/",
-"cutoff": "https://www.pessat.com/",
-"acronym": "PESSAT"
-},
-{
-"exam": "Parul University Entrance Test",
-"homepage": "https://paruluniversity.ac.in/",
-"cutoff": "https://admissions.paruluniversity.ac.in/",
-"acronym": "PUET"
-},
-{
-"exam": "Pearl Academy Entrance Examination",
-"homepage": "https://pearlacademy.com/",
-"cutoff": "https://pearlacademy.com/admissions/",
-"acronym": ""
-},
-{
-"exam": "Presidency University Bachelor Degree Entrance Test",
-"homepage": "https://presiuniv.ac.in/",
-"cutoff": "https://presiuniv.ac.in/web/admission.php",
-"acronym": ""
-},
-{
-"exam": "Presidency University Entrance Test",
-"homepage": "https://presiuniv.ac.in/",
-"cutoff": "https://presiuniv.ac.in/web/admission.php",
-"acronym": ""
-},
-{
-"exam": "REVA University Entrance Test",
-"homepage": "https://www.reva.edu.in/",
-"cutoff": "",
-"acronym": "REVA CET"
-},
-{
-"exam": "Rabindra Bharati University Entrance",
-"homepage": "https://rbu.ac.in/",
-"cutoff": "https://online.rbu.net.in/Home/NoticeGroupwise",
-"acronym": "RBU"
-},
-{
-"exam": "SRM Institute Admission Test",
-"homepage": "https://applications.srmist.edu.in/",
-"cutoff": "https://applications.srmist.edu.in/",
-"acronym": "SRMJEEE"
-},
-{
-"exam": "Sharda University Admission Test",
-"homepage": "https://www.sharda.ac.in/admissions/suat",
-"cutoff": "https://www.sharda.ac.in/admissions/suat",
-"acronym": "SUAT"
-},
-{
-"exam": "Shiv Nadar University Entrance Test",
-"homepage": "https://snu.edu.in/",
-"cutoff": "",
-"acronym": "SNUSAT"
-},
-{
-"exam": "Shiv Nadar University Scholastic Aptitude Test",
-"homepage": "https://snu.edu.in/",
-"cutoff": "",
-"acronym": "SNUSAT"
-},
-{
-"exam": "Sikkim Manipal University Entrance Test",
-"homepage": "https://smu.edu.in/smu.html",
-"cutoff": "https://smu.edu.in/smu/admissions.html",
-"acronym": ""
-},
-{
-"exam": "St Joseph's University Entrance Examination",
-"homepage": "https://www.sju.edu.in/",
-"cutoff": "https://www.sju.edu.in/admissions",
-"acronym": ""
-},
-{
-"exam": "St Xavier's College Entrance Examination",
-"homepage": "https://www.sxccal.edu/",
-"cutoff": "https://xaviers.edu/main/index.php/admissions",
-"acronym": ""
-},
-{
-"exam": "Symbiosis Entrance Test",
-"homepage": "https://www.set-test.org/",
-"cutoff": "https://www.set-test.org/set-overview.html",
-"acronym": "SET"
-},
-{
-"exam": "Tata Institute of Social Sciences Bachelor Admission Test",
-"homepage": "https://www.tiss.edu/",
-"cutoff": "https://admissions.tiss.ac.in/view/5/admissions/ba-ma-admissions/merit-list-ba-in-social-sciences-guwahati-off-camp/",
-"acronym": "TISS-BAT"
-},
-{
-"exam": "Tripura Board of Joint Entrance Examination",
-"homepage": "https://tbjee.tripura.gov.in/",
-"cutoff": "https://jeeonline.tripura.gov.in/",
-"acronym": "TJEE"
-},
-{
-"exam": "Uttarakhand State Entrance Examination",
-"homepage": "https://uktech.ac.in/",
-"cutoff": "https://uktech.ac.in/en/page/admissions",
-"acronym": ""
-},
-{
-"exam": "West Bengal Joint Entrance Examination",
-"homepage": "https://wbjeeb.nic.in/wbjee/",
-"cutoff": "https://admissions.nic.in/WBJEEB/Applicant/Report/OpenCloseRank.aspx",
-"acronym": ""
-},
-{
-"exam": "Auxiliary Nurse Midwifery Admission",
-"homepage": "https://www.indiannursingcouncil.org/",
-"cutoff": "",
-"acronym": "ANM"
-},
-{
-"exam": "General Nursing and Midwifery Admission",
-"homepage": "https://www.indiannursingcouncil.org/",
-"cutoff": "",
-"acronym": "GNM"
-},
-{
-"exam": "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination",
-"homepage": "https://jipmer.edu.in/",
-"cutoff": "https://www.jipmer.edu.in/announcement/bsc-nursing-ahs-courses-counselling%E2%80%93-2025-26-academic-year",
-"acronym": "JIPMER Nursing"
-},
-{
-"exam": "Kerala Nursing Entrance Examination",
-"homepage": "https://cee.kerala.gov.in/",
-"cutoff": "https://lbscentre.in/examilbs/allotments.aspx",
-"acronym": "LBS Nursing"
-},
-{
-"exam": "Madhya Pradesh Pre Nursing Selection Test",
-"homepage": "https://esb.mp.gov.in/",
-"cutoff": "https://esb.mp.gov.in/results/RESULT_25/PNST_GNMTST_RES25/default_Results.htm",
-"acronym": "MP PNST"
-},
-{
-"exam": "Maharashtra Bachelor of Science Nursing Common Entrance Test",
-"homepage": "https://cetcell.mahacet.org/",
-"cutoff": "https://cetcell.mahacet.org/cap-_2025-26/",
-"acronym": "MH B.Sc Nursing CET"
-},
-{
-"exam": "Military Nursing Service Entrance Examination",
-"homepage": "https://joinindianarmy.nic.in/",
-"cutoff": "",
-"acronym": "MNS"
-},
-{
-"exam": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences Bachelor of Science Nursing Entrance Examination",
-"homepage": "https://www.neigrihms.gov.in/",
-"cutoff": "https://neigrihms.gov.in/examsnotification.html",
-"acronym": "NEIGRIHMS B.Sc Nursing"
-},
-{
-"exam": "Rajasthan University of Health Sciences Bachelor of Science Nursing Entrance Examination",
-"homepage": "https://www.ruhsraj.org/",
-"cutoff": "https://www.ruhsraj.org/admission/",
-"acronym": ""
-},
-{
-"exam": "Uttar Pradesh Common Nursing Entrance Test",
-"homepage": "https://abvmuup.edu.in/",
-"cutoff": "https://www.abvmucet26.co.in/",
-"acronym": "UP CNET"
-},
-{
-"exam": "Uttarakhand Nursing Entrance Exam",
-"homepage": "https://hnbumu.ac.in/",
-"cutoff": "https://hnbumu.ac.in/",
-"acronym": "HNBUMU Nursing"
-},
-{
-"exam": "West Bengal Joint Entrance Test for Nursing, Paramedical and Allied Sciences Undergraduate",
-"homepage": "https://wbjeeb.nic.in/jenpas-ug/",
-"cutoff": "https://wbjeeb.nic.in/jenpas-ug/",
-"acronym": "JENPAS-UG"
-},
-{
-"exam": "Baba Farid University of Health Sciences Punjab Para Medical Entrance Test",
-"homepage": "https://bfuhs.ac.in/",
-"cutoff": "https://bfuhs.ac.in/",
-"acronym": "PPMET"
-},
-{
-"exam": "Kerala Paramedical Entrance Examination",
-"homepage": "https://www.lbscentre.kerala.gov.in/",
-"cutoff": "https://lbscentre.in/nursingparam2026/Ranklist.aspx",
-"acronym": "LBS Paramedical"
-},
-{
-"exam": "Maharashtra Paramedical Common Entrance Test",
-"homepage": "https://cetcell.mahacet.org/",
-"cutoff": "https://medicalug2025.mahacet.org/",
-"acronym": ""
-},
-{
-"exam": "Paramedical State Common Entrance Test",
-"homepage": "",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Punjab Para Medical Entrance Test Baba Farid University of Health Sciences",
-"homepage": "https://bfuhs.ac.in/",
-"cutoff": "https://bfuhs.ac.in/",
-"acronym": "PPMET"
-},
-{
-"exam": "Rajasthan University of Health Sciences Paramedical Entrance Examination",
-"homepage": "https://www.ruhsraj.org/",
-"cutoff": "https://www.ruhsraj.org/admission/",
-"acronym": ""
-},
-{
-"exam": "Uttar Pradesh Combined Paramedical Entrance Test",
-"homepage": "https://abvmuup.edu.in/",
-"cutoff": "https://www.abvmuup.edu.in/cpet.php",
-"acronym": "UP CPET"
-},
-{
-"exam": "Uttar Pradesh Paramedical Entrance Test",
-"homepage": "https://abvmuup.edu.in/",
-"cutoff": "https://www.abvmuup.edu.in/cpet.php",
-"acronym": "UP CPET"
-},
-{
-"exam": "Uttarakhand Paramedical Entrance Exam",
-"homepage": "https://hnbumu.ac.in/",
-"cutoff": "https://www.hnbumu.ac.in/",
-"acronym": "HNBUMU Paramedical"
-},
-{
-"exam": "West Bengal Paramedical Entrance Test",
-"homepage": "https://wbjeeb.nic.in/jenpas-ug/",
-"cutoff": "https://wbjeeb.nic.in/jenpas-ug/",
-"acronym": "JENPAS UG"
-},
-{
-"exam": "Chhattisgarh Pre Pharmacy and Health Sciences Test",
-"homepage": "https://vyapamcg.cgstate.gov.in/",
-"cutoff": "https://cgdteraipur.cgstate.gov.in/",
-"acronym": "CG PPHT"
-},
-{
-"exam": "Gujarat Common Entrance Test - Medical and Pharmacy",
-"homepage": "https://www.medadmgujarat.org/",
-"cutoff": "https://www.medadmgujarat.org/ug/home.aspx",
-"acronym": ""
-},
-{
-"exam": "Andhra Pradesh Polytechnic Entrance Examination",
-"homepage": "https://apsbtet.ap.gov.in/",
-"cutoff": "https://polycet.ap.gov.in/",
-"acronym": "AP POLYCET"
-},
-{
-"exam": "Arunachal Pradesh Polytechnic Entrance Examination",
-"homepage": "https://apdhte.nic.in/",
-"cutoff": "https://apdhte.nic.in/",
-"acronym": "APJEE"
-},
-{
-"exam": "Assam Polytechnic Entrance Examination",
-"homepage": "https://dte.assam.gov.in/",
-"cutoff": "https://dte-assamadm.samarth.ac.in/",
-"acronym": "Assam PAT"
-},
-{
-"exam": "Bihar Polytechnic Common Entrance Competitive Examination",
-"homepage": "https://bceceboard.bihar.gov.in/",
-"cutoff": "https://bceceboard.bihar.gov.in/pdf_Web/DC_PE25_FOCFF.pdf",
-"acronym": "DCECE (PE)"
-},
-{
-"exam": "Chandigarh Polytechnic Entrance",
-"homepage": "https://chdtechnicaleducation.gov.in/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Chhattisgarh Pre Polytechnic Test",
-"homepage": "https://vyapamcg.cgstate.gov.in/",
-"cutoff": "https://cgdte.admissions.nic.in/opening-and-closing-ranks/",
-"acronym": "CG PPT"
-},
-{
-"exam": "Dadra & Nagar Haveli Polytechnic Entrance",
-"homepage": "https://www.dhtednhdd.in/",
-"cutoff": "https://dhtednhdd.in/Diploma%20Allotment.html",
-"acronym": ""
-},
-{
-"exam": "Delhi Common Entrance Test for Polytechnic Admission",
-"homepage": "https://tte.delhi.gov.in/",
-"cutoff": "https://tte.delhi.gov.in/",
-"acronym": "Delhi CET"
-},
-{
-"exam": "Goa Polytechnic Entrance Examination",
-"homepage": "https://dte.goa.gov.in/",
-"cutoff": "https://dte.goa.gov.in/admission",
-"acronym": ""
-},
-{
-"exam": "Gujarat Common Entrance Test - Polytechnic",
-"homepage": "https://acpdc.gujarat.gov.in/",
-"cutoff": "https://gujdiploma.admissions.nic.in/fydiploma/",
-"acronym": "ACPDC Diploma"
-},
-{
-"exam": "Himachal Pradesh Polytechnic Admission Test",
-"homepage": "https://www.hptechboard.com/",
-"cutoff": "https://www.eakadamik.in/",
-"acronym": "HP PAT"
-},
-{
-"exam": "Himachal Pradesh Polytechnic Entrance",
-"homepage": "https://www.hptechboard.com/",
-"cutoff": "https://www.hptechboard.com/",
-"acronym": "HP PAT"
-},
-{
-"exam": "Jharkhand Combined Entrance Competitive Examination Pre Polytechnic Test",
-"homepage": "https://jceceb.jharkhand.gov.in/",
-"cutoff": "https://jceceb.jharkhand.gov.in/",
-"acronym": "PECE"
-},
-{
-"exam": "Joint Entrance Examination Council Uttar Pradesh Polytechnic Entrance Examination",
-"homepage": "https://jeecup.admissions.nic.in/",
-"cutoff": "https://jeecup.admissions.nic.in/document/jeecup-counselling-opening-and-closing-rank-2025/",
-"acronym": "JEECUP"
-},
-{
-"exam": "Kashmir Polytechnic Entrance",
-"homepage": "https://jkbopee.gov.in/",
-"cutoff": "https://www.jkbopee.gov.in/Notifications.aspx",
-"acronym": "JK PET"
-},
-{
-"exam": "Kerala Polytechnic Entrance Examination",
-"homepage": "https://www.polyadmission.org/",
-"cutoff": "https://www.polyadmission.org/",
-"acronym": "Kerala Polytechnic"
-},
-{
-"exam": "Madhya Pradesh Polytechnic Entrance Examination",
-"homepage": "https://dte.mponline.gov.in/",
-"cutoff": "https://dte.mponline.gov.in/portal/",
-"acronym": ""
-},
-{
-"exam": "Madhya Pradesh Pre Polytechnic Test",
-"homepage": "https://esb.mp.gov.in/",
-"cutoff": "https://dte.mponline.gov.in/",
-"acronym": "MP PPT"
-},
-{
-"exam": "Maharashtra Polytechnic Entrance Examination",
-"homepage": "https://poly25.dtemaharashtra.gov.in/",
-"cutoff": "https://poly25.dtemaharashtra.gov.in/diploma25/index.php/hp_controller/instwiseallotment",
-"acronym": ""
-},
-{
-"exam": "Manipur Polytechnic Entrance Examination",
-"homepage": "https://techedu.mn.gov.in/",
-"cutoff": "https://techedu.mn.gov.in/en/notification/",
-"acronym": "MPAT"
-},
-{
-"exam": "Meghalaya Polytechnic Entrance Examination",
-"homepage": "https://megeducation.gov.in/dhte/pages/dhte.html",
-"cutoff": "https://megeducation.gov.in/dhte/pages/merit%20list.html",
-"acronym": "MPAT"
-},
-{
-"exam": "Mizoram Polytechnic Entrance",
-"homepage": "https://highereducation.mizoram.gov.in/",
-"cutoff": "https://dhte.mizoram.gov.in/category/notice-board",
-"acronym": "MDEE"
-},
-{
-"exam": "Nagaland Polytechnic Entrance",
-"homepage": "",
-"cutoff": "",
-"acronym": "DEE"
-},
-{
-"exam": "Odisha Diploma Entrance Test",
-"homepage": "https://skill.samsodisha.gov.in/",
-"cutoff": "https://skill.samsodisha.gov.in/meritlist.aspx",
-"acronym": ""
-},
-{
-"exam": "Odisha Polytechnic Entrance Examination",
-"homepage": "https://skill.samsodisha.gov.in/",
-"cutoff": "https://skill.samsodisha.gov.in/Website/Diploma/dipHome.aspx",
-"acronym": ""
-},
-{
-"exam": "Puducherry Polytechnic Entrance",
-"homepage": "https://centac.py.gov.in/",
-"cutoff": "https://centacpuducherry.in/",
-"acronym": "CENTAC"
-},
-{
-"exam": "Punjab Joint Entrance Test Diploma",
-"homepage": "https://punjabteched.com/",
-"cutoff": "https://pbdiploma.admissions.nic.in/allotment-result/",
-"acronym": "Punjab JET"
-},
-{
-"exam": "Punjab State Board of Technical Education Polytechnic Admission Test",
-"homepage": "https://punjabteched.com/",
-"cutoff": "https://pbdiploma.admissions.nic.in/allotment-result/",
-"acronym": "PSBTE PAT"
-},
-{
-"exam": "Rajasthan Polytechnic Entrance Examination",
-"homepage": "https://dte.rajasthan.gov.in/",
-"cutoff": "https://dteapp.hte.rajasthan.gov.in/",
-"acronym": "DTE Rajasthan Polytechnic"
-},
-{
-"exam": "Sikkim Polytechnic Entrance Examination",
-"homepage": "https://sikkim.gov.in/departments/department-of-human-resource-development",
-"cutoff": "https://sikkim.gov.in/departments/department-of-human-resource-development",
-"acronym": ""
-},
-{
-"exam": "Tamil Nadu Polytechnic Entrance Examination",
-"homepage": "https://dte.tn.gov.in/",
-"cutoff": "https://www.tnpoly.in/",
-"acronym": "TN DOTE Polytechnic"
-},
-{
-"exam": "Telangana State Polytechnic Common Entrance Test",
-"homepage": "https://polycet.sbtet.telangana.gov.in/",
-"cutoff": "https://tgpolycet.nic.in/",
-"acronym": "TS POLYCET"
-},
-{
-"exam": "Tripura Polytechnic Entrance Examination",
-"homepage": "https://highereducation.tripura.gov.in/",
-"cutoff": "https://deeet.tripura.gov.in/",
-"acronym": "DEEET"
-},
-{
-"exam": "Uttarakhand Joint Entrance Examination Polytechnic",
-"homepage": "https://ubterjeep.co.in/",
-"cutoff": "https://ubterjeep.co.in/Result/Jeeprank.aspx",
-"acronym": "UBTER JEEP"
-},
-{
-"exam": "Chennai Mathematical Institute Entrance Examination",
-"homepage": "https://www.cmi.ac.in/",
-"cutoff": "https://www.cmi.ac.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Indian Institute of Science Bachelor of Science Research Admission",
-"homepage": "https://www.iisc.ac.in/admissions/",
-"cutoff": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf",
-"acronym": "IISc BS Research"
-},
-{
-"exam": "Indian Institutes of Science Education and Research Aptitude Test",
-"homepage": "https://iiseradmission.in/",
-"cutoff": "https://www.iiseradmission.in/",
-"acronym": "IISER IAT"
-},
-{
-"exam": "National Standard Examination",
-"homepage": "https://www.iapt.org.in/",
-"cutoff": "https://www.iapt.org.in/",
-"acronym": "NSE"
-},
-{
-"exam": "Jamia Social Work Entrance",
-"homepage": "https://www.jmi.ac.in/",
-"cutoff": "https://admission.jmi.ac.in/EntranceResults/UniversityResult",
-"acronym": "JMI MSW"
-},
-{
-"exam": "Loyola College Social Work Admission",
-"homepage": "https://www.loyolacollege.edu/",
-"cutoff": "",
-"acronym": ""
-},
-{
-"exam": "Madras School Of Social Work Entrance",
-"homepage": "https://mssw.in/",
-"cutoff": "https://mssw.in/admissions/",
-"acronym": ""
-},
-{
-"exam": "Central Teacher Eligibility Test",
-"homepage": "https://ctet.nic.in/",
-"cutoff": "https://ctet.nic.in/",
-"acronym": "CTET"
-},
-{
-"exam": "Integrated Bachelor of Arts and Bachelor of Education Entrance Examination",
-"homepage": "",
-"cutoff": "https://exams.nta.nic.in/ncet/",
-"acronym": "NCET"
-},
-{
-"exam": "Rajasthan Pre Bachelor of Education and Basic School Teaching Certificate Entrance Examination",
-"homepage": "https://ptetvmoukota2025.in/",
-"cutoff": "https://ptetvmoukota2025.in/",
-"acronym": "PTET / Pre BSTC"
-},
-{
-"exam": "State Teacher Eligibility Tests",
-"homepage": "",
-"cutoff": "",
-"acronym": "TET"
-},
-{
-"exam": "AVEE - Assam Veterinary Entrance Examination",
-"homepage": "https://www.aau.ac.in/",
-"cutoff": "https://admission.aau.ac.in/",
-"acronym": "AAU-VET"
-},
-{
-"exam": "All India Veterinary Entrance Test",
-"homepage": "https://mcc.nic.in/",
-"cutoff": "https://vci.admissions.nic.in/results/",
-"acronym": "AIPVT / VCI Counselling"
-},
-{
-"exam": "Kerala Veterinary Entrance Examination",
-"homepage": "https://cee.kerala.gov.in/",
-"cutoff": "https://cee.kerala.gov.in/keam2025",
-"acronym": "KEAM (Veterinary)"
-},
-{
-"exam": "Madhya Pradesh Pre Veterinary and Fisheries Test",
-"homepage": "https://esb.mp.gov.in/",
-"cutoff": "https://esb.mp.gov.in/",
-"acronym": "MP PV&FT"
-},
-{
-"exam": "Rajasthan Pre Veterinary Test",
-"homepage": "https://rajuvas.ac.in/",
-"cutoff": "https://rajuvas.ac.in/admission/",
-"acronym": "RPVT"
-},
-{
-"exam": "Advanced Industrial Training Institute Courses Admission",
-"homepage": "https://dgt.gov.in/en",
-"cutoff": "https://nimionlineadmission.in/",
-"acronym": "AICET-Diploma"
-},
-{
-"exam": "Craft Instructor Training Scheme Admission",
-"homepage": "https://nimionlineadmission.in/",
-"cutoff": "https://nimionlineadmission.in/",
-"acronym": "CITS"
-},
-{
-"exam": "Dual System Training Admission",
-"homepage": "https://dgt.gov.in/",
-"cutoff": "https://dgt.gov.in/",
-"acronym": "DST"
-},
-{
-"exam": "Industrial Training Institute Admission National Council for Vocational Training",
-"homepage": "https://dgt.gov.in/",
-"cutoff": "",
-"acronym": "NCVT ITI"
-},
-{
-"exam": "Industrial Training Institute Admission State Council for Vocational Training",
-"homepage": "https://dgt.gov.in/en",
-"cutoff": "",
-"acronym": "SCVT ITI"
-},
-{
-"exam": "Industrial Training Institute Trades Admission",
-"homepage": "https://dgt.gov.in/",
-"cutoff": "",
-"acronym": "ITI"
-},
-{
-"exam": "Oberoi Systematic Training and Education Programme",
-"homepage": "https://www.oberoigroup.com/learning-programmes/step.aspx",
-"cutoff": "",
-"acronym": "Oberoi STEP"
-},
-{
-"exam": "Pradhan Mantri Kaushal Vikas Yojana",
-"homepage": "https://www.skillindiadigital.gov.in/",
-"cutoff": "",
-"acronym": "PMKVY"
-}
+  {
+    "exam": "ACCA FOUNDATION",
+    "homepage": "https://www.accaglobal.com/",
+    "cutoff": "https://www.accaglobal.com/gb/en/student/exam-support-resources/foundation-level-study-resources/pass-rates-foundation-level-exams.html",
+    "acronym": ""
+  },
+  {
+    "exam": "Actuarial Common Entrance Test",
+    "homepage": "https://actuariesindia.org/",
+    "cutoff": "https://actuariesindia.org/entrance-exam-result",
+    "acronym": "ACET"
+  },
+  {
+    "exam": "Chartered Accountancy Final Examination",
+    "homepage": "https://www.icai.org/",
+    "cutoff": "",
+    "acronym": "CA Final"
+  },
+  {
+    "exam": "Chartered Accountancy Foundation Examination",
+    "homepage": "https://www.icai.org/",
+    "cutoff": "",
+    "acronym": "CA Foundation"
+  },
+  {
+    "exam": "Chartered Accountancy Intermediate Examination",
+    "homepage": "https://www.icai.org/",
+    "cutoff": "",
+    "acronym": "CA Inter"
+  },
+  {
+    "exam": "Company Secretary Executive Entrance Test",
+    "homepage": "https://www.icsi.edu/",
+    "cutoff": "https://www.icsi.edu/exam/exam-results/",
+    "acronym": "CSEET"
+  },
+  {
+    "exam": "Cost Management Accountancy Foundation Examination",
+    "homepage": "https://icmai.in/",
+    "cutoff": "https://icmai.in/ClntStudents/Result",
+    "acronym": "CMA Foundation"
+  },
+  {
+    "exam": "Assam Agriculture Entrance Examination",
+    "homepage": "https://www.aau.ac.in/",
+    "cutoff": "https://admission.aau.ac.in/",
+    "acronym": "AAU CET"
+  },
+  {
+    "exam": "Chhattisgarh Agriculture Entrance Examination",
+    "homepage": "https://vyapamcg.cgstate.gov.in/",
+    "cutoff": "https://vyapamcg.cgstate.gov.in/Post?PostID=RESULT",
+    "acronym": "CG PAT"
+  },
+  {
+    "exam": "Haryana Agriculture Entrance Examination",
+    "homepage": "https://admissions.hau.ac.in/",
+    "cutoff": "https://admissions.hau.ac.in/",
+    "acronym": "CCS HAU CET"
+  },
+  {
+    "exam": "Indian Council of Agricultural Research All India Entrance Examination for Admission Undergraduate",
+    "homepage": "https://icar.org.in/",
+    "cutoff": "https://icarcounseling.com/",
+    "acronym": "ICAR AIEEA UG / CUET (ICAR-UG)"
+  },
+  {
+    "exam": "Joint Entrance Test Agriculture",
+    "homepage": "https://raubikaner.org/",
+    "cutoff": "https://raubikaner.org/",
+    "acronym": "Rajasthan JET"
+  },
+  {
+    "exam": "Kerala Dairy Technology Entrance",
+    "homepage": "https://admissions.kau.in/",
+    "cutoff": "https://cee.kerala.gov.in/cee/",
+    "acronym": "KEAM"
+  },
+  {
+    "exam": "Kerala Fisheries Entrance Examination",
+    "homepage": "https://cee.kerala.gov.in/",
+    "cutoff": "https://cee.kerala.gov.in/cee/",
+    "acronym": "KEAM"
+  },
+  {
+    "exam": "Kerala Food Technology Entrance",
+    "homepage": "https://admissions.kau.in/",
+    "cutoff": "https://cee.kerala.gov.in/cee/",
+    "acronym": "KEAM"
+  },
+  {
+    "exam": "Kerala Forestry Entrance Examination",
+    "homepage": "https://admissions.kau.in/",
+    "cutoff": "https://cee.kerala.gov.in/cee/",
+    "acronym": "KEAM"
+  },
+  {
+    "exam": "Madhya Pradesh Pre Agriculture Test",
+    "homepage": "https://esb.mp.gov.in/",
+    "cutoff": "https://esb.mp.gov.in/",
+    "acronym": "MP PAT"
+  },
+  {
+    "exam": "Odisha Joint Entrance Examination Agriculture",
+    "homepage": "https://ojee.nic.in/",
+    "cutoff": "https://ojee.nic.in/opening-closing-rank/",
+    "acronym": "OJEE"
+  },
+  {
+    "exam": "Odisha University of Agriculture and Technology Entrance Examination",
+    "homepage": "https://ouat.ac.in/",
+    "cutoff": "https://ouat.ac.in/admissions/",
+    "acronym": "OUAT Entrance"
+  },
+  {
+    "exam": "Tata Institute of Social Sciences Bachelor of Vocation Agriculture Entrance Examination",
+    "homepage": "https://www.tiss.edu/",
+    "cutoff": "https://admissions.tiss.ac.in/",
+    "acronym": "TISS B.Voc"
+  },
+  {
+    "exam": "Uttar Pradesh Combined Agriculture and Technology Entrance Test",
+    "homepage": "https://www.svpuat.edu.in/",
+    "cutoff": "https://upcatet.net/",
+    "acronym": "UPCATET"
+  },
+  {
+    "exam": "National Aptitude Test in Architecture",
+    "homepage": "https://www.nata.in/",
+    "cutoff": "https://stureg.nata-app.org/auth/login",
+    "acronym": "NATA"
+  },
+  {
+    "exam": "Air India Cadet Pilot Program",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Amadeus GDS Certification Examination",
+    "homepage": "https://amadeus.com/en",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Bachelor of Business Administration in Aviation Admission",
+    "homepage": "https://www.rgnau.ac.in/",
+    "cutoff": "https://rgnauadm.samarth.edu.in/",
+    "acronym": "RGNAU BBA Aviation"
+  },
+  {
+    "exam": "Bachelor of Science in Aviation Admission",
+    "homepage": "https://www.rgnau.ac.in/",
+    "cutoff": "https://rgnauadm.samarth.edu.in/",
+    "acronym": "RGNAU BSc Aviation"
+  },
+  {
+    "exam": "Bachelor of Science in Nautical Science Admission",
+    "homepage": "https://www.imu.edu.in/",
+    "cutoff": "https://www.imu.edu.in/imunew/index.php?prod_id=101",
+    "acronym": ""
+  },
+  {
+    "exam": "Cabin Crew Training Programme Admission",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Cochin University of Science and Technology Combined Admission Test - Marine Engineering",
+    "homepage": "https://admissions.cusat.ac.in/",
+    "cutoff": "https://admissions.cusat.ac.in/",
+    "acronym": "CUSAT CAT"
+  },
+  {
+    "exam": "Diploma in Aviation Admission",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Frankfinn Institute of Air Hostess Training Entrance Test",
+    "homepage": "https://www.frankfinn.com/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Galileo Global Distribution System Certification Examination",
+    "homepage": "https://www.travelport.com/",
+    "cutoff": "",
+    "acronym": "Galileo GDS"
+  },
+  {
+    "exam": "General Purpose Rating Course Admission",
+    "homepage": "https://www.dgshipping.gov.in/",
+    "cutoff": "https://www.dgshipping.gov.in/Content/ExamCertificSeafarersView.aspx?modul_id=3",
+    "acronym": "GP Rating"
+  },
+  {
+    "exam": "Indian Maritime University Common Entrance Test",
+    "homepage": "https://www.imu.edu.in/",
+    "cutoff": "https://www.imu.edu.in/imunew/index.php?prod_id=101",
+    "acronym": ""
+  },
+  {
+    "exam": "Indira Gandhi Rashtriya Uran Akademi Entrance Examination",
+    "homepage": "https://igrua.gov.in/",
+    "cutoff": "https://igrua.gov.in/selection-procedure",
+    "acronym": "IGRUA"
+  },
+  {
+    "exam": "International Air Transport Association Certification",
+    "homepage": "https://www.iata.org/",
+    "cutoff": "",
+    "acronym": "IATA"
+  },
+  {
+    "exam": "Rashtriya Raksha University (Police)",
+    "homepage": "https://rru.ac.in/",
+    "cutoff": "https://rru.ac.in/admission",
+    "acronym": "RRU RCET"
+  },
+  {
+    "exam": "All India Entrance Examination for Design - Interaction Design",
+    "homepage": "https://www.aieed.com/",
+    "cutoff": "",
+    "acronym": "AIEED"
+  },
+  {
+    "exam": "Anant National University Design Entrance Examination",
+    "homepage": "https://anu.edu.in/",
+    "cutoff": "https://anu.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Apeejay Design Entrance Examination",
+    "homepage": "https://www.apeejay.edu/",
+    "cutoff": "",
+    "acronym": "DAT"
+  },
+  {
+    "exam": "Army Institute of Fashion and Design Entrance Examination",
+    "homepage": "https://www.aifd.edu.in/",
+    "cutoff": "https://www.aifd.edu.in/admission.php",
+    "acronym": ""
+  },
+  {
+    "exam": "Avantika University Design Entrance Examination",
+    "homepage": "https://www.avantikauniversity.edu.in/",
+    "cutoff": "",
+    "acronym": "DST"
+  },
+  {
+    "exam": "Common Design Entrance Examination",
+    "homepage": "https://www.ceed.iitb.ac.in/",
+    "cutoff": "https://www.ceed.iitb.ac.in/2025/",
+    "acronym": ""
+  },
+  {
+    "exam": "Footwear Design and Development Institute All India Selection Test",
+    "homepage": "https://fddiindia.com/",
+    "cutoff": "https://admissions.fddiindia.com/",
+    "acronym": "FDDI AIST"
+  },
+  {
+    "exam": "GLS University Design Entrance Examination",
+    "homepage": "https://www.glsuniversity.ac.in/",
+    "cutoff": "",
+    "acronym": "GLS DAT"
+  },
+  {
+    "exam": "IMS Design and Innovation Academy Entrance Examination",
+    "homepage": "https://www.imsdia.in",
+    "cutoff": "",
+    "acronym": "IMS-DIA"
+  },
+  {
+    "exam": "ITM Design Entrance Examination",
+    "homepage": "https://www.itm.edu/design-school/",
+    "cutoff": "https://www.itm.edu/design-school/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Indian Institute of Art and Design Entrance Test",
+    "homepage": "https://www.iiad.edu.in/",
+    "cutoff": "",
+    "acronym": "iDAT"
+  },
+  {
+    "exam": "Inter National Institute of Fashion Design Entrance Examination",
+    "homepage": "https://www.inifd.org/",
+    "cutoff": "https://www.inifd.org/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "JD Institute of Fashion Technology Design Entrance Examination",
+    "homepage": "https://www.jdinstitute.edu.in/",
+    "cutoff": "https://www.jdinstitute.edu.in/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "JK Lakshmipat University Design Entrance Examination",
+    "homepage": "https://www.jklu.edu.in/",
+    "cutoff": "",
+    "acronym": "JKLU-DET"
+  },
+  {
+    "exam": "LISAA School of Design Entrance Test",
+    "homepage": "https://lisaabangalore.com",
+    "cutoff": "",
+    "acronym": "LISAA CAT"
+  },
+  {
+    "exam": "Lovely Professional University National Entrance and Scholarship Test Design",
+    "homepage": "https://nest.lpu.in/design/",
+    "cutoff": "https://nest.lpu.in/design/",
+    "acronym": "LPUNEST Design"
+  },
+  {
+    "exam": "MIT Institute of Design Design Aptitude Test",
+    "homepage": "https://mitid.edu.in/",
+    "cutoff": "https://mitid.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "MIT Institute of Design Entrance Examination",
+    "homepage": "https://mitid.edu.in/",
+    "cutoff": "https://mitid.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "MIT Institute of Design Product Design Entrance Examination",
+    "homepage": "https://mitid.edu.in/",
+    "cutoff": "https://mitid.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Manipal Academy of Higher Education Design Entrance Examination",
+    "homepage": "https://manipal.edu/",
+    "cutoff": "https://manipal.edu/mu/admission.html",
+    "acronym": ""
+  },
+  {
+    "exam": "National Institute of Design Design Aptitude Test Toy Design",
+    "homepage": "https://www.nid.edu/",
+    "cutoff": "https://admissions.nid.edu/",
+    "acronym": "NID DAT"
+  },
+  {
+    "exam": "National Institute of Fashion Technology Entrance Examination",
+    "homepage": "https://www.nift.ac.in/",
+    "cutoff": "https://www.nift.ac.in/admission",
+    "acronym": ""
+  },
+  {
+    "exam": "Panjab University Design Entrance Examination",
+    "homepage": "https://puchd.ac.in",
+    "cutoff": "https://admissions.puchd.ac.in/",
+    "acronym": "PU-CET UG"
+  },
+  {
+    "exam": "Raffles Design Entrance Examination",
+    "homepage": "https://rafflesmumbai.com/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "School of Fashion India Entrance Test",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "School of Fashion Technology Entrance Test",
+    "homepage": "https://www.soft.ac.in/",
+    "cutoff": "https://soft.ac.in/pune/apply-now/eligibility/",
+    "acronym": "SOFT-CET"
+  },
+  {
+    "exam": "Sikkim Manipal University Design Entrance Examination",
+    "homepage": "https://smu.edu.in/smu.html",
+    "cutoff": "https://smu.edu.in/smu/admissions.html",
+    "acronym": ""
+  },
+  {
+    "exam": "Somaiya Design Entrance Examination",
+    "homepage": "https://kjsieit.somaiya.edu/en",
+    "cutoff": "https://ssd.somaiya.edu/admission/index.html",
+    "acronym": "SVUET"
+  },
+  {
+    "exam": "Srishti Manipal (Design)",
+    "homepage": "https://srishtimanipalinstitute.in/",
+    "cutoff": "https://srishtimanipalinstitute.in/admissions/admissions-process/",
+    "acronym": "SMEAT"
+  },
+  {
+    "exam": "Symbiosis Institute of Design Entrance Test",
+    "homepage": "https://www.sid.edu.in/",
+    "cutoff": "https://siu26.ishinfo.com/BDESY26PRPIResult/",
+    "acronym": "SEED"
+  },
+  {
+    "exam": "The Design Village Entrance Test",
+    "homepage": "https://www.thedesignvillage.org/",
+    "cutoff": "https://www.thedesignvillage.org/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Undergraduate Common Entrance Examination for Design",
+    "homepage": "https://www.uceed.iitb.ac.in/",
+    "cutoff": "https://www.uceed.iitb.ac.in/2025/",
+    "acronym": ""
+  },
+  {
+    "exam": "Unitedworld Institute of Design Entrance Examination",
+    "homepage": "https://www.uid.edu.in/",
+    "cutoff": "https://www.uid.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "University of Petroleum and Energy Studies Design Entrance Examination",
+    "homepage": "https://www.upes.ac.in/",
+    "cutoff": "https://www.upes.ac.in/admissions/admission-alerts/upesdat",
+    "acronym": "UPESDAT"
+  },
+  {
+    "exam": "Vellore Institute of Technology Design Entrance Examination",
+    "homepage": "https://vit.ac.in/admissions/ug",
+    "cutoff": "https://vit.ac.in/all-courses/ug/bachelor-of-design-programme",
+    "acronym": "VIT-DAT"
+  },
+  {
+    "exam": "Vogue Institute of Art and Design Entrance Examination",
+    "homepage": "https://voguefashioninstitute.com/",
+    "cutoff": "https://voguefashioninstitute.com/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "Vogue University Design Entrance Examination",
+    "homepage": "https://voguefashioninstitute.com/",
+    "cutoff": "https://voguefashioninstitute.com/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "Whistling Woods International Design Entrance Examination",
+    "homepage": "https://www.whistlingwoods.net/",
+    "cutoff": "https://www.whistlingwoods.net/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "World University of Design Aptitude Test Visual Arts",
+    "homepage": "https://www.worlduniversityofdesign.ac.in/",
+    "cutoff": "",
+    "acronym": "WUD-AAT"
+  },
+  {
+    "exam": "World University of Design Entrance Test",
+    "homepage": "https://www.worlduniversityofdesign.ac.in/",
+    "cutoff": "",
+    "acronym": "WUDAT"
+  },
+  {
+    "exam": "Amrita Engineering Entrance Examination",
+    "homepage": "https://www.amrita.edu/admissions/btech/",
+    "cutoff": "https://www.amrita.edu/admissions/btech/cutoff/",
+    "acronym": ""
+  },
+  {
+    "exam": "Andhra Pradesh Engineering and Agriculture and Pharmacy Common Entrance Test",
+    "homepage": "https://cets.apsche.ap.gov.in/",
+    "cutoff": "https://cets.apsche.ap.gov.in/EAPCET/EAPCET/EAPCET_HomePage.aspx",
+    "acronym": "AP EAPCET"
+  },
+  {
+    "exam": "Bennett University Engineering Entrance Test",
+    "homepage": "https://www.bennett.edu.in/admission/",
+    "cutoff": "https://www.bennett.edu.in/admission/btech/",
+    "acronym": ""
+  },
+  {
+    "exam": "Bihar Engineering Entrance Examination",
+    "homepage": "https://bceceboard.bihar.gov.in/",
+    "cutoff": "https://bceceboard.bihar.gov.in/",
+    "acronym": "UGEAC"
+  },
+  {
+    "exam": "Birla Institute of Technology Mesra Entrance Examination",
+    "homepage": "https://www.bitmesra.ac.in/",
+    "cutoff": "",
+    "acronym": "BIT Mesra"
+  },
+  {
+    "exam": "Birla Institute of Technology and Science Admission Test",
+    "homepage": "https://www.bitsadmission.com/",
+    "cutoff": "https://www.bits-pilani.ac.in/cut-off-bitsat-scores/",
+    "acronym": "BITSAT"
+  },
+  {
+    "exam": "Chandigarh University Common Entrance Test - Engineering",
+    "homepage": "https://cucet.cuchd.in/",
+    "cutoff": "",
+    "acronym": "CUCET"
+  },
+  {
+    "exam": "Chhattisgarh Pre Engineering Test",
+    "homepage": "",
+    "cutoff": "https://cgdte.admissions.nic.in/opening-and-closing-ranks/",
+    "acronym": "CG PET"
+  },
+  {
+    "exam": "Consortium of Medical Engineering and Dental Colleges of Karnataka Undergraduate Entrance Test",
+    "homepage": "https://www.comedk.org/",
+    "cutoff": "https://www.comedk.org/counselling-document-2025",
+    "acronym": "COMEDK UGET"
+  },
+  {
+    "exam": "Defence Institute of Advanced Technology Entrance Examination",
+    "homepage": "https://www.diat.ac.in/",
+    "cutoff": "https://www.diat.ac.in/admission",
+    "acronym": ""
+  },
+  {
+    "exam": "Goa Common Entrance Test - Engineering",
+    "homepage": "https://dte.goa.gov.in/",
+    "cutoff": "https://dte.goa.gov.in/admission",
+    "acronym": "GCET"
+  },
+  {
+    "exam": "ICFAI Technology School Admission Test",
+    "homepage": "https://www.ifheindia.org/itsat/",
+    "cutoff": "https://www.ifheindia.org/itsat/",
+    "acronym": "ATIT"
+  },
+  {
+    "exam": "Indian Institute of Petroleum and Energy Entrance Examination",
+    "homepage": "https://www.iipe.ac.in/",
+    "cutoff": "https://iipe.ac.in/Academics/Cutoff.html",
+    "acronym": "IIPE"
+  },
+  {
+    "exam": "Indian Institute of Space Science and Technology Admission",
+    "homepage": "https://www.iist.ac.in/",
+    "cutoff": "https://www.iist.ac.in/admission/undergraduate-admissions-archives",
+    "acronym": "IIST"
+  },
+  {
+    "exam": "Jamia Millia Islamia Engineering Entrance Examination",
+    "homepage": "https://www.jmi.ac.in/",
+    "cutoff": "https://admission.jmi.ac.in/",
+    "acronym": "JMI EEE"
+  },
+  {
+    "exam": "Kerala Engineering Architecture Medical Entrance Examination",
+    "homepage": "https://cee.kerala.gov.in/",
+    "cutoff": "https://cee.kerala.gov.in/keam2025/list/lastrank/eng-trial.pdf",
+    "acronym": "KEAM"
+  },
+  {
+    "exam": "Madhya Pradesh Pre Engineering Test",
+    "homepage": "https://dte.mponline.gov.in/",
+    "cutoff": "https://dte.mponline.gov.in/portal/",
+    "acronym": ""
+  },
+  {
+    "exam": "Meghalaya Engineering Entrance Examination",
+    "homepage": "https://megeducation.gov.in/dhte/",
+    "cutoff": "https://megeducation.gov.in/dhte/pages/merit%20list.html",
+    "acronym": ""
+  },
+  {
+    "exam": "Mizoram Engineering Entrance Examination",
+    "homepage": "https://mzu.edu.in/",
+    "cutoff": "https://dhte.mizoram.gov.in/category/notice-board",
+    "acronym": ""
+  },
+  {
+    "exam": "Nagaland Engineering Entrance Examination",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "National Rail and Transportation Institute Transport Technology Entrance Examination",
+    "homepage": "https://gsv.ac.in/",
+    "cutoff": "https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?instcd=443",
+    "acronym": "GSV"
+  },
+  {
+    "exam": "Plaksha University Undergraduate Tech Entrance Test",
+    "homepage": "https://plaksha.edu.in/",
+    "cutoff": "https://plaksha.edu.in/admissions/undergraduate",
+    "acronym": ""
+  },
+  {
+    "exam": "Rajasthan Engineering Admission Process",
+    "homepage": "https://reap2025.com/",
+    "cutoff": "https://reap2025.com/seat-allotment.php",
+    "acronym": ""
+  },
+  {
+    "exam": "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination",
+    "homepage": "https://www.rgipt.ac.in/",
+    "cutoff": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf",
+    "acronym": "RGIPT B.Tech"
+  },
+  {
+    "exam": "SRM Joint Engineering Entrance Examination",
+    "homepage": "https://applications.srmist.edu.in/",
+    "cutoff": "https://applications.srmist.edu.in/btech",
+    "acronym": "SRMJEEE"
+  },
+  {
+    "exam": "Sharda University Admission Test Engineering",
+    "homepage": "https://www.sharda.ac.in/admissions/suat",
+    "cutoff": "https://www.sharda.ac.in/admissions/suat",
+    "acronym": "SUAT"
+  },
+  {
+    "exam": "Symbiosis Institute of Technology Engineering Entrance Examination",
+    "homepage": "https://www.sitpune.edu.in/",
+    "cutoff": "https://www.sitpune.edu.in/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Tamil Nadu Engineering Admissions",
+    "homepage": "https://www.tneaonline.org/",
+    "cutoff": "https://www.tneaonline.org/pages/opening-closing-ranks.html",
+    "acronym": ""
+  },
+  {
+    "exam": "Telangana Engineering Agriculture and Pharmacy Common Entrance Test Biology Physics Chemistry Stream",
+    "homepage": "https://eapcet.tgche.ac.in/",
+    "cutoff": "https://eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Telangana State Engineering Agriculture and Medical Common Entrance Test",
+    "homepage": "https://eapcet.tgche.ac.in/",
+    "cutoff": "https://eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "University of Petroleum and Energy Studies Disaster Management Entrance Examination",
+    "homepage": "https://www.upes.ac.in/",
+    "cutoff": "https://admissions.upes.ac.in/",
+    "acronym": ""
+  },
+  {
+    "exam": "University of Petroleum and Energy Studies Engineering Aptitude Test",
+    "homepage": "https://www.upes.ac.in/",
+    "cutoff": "https://www.upes.ac.in/admissions/admission-alerts/upeseat",
+    "acronym": "UPESEAT"
+  },
+  {
+    "exam": "University of Petroleum and Energy Studies Entrance Test",
+    "homepage": "https://www.upes.ac.in/",
+    "cutoff": "https://www.upes.ac.in/admissions/admission-alerts/upeseat",
+    "acronym": "UPESEAT"
+  },
+  {
+    "exam": "Uttar Pradesh State Entrance Examination Abdul Kalam Technical University",
+    "homepage": "https://uptac.admissions.nic.in/",
+    "cutoff": "https://uptac.admissions.nic.in/or-cr/",
+    "acronym": ""
+  },
+  {
+    "exam": "Vellore Institute of Technology Engineering Entrance Examination",
+    "homepage": "https://viteee.vit.ac.in/",
+    "cutoff": "https://viteee.vit.ac.in/",
+    "acronym": "VITEEE"
+  },
+  {
+    "exam": "College of Art Chandigarh Entrance Examination",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": "GCA Chandigarh Aptitude Test"
+  },
+  {
+    "exam": "Delhi College of Art Entrance Examination",
+    "homepage": "https://colart.delhi.gov.in/",
+    "cutoff": "https://colart.delhi.gov.in/colart/admission",
+    "acronym": "CoA Delhi"
+  },
+  {
+    "exam": "Indira Kala Sangeet University Entrance",
+    "homepage": "https://iksv.ac.in/",
+    "cutoff": "https://iksv.ac.in/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "Karnataka Chitrakala Parishath Entrance",
+    "homepage": "https://www.chitrakalaparishath.org/",
+    "cutoff": "",
+    "acronym": "KCP"
+  },
+  {
+    "exam": "Maharaja Sayajirao University of Baroda Fine Arts Entrance Examination",
+    "homepage": "https://msubaroda.ac.in/",
+    "cutoff": "https://msubaroda.ac.in/academics/FFA",
+    "acronym": "MSU Baroda FFA Aptitude Test"
+  },
+  {
+    "exam": "Sir Jamsetjee Jeejebhoy School of Art Entrance Examination",
+    "homepage": "",
+    "cutoff": "https://cetcell.mahacet.org/results/",
+    "acronym": "MAH AAC CET"
+  },
+  {
+    "exam": "National Forensic Sciences University Forensic Science Entrance Examination",
+    "homepage": "https://nfsu.ac.in/",
+    "cutoff": "https://nfsu.ac.in/admission",
+    "acronym": ""
+  },
+  {
+    "exam": "Bachelor of Hotel Management and Catering Technology Entrance Exam",
+    "homepage": "https://exams.nta.nic.in/nchm-jee/",
+    "cutoff": "https://nchmcounselling.nic.in/or-cr/",
+    "acronym": "NCHM JEE"
+  },
+  {
+    "exam": "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Hotel Management and Catering Technology",
+    "homepage": "https://ipu.ac.in/",
+    "cutoff": "https://ipu.admissions.nic.in/create-cut-off-2025-2026/",
+    "acronym": "IPU CET BHMCT"
+  },
+  {
+    "exam": "Institute of Hotel Management Aurangabad Entrance Test",
+    "homepage": "https://ihmaurangabad.ac.in/",
+    "cutoff": "",
+    "acronym": "IHM Aurangabad"
+  },
+  {
+    "exam": "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts",
+    "homepage": "https://www.ihmjaipur.com/",
+    "cutoff": "https://nchmcounselling.nic.in/",
+    "acronym": "NCHMCT JEE"
+  },
+  {
+    "exam": "International Institute of Hotel Management Electronic Common Hospitality Admission Test",
+    "homepage": "https://www.iihm.ac.in/echat/",
+    "cutoff": "https://echat.elink.in/result/",
+    "acronym": "IIHM eCHAT"
+  },
+  {
+    "exam": "National Council for Hotel Management Joint Entrance Examination",
+    "homepage": "",
+    "cutoff": "https://nchmcounselling.nic.in/",
+    "acronym": "NCHMCT JEE"
+  },
+  {
+    "exam": "National Council for Hotel Management and Catering Technology Joint Entrance Examination",
+    "homepage": "",
+    "cutoff": "https://nchmcounselling.nic.in/",
+    "acronym": "NCHMCT JEE"
+  },
+  {
+    "exam": "Uttar Pradesh State Entrance Examination Bachelor of Hotel Management and Catering Technology",
+    "homepage": "https://uptac.admissions.nic.in/",
+    "cutoff": "https://uptac.admissions.nic.in/or-cr/",
+    "acronym": ""
+  },
+  {
+    "exam": "Bihar Sanskrit Studies Entrance",
+    "homepage": "https://bssb.bihar.gov.in/",
+    "cutoff": "",
+    "acronym": "BSSB"
+  },
+  {
+    "exam": "Central Sanskrit University Entrance Examination - Sanskrit Studies",
+    "homepage": "https://www.sanskrit.nic.in/",
+    "cutoff": "https://www.sanskrit.nic.in/admission.php",
+    "acronym": ""
+  },
+  {
+    "exam": "Chhattisgarh Sanskrit Studies Entrance",
+    "homepage": "https://www.csbraipur.org/",
+    "cutoff": "",
+    "acronym": "CGSVM"
+  },
+  {
+    "exam": "English and Foreign Languages University Entrance Examination - Pashto and Persian",
+    "homepage": "https://www.efluniversity.ac.in/",
+    "cutoff": "https://www.efluniversity.ac.in/academic-updates.php",
+    "acronym": "EFLU"
+  },
+  {
+    "exam": "Haryana Bachelor of Arts Entrance Examination",
+    "homepage": "https://highereduhry.ac.in/",
+    "cutoff": "https://admissions.highereduhry.ac.in/",
+    "acronym": "DHE Haryana"
+  },
+  {
+    "exam": "Himachal Pradesh Bachelor of Arts Entrance Examination",
+    "homepage": "https://www.hpuniv.ac.in/",
+    "cutoff": "https://nadmissions.hpushimla.in/",
+    "acronym": "HPU"
+  },
+  {
+    "exam": "Indira Gandhi National Tribal University Entrance Examination Folk Literature",
+    "homepage": "https://igntu.ac.in/",
+    "cutoff": "https://igntu.ac.in/admission.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Krea University Liberal Arts Entrance Examination",
+    "homepage": "https://krea.edu.in/",
+    "cutoff": "",
+    "acronym": "Krea SIAS"
+  },
+  {
+    "exam": "Madhya Pradesh Bachelor of Arts Entrance Examination",
+    "homepage": "https://highereducation.mp.gov.in/",
+    "cutoff": "",
+    "acronym": "MP ePravesh UG"
+  },
+  {
+    "exam": "Swami Vivekananda Yoga Anusandhana Samsthana Bachelor of Science Yoga Entrance Examination",
+    "homepage": "https://svyasa.edu.in/",
+    "cutoff": "",
+    "acronym": "S-VYASA"
+  },
+  {
+    "exam": "Symbiosis Liberal Arts Entrance",
+    "homepage": "https://ssla.edu.in/",
+    "cutoff": "https://ssla.edu.in/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "West Bengal Bachelor of Arts Admission",
+    "homepage": "https://wbcap.in/",
+    "cutoff": "https://wbcap.in/",
+    "acronym": "WBCAP"
+  },
+  {
+    "exam": "Aligarh Muslim University Entrance Examination - Law",
+    "homepage": "https://www.amucontrollerexams.com/",
+    "cutoff": "https://counselling.amuonline.ac.in/",
+    "acronym": "AMU BA LLB"
+  },
+  {
+    "exam": "All India Law Entrance Test",
+    "homepage": "https://nationallawuniversitydelhi.in/",
+    "cutoff": "https://nationallawuniversitydelhi.in/",
+    "acronym": "AILET"
+  },
+  {
+    "exam": "Andhra Pradesh Law Common Entrance Test",
+    "homepage": "https://cets.apsche.ap.gov.in/",
+    "cutoff": "https://lawcet-sche.aptonline.in/LAWCET/",
+    "acronym": ""
+  },
+  {
+    "exam": "Banaras Hindu University Undergraduate Entrance Test - Law",
+    "homepage": "https://www.bhu.ac.in/",
+    "cutoff": "https://bhucuet.samarth.edu.in/",
+    "acronym": "BHU UET Law"
+  },
+  {
+    "exam": "Christ University Law Entrance Examination",
+    "homepage": "https://christuniversity.in/",
+    "cutoff": "https://christuniversity.in/admission-all",
+    "acronym": ""
+  },
+  {
+    "exam": "Common Law Admission Test - Undergraduate",
+    "homepage": "https://consortiumofnlus.ac.in/",
+    "cutoff": "https://consortiumofnlus.ac.in/clat-2025/notifications.html",
+    "acronym": ""
+  },
+  {
+    "exam": "Kerala Law Entrance Examination",
+    "homepage": "https://cee.kerala.gov.in/",
+    "cutoff": "https://cee.kerala.gov.in/",
+    "acronym": "KLEE"
+  },
+  {
+    "exam": "Law Aptitude Test",
+    "homepage": "https://www.slat-test.org/",
+    "cutoff": "https://slat2026.ishinfosys.com/SLAT-SCD26/",
+    "acronym": "SLAT"
+  },
+  {
+    "exam": "Narsee Monjee Institute of Management Studies Law Aptitude Test",
+    "homepage": "https://www.nmims.edu/",
+    "cutoff": "https://www.nmims.edu/admission",
+    "acronym": ""
+  },
+  {
+    "exam": "Panjab University Undergraduate Law Entrance Test",
+    "homepage": "https://pglaw.puchd.ac.in/",
+    "cutoff": "https://results.puexam.in/EntranceHome2026.aspx",
+    "acronym": "PU UGLAW"
+  },
+  {
+    "exam": "Rajasthan University Law Entrance Test",
+    "homepage": "https://www.uniraj.ac.in/",
+    "cutoff": "https://admissions.univraj.org/rul/",
+    "acronym": "RULET"
+  },
+  {
+    "exam": "Symbiosis Law Admission Test",
+    "homepage": "https://www.slat-test.org/",
+    "cutoff": "https://slat2026.ishinfosys.com/SLAT-SCD26/",
+    "acronym": "SLAT"
+  },
+  {
+    "exam": "Tamil Nadu Dr Ambedkar Law University Entrance Test",
+    "homepage": "https://tndalu.ac.in/",
+    "cutoff": "https://www.tndalu.ac.in/",
+    "acronym": "TNDALU"
+  },
+  {
+    "exam": "Telangana Law Common Entrance Test",
+    "homepage": "https://lawcet.tgche.ac.in/",
+    "cutoff": "https://lawcetadm.tgche.ac.in/",
+    "acronym": "TG LAWCET"
+  },
+  {
+    "exam": "Haryana Bachelor of Business Administration Admission",
+    "homepage": "https://highereduhry.ac.in/",
+    "cutoff": "https://admissions.highereduhry.ac.in/",
+    "acronym": "DHE Haryana UG"
+  },
+  {
+    "exam": "Himachal Pradesh Bachelor of Business Administration Admission",
+    "homepage": "https://www.hpuniv.ac.in/",
+    "cutoff": "https://nadmissions.hpushimla.in/",
+    "acronym": "HPU"
+  },
+  {
+    "exam": "Indian Institute of Foreign Trade Entrance Examination",
+    "homepage": "https://www.iift.ac.in/",
+    "cutoff": "https://www.iift.ac.in/iift/new-admissions.php",
+    "acronym": "IIFT"
+  },
+  {
+    "exam": "Jammu and Kashmir Bachelor of Business Administration Admission",
+    "homepage": "https://www.jammuuniversity.ac.in/",
+    "cutoff": "https://www.jammuuniversity.ac.in/node/5007",
+    "acronym": ""
+  },
+  {
+    "exam": "Jharkhand Bachelor of Business Administration Admission",
+    "homepage": "https://universities.jharkhand.gov.in/",
+    "cutoff": "https://universities.jharkhand.gov.in/",
+    "acronym": "Chancellor Portal"
+  },
+  {
+    "exam": "Joint Integrated Programme in Management Admission Test",
+    "homepage": "https://www.iimj.ac.in/",
+    "cutoff": "https://exams.nta.nic.in/jipmat/",
+    "acronym": "JIPMAT"
+  },
+  {
+    "exam": "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate",
+    "homepage": "https://kiit.ac.in/",
+    "cutoff": "https://kiitee.kiit.ac.in/",
+    "acronym": "KIITEE"
+  },
+  {
+    "exam": "Karnataka Bachelor of Business Administration Entrance Examination",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Ladakh Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://highereducation.ladakh.gov.in/",
+    "cutoff": "https://universityofladakhadmission.samarth.edu.in/",
+    "acronym": ""
+  },
+  {
+    "exam": "Lakshadweep Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://lakshadweep.gov.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Madhya Pradesh Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://dte.mponline.gov.in/",
+    "cutoff": "https://dte.mponline.gov.in/Portal/Services/OnlineCounselling/NW/Utilities/Citizen/frmYearWiseCutoff.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Manipur Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://www.manipuruniv.ac.in/",
+    "cutoff": "https://manipurunivcuet.samarth.edu.in/",
+    "acronym": ""
+  },
+  {
+    "exam": "Meghalaya Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://www.nehu.ac.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Mizoram Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://mzu.edu.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Narsee Monjee Institute of Management Studies National Test for Programs After Twelfth",
+    "homepage": "https://npat.nmims.edu/",
+    "cutoff": "https://npat.nmims.edu/",
+    "acronym": "NPAT"
+  },
+  {
+    "exam": "Puducherry Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://www.pondiuni.edu.in/",
+    "cutoff": "https://admissions.pondiuni.edu.in/admissions/index.php",
+    "acronym": ""
+  },
+  {
+    "exam": "Punjab Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://www.punjabiuniversity.ac.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Rajasthan Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://hte.rajasthan.gov.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Shiv Nadar University Management Aptitude Test and Entrance Examination",
+    "homepage": "https://snu.edu.in",
+    "cutoff": "",
+    "acronym": "SNUSAT"
+  },
+  {
+    "exam": "Sikkim Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://cus.ac.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Tamil Nadu Bachelor of Business Administration Entrance Examination",
+    "homepage": "https://www.tngasa.in/",
+    "cutoff": "https://www.tngasa.in/",
+    "acronym": "TNGASA"
+  },
+  {
+    "exam": "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Journalism and Mass Communication",
+    "homepage": "https://ipu.ac.in/",
+    "cutoff": "https://ipu.admissions.nic.in/create-cut-off-2025-2026/",
+    "acronym": "IPU CET BJMC"
+  },
+  {
+    "exam": "Jamia Millia Islamia Mass Communication Entrance",
+    "homepage": "https://www.jmi.ac.in/",
+    "cutoff": "https://admission.jmi.ac.in/EntranceResults/UniversityResult",
+    "acronym": "JMI"
+  },
+  {
+    "exam": "Manipal Media Entrance",
+    "homepage": "https://www.manipal.edu",
+    "cutoff": "https://manipal.edu/mu/admission.html",
+    "acronym": "MET"
+  },
+  {
+    "exam": "Symbiosis Institute Of Media Entrance",
+    "homepage": "https://www.simc.edu/",
+    "cutoff": "https://www.simc.edu/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Armed Forces Medical College Entrance Examination",
+    "homepage": "https://afmc.nic.in/",
+    "cutoff": "https://afmc.nic.in/",
+    "acronym": "AFMC"
+  },
+  {
+    "exam": "National Eligibility cum Entrance Test Undergraduate",
+    "homepage": "https://neet.nta.nic.in/",
+    "cutoff": "https://mcc.nic.in/ug-medical-counselling/",
+    "acronym": "NEET UG"
+  },
+  {
+    "exam": "National Institute of Mental Health and Neuro Sciences Bachelor of Science Neurophysiology Entrance Examination",
+    "homepage": "https://www.nimhans.ac.in/",
+    "cutoff": "https://nimhans.ac.in/academics/admissions/",
+    "acronym": "NIMHANS"
+  },
+  {
+    "exam": "Rajasthan University of Health Sciences Entrance Examination",
+    "homepage": "https://www.ruhsraj.org/",
+    "cutoff": "https://www.ruhsraj.org/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "ALLIANCE UNIVERSITY ENTRANCE TEST",
+    "homepage": "https://www.alliance.edu.in/",
+    "cutoff": "https://www.alliance.edu.in/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Aligarh Muslim University Undergraduate Entrance Test",
+    "homepage": "https://www.amucontrollerexams.com/",
+    "cutoff": "https://www.amucontrollerexams.com/page/view/results-of-examination-1765513237",
+    "acronym": "AMU Entrance Test"
+  },
+  {
+    "exam": "Amity University Entrance Examination",
+    "homepage": "https://www.amity.edu/admission",
+    "cutoff": "",
+    "acronym": "Amity JEE"
+  },
+  {
+    "exam": "Aryabhatta Knowledge University Entrance Examination",
+    "homepage": "https://akubihar.ac.in/",
+    "cutoff": "https://akubihar.ac.in/Administration/ShowNotices.aspx",
+    "acronym": "AKUET"
+  },
+  {
+    "exam": "Ashoka University Aptitude and Aptitude Test - Interdisciplinary",
+    "homepage": "https://www.ashoka.edu.in/",
+    "cutoff": "",
+    "acronym": "AAT"
+  },
+  {
+    "exam": "Assam Combined Entrance Examination",
+    "homepage": "https://astu.ac.in/",
+    "cutoff": "https://astu.ac.in/?page_id=37683",
+    "acronym": "Assam CEE"
+  },
+  {
+    "exam": "Azim Premji University Undergraduate Entrance Examination",
+    "homepage": "https://azimpremjiuniversity.edu.in/admissions",
+    "cutoff": "",
+    "acronym": "APU Entrance"
+  },
+  {
+    "exam": "Bharati Vidyapeeth Common Entrance Test",
+    "homepage": "https://www.bvuniversity.edu.in/",
+    "cutoff": "https://www.bvuniversity.edu.in/admission-process",
+    "acronym": "BVP CET"
+  },
+  {
+    "exam": "Bihar Combined Entrance Competitive Examination",
+    "homepage": "https://bceceboard.bihar.gov.in/",
+    "cutoff": "https://bcece.admissions.nic.in/",
+    "acronym": "BCECE"
+  },
+  {
+    "exam": "Chandigarh University Common Entrance Test",
+    "homepage": "https://cucet.cuchd.in/",
+    "cutoff": "https://www.cuchd.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Christ University Entrance Examination",
+    "homepage": "https://christuniversity.in/",
+    "cutoff": "https://christuniversity.in/admission-all",
+    "acronym": ""
+  },
+  {
+    "exam": "Common University Entrance Test - Undergraduate",
+    "homepage": "https://cuet.nta.nic.in/",
+    "cutoff": "",
+    "acronym": "CUET UG"
+  },
+  {
+    "exam": "DAIICT Entrance Test",
+    "homepage": "https://www.daiict.ac.in/",
+    "cutoff": "https://www.daiict.ac.in/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "FLAME University Entrance Examination",
+    "homepage": "https://www.flame.edu.in/",
+    "cutoff": "https://www.flame.edu.in/admissions/undergraduate",
+    "acronym": ""
+  },
+  {
+    "exam": "Galgotias University Entrance Test",
+    "homepage": "https://www.galgotiasuniversity.edu.in/",
+    "cutoff": "",
+    "acronym": "GEUT"
+  },
+  {
+    "exam": "Goa Common Entrance Test",
+    "homepage": "https://dte.goa.gov.in/",
+    "cutoff": "https://dte.goa.gov.in/admission/degree-admission-lists",
+    "acronym": "GCET"
+  },
+  {
+    "exam": "Graphic Era University Entrance Test",
+    "homepage": "https://www.geu.ac.in/",
+    "cutoff": "https://www.geu.ac.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Gujarat Common Entrance Test",
+    "homepage": "https://gujcet.gseb.org/",
+    "cutoff": "https://gujacpc.admissions.nic.in/",
+    "acronym": "GUJCET"
+  },
+  {
+    "exam": "Guru Gobind Singh Indraprastha University Common Entrance Test",
+    "homepage": "https://ipu.ac.in/",
+    "cutoff": "https://ipu.admissions.nic.in/cut-off-2026-27/",
+    "acronym": "IPU CET"
+  },
+  {
+    "exam": "Himachal Pradesh Common Entrance Test",
+    "homepage": "https://www.hptechboard.com/",
+    "cutoff": "https://counselling-hptu.hp.gov.in/",
+    "acronym": "HPCET"
+  },
+  {
+    "exam": "Jain Entrance Test",
+    "homepage": "https://www.jainuniversity.ac.in",
+    "cutoff": "",
+    "acronym": "JET"
+  },
+  {
+    "exam": "Jharkhand Combined Entrance Competitive Examination",
+    "homepage": "https://jceceb.jharkhand.gov.in/",
+    "cutoff": "https://jceceb.jharkhand.gov.in/",
+    "acronym": "JCECE"
+  },
+  {
+    "exam": "Joint Entrance Examination JoSAA Joint Seat Allocation (JEE Main and Advanced)",
+    "homepage": "https://josaa.nic.in/",
+    "cutoff": "https://josaa.nic.in/or-cr/",
+    "acronym": "JoSAA"
+  },
+  {
+    "exam": "Joint Entrance Examination CSAB Special Rounds (JEE Main)",
+    "homepage": "https://csab.nic.in/",
+    "cutoff": "https://csab.nic.in/",
+    "acronym": "CSAB"
+  },
+  {
+    "exam": "Joint Entrance Examination CSAB NEUT North Eastern States and Union Territories (JEE Main)",
+    "homepage": "https://csab.nic.in/",
+    "cutoff": "https://csab.nic.in/",
+    "acronym": "CSAB-NEUT"
+  },
+  {
+    "exam": "Joint Entrance Examination JAC Delhi Joint Admission Counselling (JEE Main)",
+    "homepage": "https://jacdelhi.admissions.nic.in/",
+    "cutoff": "https://jacdelhi.admissions.nic.in/",
+    "acronym": "JAC Delhi"
+  },
+  {
+    "exam": "Joint Entrance Examination Advanced IIT Joint Admission (JEE Advanced)",
+    "homepage": "https://jeeadv.ac.in/",
+    "cutoff": "https://josaa.nic.in/or-cr/",
+    "acronym": "JEE Advanced"
+  },
+  {
+    "exam": "K. R. Mangalam University Entrance Test",
+    "homepage": "https://www.krmangalam.edu.in/",
+    "cutoff": "https://www.krmangalam.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Karnataka Common Entrance Test",
+    "homepage": "https://cetonline.karnataka.gov.in/kea/",
+    "cutoff": "https://keaonline.karnataka.gov.in/ugcet_result_2025/main/results.php",
+    "acronym": ""
+  },
+  {
+    "exam": "Krea University Entrance",
+    "homepage": "https://krea.edu.in/",
+    "cutoff": "",
+    "acronym": "KAT"
+  },
+  {
+    "exam": "Lovely Professional University National Entrance and Scholarship Test",
+    "homepage": "https://nest.lpu.in/",
+    "cutoff": "https://nest.lpu.in/",
+    "acronym": "LPUNEST"
+  },
+  {
+    "exam": "MIT World Peace University Entrance Test",
+    "homepage": "https://mitwpu.edu.in/",
+    "cutoff": "https://mitwpu.edu.in/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Maharashtra Common Entrance Test",
+    "homepage": "https://cetcell.mahacet.org/",
+    "cutoff": "https://fe2025.mahacet.org/StaticPages/HomePage",
+    "acronym": ""
+  },
+  {
+    "exam": "Manipal Entrance Test",
+    "homepage": "https://manipal.edu/mu/admission.html",
+    "cutoff": "https://manipal.edu/mu/admission/counseling.html",
+    "acronym": "MET"
+  },
+  {
+    "exam": "National Entrance Screening Test",
+    "homepage": "https://www.nestexam.in/",
+    "cutoff": "https://www.nestexam.in/",
+    "acronym": "NEST"
+  },
+  {
+    "exam": "O. P. Jindal Global University Entrance Test",
+    "homepage": "https://jgu.edu.in/",
+    "cutoff": "https://jgu.edu.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Odisha Joint Entrance Examination",
+    "homepage": "https://ojee.nic.in/",
+    "cutoff": "https://ojee.nic.in/opening-closing-rank/",
+    "acronym": "OJEE"
+  },
+  {
+    "exam": "Online Facilitation System for Students Bihar University Admission",
+    "homepage": "https://www.ofssbihar.in/",
+    "cutoff": "https://www.ofssbihar.net/sams/CollegeCutOffMarksCurr.aspx?id=1&yr=2026",
+    "acronym": "OFSS Bihar"
+  },
+  {
+    "exam": "PES Scholastic Aptitude Test",
+    "homepage": "https://www.pessat.com/",
+    "cutoff": "https://www.pessat.com/",
+    "acronym": "PESSAT"
+  },
+  {
+    "exam": "Parul University Entrance Test",
+    "homepage": "https://paruluniversity.ac.in/",
+    "cutoff": "https://admissions.paruluniversity.ac.in/",
+    "acronym": "PUET"
+  },
+  {
+    "exam": "Pearl Academy Entrance Examination",
+    "homepage": "https://pearlacademy.com/",
+    "cutoff": "https://pearlacademy.com/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Presidency University Bachelor Degree Entrance Test",
+    "homepage": "https://presiuniv.ac.in/",
+    "cutoff": "https://presiuniv.ac.in/web/admission.php",
+    "acronym": ""
+  },
+  {
+    "exam": "Presidency University Entrance Test",
+    "homepage": "https://presiuniv.ac.in/",
+    "cutoff": "https://presiuniv.ac.in/web/admission.php",
+    "acronym": ""
+  },
+  {
+    "exam": "REVA University Entrance Test",
+    "homepage": "https://www.reva.edu.in/",
+    "cutoff": "",
+    "acronym": "REVA CET"
+  },
+  {
+    "exam": "Rabindra Bharati University Entrance",
+    "homepage": "https://rbu.ac.in/",
+    "cutoff": "https://online.rbu.net.in/Home/NoticeGroupwise",
+    "acronym": "RBU"
+  },
+  {
+    "exam": "SRM Institute Admission Test",
+    "homepage": "https://applications.srmist.edu.in/",
+    "cutoff": "https://applications.srmist.edu.in/",
+    "acronym": "SRMJEEE"
+  },
+  {
+    "exam": "Sharda University Admission Test",
+    "homepage": "https://www.sharda.ac.in/admissions/suat",
+    "cutoff": "https://www.sharda.ac.in/admissions/suat",
+    "acronym": "SUAT"
+  },
+  {
+    "exam": "Shiv Nadar University Entrance Test",
+    "homepage": "https://snu.edu.in/",
+    "cutoff": "",
+    "acronym": "SNUSAT"
+  },
+  {
+    "exam": "Shiv Nadar University Scholastic Aptitude Test",
+    "homepage": "https://snu.edu.in/",
+    "cutoff": "",
+    "acronym": "SNUSAT"
+  },
+  {
+    "exam": "Sikkim Manipal University Entrance Test",
+    "homepage": "https://smu.edu.in/smu.html",
+    "cutoff": "https://smu.edu.in/smu/admissions.html",
+    "acronym": ""
+  },
+  {
+    "exam": "St Joseph's University Entrance Examination",
+    "homepage": "https://www.sju.edu.in/",
+    "cutoff": "https://www.sju.edu.in/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "St Xavier's College Entrance Examination",
+    "homepage": "https://www.sxccal.edu/",
+    "cutoff": "https://xaviers.edu/main/index.php/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "Symbiosis Entrance Test",
+    "homepage": "https://www.set-test.org/",
+    "cutoff": "https://www.set-test.org/set-overview.html",
+    "acronym": "SET"
+  },
+  {
+    "exam": "Tata Institute of Social Sciences Bachelor Admission Test",
+    "homepage": "https://www.tiss.edu/",
+    "cutoff": "https://admissions.tiss.ac.in/view/5/admissions/ba-ma-admissions/merit-list-ba-in-social-sciences-guwahati-off-camp/",
+    "acronym": "TISS-BAT"
+  },
+  {
+    "exam": "Tripura Board of Joint Entrance Examination",
+    "homepage": "https://tbjee.tripura.gov.in/",
+    "cutoff": "https://jeeonline.tripura.gov.in/",
+    "acronym": "TJEE"
+  },
+  {
+    "exam": "Uttarakhand State Entrance Examination",
+    "homepage": "https://uktech.ac.in/",
+    "cutoff": "https://uktech.ac.in/en/page/admissions",
+    "acronym": ""
+  },
+  {
+    "exam": "West Bengal Joint Entrance Examination",
+    "homepage": "https://wbjeeb.nic.in/wbjee/",
+    "cutoff": "https://admissions.nic.in/WBJEEB/Applicant/Report/OpenCloseRank.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Auxiliary Nurse Midwifery Admission",
+    "homepage": "https://www.indiannursingcouncil.org/",
+    "cutoff": "",
+    "acronym": "ANM"
+  },
+  {
+    "exam": "General Nursing and Midwifery Admission",
+    "homepage": "https://www.indiannursingcouncil.org/",
+    "cutoff": "",
+    "acronym": "GNM"
+  },
+  {
+    "exam": "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination",
+    "homepage": "https://jipmer.edu.in/",
+    "cutoff": "https://www.jipmer.edu.in/announcement/bsc-nursing-ahs-courses-counselling%E2%80%93-2025-26-academic-year",
+    "acronym": "JIPMER Nursing"
+  },
+  {
+    "exam": "Kerala Nursing Entrance Examination",
+    "homepage": "https://cee.kerala.gov.in/",
+    "cutoff": "https://lbscentre.in/examilbs/allotments.aspx",
+    "acronym": "LBS Nursing"
+  },
+  {
+    "exam": "Madhya Pradesh Pre Nursing Selection Test",
+    "homepage": "https://esb.mp.gov.in/",
+    "cutoff": "https://esb.mp.gov.in/results/RESULT_25/PNST_GNMTST_RES25/default_Results.htm",
+    "acronym": "MP PNST"
+  },
+  {
+    "exam": "Maharashtra Bachelor of Science Nursing Common Entrance Test",
+    "homepage": "https://cetcell.mahacet.org/",
+    "cutoff": "https://cetcell.mahacet.org/cap-_2025-26/",
+    "acronym": "MH B.Sc Nursing CET"
+  },
+  {
+    "exam": "Military Nursing Service Entrance Examination",
+    "homepage": "https://joinindianarmy.nic.in/",
+    "cutoff": "",
+    "acronym": "MNS"
+  },
+  {
+    "exam": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences Bachelor of Science Nursing Entrance Examination",
+    "homepage": "https://www.neigrihms.gov.in/",
+    "cutoff": "https://neigrihms.gov.in/examsnotification.html",
+    "acronym": "NEIGRIHMS B.Sc Nursing"
+  },
+  {
+    "exam": "Rajasthan University of Health Sciences Bachelor of Science Nursing Entrance Examination",
+    "homepage": "https://www.ruhsraj.org/",
+    "cutoff": "https://www.ruhsraj.org/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "Uttar Pradesh Common Nursing Entrance Test",
+    "homepage": "https://abvmuup.edu.in/",
+    "cutoff": "https://www.abvmucet26.co.in/",
+    "acronym": "UP CNET"
+  },
+  {
+    "exam": "Uttarakhand Nursing Entrance Exam",
+    "homepage": "https://hnbumu.ac.in/",
+    "cutoff": "https://hnbumu.ac.in/",
+    "acronym": "HNBUMU Nursing"
+  },
+  {
+    "exam": "West Bengal Joint Entrance Test for Nursing, Paramedical and Allied Sciences Undergraduate",
+    "homepage": "https://wbjeeb.nic.in/jenpas-ug/",
+    "cutoff": "https://wbjeeb.nic.in/jenpas-ug/",
+    "acronym": "JENPAS-UG"
+  },
+  {
+    "exam": "Baba Farid University of Health Sciences Punjab Para Medical Entrance Test",
+    "homepage": "https://bfuhs.ac.in/",
+    "cutoff": "https://bfuhs.ac.in/",
+    "acronym": "PPMET"
+  },
+  {
+    "exam": "Kerala Paramedical Entrance Examination",
+    "homepage": "https://www.lbscentre.kerala.gov.in/",
+    "cutoff": "https://lbscentre.in/nursingparam2026/Ranklist.aspx",
+    "acronym": "LBS Paramedical"
+  },
+  {
+    "exam": "Maharashtra Paramedical Common Entrance Test",
+    "homepage": "https://cetcell.mahacet.org/",
+    "cutoff": "https://medicalug2025.mahacet.org/",
+    "acronym": ""
+  },
+  {
+    "exam": "Paramedical State Common Entrance Test",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Punjab Para Medical Entrance Test Baba Farid University of Health Sciences",
+    "homepage": "https://bfuhs.ac.in/",
+    "cutoff": "https://bfuhs.ac.in/",
+    "acronym": "PPMET"
+  },
+  {
+    "exam": "Rajasthan University of Health Sciences Paramedical Entrance Examination",
+    "homepage": "https://www.ruhsraj.org/",
+    "cutoff": "https://www.ruhsraj.org/admission/",
+    "acronym": ""
+  },
+  {
+    "exam": "Uttar Pradesh Combined Paramedical Entrance Test",
+    "homepage": "https://abvmuup.edu.in/",
+    "cutoff": "https://www.abvmuup.edu.in/cpet.php",
+    "acronym": "UP CPET"
+  },
+  {
+    "exam": "Uttar Pradesh Paramedical Entrance Test",
+    "homepage": "https://abvmuup.edu.in/",
+    "cutoff": "https://www.abvmuup.edu.in/cpet.php",
+    "acronym": "UP CPET"
+  },
+  {
+    "exam": "Uttarakhand Paramedical Entrance Exam",
+    "homepage": "https://hnbumu.ac.in/",
+    "cutoff": "https://www.hnbumu.ac.in/",
+    "acronym": "HNBUMU Paramedical"
+  },
+  {
+    "exam": "West Bengal Paramedical Entrance Test",
+    "homepage": "https://wbjeeb.nic.in/jenpas-ug/",
+    "cutoff": "https://wbjeeb.nic.in/jenpas-ug/",
+    "acronym": "JENPAS UG"
+  },
+  {
+    "exam": "Chhattisgarh Pre Pharmacy and Health Sciences Test",
+    "homepage": "https://vyapamcg.cgstate.gov.in/",
+    "cutoff": "https://cgdteraipur.cgstate.gov.in/",
+    "acronym": "CG PPHT"
+  },
+  {
+    "exam": "Gujarat Common Entrance Test - Medical and Pharmacy",
+    "homepage": "https://www.medadmgujarat.org/",
+    "cutoff": "https://www.medadmgujarat.org/ug/home.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Andhra Pradesh Polytechnic Entrance Examination",
+    "homepage": "https://apsbtet.ap.gov.in/",
+    "cutoff": "https://polycet.ap.gov.in/",
+    "acronym": "AP POLYCET"
+  },
+  {
+    "exam": "Arunachal Pradesh Polytechnic Entrance Examination",
+    "homepage": "https://apdhte.nic.in/",
+    "cutoff": "https://apdhte.nic.in/",
+    "acronym": "APJEE"
+  },
+  {
+    "exam": "Assam Polytechnic Entrance Examination",
+    "homepage": "https://dte.assam.gov.in/",
+    "cutoff": "https://dte-assamadm.samarth.ac.in/",
+    "acronym": "Assam PAT"
+  },
+  {
+    "exam": "Bihar Polytechnic Common Entrance Competitive Examination",
+    "homepage": "https://bceceboard.bihar.gov.in/",
+    "cutoff": "https://bceceboard.bihar.gov.in/pdf_Web/DC_PE25_FOCFF.pdf",
+    "acronym": "DCECE (PE)"
+  },
+  {
+    "exam": "Chandigarh Polytechnic Entrance",
+    "homepage": "https://chdtechnicaleducation.gov.in/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Chhattisgarh Pre Polytechnic Test",
+    "homepage": "https://vyapamcg.cgstate.gov.in/",
+    "cutoff": "https://cgdte.admissions.nic.in/opening-and-closing-ranks/",
+    "acronym": "CG PPT"
+  },
+  {
+    "exam": "Dadra & Nagar Haveli Polytechnic Entrance",
+    "homepage": "https://www.dhtednhdd.in/",
+    "cutoff": "https://dhtednhdd.in/Diploma%20Allotment.html",
+    "acronym": ""
+  },
+  {
+    "exam": "Delhi Common Entrance Test for Polytechnic Admission",
+    "homepage": "https://tte.delhi.gov.in/",
+    "cutoff": "https://tte.delhi.gov.in/",
+    "acronym": "Delhi CET"
+  },
+  {
+    "exam": "Goa Polytechnic Entrance Examination",
+    "homepage": "https://dte.goa.gov.in/",
+    "cutoff": "https://dte.goa.gov.in/admission",
+    "acronym": ""
+  },
+  {
+    "exam": "Gujarat Common Entrance Test - Polytechnic",
+    "homepage": "https://acpdc.gujarat.gov.in/",
+    "cutoff": "https://gujdiploma.admissions.nic.in/fydiploma/",
+    "acronym": "ACPDC Diploma"
+  },
+  {
+    "exam": "Himachal Pradesh Polytechnic Admission Test",
+    "homepage": "https://www.hptechboard.com/",
+    "cutoff": "https://www.eakadamik.in/",
+    "acronym": "HP PAT"
+  },
+  {
+    "exam": "Himachal Pradesh Polytechnic Entrance",
+    "homepage": "https://www.hptechboard.com/",
+    "cutoff": "https://www.hptechboard.com/",
+    "acronym": "HP PAT"
+  },
+  {
+    "exam": "Jharkhand Combined Entrance Competitive Examination Pre Polytechnic Test",
+    "homepage": "https://jceceb.jharkhand.gov.in/",
+    "cutoff": "https://jceceb.jharkhand.gov.in/",
+    "acronym": "PECE"
+  },
+  {
+    "exam": "Joint Entrance Examination Council Uttar Pradesh Polytechnic Entrance Examination",
+    "homepage": "https://jeecup.admissions.nic.in/",
+    "cutoff": "https://jeecup.admissions.nic.in/document/jeecup-counselling-opening-and-closing-rank-2025/",
+    "acronym": "JEECUP"
+  },
+  {
+    "exam": "Kashmir Polytechnic Entrance",
+    "homepage": "https://jkbopee.gov.in/",
+    "cutoff": "https://www.jkbopee.gov.in/Notifications.aspx",
+    "acronym": "JK PET"
+  },
+  {
+    "exam": "Kerala Polytechnic Entrance Examination",
+    "homepage": "https://www.polyadmission.org/",
+    "cutoff": "https://www.polyadmission.org/",
+    "acronym": "Kerala Polytechnic"
+  },
+  {
+    "exam": "Madhya Pradesh Polytechnic Entrance Examination",
+    "homepage": "https://dte.mponline.gov.in/",
+    "cutoff": "https://dte.mponline.gov.in/portal/",
+    "acronym": ""
+  },
+  {
+    "exam": "Madhya Pradesh Pre Polytechnic Test",
+    "homepage": "https://esb.mp.gov.in/",
+    "cutoff": "https://dte.mponline.gov.in/",
+    "acronym": "MP PPT"
+  },
+  {
+    "exam": "Maharashtra Polytechnic Entrance Examination",
+    "homepage": "https://poly25.dtemaharashtra.gov.in/",
+    "cutoff": "https://poly25.dtemaharashtra.gov.in/diploma25/index.php/hp_controller/instwiseallotment",
+    "acronym": ""
+  },
+  {
+    "exam": "Manipur Polytechnic Entrance Examination",
+    "homepage": "https://techedu.mn.gov.in/",
+    "cutoff": "https://techedu.mn.gov.in/en/notification/",
+    "acronym": "MPAT"
+  },
+  {
+    "exam": "Meghalaya Polytechnic Entrance Examination",
+    "homepage": "https://megeducation.gov.in/dhte/pages/dhte.html",
+    "cutoff": "https://megeducation.gov.in/dhte/pages/merit%20list.html",
+    "acronym": "MPAT"
+  },
+  {
+    "exam": "Mizoram Polytechnic Entrance",
+    "homepage": "https://highereducation.mizoram.gov.in/",
+    "cutoff": "https://dhte.mizoram.gov.in/category/notice-board",
+    "acronym": "MDEE"
+  },
+  {
+    "exam": "Nagaland Polytechnic Entrance",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": "DEE"
+  },
+  {
+    "exam": "Odisha Diploma Entrance Test",
+    "homepage": "https://skill.samsodisha.gov.in/",
+    "cutoff": "https://skill.samsodisha.gov.in/meritlist.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Odisha Polytechnic Entrance Examination",
+    "homepage": "https://skill.samsodisha.gov.in/",
+    "cutoff": "https://skill.samsodisha.gov.in/Website/Diploma/dipHome.aspx",
+    "acronym": ""
+  },
+  {
+    "exam": "Puducherry Polytechnic Entrance",
+    "homepage": "https://centac.py.gov.in/",
+    "cutoff": "https://centacpuducherry.in/",
+    "acronym": "CENTAC"
+  },
+  {
+    "exam": "Punjab Joint Entrance Test Diploma",
+    "homepage": "https://punjabteched.com/",
+    "cutoff": "https://pbdiploma.admissions.nic.in/allotment-result/",
+    "acronym": "Punjab JET"
+  },
+  {
+    "exam": "Punjab State Board of Technical Education Polytechnic Admission Test",
+    "homepage": "https://punjabteched.com/",
+    "cutoff": "https://pbdiploma.admissions.nic.in/allotment-result/",
+    "acronym": "PSBTE PAT"
+  },
+  {
+    "exam": "Rajasthan Polytechnic Entrance Examination",
+    "homepage": "https://dte.rajasthan.gov.in/",
+    "cutoff": "https://dteapp.hte.rajasthan.gov.in/",
+    "acronym": "DTE Rajasthan Polytechnic"
+  },
+  {
+    "exam": "Sikkim Polytechnic Entrance Examination",
+    "homepage": "https://sikkim.gov.in/departments/department-of-human-resource-development",
+    "cutoff": "https://sikkim.gov.in/departments/department-of-human-resource-development",
+    "acronym": ""
+  },
+  {
+    "exam": "Tamil Nadu Polytechnic Entrance Examination",
+    "homepage": "https://dte.tn.gov.in/",
+    "cutoff": "https://www.tnpoly.in/",
+    "acronym": "TN DOTE Polytechnic"
+  },
+  {
+    "exam": "Telangana State Polytechnic Common Entrance Test",
+    "homepage": "https://polycet.sbtet.telangana.gov.in/",
+    "cutoff": "https://tgpolycet.nic.in/",
+    "acronym": "TS POLYCET"
+  },
+  {
+    "exam": "Tripura Polytechnic Entrance Examination",
+    "homepage": "https://highereducation.tripura.gov.in/",
+    "cutoff": "https://deeet.tripura.gov.in/",
+    "acronym": "DEEET"
+  },
+  {
+    "exam": "Uttarakhand Joint Entrance Examination Polytechnic",
+    "homepage": "https://ubterjeep.co.in/",
+    "cutoff": "https://ubterjeep.co.in/Result/Jeeprank.aspx",
+    "acronym": "UBTER JEEP"
+  },
+  {
+    "exam": "Chennai Mathematical Institute Entrance Examination",
+    "homepage": "https://www.cmi.ac.in/",
+    "cutoff": "https://www.cmi.ac.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Indian Institute of Science Bachelor of Science Research Admission",
+    "homepage": "https://www.iisc.ac.in/admissions/",
+    "cutoff": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf",
+    "acronym": "IISc BS Research"
+  },
+  {
+    "exam": "Indian Institutes of Science Education and Research Aptitude Test",
+    "homepage": "https://iiseradmission.in/",
+    "cutoff": "https://www.iiseradmission.in/",
+    "acronym": "IISER IAT"
+  },
+  {
+    "exam": "National Standard Examination",
+    "homepage": "https://www.iapt.org.in/",
+    "cutoff": "https://www.iapt.org.in/",
+    "acronym": "NSE"
+  },
+  {
+    "exam": "Jamia Social Work Entrance",
+    "homepage": "https://www.jmi.ac.in/",
+    "cutoff": "https://admission.jmi.ac.in/EntranceResults/UniversityResult",
+    "acronym": "JMI MSW"
+  },
+  {
+    "exam": "Loyola College Social Work Admission",
+    "homepage": "https://www.loyolacollege.edu/",
+    "cutoff": "",
+    "acronym": ""
+  },
+  {
+    "exam": "Madras School Of Social Work Entrance",
+    "homepage": "https://mssw.in/",
+    "cutoff": "https://mssw.in/admissions/",
+    "acronym": ""
+  },
+  {
+    "exam": "Central Teacher Eligibility Test",
+    "homepage": "https://ctet.nic.in/",
+    "cutoff": "https://ctet.nic.in/",
+    "acronym": "CTET"
+  },
+  {
+    "exam": "Integrated Bachelor of Arts and Bachelor of Education Entrance Examination",
+    "homepage": "",
+    "cutoff": "https://exams.nta.nic.in/ncet/",
+    "acronym": "NCET"
+  },
+  {
+    "exam": "Rajasthan Pre Bachelor of Education and Basic School Teaching Certificate Entrance Examination",
+    "homepage": "https://ptetvmoukota2025.in/",
+    "cutoff": "https://ptetvmoukota2025.in/",
+    "acronym": "PTET / Pre BSTC"
+  },
+  {
+    "exam": "State Teacher Eligibility Tests",
+    "homepage": "",
+    "cutoff": "",
+    "acronym": "TET"
+  },
+  {
+    "exam": "AVEE - Assam Veterinary Entrance Examination",
+    "homepage": "https://www.aau.ac.in/",
+    "cutoff": "https://admission.aau.ac.in/",
+    "acronym": "AAU-VET"
+  },
+  {
+    "exam": "All India Veterinary Entrance Test",
+    "homepage": "https://mcc.nic.in/",
+    "cutoff": "https://vci.admissions.nic.in/results/",
+    "acronym": "AIPVT / VCI Counselling"
+  },
+  {
+    "exam": "Kerala Veterinary Entrance Examination",
+    "homepage": "https://cee.kerala.gov.in/",
+    "cutoff": "https://cee.kerala.gov.in/keam2025",
+    "acronym": "KEAM (Veterinary)"
+  },
+  {
+    "exam": "Madhya Pradesh Pre Veterinary and Fisheries Test",
+    "homepage": "https://esb.mp.gov.in/",
+    "cutoff": "https://esb.mp.gov.in/",
+    "acronym": "MP PV&FT"
+  },
+  {
+    "exam": "Rajasthan Pre Veterinary Test",
+    "homepage": "https://rajuvas.ac.in/",
+    "cutoff": "https://rajuvas.ac.in/admission/",
+    "acronym": "RPVT"
+  },
+  {
+    "exam": "Advanced Industrial Training Institute Courses Admission",
+    "homepage": "https://dgt.gov.in/en",
+    "cutoff": "https://nimionlineadmission.in/",
+    "acronym": "AICET-Diploma"
+  },
+  {
+    "exam": "Craft Instructor Training Scheme Admission",
+    "homepage": "https://nimionlineadmission.in/",
+    "cutoff": "https://nimionlineadmission.in/",
+    "acronym": "CITS"
+  },
+  {
+    "exam": "Dual System Training Admission",
+    "homepage": "https://dgt.gov.in/",
+    "cutoff": "https://dgt.gov.in/",
+    "acronym": "DST"
+  },
+  {
+    "exam": "Industrial Training Institute Admission National Council for Vocational Training",
+    "homepage": "https://dgt.gov.in/",
+    "cutoff": "",
+    "acronym": "NCVT ITI"
+  },
+  {
+    "exam": "Industrial Training Institute Admission State Council for Vocational Training",
+    "homepage": "https://dgt.gov.in/en",
+    "cutoff": "",
+    "acronym": "SCVT ITI"
+  },
+  {
+    "exam": "Industrial Training Institute Trades Admission",
+    "homepage": "https://dgt.gov.in/",
+    "cutoff": "",
+    "acronym": "ITI"
+  },
+  {
+    "exam": "Oberoi Systematic Training and Education Programme",
+    "homepage": "https://www.oberoigroup.com/learning-programmes/step.aspx",
+    "cutoff": "",
+    "acronym": "Oberoi STEP"
+  },
+  {
+    "exam": "Pradhan Mantri Kaushal Vikas Yojana",
+    "homepage": "https://www.skillindiadigital.gov.in/",
+    "cutoff": "",
+    "acronym": "PMKVY"
+  }
 ]
