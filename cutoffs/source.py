@@ -19,13 +19,22 @@ from cutoffs.schema import empty_frame, normalize
 
 @dataclass(frozen=True)
 class SourceMeta:
-    """Static description of a cutoff source, used by the UI to list/iterate."""
+    """Static description of a cutoff source, used by the UI to list/iterate.
+
+    This is the single home for a source's identity: its registry key (``name``),
+    the human ``body_label`` that lands in the ``Body`` column, and the two links
+    (``website`` = official homepage, ``source_url`` = where the data is taken
+    from). Enrichment reads the links straight off the meta — no parallel maps.
+    """
 
     name: str               # unique key, e.g. "josaa"
     exam: str               # e.g. "JEE Advanced"
     level: str              # "UG" or "PG"
     states: tuple[str, ...] = field(default_factory=tuple)  # scope; () => All India
     data_format: str = "html"  # "html", "pdf", "json", ...
+    body_label: str = ""    # canonical Body value, e.g. "JoSAA", "Rajasthan DTE"
+    website: str = ""       # official homepage (shown as the Website link)
+    source_url: str = ""    # page/PDF the data is taken from (Data-taken-from link)
 
 
 class CutoffSource(abc.ABC):

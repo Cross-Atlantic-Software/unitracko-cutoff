@@ -62,3 +62,26 @@ def test_ingest_individual_body(tmp_path):
 
 def test_ingest_available_lists_sources():
     assert "josaa" in ingest.available()
+
+
+def test_ingest_writes_freshness_sidecar(tmp_path):
+    path = tmp_path / "out.parquet"
+    df = ingest.run(names=["mhtcet"], mode="cached", path=path)
+    meta = ingest.load_meta(path)
+    assert (path.with_name("dataset_meta.json")).exists()
+    assert meta["mode"] == "cached"
+    assert meta["rows"] == len(df)
+    assert meta["sources"] == 1
+    assert meta["generated_at"]  # ISO timestamp present
+
+
+def test_load_meta_missing_returns_empty(tmp_path):
+    assert ingest.load_meta(tmp_path / "absent.parquet") == {}
+
+
+def test_enrichment_columns_present_after_ingest(tmp_path):
+    path = tmp_path / "out.parquet"
+    df = ingest.run(names=["josaa"], mode="cached", path=path)
+    # B1/A6: links come from SourceMeta; CategoryGroup is derived.
+    assert (df["Website"] == "https://josaa.nic.in/").all()
+    assert df["CategoryGroup"].notna().any()

@@ -7,10 +7,11 @@ import pandas as pd
 from cutoffs.schema import COLUMNS, DTYPES, empty_frame, normalize
 
 
-def test_columns_are_the_thirteen_canonical():
+def test_columns_are_the_canonical_set():
     assert COLUMNS == [
-        "Body", "Exam", "Level", "State", "Year", "Round", "Institute",
-        "Branch", "Category", "Quota", "Gender", "OpeningRank", "ClosingRank",
+        "Body", "Exam", "Website", "Level", "State", "City", "Institute",
+        "Program", "Branch", "Category", "CategoryGroup", "Quota", "Gender",
+        "Year", "Round", "OpeningRank", "ClosingRank", "SourceURL",
     ]
 
 

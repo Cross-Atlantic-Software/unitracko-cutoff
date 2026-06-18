@@ -8,12 +8,13 @@
 
 from __future__ import annotations
 
+import io
 import logging
 
-import httpx
 import pandas as pd
 
 from cutoffs.adapters._bundled import read_bundled
+from cutoffs.adapters._http import fetch
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
 
@@ -23,12 +24,6 @@ _ORCR_URL = (
     "https://josaa.admissions.nic.in/applicant/seatallotmentresult/"
     "currentallotmentresult.aspx"
 )
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    )
-}
 
 
 @register
@@ -39,6 +34,9 @@ class JoSAA(CutoffSource):
         level="UG",
         states=(),  # All India
         data_format="html",
+        body_label="JoSAA",
+        website="https://josaa.nic.in/",
+        source_url="https://josaa.admissions.nic.in/applicant/seatallotmentresult/",
     )
 
     def load_cached(self) -> pd.DataFrame:
@@ -53,10 +51,10 @@ class JoSAA(CutoffSource):
         snapshot so the pipeline is never left empty.
         """
         try:
-            resp = httpx.get(_ORCR_URL, headers=_HEADERS, timeout=15,
-                             follow_redirects=True)
-            resp.raise_for_status()
-            tables = pd.read_html(resp.text)
+            resp = fetch(_ORCR_URL, timeout=15)
+            # pandas 3.0 treats a bare string as a path/URL; wrap in StringIO so
+            # the live HTML is parsed as literal markup (not silently swallowed).
+            tables = pd.read_html(io.StringIO(resp.text))
             frames = [t for t in tables if self._looks_like_orcr(t)]
             if frames:
                 return self.normalize(self._reshape(pd.concat(frames)))
@@ -82,8 +80,8 @@ class JoSAA(CutoffSource):
             "Closing Rank": "ClosingRank",
         }
         out = table.rename(columns=rename)
-        out["Body"] = "JoSAA"
+        out["Body"] = self.meta.body_label
         out["Exam"] = self.meta.exam
-        out["Level"] = "UG"
+        out["Level"] = self.meta.level
         out["State"] = "All India"
         return out

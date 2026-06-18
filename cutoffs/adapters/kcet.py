@@ -21,6 +21,9 @@ class KCET(CutoffSource):
         level="UG",
         states=("Karnataka",),
         data_format="pdf",
+        body_label="KCET",
+        website="https://cetonline.karnataka.gov.in/kea/",
+        source_url="https://cetonline.karnataka.gov.in/kea/",
     )
 
     def load_cached(self) -> pd.DataFrame:

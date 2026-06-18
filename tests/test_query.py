@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import pytest
 
-from cutoffs.query import CutoffQuery, distinct_values
+from cutoffs.query import (
+    CutoffQuery, SQLError, colleges_for_exam, distinct_values, run_sql,
+)
 from cutoffs.schema import COLUMNS
 from cutoffs.storage import write_parquet
 
@@ -86,3 +88,79 @@ def test_distinct_values(dataset):
 
 def test_distinct_values_missing_file(tmp_path):
     assert distinct_values("Body", tmp_path / "absent.parquet") == []
+
+
+def test_colleges_for_exam_aggregates_one_row_per_college(dataset):
+    df = colleges_for_exam("JEE Advanced", dataset)
+    # JoSAA sample has three distinct institutes for this exam.
+    assert len(df) == 3
+    assert set(df["College"]) == {"IIT Bombay", "IIT Delhi", "IIT Madras"}
+    madras = df[df["College"] == "IIT Madras"].iloc[0]
+    assert madras["Branches"] == 1
+    assert madras["BestClosing"] == 1200
+    assert madras["Records"] == 1
+
+
+def test_colleges_for_exam_blank_or_missing_returns_empty(dataset, tmp_path):
+    assert colleges_for_exam("", dataset).empty
+    assert colleges_for_exam("JEE Advanced", tmp_path / "absent.parquet").empty
+
+
+def test_where_between_inclusive_bounds(dataset):
+    df = CutoffQuery(dataset).where_between("ClosingRank", 66, 350).to_df()
+    assert sorted(df["ClosingRank"].tolist()) == [66, 110, 350]
+    # open-ended high bound
+    assert CutoffQuery(dataset).where_between("ClosingRank", 1000).to_df()[
+        "ClosingRank"].tolist() == [1200]
+
+
+def test_where_contains_is_case_insensitive(dataset):
+    df = CutoffQuery(dataset).where_contains("Institute", "iit").to_df()
+    assert len(df) == 3  # IIT Bombay/Delhi/Madras
+    assert CutoffQuery(dataset).where_contains("Institute", "coep").to_df()[
+        "Institute"].tolist() == ["COEP Pune"]
+
+
+def test_where_contains_escapes_wildcards(dataset):
+    # A literal '%' must match itself, not act as a wildcard.
+    assert CutoffQuery(dataset).where_contains("Institute", "%").to_df().empty
+
+
+def test_count_matches_to_df(dataset):
+    q = CutoffQuery(dataset).where("Body", "JoSAA")
+    assert q.count() == len(q.to_df()) == 3
+
+
+def test_group_stats_aggregates(dataset):
+    stats = CutoffQuery(dataset).group_stats(["Body"])
+    assert set(stats["Body"]) == {"JoSAA", "MHT-CET"}
+    josaa = stats[stats["Body"] == "JoSAA"].iloc[0]
+    assert josaa["Seats"] == 3
+    assert josaa["BestClosing"] == 66
+    assert josaa["WorstClosing"] == 1200
+
+
+def test_group_stats_empty_for_no_group(dataset):
+    assert CutoffQuery(dataset).group_stats([]).empty
+
+
+def test_run_sql_select(dataset):
+    out = run_sql("SELECT Body, count(*) n FROM cutoffs GROUP BY Body", dataset)
+    assert set(out["Body"]) == {"JoSAA", "MHT-CET"}
+
+
+def test_run_sql_appends_limit(dataset):
+    out = run_sql("SELECT * FROM cutoffs", dataset, limit=2)
+    assert len(out) == 2
+
+
+@pytest.mark.parametrize("bad", [
+    "DROP TABLE cutoffs",
+    "SELECT 1; SELECT 2",
+    "UPDATE cutoffs SET Body='x'",
+    "ATTACH 'evil.db'",
+    "",
+])
+def test_run_sql_rejects_unsafe(dataset, bad):
+    with pytest.raises(SQLError):
+        run_sql(bad, dataset)

@@ -11,10 +11,10 @@ from __future__ import annotations
 
 import logging
 
-import httpx
 import pandas as pd
 
 from cutoffs.adapters._bundled import read_bundled
+from cutoffs.adapters._http import fetch
 from cutoffs.adapters._pdf import parse_cutoff_pdf
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
@@ -24,12 +24,6 @@ _log = logging.getLogger(__name__)
 # Official CAP cutoff PDFs are published per round on the CET Cell portal. Set a
 # concrete round PDF URL here (or pass one to fetch_latest) to pull live data.
 _CUTOFF_PDF_URL = ""
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    )
-}
 
 
 @register
@@ -40,6 +34,9 @@ class MHTCET(CutoffSource):
         level="UG",
         states=("Maharashtra",),
         data_format="pdf",
+        body_label="MHT-CET",
+        website="https://cetcell.mahacet.org/",
+        source_url="https://fe2024.mahacet.org/StaticPages/HTML_FrmInstituteCutOff.aspx",
     )
 
     #: Set to a concrete CAP-round cutoff PDF URL to pull live data.
@@ -53,11 +50,10 @@ class MHTCET(CutoffSource):
         if not self.pdf_url:
             return self.load_cached()
         try:
-            resp = httpx.get(self.pdf_url, headers=_HEADERS, timeout=30,
-                             follow_redirects=True)
-            resp.raise_for_status()
+            resp = fetch(self.pdf_url, timeout=30)
             df = parse_cutoff_pdf(resp.content, exam=self.meta.exam,
-                                  body="MHT-CET", level="UG", state="Maharashtra")
+                                  body=self.meta.body_label, level=self.meta.level,
+                                  state="Maharashtra")
             df = self.normalize(df)
             if not df.empty:
                 return df

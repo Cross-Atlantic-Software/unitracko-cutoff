@@ -9,10 +9,10 @@ from __future__ import annotations
 
 import logging
 
-import httpx
 import pandas as pd
 
 from cutoffs.adapters._bundled import read_bundled
+from cutoffs.adapters._http import fetch
 from cutoffs.adapters._pdf import parse_cutoff_pdf
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
@@ -20,8 +20,6 @@ from cutoffs.source import CutoffSource, SourceMeta
 _log = logging.getLogger(__name__)
 
 _CUTOFF_PDF = "https://bceceboard.bihar.gov.in/pdf_Web/DC_PE25_FOCFF.pdf"
-_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
 @register
@@ -32,22 +30,23 @@ class BiharPolytechnic(CutoffSource):
         level="Diploma",
         states=("Bihar",),
         data_format="pdf",
+        body_label="BCECE",
+        website="https://bceceboard.bihar.gov.in/",
+        source_url=_CUTOFF_PDF,
     )
 
     def load_cached(self) -> pd.DataFrame:
         df = self.normalize(read_bundled("biharpoly_cached.csv"))
-        df["Body"] = "BCECE"                   # match fetch_latest's label
+        df["Body"] = self.meta.body_label     # match fetch_latest's label
         df["Year"] = df["Year"].fillna(2025)   # DCECE 2025 snapshot
         return df
 
     def fetch_latest(self) -> pd.DataFrame:
         try:
-            resp = httpx.get(_CUTOFF_PDF, headers=_HEADERS, timeout=40,
-                             follow_redirects=True)
-            resp.raise_for_status()
+            resp = fetch(_CUTOFF_PDF, timeout=40)
             df = self.normalize(parse_cutoff_pdf(
-                resp.content, exam=self.meta.exam, body="BCECE",
-                level="Diploma", state="Bihar"))
+                resp.content, exam=self.meta.exam, body=self.meta.body_label,
+                level=self.meta.level, state="Bihar"))
             if not df.empty:
                 return df
         except Exception as exc:

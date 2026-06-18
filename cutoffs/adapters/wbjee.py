@@ -21,6 +21,9 @@ class WBJEE(CutoffSource):
         level="UG",
         states=("West Bengal",),
         data_format="html",
+        body_label="WBJEE",
+        website="https://wbjeeb.nic.in/",
+        source_url="https://wbjeeb.nic.in/",
     )
 
     def load_cached(self) -> pd.DataFrame:

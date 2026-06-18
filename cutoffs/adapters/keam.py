@@ -11,18 +11,16 @@ import io
 import logging
 import re
 
-import httpx
 import pandas as pd
 
 from cutoffs.adapters._bundled import read_bundled
+from cutoffs.adapters._http import fetch
 from cutoffs.registry import register
 from cutoffs.source import CutoffSource, SourceMeta
 
 _log = logging.getLogger(__name__)
 
 _LASTRANK_PDF = "https://cee.kerala.gov.in/keam2025/list/lastrank/eng-trial.pdf"
-_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 _CAT_CODES = {"SM", "EZ", "MU", "LA", "DV", "VK", "BH", "BX", "KN", "KU",
               "SC", "ST", "EW", "FW", "DK", "KO", "BP", "GU", "TM"}
 
@@ -88,6 +86,9 @@ class KEAM(CutoffSource):
         level="UG",
         states=("Kerala",),
         data_format="pdf",
+        body_label="CEE Kerala",
+        website="https://cee.kerala.gov.in/",
+        source_url=_LASTRANK_PDF,
     )
 
     def load_cached(self) -> pd.DataFrame:
@@ -95,9 +96,7 @@ class KEAM(CutoffSource):
 
     def fetch_latest(self) -> pd.DataFrame:
         try:
-            resp = httpx.get(_LASTRANK_PDF, headers=_HEADERS, timeout=40,
-                             follow_redirects=True)
-            resp.raise_for_status()
+            resp = fetch(_LASTRANK_PDF, timeout=40)
             df = self.normalize(parse_keam_pdf(resp.content, exam=self.meta.exam))
             if not df.empty:
                 return df
