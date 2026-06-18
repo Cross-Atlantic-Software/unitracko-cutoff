@@ -25,15 +25,23 @@ XLSX = ROOT / "cutoffexamsheet.xlsx"
 # CSV mirror of the exam sheet, committed so the catalog builds with pandas core
 # only (no openpyxl) — important for minimal deploy environments.
 SHEET_CSV = ROOT / "cutoffexamsheet.csv"
+# Richer curated sheet: per-exam cutoff status + aggregator fallback links
+# (CollegeDunia/Shiksha/Careers360/CollegeDekho). CSV mirror committed for the
+# same pandas-core-only reason; falls back to the xlsx if the mirror is absent.
+EXTRAS_XLSX = ROOT / "EXAMlinkssheet.xlsx"
+EXTRAS_CSV = ROOT / "examlinkssheet.csv"
 PROBE = ROOT / "data" / "source_probe.csv"
 CATALOG_PATH = ROOT / "data" / "catalog.parquet"
 ENRICHMENT_PATH = Path(__file__).resolve().parent / "data" / "enrichment.json"
 LINKS_PATH = Path(__file__).resolve().parent / "data" / "links.json"
 
+# Aggregator columns surfaced as cutoff fallbacks (official links stay separate).
+AGGREGATOR_COLUMNS = ["CollegeDunia", "Shiksha", "Careers360", "CollegeDekho"]
+
 CATALOG_COLUMNS = [
     "Exam", "Acronym", "Category", "Level", "State", "Body", "Metric",
-    "Homepage", "CutoffURL", "DataFormat", "Scrapeable",
-    "Applicants", "Seats", "Notes",
+    "Homepage", "CutoffURL", "CutoffStatus", "DataFormat", "Scrapeable",
+    "Applicants", "Seats", "Notes", *AGGREGATOR_COLUMNS,
 ]
 
 # --------------------------------------------------------------------------
@@ -260,6 +268,47 @@ def _clean(text: object) -> str:
     return re.sub(r"\s+", " ", s.replace("–", " - ").replace("—", " - ")).strip()
 
 
+def _load_extras() -> pd.DataFrame:
+    """Read the curated status + aggregator-links sheet (CSV mirror preferred).
+
+    Returns a frame keyed by cleaned exam name with ``CutoffStatus`` and the four
+    aggregator URL columns. Returns an empty frame if neither source exists, so
+    the catalog still builds without the overlay.
+    """
+    cols = ["Exam", "CutoffStatus", *AGGREGATOR_COLUMNS]
+    if EXTRAS_CSV.exists():
+        df = pd.read_csv(EXTRAS_CSV)
+    elif EXTRAS_XLSX.exists():
+        df = pd.read_excel(EXTRAS_XLSX).rename(columns={
+            "Exam Name": "Exam", "Status of cutoff": "CutoffStatus",
+            "Collge duniya": "CollegeDunia", "Shiksha": "Shiksha",
+            "Career 360": "Careers360", "collge dekho": "CollegeDekho",
+        })
+    else:
+        return pd.DataFrame(columns=cols)
+
+    for c in cols:
+        df[c] = df[c].map(_clean) if c in df.columns else ""
+    # Drop the stray duplicated header row that leaked into the source data.
+    df = df[df["Exam"] != "Exam Name"]
+    return df[cols].drop_duplicates("Exam")
+
+
+def _apply_extras(cat: pd.DataFrame, extras: pd.DataFrame) -> pd.DataFrame:
+    """Overlay cutoff status + aggregator links onto the catalog, joined by exam.
+
+    Aggregator URLs deliberately live in their own columns, leaving the official
+    ``Homepage``/``CutoffURL`` overlay (official-only policy) untouched.
+    """
+    cat = cat.copy()
+    new = ["CutoffStatus", *AGGREGATOR_COLUMNS]
+    by_exam = {str(r["Exam"]).strip(): r for r in extras.to_dict("records")}
+    for col in new:
+        cat[col] = [str(by_exam.get(str(e).strip(), {}).get(col, "") or "")
+                    for e in cat["Exam"]]
+    return cat
+
+
 def build_catalog(xlsx: Path = XLSX, probe: Path = PROBE) -> pd.DataFrame:
     """Read the sheet, classify every exam, fold in probe + reference metadata.
 
@@ -295,6 +344,9 @@ def build_catalog(xlsx: Path = XLSX, probe: Path = PROBE) -> pd.DataFrame:
     df["Metric"] = ref.map(lambda d: d.get("Metric", ""))
     df["Notes"] = ""
     df["Acronym"] = ""
+
+    # Curated cutoff status + aggregator fallback links, merged by exam name.
+    df = _apply_extras(df, _load_extras())
     df = df[CATALOG_COLUMNS].sort_values(["Category", "Exam"]).reset_index(drop=True)
 
     # Auto-apply saved enrichment + the official-links overlay so the build is

@@ -9,7 +9,7 @@ It works on two decoupled layers:
 
 | Layer | Question it answers | Source | Size |
 |-------|---------------------|--------|------|
-| **Breadth — Catalog** | *What exams exist, who runs them, where do their cutoffs live?* | `cutoffexamsheet.xlsx` → classified + enriched + official-link-verified | **317 exams**, 25 categories, 36 states/UTs |
+| **Breadth — Catalog** | *What exams exist, who runs them, where do their cutoffs live?* | `cutoffexamsheet.xlsx` + `EXAMlinkssheet.xlsx` → classified + enriched + official-link-verified + cutoff status & aggregator fallbacks | **317 exams**, 25 categories, 36 states/UTs |
 | **Depth — Cutoffs** | *What are the actual opening/closing ranks?* | real PDF-parsed data + curated snapshots | **~12,900 rows / ~500 colleges**, 10 bodies |
 
 ```
@@ -102,7 +102,7 @@ scripts/
 `Body, Exam, Level, State, Year, Round, Institute, Branch, Category, Quota,
 Gender, OpeningRank, ClosingRank`
 
-### Official links only
+### Official links first, aggregator fallbacks alongside
 
 Every homepage / cutoff link is **live-verified** (`scripts/probe_links.py`) and
 classified official vs aggregator. A `find-official-links` agent workflow
@@ -110,8 +110,16 @@ researches the gaps (using shiksha / careers360 / collegedekho / getmyuni /
 entrancezone / collegepravesh / collegeforme **only to locate** the official
 source), each result is re-validated live (`scripts/apply_links.py`), and only
 working **official** URLs are stored in `cutoffs/data/links.json` (291 homepages,
-225 cutoff pages, 124 acronyms). Unofficial/aggregator and dead links are blanked
-— never shown. Rebuild applies this overlay automatically.
+225 cutoff pages, 124 acronyms). Unofficial/aggregator and dead links are never
+shown in the official `Homepage`/`Cutoff page` columns.
+
+Separately, `EXAMlinkssheet.xlsx` (mirrored to `examlinkssheet.csv`) adds a
+curated **`CutoffStatus`** per exam — *Official Cutoff* (140), *Official Merit
+List* (64), *No Cutoff Exists* (113) — plus four **aggregator fallback** columns
+(CollegeDunia / Shiksha / Careers360 / CollegeDekho). These are surfaced in their
+own columns as a deliberate fallback (especially for the 113 exams with no
+official cutoff), kept strictly separate from the official link columns. Rebuild
+applies both overlays automatically.
 
 ### Adding a new body
 

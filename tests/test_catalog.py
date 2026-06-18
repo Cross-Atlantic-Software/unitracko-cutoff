@@ -136,6 +136,23 @@ def test_only_official_links_shown():
     assert bad == []
 
 
+def test_cutoff_status_and_aggregators_folded_in():
+    # The richer EXAMlinkssheet overlay adds a curated status + aggregator links.
+    df = build_catalog()
+    from cutoffs.catalog import AGGREGATOR_COLUMNS
+    assert "CutoffStatus" in df.columns
+    statuses = set(df["CutoffStatus"])
+    assert {"Official Cutoff", "Official Merit List", "No Cutoff Exists"} <= statuses
+    # aggregator columns exist and carry real http(s) fallback links
+    for col in AGGREGATOR_COLUMNS:
+        assert col in df.columns
+        assert df[col].astype(str).str.startswith("http").sum() > 50
+    # aggregators must NOT leak into the official link columns (policy preserved)
+    for col in ("Homepage", "CutoffURL"):
+        for url in df[col].dropna().astype(str):
+            assert not any(a in url.lower() for a in _AGGREGATORS)
+
+
 def test_apply_links_blanks_and_overrides():
     df = build_catalog().head(30).copy()
     target = df.iloc[0]["Exam"]

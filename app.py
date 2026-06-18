@@ -55,16 +55,18 @@ with tab_explore:
     m1.metric("Exams catalogued", f"{len(cat):,}")
     m2.metric("Categories", cat["Category"].nunique())
     m3.metric("States / UTs", cat["State"].nunique())
-    scrapeable = (cat["Scrapeable"] == "scrapeable").sum()
-    m4.metric("HTML-scrapeable now", f"{scrapeable}")
+    official = cat["CutoffStatus"].isin(["Official Cutoff", "Official Merit List"]).sum()
+    m4.metric("Official cutoffs / merit lists", f"{official}")
 
-    f1, f2, f3 = st.columns(3)
+    f1, f2, f3, f4 = st.columns(4)
     cats = ["All"] + sorted(cat["Category"].dropna().unique())
     levels = ["All"] + sorted(cat["Level"].dropna().unique())
     states = ["All"] + sorted(cat["State"].dropna().unique())
+    statuses = ["All"] + sorted(s for s in cat["CutoffStatus"].dropna().unique() if s)
     sel_cat = f1.selectbox("Category", cats, key="c_cat")
     sel_lvl = f2.selectbox("Level", levels, key="c_lvl")
     sel_state = f3.selectbox("State / UT", states, key="c_state")
+    sel_status = f4.selectbox("Cutoff status", statuses, key="c_status")
     search = st.text_input("Search exam name", key="c_search",
                            placeholder="e.g. design, polytechnic, Kerala…")
 
@@ -75,6 +77,8 @@ with tab_explore:
         view = view[view["Level"] == sel_lvl]
     if sel_state != "All":
         view = view[view["State"] == sel_state]
+    if sel_status != "All":
+        view = view[view["CutoffStatus"] == sel_status]
     if search:
         view = view[view["Exam"].str.contains(search, case=False, na=False, regex=False)]
 
@@ -82,9 +86,10 @@ with tab_explore:
     n_cut = (view["CutoffURL"].astype(str).str.strip() != "").sum()
     st.write(f"**{len(view):,}** of {len(cat):,} exams  ·  "
              f"🔗 {n_home} official homepages · {n_cut} official cutoff pages")
-    st.caption("Only **official** links (institution / government) are shown — "
-               "unofficial aggregator links are omitted; a blank means no official "
-               "source was found.")
+    st.caption("**Official** links (institution / government) come first; a blank "
+               "official cutoff means none was found. The **CollegeDunia / Shiksha / "
+               "Careers360 / CollegeDekho** columns are third-party aggregator "
+               "fallbacks — handy for the exams with no official cutoff page.")
     st.dataframe(
         view,
         width="stretch",
@@ -93,9 +98,14 @@ with tab_explore:
         column_config={
             "Homepage": st.column_config.LinkColumn("Homepage", display_text="open ↗"),
             "CutoffURL": st.column_config.LinkColumn("Cutoff page", display_text="open ↗"),
+            "CutoffStatus": st.column_config.TextColumn("Cutoff status", width="small"),
             "Acronym": st.column_config.TextColumn("Acronym", width="small"),
             "Applicants": st.column_config.NumberColumn("Applicants", format="%d"),
             "Seats": st.column_config.NumberColumn("Seats", format="%d"),
+            "CollegeDunia": st.column_config.LinkColumn("CollegeDunia", display_text="↗"),
+            "Shiksha": st.column_config.LinkColumn("Shiksha", display_text="↗"),
+            "Careers360": st.column_config.LinkColumn("Careers360", display_text="↗"),
+            "CollegeDekho": st.column_config.LinkColumn("CollegeDekho", display_text="↗"),
         },
     )
     st.download_button(
