@@ -11,7 +11,7 @@ import re
 
 import pandas as pd
 
-# The 17 canonical columns, in canonical order. This list is the contract.
+# The 18 canonical columns, in canonical order. This list is the contract.
 COLUMNS: list[str] = [
     "Body",        # counseling body, e.g. "JoSAA", "MHT-CET"
     "Exam",        # qualifying exam, e.g. "JEE Advanced", "MHT-CET"
