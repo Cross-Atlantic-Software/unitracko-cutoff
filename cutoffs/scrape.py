@@ -19,6 +19,7 @@ from dataclasses import dataclass
 import httpx
 import pandas as pd
 
+from cutoffs.netguard import fetch_validated, is_safe_url
 from cutoffs.schema import empty_frame, normalize
 
 _UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -55,16 +56,23 @@ class FetchResult:
 
 def fetch(url: str, *, retries: int = 2, timeout: float = 15.0,
           delay: float = 0.6) -> FetchResult:
-    """Polite GET with retries; verifies TLS. Never raises."""
+    """Polite GET with retries; verifies TLS. Never raises.
+
+    Routes through netguard: SSRF guard (public host only, re-validated per redirect
+    hop), per-host throttle/jitter, and a response-size cap.
+    """
+    if not is_safe_url(url):
+        return FetchResult(url, False, None, "blocked-url (non-public/non-http)", "")
     last = ""
     for attempt in range(retries + 1):
         try:
+            # follow_redirects=False: netguard re-validates every hop itself.
             with httpx.Client(headers=_HEADERS, timeout=timeout,
-                              follow_redirects=True) as client:
-                r = client.get(url)
-            if r.status_code < 400 and r.text:
-                return FetchResult(url, True, r.status_code, "", r.text)
-            last = f"HTTP {r.status_code}"
+                              follow_redirects=False) as client:
+                status, html = fetch_validated(client, url)
+            if status == 200 and html:
+                return FetchResult(url, True, status, "", html)
+            last = f"HTTP {status}" if status else "blocked/redirect"
         except Exception as e:  # noqa: BLE001
             last = type(e).__name__
         if attempt < retries:

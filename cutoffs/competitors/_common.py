@@ -16,7 +16,9 @@ from __future__ import annotations
 import json
 import re
 from html.parser import HTMLParser
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
+
+from cutoffs.netguard import MAX_BYTES, fetch_validated, is_safe_url, throttle
 
 # A realistic desktop-Chrome UA — CollegeDunia gates bot UAs (403) but serves a
 # browser UA (200); the other sites are happy with it too.
@@ -34,26 +36,29 @@ def fetch_html(url: str, *, timeout: float = 30.0, impersonate: bool = False,
     """Fetch ``url`` and return its HTML, or "" on failure / block / non-200.
 
     ``impersonate`` first tries ``curl_cffi`` (chrome TLS fingerprint) for the
-    Akamai-gated sites (Shiksha); falls back to httpx with a browser UA.
+    Akamai-gated sites (Shiksha); falls back to httpx with a browser UA. All paths
+    enforce the SSRF guard, per-host throttle, and response-size cap (netguard).
     """
-    if not url:
+    if not is_safe_url(url):
         return ""
     if impersonate:
         try:
             from curl_cffi import requests as creq  # type: ignore
 
+            throttle(urlparse(url).hostname or "")
             r = creq.get(url, impersonate="chrome", timeout=timeout)
             if r.status_code == 200:
-                return r.text
+                return r.text[:MAX_BYTES]
         except Exception:  # noqa: BLE001 — optional dep / blocked -> try httpx
             pass
     try:
         import httpx
 
+        # follow_redirects=False: netguard re-validates every hop itself.
         with httpx.Client(headers={"User-Agent": BROWSER_UA},
-                          follow_redirects=follow_redirects, timeout=timeout) as client:
-            r = client.get(url)
-            return r.text if r.status_code == 200 else ""
+                          follow_redirects=False, timeout=timeout) as client:
+            _, text = fetch_validated(client, url, follow_redirects=follow_redirects)
+            return text
     except Exception:  # noqa: BLE001 — tolerant by design
         return ""
 
