@@ -4,6 +4,7 @@ __pycache__/
 .venv-linux/
 venv/
 .pytest_cache/
+message.txt
 # Only the top-level generated dataset dir — NOT cutoffs/data/ (bundled source
 # snapshots that the adapters and catalog build from, which must be committed).
 /data/
