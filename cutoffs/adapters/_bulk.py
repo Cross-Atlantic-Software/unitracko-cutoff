@@ -27,7 +27,7 @@ import pandas as pd
 from cutoffs.dispatch import dispatch_fetch, load_probe_buckets, strategy_for
 from cutoffs.registry import register
 from cutoffs.schema import empty_frame, normalize
-from cutoffs.segmentation import segment
+from cutoffs.segmentation import read_segmentation, segment
 from cutoffs.source import CutoffSource, SourceMeta
 
 _CACHE_PATH = Path(__file__).resolve().parent.parent / "data" / "bulk_official_cached.parquet"
@@ -77,7 +77,15 @@ class BulkOfficialSource(CutoffSource):
 
     # -- refresh path --------------------------------------------------------
     def _cat1_rows(self):
-        return [r for r in segment(jee_remap=self.jee_remap) if r.category == "cat1"]
+        """Category-1 exams from the committed segmentation driver.
+
+        Reads ``data/segmentation.csv`` — the same file cat-2 and cat-3 consume — so
+        all three stages share one partition and cannot disagree on the JEE-remap.
+        Falls back to a live ``segment(jee_remap=...)`` only when the driver is
+        absent (first run / minimal env), in which case ``self.jee_remap`` applies.
+        """
+        rows = read_segmentation() or segment(jee_remap=self.jee_remap)
+        return [r for r in rows if r.category == "cat1"]
 
     def fetch_latest(self) -> pd.DataFrame:
         """Walk every Category-1 link, dispatch per bucket, aggregate the rows."""

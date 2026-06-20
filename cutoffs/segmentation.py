@@ -230,6 +230,40 @@ def flag_summary(rows: list[SegRow]) -> dict[str, int]:
     }
 
 
+def _as_bool(value: str) -> bool:
+    """Parse a CSV-stringified bool back to a real bool."""
+    return str(value).strip().lower() in {"true", "1", "yes"}
+
+
+def read_segmentation(path: Path = SEGMENTATION_CSV) -> list[SegRow]:
+    """Load the committed segmentation driver back into ``SegRow`` objects.
+
+    This is the **single source of truth**: every live stage (cat-1 bulk dispatch,
+    cat-2 competitors, cat-3 backfill) reads this one committed file, so they cannot
+    disagree on the partition or on which ``jee_remap`` the universe was built with.
+    Returns ``[]`` if the file is absent (callers fall back to a live ``segment()``).
+    """
+    out: list[SegRow] = []
+    for r in _read_csv(path):
+        out.append(SegRow(
+            exam=r.get("exam", ""),
+            category=r.get("category", ""),
+            cutoff_status=r.get("cutoff_status", ""),
+            official_cutoff_url=r.get("official_cutoff_url", ""),
+            homepage=r.get("homepage", ""),
+            collegedunia=r.get("collegedunia", ""),
+            shiksha=r.get("shiksha", ""),
+            careers360=r.get("careers360", ""),
+            collegedekho=r.get("collegedekho", ""),
+            n_competitor_links=int(r.get("n_competitor_links") or 0),
+            aggregator_as_official=_as_bool(r.get("aggregator_as_official", "")),
+            prose_cutoff_url=_as_bool(r.get("prose_cutoff_url", "")),
+            prose_homepage=_as_bool(r.get("prose_homepage", "")),
+            jee_remapped=_as_bool(r.get("jee_remapped", "")),
+        ))
+    return out
+
+
 def write_segmentation(
     rows: list[SegRow], path: Path = SEGMENTATION_CSV,
 ) -> Path:

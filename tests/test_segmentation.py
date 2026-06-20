@@ -17,6 +17,7 @@ from cutoffs.segmentation import (
     counts,
     flag_summary,
     load_sheets,
+    read_segmentation,
     segment,
     write_segmentation,
 )
@@ -166,3 +167,21 @@ def test_write_segmentation_roundtrip():
         assert len(reread) == len(rows)
         assert reread[0]["category"] in {"cat1", "cat2", "cat3"}
         assert {"exam", "category", "official_cutoff_url"} <= set(reread[0])
+
+
+def test_read_segmentation_roundtrips_into_typed_segrows():
+    """write -> read reconstructs SegRows with real types — the single source of
+    truth every stage (cat-1 bulk, cat-2, cat-3) shares."""
+    rows = segment(jee_remap=True)
+    with tempfile.TemporaryDirectory() as d:
+        out = write_segmentation(rows, Path(d) / "seg.csv")
+        reread = read_segmentation(out)
+        # CSV strings are coerced back to int/bool, not left as text
+        assert isinstance(reread[0].n_competitor_links, int)
+        assert isinstance(reread[0].prose_cutoff_url, bool)
+        assert isinstance(reread[0].jee_remapped, bool)
+        # the partition and the JEE-remap survive the round-trip
+        assert counts(reread) == counts(rows)
+        assert sum(r.jee_remapped for r in reread) == len(JEE_SPLIT) == 5
+        # a missing driver -> [] (callers fall back to a live segment())
+        assert read_segmentation(Path(d) / "absent.csv") == []

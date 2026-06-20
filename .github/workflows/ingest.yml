@@ -1,8 +1,11 @@
 name: Scheduled cutoff ingestion
 
-# Phase 6: refresh the bundled dataset on a schedule. Runs `ingest.run(mode=latest)`
-# (each adapter attempts a live pull, falling back to its cached snapshot), then
-# commits the regenerated Parquet + freshness sidecar if anything changed.
+# Phase 7: refresh the full 3-category client pipeline on a schedule. Rebuilds the
+# segmentation driver (canonical --jee-remap), then runs the unified driver
+# `ingest --category all --mode latest` — cat-1 (unified Parquet + 14-col deliverable
+# CSV), cat-2 (per-competitor raw tables), cat-3 (separate cat-1-shaped table +
+# provenance) — and commits every regenerated artifact if anything changed. The
+# driver exits non-zero if any stage hard-fails, so the run is marked failed.
 
 on:
   schedule:
@@ -28,21 +31,30 @@ jobs:
           cache: pip
 
       - name: Install dependencies
+        # Lockfile pins lxml (read_html backend) so the cat-2 competitor scrape can
+        # actually parse HTML tables; requirements.txt omits it by design.
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirements.lock
 
-      - name: Refresh dataset (live, falls back to cached per source)
-        run: python -m cutoffs.ingest --mode latest
+      - name: Rebuild segmentation driver (canonical --jee-remap)
+        run: python scripts/segment_report.py --jee-remap
 
-      - name: Commit if the dataset changed
+      - name: Refresh all 3 categories (live, falls back to cached per source)
+        run: python -m cutoffs.ingest --mode latest --category all
+
+      - name: Commit if any artifact changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/cutoffs.parquet data/dataset_meta.json
+          git add -f \
+            data/segmentation.csv \
+            data/cutoffs.parquet data/dataset_meta.json data/cat1_deliverable.csv \
+            data/competitor_*.parquet data/competitor_*_meta.json \
+            data/cat3_cutoffs.csv data/cat3_provenance.parquet
           if git diff --cached --quiet; then
-            echo "No dataset changes."
+            echo "No data changes."
           else
-            git commit -m "chore(data): scheduled cutoff refresh"
+            git commit -m "chore(data): scheduled 3-category cutoff refresh"
             git push
           fi

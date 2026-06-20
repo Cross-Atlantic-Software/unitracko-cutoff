@@ -10,6 +10,7 @@ from __future__ import annotations
 from cutoffs.competitors import RAW_COLUMNS
 from cutoffs.competitors import careers360, collegedekho, collegedunia, run as comp_run, shiksha
 from cutoffs.competitors._common import (
+    _rows_from_table,
     balanced_json,
     category_columns,
     coerce_rank,
@@ -18,6 +19,8 @@ from cutoffs.competitors._common import (
     extract_next_data,
     harvest_pdf_links,
     headings_before_tables,
+    looks_like_percentile,
+    rank_range,
 )
 
 
@@ -163,3 +166,111 @@ def test_default_category_is_links():
     parser = argparse.ArgumentParser()
     parser.add_argument("--category", choices=list(comp_run._CATEGORY_SETS), default="links")
     assert parser.parse_args([]).category == "links"
+
+
+# --------------------------------------------------------------------------
+# New parsing helpers (range / percentile / anchored year / negative rank)
+# --------------------------------------------------------------------------
+def test_coerce_rank_negative_reads_as_positive():
+    assert coerce_rank("-5") == 5            # ranks are never negative
+
+
+def test_rank_range():
+    assert rank_range("200-500") == (200, 500)
+    assert rank_range("1,200 to 3,400") == (1200, 3400)
+    assert rank_range("200 – 500") == (200, 500)   # en-dash
+    assert rank_range("500") is None
+    assert rank_range(None) is None
+
+
+def test_looks_like_percentile():
+    assert looks_like_percentile("99.87")
+    assert looks_like_percentile("100.0")
+    assert not looks_like_percentile("50")       # integer rank, no decimal
+    assert not looks_like_percentile("1234.5")   # > 100 -> a rank, not a percentile
+    assert not looks_like_percentile("")
+
+
+def test_detect_roles_year_is_anchored():
+    # a standalone year column is the year column...
+    assert detect_roles(["2024"]).get("year") == "2024"
+    # ...but "Branch 2024" is a branch, not a year column (no substring match)
+    roles = detect_roles(["Branch 2024"])
+    assert roles.get("year") is None
+    assert roles.get("branch_or_course") == "Branch 2024"
+
+
+def test_caption_attaches_to_own_table_not_next():
+    html = ("<h2>Heading A</h2>"
+            "<table><caption>Real Caption</caption><tr><th>C</th></tr></table>"
+            "<table><tr><th>C</th></tr></table>")
+    # the caption stays on its own table; the next table falls back to the heading
+    assert headings_before_tables(html) == ["Real Caption", "Heading A"]
+
+
+# --------------------------------------------------------------------------
+# _rows_from_table — the wide->long melt / role logic (previously untested).
+# --------------------------------------------------------------------------
+class _StubTable:
+    """Minimal stand-in for a pandas table: ``.columns`` + ``.iterrows()`` yielding
+    positional value lists (matching how ``_rows_from_table`` consumes a row)."""
+
+    def __init__(self, columns, rows):
+        self.columns = list(columns)
+        self._rows = rows
+
+    def iterrows(self):
+        for i, r in enumerate(self._rows):
+            yield i, list(r)
+
+
+def _rows(columns, rows, *, caption="", year=None):
+    return _rows_from_table(
+        _StubTable(columns, rows), idx=0, caption=caption, default_pdf=None,
+        competitor="cd", exam="X", slug="x", page_url="http://x",
+        page_type="exam_cutoff", year=year)
+
+
+def test_wide_category_table_is_melted_one_row_per_category():
+    rows = _rows(["Institute", "Open", "OBC", "SC"],
+                 [["NIT Trichy", "1200", "3400", "9000"]])
+    by_cat = {r["category"]: r for r in rows}
+    assert set(by_cat) == {"Open", "OBC", "SC"}        # Open kept (real wide table)
+    assert by_cat["Open"]["closing_rank"] == 1200
+    assert by_cat["OBC"]["closing_rank"] == 3400
+    assert by_cat["SC"]["institute_name"] == "NIT Trichy"
+
+
+def test_open_close_columns_are_not_melted_as_categories():
+    # HIGH bug: "Open" matches both the opening-rank role and the category regex.
+    # A lone Open beside a Close is the opening-rank column, not a category.
+    rows = _rows(["Institute", "Open", "Close"], [["IIT Delhi", "50", "1200"]])
+    assert len(rows) == 1
+    r = rows[0]
+    assert r["opening_rank"] == 50
+    assert r["closing_rank"] == 1200
+    assert not r["category"]                            # never melted into "Open"
+
+
+def test_percentile_cells_not_rounded_into_closing_rank():
+    rows = _rows(["College", "General", "OBC"], [["COEP", "99.87", "98.5"]])
+    by_cat = {r["category"]: r for r in rows}
+    assert by_cat["General"]["cutoff_percentile"] == "99.87"
+    assert by_cat["General"]["closing_rank"] is None   # not coerced to 100
+    assert by_cat["OBC"]["cutoff_percentile"] == "98.5"
+
+
+def test_duplicate_headers_survive_losslessly_in_raw_cells():
+    import json
+    rows = _rows(["College", "Rank", "Rank"], [["X", "100", "200"]])
+    cells = json.loads(rows[0]["raw_cells"])
+    assert cells["Rank"] == "100"
+    assert cells["Rank.1"] == "200"                     # 2nd dup not dropped
+
+
+def test_range_cell_splits_into_opening_closing_and_keeps_raw():
+    rows = _rows(["Institute", "Closing Rank"], [["X", "200-500"]])
+    r = rows[0]
+    assert r["rank_range_raw"] == "200-500"
+    assert r["opening_rank"] == 200
+    assert r["closing_rank"] == 500

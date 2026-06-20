@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 .venv/
+.venv-linux/
 venv/
 .pytest_cache/
 # Only the top-level generated dataset dir — NOT cutoffs/data/ (bundled source

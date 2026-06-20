@@ -9,11 +9,14 @@ headings (handled by ``headings_before_tables``).
 from __future__ import annotations
 
 import re
+from datetime import date
 from urllib.parse import urlparse
 
 COMPETITOR = "collegedekho"
 _EXAM_SLUG_RE = re.compile(r"^/exam/([^/?#]+)")
-DEFAULT_YEARS = (2024, 2023, 2022)
+# Freshest four completed cycles, computed at import (e.g. 2025-2022 in 2026), so
+# the latest year is never silently omitted as a hard-coded tuple would.
+DEFAULT_YEARS = tuple(range(date.today().year - 1, date.today().year - 5, -1))
 
 
 def cutoff_urls(sheet_url: str, *, years: tuple[int, ...] = DEFAULT_YEARS,

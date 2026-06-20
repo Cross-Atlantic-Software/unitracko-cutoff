@@ -13,6 +13,7 @@ from pathlib import Path
 import pandas as pd
 
 import cutoffs.adapters  # noqa: F401  (import populates the registry)
+from cutoffs.deliverable import DELIVERABLE_CSV, write_deliverable
 from cutoffs.enrich import enrich_frame
 from cutoffs.registry import all_sources, get_source, source_names
 from cutoffs.schema import empty_frame
@@ -64,6 +65,7 @@ def run(
     path: str | Path = DEFAULT_PATH,
     *,
     include_optin: bool = False,
+    deliverable: bool = False,
 ) -> pd.DataFrame:
     """Generate the unified (Category-1) cutoff dataset.
 
@@ -72,6 +74,9 @@ def run(
     mode:  "cached" calls load_cached(); "latest" calls fetch_latest().
     include_optin: when names is None, also include the opt-in sources (e.g. the
            bulk official-link scraper).
+    deliverable: also project the unified frame to the client's 14-column Category-1
+           deliverable and write it to ``data/cat1_deliverable.csv``. Off by default
+           so the UI "Generate" path only touches the internal Parquet.
     Returns the aggregated, normalized DataFrame (also written to ``path``).
     """
     if names:
@@ -91,6 +96,8 @@ def run(
     path = Path(path)
     write_parquet(combined, path)
     _stamp(path, mode=mode, rows=len(combined), sources=len(sources))
+    if deliverable:
+        write_deliverable(combined)
     return combined
 
 
@@ -115,15 +122,23 @@ if __name__ == "__main__":  # pragma: no cover - CLI entry for the cron job
                         help="category 1: also run the bulk official-link scraper")
     args = parser.parse_args()
 
+    import sys
+
+    rc = 0  # accumulated exit code: non-zero if any stage fails
+
     if args.category in ("1", "all"):
-        out = run(mode=args.mode, path=args.path, include_optin=args.include_bulk)
+        out = run(mode=args.mode, path=args.path, include_optin=args.include_bulk,
+                  deliverable=True)
         print(f"[cat1] wrote {len(out):,} rows ({args.mode}) -> {args.path}")
+        print(f"[cat1] wrote {len(out):,}-row 14-col deliverable -> {DELIVERABLE_CSV}")
     if args.category in ("2", "all"):
         from cutoffs.competitors.run import main as competitors_main
-        competitors_main([])  # all competitors, Category-2 exams
+        rc |= competitors_main([])  # all competitors, every exam with a competitor link
     if args.category in ("3", "all"):
         from cutoffs.cat3_provenance import run_cat3
         s = run_cat3()
         print(f"[cat3] wrote {s['cutoff_rows']:,} cat-1-shaped rows "
               f"({s['exams_with_rows']} exams) -> {s['cutoffs_path']}; "
               f"{s['provenance_rows']} provenance rows")
+
+    sys.exit(rc)
