@@ -34,6 +34,9 @@ _log = logging.getLogger(__name__)
 _PDF_SPECS = [
     {"url": "https://fe2025.mahacet.org/2024/2024ENGG_CAP1_CutOff.pdf",
      "year": 2024, "round": "CAP1"},
+    # Pharmacy stream (same CET Cell layout, distinct pharmacy colleges).
+    {"url": "https://ph2025.mahacet.org/2024/2024PHARMA_CAP1_CutOff.pdf",
+     "year": 2024, "round": "CAP1"},
 ]
 
 _INST_RE = re.compile(r"^(\d{5})\s*-\s*(.+?)\s*$")

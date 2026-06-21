@@ -32,11 +32,20 @@ _PDF_SPECS = [
      "quota": "General"},
     {"file": "ENGG_CUTOFF_2024_r1_hk_prov.pdf", "year": 2024, "round": "1",
      "quota": "Kalyana-Karnataka"},
+    # Other KCET streams (same KEA matrix layout, distinct colleges): pharmacy,
+    # architecture, agriculture/farm-science.
+    {"file": "PHARMA_CUTOFF_2024_GEN.pdf", "year": 2024, "round": "Mock 1",
+     "quota": "General"},
+    {"file": "arch_cutoff_2024_GEN.pdf", "year": 2024, "round": "Mock 1",
+     "quota": "General"},
+    {"file": "agri_cutoff_2024_GEN.pdf", "year": 2024, "round": "Mock 1",
+     "quota": "General"},
 ]
 
-# A college header: leading serial, the E-code, then the name (possibly with a
-# trailing "( PUBLIC UNIV. )"-style tag).
-_COLLEGE_RE = re.compile(r"^\s*\d+\s+(E\d{3,4})\s+(.+?)\s*$")
+# A college header: leading serial, the college code (E### engineering, B###
+# pharmacy, ... — any letter prefix), then the name (possibly with a trailing
+# "( PUBLIC UNIV. )"-style tag).
+_COLLEGE_RE = re.compile(r"^\s*\d+\s+([A-Z]\d{3,4})\s+(.+?)\s*$")
 _RANK_RE = re.compile(r"^\d+$")
 # The deduplication key for a parsed cutoff cell.
 _DEDUP_COLS = ["Institute", "Branch", "Category", "Quota", "Year", "ClosingRank"]
