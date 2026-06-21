@@ -136,6 +136,21 @@ def _category_group(category: object) -> str:
     if km:
         base = km.group(1)
         return {"GM": "General", "SC": "SC", "ST": "ST"}.get(base, "OBC")
+    # Maharashtra (MHT-CET) CAP seat codes, e.g. GOPENS / LSCS / GSTS / GOBCS /
+    # GVJS / GNT1S / DEFOBCS / TFWS, with a Home/Other/State seat suffix (H/O/S),
+    # so GSCH / GSCO / GSCS all map alike. Classify by the reservation token they
+    # carry. Runs after the standard checks above.
+    if len(c) >= 4 and c.endswith(("S", "H", "O")) and any(
+            k in c for k in ("OPEN", "SC", "ST", "VJ", "NT1", "NT2", "NT3",
+                             "OBC", "SEBC", "TFW", "DEF")):
+        if "OPEN" in c or "TFW" in c or "DEF" in c:
+            return "General"
+        if any(k in c for k in ("OBC", "SEBC", "VJ", "NT1", "NT2", "NT3")):
+            return "OBC"
+        if "SC" in c:
+            return "SC"
+        if "ST" in c:
+            return "ST"
     return "Other"
 
 

@@ -59,6 +59,9 @@ def test_mhtcet_load_cached_is_maharashtra():
     df = get_source("mhtcet").load_cached()
     assert list(df.columns) == COLUMNS
     assert (df["State"] == "Maharashtra").all()
+    # Now ships the parsed official CAP-round PDF snapshot (hundreds of colleges).
+    assert df["Institute"].nunique() > 100
+    assert df["ClosingRank"].notna().any()
 
 
 def test_fetch_latest_never_returns_empty():

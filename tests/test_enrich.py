@@ -152,6 +152,16 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("1R") == "OBC"
     assert _category_group("3BK") == "OBC"
     assert _category_group("STATE") == "Other"      # anchored: not read as ST
+    # Maharashtra (MHT-CET) CAP stage codes.
+    assert _category_group("GOPENS") == "General"
+    assert _category_group("LOPENS") == "General"
+    assert _category_group("GSCS") == "SC"
+    assert _category_group("GSTS") == "ST"
+    assert _category_group("GOBCS") == "OBC"
+    assert _category_group("GVJS") == "OBC"
+    assert _category_group("GNT1S") == "OBC"
+    assert _category_group("GSEBCS") == "OBC"
+    assert _category_group("TFWS") == "General"     # tuition-fee-waiver -> open
 
 
 def test_enrich_frame_adds_category_group():
