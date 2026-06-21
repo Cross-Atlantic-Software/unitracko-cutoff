@@ -11,7 +11,25 @@ from cutoffs.storage import read_parquet
 
 def test_all_adapters_registered():
     assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly", "tseamcet",
-            "apeapcet", "uptac", "tnea", "gujacpc", "ojee"}.issubset(set(source_names()))
+            "apeapcet", "uptac", "tnea", "gujacpc", "ojee",
+            "jceceb"}.issubset(set(source_names()))
+
+
+def test_jceceb_load_cached_is_jharkhand():
+    df = get_source("jceceb").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Jharkhand").all()
+    # cutoffs derived from allotment: every row has opening AND closing rank.
+    assert df["OpeningRank"].notna().all() and df["ClosingRank"].notna().all()
+    assert (df["ClosingRank"] >= df["OpeningRank"]).all()
+
+
+def test_jceceb_allotment_header_detection():
+    from cutoffs.adapters.jceceb import _allotment_columns
+    hdr = _allotment_columns(["Sl. No.", "CML Rank", "Alloted Institute",
+                              "Alloted Branch", "Seat Alloted Category"])
+    assert hdr == {"rank": 1, "Institute": 2, "Branch": 3, "Category": 4}
+    assert _allotment_columns(["1", "135", "BIT SINDRI", "CSE", "GEN"]) is None
 
 
 def test_ojee_load_cached_is_odisha():
