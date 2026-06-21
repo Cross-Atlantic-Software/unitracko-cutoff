@@ -162,6 +162,13 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("GNT1S") == "OBC"
     assert _category_group("GSEBCS") == "OBC"
     assert _category_group("TFWS") == "General"     # tuition-fee-waiver -> open
+    # Telangana / Andhra (TS EAMCET / AP EAPCET) codes.
+    assert _category_group("OC") == "General"
+    assert _category_group("BCA") == "OBC"
+    assert _category_group("BCE") == "OBC"
+    assert _category_group("SCI") == "SC"
+    assert _category_group("SCIII") == "SC"
+    assert _category_group("OCEWS") == "EWS"
 
 
 def test_enrich_frame_adds_category_group():

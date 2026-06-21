@@ -5,14 +5,16 @@ Adding a new body = add a module here and import it below. Nothing else changes.
 
 from cutoffs.adapters import (  # noqa: F401  (import = register)
     _bulk,
+    apeapcet,
     biharpoly,
     josaa,
     kcet,
     keam,
     mhtcet,
     statepdf,
+    tseamcet,
     wbjee,
 )
 
-__all__ = ["_bulk", "biharpoly", "josaa", "kcet", "keam", "mhtcet", "statepdf",
-           "wbjee"]
+__all__ = ["_bulk", "apeapcet", "biharpoly", "josaa", "kcet", "keam", "mhtcet",
+           "statepdf", "tseamcet", "wbjee"]

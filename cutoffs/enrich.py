@@ -151,6 +151,14 @@ def _category_group(category: object) -> str:
             return "SC"
         if "ST" in c:
             return "ST"
+    # Telangana/Andhra (TS EAMCET / AP EAPCET) codes: OC, BC_A..BC_E, SC, SC_I..III,
+    # ST, EWS, OC_EWS (EWS already handled above). Anchored exact tokens.
+    if c == "OC":
+        return "General"
+    if re.fullmatch(r"BC[A-E]", c):
+        return "OBC"
+    if re.fullmatch(r"SCI{1,3}", c):  # SC_I / SC_II / SC_III (SC handled above)
+        return "SC"
     return "Other"
 
 

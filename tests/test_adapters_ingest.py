@@ -10,7 +10,26 @@ from cutoffs.storage import read_parquet
 
 
 def test_all_adapters_registered():
-    assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly"}.issubset(set(source_names()))
+    assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly",
+            "tseamcet", "apeapcet"}.issubset(set(source_names()))
+
+
+def test_tseamcet_apeapcet_load_cached_have_colleges():
+    for name, state in [("tseamcet", "Telangana"), ("apeapcet", "Andhra Pradesh")]:
+        df = get_source(name).load_cached()
+        assert list(df.columns) == COLUMNS
+        assert (df["State"] == state).all()
+        assert df["Institute"].nunique() > 100
+        assert df["ClosingRank"].notna().any()
+
+
+def test_lastrank_rank_header_parsing():
+    from cutoffs.adapters._lastrank import _rank_header
+    assert _rank_header("OC\nBOYS") == ("OC", "Male")
+    assert _rank_header("BC_A\nGIRLS") == ("BCA", "Female")
+    assert _rank_header("OC_BO\nYS") == ("OC", "Male")   # header wrapped mid-word
+    assert _rank_header("Institute Name") is None
+    assert _rank_header("Affiliated To") is None
 
 
 def test_real_pdf_adapters_have_rows():
