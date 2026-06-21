@@ -8,6 +8,11 @@ from __future__ import annotations
 from cutoffs.cat3_provenance import (
     CAT3_PROVENANCE_COLUMNS,
     PROVENANCE_COLUMNS,
+    _exam_from_query,
+    _is_relevant,
+    _rank_urls,
+    _raw_to_unified,
+    _relax_query,
     attempt,
     build_query,
     build_records,
@@ -126,3 +131,46 @@ def test_fill_cat3_tolerates_extractor_exception():
 def test_cat3_outputs_never_look_like_unified_cutoff_rows():
     """Provenance columns must be disjoint from the unified schema (no leakage)."""
     assert set(CAT3_PROVENANCE_COLUMNS).isdisjoint(_UNIFIED_SCHEMA)
+
+
+def test_relevance_gate_rejects_misattributed_pages():
+    """An obscure exam must not match a different famous exam's cutoff page."""
+    # Real match: the exam's tokens are in the URL slug.
+    assert _is_relevant("MIT World Peace University Entrance Test",
+                        "https://zollege.in/mit-world-peace-university-mitwpu/cutoff")
+    # Misattribution: a design test resolving to NIFT Delhi must be rejected.
+    assert not _is_relevant("Vogue Institute of Art and Design Entrance Examination",
+                            "https://x.com/national-institute-of-fashion-technology-delhi/cut-off")
+    # Wrong campus: Sikkim Manipal vs MIT Manipal (only 'manipal' overlaps -> reject).
+    assert not _is_relevant("Sikkim Manipal University Design Entrance Examination",
+                            "https://x.com/manipal-institute-of-technology-mahe/cutoff")
+
+
+def test_exam_from_query_and_relax():
+    q = build_query("Some Exam", year=2025)
+    assert _exam_from_query(q) == "Some Exam"
+    relaxed = _relax_query(q)
+    assert '"' not in relaxed and " OR " not in relaxed and "merit list" not in relaxed.lower()
+
+
+def test_rank_urls_prefers_relevant_then_cutoff():
+    urls = [
+        "https://collegedunia.com/some-other-exam-cutoff",      # cutoff but irrelevant
+        "https://zollege.in/mit-world-peace-university/cutoff",  # relevant + cutoff
+        "https://wikipedia.org/MIT_WPU",                         # junk domain -> dropped
+    ]
+    ranked = _rank_urls(urls, exam="MIT World Peace University Entrance Test")
+    assert ranked[0] == "https://zollege.in/mit-world-peace-university/cutoff"
+    assert all("wikipedia" not in u for u in ranked)
+
+
+def test_raw_to_unified_quality_gate():
+    base = {"branch_or_course": "Computer Engineering",
+            "table_caption": "MIT-WPU B.Tech Cutoff 2025", "closing_rank": 29442}
+    assert _raw_to_unified(base, "MIT WPU")["ClosingRank"] == 29442
+    # No rank/percentile -> dropped.
+    assert _raw_to_unified({**base, "closing_rank": None}, "E") is None
+    # Caption is not cutoff-related (a courses/dates table) -> dropped.
+    assert _raw_to_unified({**base, "table_caption": "Admission Dates"}, "E") is None
+    # Branch missing -> dropped.
+    assert _raw_to_unified({**base, "branch_or_course": ""}, "E") is None
