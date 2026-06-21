@@ -11,7 +11,32 @@ from cutoffs.storage import read_parquet
 
 def test_all_adapters_registered():
     assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly",
-            "tseamcet", "apeapcet"}.issubset(set(source_names()))
+            "tseamcet", "apeapcet", "uptac"}.issubset(set(source_names()))
+
+
+def test_uptac_load_cached_has_colleges():
+    df = get_source("uptac").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Uttar Pradesh").all()
+    assert df["Institute"].nunique() > 300
+    assert df["ClosingRank"].notna().any()
+
+
+def test_uptac_parses_html_report():
+    from cutoffs.adapters.uptac import parse_uptac_report
+    html = """<table>
+      <tr><th>Sr.No</th><th>Round</th><th>Institute</th><th>Program</th>
+          <th>Stream</th><th>Quota</th><th>Category</th><th>Seat Gender</th>
+          <th>Opening Rank</th><th>Closing Rank</th></tr>
+      <tr><td>1</td><td>Round 1</td><td>ABC ENGG COLLEGE</td><td>B.Tech.</td>
+          <td>Civil Engineering</td><td>Home State</td><td>BC(Girl)</td>
+          <td>Female Seats</td><td>1000</td><td>2500</td></tr>
+    </table>"""
+    df = parse_uptac_report(html, year=2025, source_url="http://x")
+    assert len(df) == 1
+    row = df.iloc[0]
+    assert row["Institute"] == "ABC ENGG COLLEGE" and row["Branch"] == "Civil Engineering"
+    assert row["ClosingRank"] == 2500 and row["Gender"] == "Female"
 
 
 def test_tseamcet_apeapcet_load_cached_have_colleges():

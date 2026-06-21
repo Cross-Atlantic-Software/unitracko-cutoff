@@ -169,6 +169,11 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("SCI") == "SC"
     assert _category_group("SCIII") == "SC"
     assert _category_group("OCEWS") == "EWS"
+    # UPTAC (UP) codes carry a parenthetical sub-pool that must be ignored.
+    assert _category_group("BC(Girl)") == "OBC"
+    assert _category_group("SC(AF)") == "SC"
+    assert _category_group("OPEN(PH)") == "General"
+    assert _category_group("EWS(GL)") == "EWS"
 
 
 def test_enrich_frame_adds_category_group():
