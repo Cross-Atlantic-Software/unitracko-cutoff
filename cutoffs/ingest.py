@@ -93,6 +93,9 @@ def run(
     combined = (
         pd.concat(frames, ignore_index=True) if frames else empty_frame()
     )
+    # Guard against duplicate rows leaking from overlapping sources/snapshots so
+    # the unified dataset (and the deliverable projected from it) stays unique.
+    combined = combined.drop_duplicates(ignore_index=True)
     path = Path(path)
     write_parquet(combined, path)
     _stamp(path, mode=mode, rows=len(combined), sources=len(sources))

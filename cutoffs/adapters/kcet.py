@@ -122,13 +122,8 @@ class KCET(CutoffSource):
     )
 
     def load_cached(self) -> pd.DataFrame:
-        """Bundled parsed official snapshot + the small curated multi-year sample."""
-        frames = [self.normalize(read_bundled("kcet_cached.csv"))]
-        try:
-            frames.append(self.normalize(read_bundled("kcet_official.csv.gz")))
-        except (FileNotFoundError, OSError):  # snapshot not generated yet
-            pass
-        return _dedup(pd.concat(frames, ignore_index=True))
+        """The bundled parsed official snapshot (real KEA cutoff data)."""
+        return _dedup(self.normalize(read_bundled("kcet_official.csv.gz")))
 
     def fetch_latest(self) -> pd.DataFrame:
         """Re-parse the live official PDFs; fall back to cached on any failure."""
@@ -148,6 +143,4 @@ class KCET(CutoffSource):
                 continue
         if not frames:
             return self.load_cached()
-        # Keep the curated multi-year sample alongside the live official rows.
-        frames.append(self.normalize(read_bundled("kcet_cached.csv")))
         return _dedup(pd.concat(frames, ignore_index=True))

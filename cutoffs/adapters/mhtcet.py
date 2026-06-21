@@ -133,13 +133,8 @@ class MHTCET(CutoffSource):
     )
 
     def load_cached(self) -> pd.DataFrame:
-        """Bundled parsed official snapshot + the small curated multi-year sample."""
-        frames = [self.normalize(read_bundled("mhtcet_cached.csv"))]
-        try:
-            frames.append(self.normalize(read_bundled("mhtcet_official.csv.gz")))
-        except (FileNotFoundError, OSError):  # snapshot not generated yet
-            pass
-        return _dedup(pd.concat(frames, ignore_index=True))
+        """The bundled parsed official snapshot (real CET Cell CAP cutoff data)."""
+        return _dedup(self.normalize(read_bundled("mhtcet_official.csv.gz")))
 
     def fetch_latest(self) -> pd.DataFrame:
         """Re-parse the live official CAP PDFs; fall back to cached on failure."""
@@ -155,5 +150,4 @@ class MHTCET(CutoffSource):
                 _log.debug("mhtcet fetch_latest skipped %s: %s", spec["url"], exc)
         if not frames:
             return self.load_cached()
-        frames.append(self.normalize(read_bundled("mhtcet_cached.csv")))
         return _dedup(pd.concat(frames, ignore_index=True))

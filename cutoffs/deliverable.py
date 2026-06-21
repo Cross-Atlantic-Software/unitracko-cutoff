@@ -65,11 +65,18 @@ def project_records(records: list[dict], include_category: bool = False) -> list
 
 
 def to_cat1_deliverable(df, include_category: bool = False):
-    """Select + rename a unified-schema DataFrame to the 14-column deliverable."""
+    """Select + rename a unified-schema DataFrame to the 14-column deliverable.
+
+    Drops the columns the client doesn't want (Body, Level, Category, ...). Because
+    the reservation ``Category`` is dropped, two unified rows that differ ONLY by
+    category collapse to identical deliverable rows; those redundant duplicates are
+    removed so the client never sees the same college/branch/year/round/rank twice.
+    The full per-category breakdown is preserved in the unified Parquet.
+    """
     cols = deliverable_columns(include_category)
     schema_cols = [s for s, _ in cols]
-    projected = df.reindex(columns=schema_cols)
-    return projected.rename(columns=dict(cols))
+    projected = df.reindex(columns=schema_cols).rename(columns=dict(cols))
+    return projected.drop_duplicates(ignore_index=True)
 
 
 def write_deliverable(df, *, out_csv: Path = DELIVERABLE_CSV, out_parquet: Path | None = None,
