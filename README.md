@@ -23,10 +23,15 @@ No always-on server in the data path; everything reads Parquet.
 ## Quick start
 
 ```bash
-python -m venv .venv && .venv/Scripts/activate      # Windows
+python -m venv .venv && source .venv/bin/activate   # Linux / macOS
+# python -m venv .venv && .venv\Scripts\activate    # Windows
 pip install -r requirements.txt
 streamlit run app.py                                # http://localhost:8501
 ```
+
+> A venv is platform-specific — don't reuse one created on another OS. On this
+> machine the working environment is `.venv-linux` (use `.venv-linux/bin/python`);
+> all `.venv*` dirs are gitignored.
 
 The app has three tabs:
 
@@ -57,27 +62,40 @@ We **deep-tested all 317 cutoff URLs live** (`scripts/probe_sources.py`):
 | 500/503 / non-HTML | 5 |
 
 **Finding:** the official portals almost never expose cutoffs as static HTML —
-they sit behind ASP.NET cascading forms (JoSAA), PDFs (most state boards), or
-JS. So a generic *landing-page* scrape harvests ~0 real rows. This is exactly
-why tools like coladex use **curated** datasets. We therefore:
+they sit behind ASP.NET cascading forms (JoSAA, WB, MP, Haryana), PDFs (most state
+boards), or JS/CAPTCHA (TN academic). So a generic *landing-page* scrape harvests
+~0 real rows. The depth instead comes from a **per-body official adapter** that
+goes straight to the authoritative file. We therefore:
 
-- ship **curated real snapshots** for JoSAA, MHT-CET, KCET, WBJEE
-  (`scripts/build_snapshots.py`) for the rank predictor + trends;
-- provide a **correct, tolerant generic HTML scraper** (`cutoffs/scrape.py`)
-  that returns real rows for any page that *does* publish a rank table, and an
-  empty frame (never an error) for the many that don't;
-- provide **framework adapters** for the hard formats — pdfplumber
-  (`cutoffs/adapters/_pdf.py`, worked example in `mhtcet.py`) and Playwright
-  (`cutoffs/adapters/_js.py`).
+- parse the **official cutoff PDFs / on-portal reports** for ~13 bodies covering
+  12 states + COMEDK — **~3,500 colleges, ~200k rows** of real opening/closing
+  ranks. Each body is one adapter under `cutoffs/adapters/`. Layout coverage:
+  - **per-college matrix** (category × branch grid): KCET, COMEDK
+  - **per-institute/course matrix** (CAP stages): MHT-CET
+  - **flat per-record table** (one row per institute/branch/category):
+    Gujarat ACPC, OJEE (borderless → position-parsed), IPU — shared
+    `_flattable.py`
+  - **category × gender last-rank table**: TS EAMCET, AP EAPCET (shared
+    `_lastrank.py`)
+  - **on-portal HTML report**: UPTAC (UP)
+  - **allotment → derived cutoffs** (min/max allotted rank): JCECE (Jharkhand)
+  - **community mark/rank cutoff**: TNEA
+  - **bundled PDF snapshots**: KEAM, Bihar, Rajasthan, ICAR (`statepdf.py`)
+- keep **gated bodies honest**: WB / MP / Haryana official portals are ASP.NET/JS
+  forms (no clean export) — these stay thin or are sourced separately from
+  aggregators in a clearly-labelled side table (e.g. `cutoffs/mp_aggregator.py`),
+  never merged into the official dataset.
+- provide a **tolerant generic HTML scraper** (`cutoffs/scrape.py`) and a
+  Playwright framework (`cutoffs/adapters/_js.py`) for the remaining hard formats.
 
-Curated snapshots are *representative public figures*, clearly labelled — refresh
-via the adapters for authoritative data.
+Each adapter's `load_cached()` serves a bundled parsed snapshot (so the dataset is
+reproducible offline); `fetch_latest()` re-parses the live official file.
 
 ## Architecture
 
 ```
 cutoffs/
-  schema.py        unified 13-column schema + tolerant normalizer
+  schema.py        unified 18-column schema + tolerant normalizer
   source.py        CutoffSource ABC (load_cached / fetch_latest)
   registry.py      @register; list/iterate "all" or one body
   storage.py       Parquet read/write
@@ -85,7 +103,13 @@ cutoffs/
   catalog.py       breadth: parse sheet, classify, enrich -> catalog.parquet
   scrape.py        generic HTML table -> schema scraper (httpx + pandas)
   adapters/
-    josaa, mhtcet, kcet, wbjee   curated snapshots (mhtcet = worked PDF example)
+    kcet, mhtcet, comedk           Karnataka/Maharashtra matrix-PDF parsers
+    gujacpc, ojee, ipu             flat-record cutoff PDFs (_flattable.py)
+    tseamcet, apeapcet             category×gender last-rank PDFs (_lastrank.py)
+    uptac                          on-portal HTML report (UP)
+    tnea, jceceb                   community cutoff / allotment-derived
+    josaa, keam, biharpoly, ...    bundled snapshots (statepdf.py)
+    _flattable.py / _lastrank.py   shared multi-state parsers
     _pdf.py        pdfplumber framework
     _js.py         Playwright framework
     generic.py     data-driven GenericHTMLSource (point at any catalog URL)
@@ -97,10 +121,13 @@ scripts/
   merge_enrichment.py  fold workflow output into catalog.parquet
 ```
 
-### Unified schema (every adapter emits exactly these)
+### Unified schema (every adapter emits exactly these 18 columns)
 
-`Body, Exam, Level, State, Year, Round, Institute, Branch, Category, Quota,
-Gender, OpeningRank, ClosingRank`
+`Body, Exam, Website, Level, State, City, Institute, Program, Branch, Category,
+CategoryGroup, Quota, Gender, Year, Round, OpeningRank, ClosingRank, SourceURL`
+
+(`Website`/`City`/`Program`/`CategoryGroup`/`SourceURL` are derived/context columns
+populated by `enrich.py`.)
 
 ### Official links first, aggregator fallbacks alongside
 

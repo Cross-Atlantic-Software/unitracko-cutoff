@@ -88,10 +88,26 @@ the UI can list them and iterate "all" or one.
    - Run all three via `python -m cutoffs.ingest --category all`.
    - Next: resolve competitor search-landing links to canonical pages; rebuild on
      the client's updated sheet; commit cached snapshots once links stabilize.
+8. [done] State-body official adapters — depth via one adapter per body that parses
+   the authoritative cutoff PDF/report. ~13 bodies, 12 states + COMEDK, **~3,500
+   colleges**. Each: bundled `*_official.csv.gz` snapshot for `load_cached()`,
+   live re-parse in `fetch_latest()`. Parser families:
+   - matrix (category×branch): `kcet.py`, `comedk.py`; per-course CAP: `mhtcet.py`
+   - flat per-record (shared `adapters/_flattable.py`): `gujacpc.py`, `ojee.py`
+     (borderless → word-position parse), `ipu.py`
+   - category×gender last-rank (shared `adapters/_lastrank.py`): `tseamcet.py`,
+     `apeapcet.py`
+   - on-portal HTML report: `uptac.py`; allotment→derived cutoffs: `jceceb.py`;
+     community cutoff: `tnea.py`
+   Reservation-code → CategoryGroup mapping for every state lives in
+   `enrich.py::_category_group`. Gated portals (WB/MP/Haryana ASP.NET, TN-academic
+   CAPTCHA) stay thin or use a clearly-labelled aggregator side table
+   (`cutoffs/mp_aggregator.py`), NEVER merged into the official unified dataset.
 
 ## Key reality check (verified live, do not relitigate)
 Of the 317 source URLs, only ~28 even have HTML tables and almost none expose
 cutoffs as *static* HTML — they hide behind ASP.NET forms / PDFs / JS. So live
-HTML harvesting yields ~0 rows; depth comes from curated snapshots + per-format
-adapters, exactly like coladex. The generic scraper is correct but only fires on
-pages that genuinely publish rank tables.
+*landing-page* HTML harvesting yields ~0 rows; depth comes from **per-body official
+adapters** (Phase 8) that go straight to the authoritative cutoff PDF/report, plus
+bundled snapshots, exactly like coladex. The generic scraper is correct but only
+fires on pages that genuinely publish rank tables.
