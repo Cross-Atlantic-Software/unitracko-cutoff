@@ -113,9 +113,10 @@ def _category_group(category: object) -> str:
     if category is None or pd.isna(category):
         return "Unspecified"
     c = str(category).strip().upper()
-    # Drop a trailing sub-pool qualifier in parens — UPTAC writes BC(Girl),
-    # SC(AF), OPEN(PH), EWS(GL) etc.; the base category is what determines group.
+    # Drop a trailing sub-pool qualifier — UPTAC writes BC(Girl), SC(AF), OPEN(PH),
+    # EWS(GL); Gujarat writes GEN-PH, EWS-PH. The base category determines the group.
     c = re.sub(r"\s*\([^)]*\)\s*", "", c).strip()
+    c = re.sub(r"-(PH|PWD|PWBD|VI|HI)$", "", c).strip()
     if not c or c in {"UNSPECIFIED", "UNKNOWN", "NA", "N/A", "-"}:
         return "Unspecified"
     if "EWS" in c or c in {"EW", "E-UR", "EUR"}:

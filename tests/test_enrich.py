@@ -179,6 +179,11 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("BCM") == "OBC"
     assert _category_group("MBC") == "OBC"
     assert _category_group("SCA") == "SC"   # SC-Arunthathiyar
+    # Gujarat (ACPC) codes: GEN/SEBC/EWS/SC/ST with a -PH PwD sub-pool suffix.
+    assert _category_group("GEN") == "General"
+    assert _category_group("GEN-PH") == "General"
+    assert _category_group("SEBC") == "OBC"
+    assert _category_group("EWS-PH") == "EWS"
 
 
 def test_enrich_frame_adds_category_group():

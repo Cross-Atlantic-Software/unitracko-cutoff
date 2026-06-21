@@ -10,8 +10,17 @@ from cutoffs.storage import read_parquet
 
 
 def test_all_adapters_registered():
-    assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly",
-            "tseamcet", "apeapcet", "uptac", "tnea"}.issubset(set(source_names()))
+    assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly", "tseamcet",
+            "apeapcet", "uptac", "tnea", "gujacpc"}.issubset(set(source_names()))
+
+
+def test_gujacpc_load_cached_is_gujarat():
+    df = get_source("gujacpc").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Gujarat").all()
+    assert df["Institute"].nunique() > 100
+    # ACPC publishes both First (opening) and Last (closing) rank.
+    assert df["OpeningRank"].notna().any() and df["ClosingRank"].notna().any()
 
 
 def test_tnea_load_cached_is_tamil_nadu():
