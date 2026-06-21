@@ -160,8 +160,13 @@ def _category_group(category: object) -> str:
         return "General"
     if re.fullmatch(r"BC[A-E]", c):
         return "OBC"
-    if re.fullmatch(r"SCI{1,3}", c):  # SC_I / SC_II / SC_III (SC handled above)
+    if re.fullmatch(r"SC(I{1,3}|A)", c):  # SC_I..III (TS/AP), SCA Arunthathiyar (TN)
         return "SC"
+    # Tamil Nadu (TNEA) communities: OC (General handled above), BC/BCM/MBC (OBC,
+    # handled above), SC/SCA, ST; MBC(V) Vanniyar etc. with a parenthetical already
+    # stripped at the top.
+    if c in {"MBCDNC", "DNC", "BCO"}:
+        return "OBC"
     return "Other"
 
 

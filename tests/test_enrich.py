@@ -174,6 +174,11 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("SC(AF)") == "SC"
     assert _category_group("OPEN(PH)") == "General"
     assert _category_group("EWS(GL)") == "EWS"
+    # Tamil Nadu (TNEA) communities.
+    assert _category_group("OC") == "General"
+    assert _category_group("BCM") == "OBC"
+    assert _category_group("MBC") == "OBC"
+    assert _category_group("SCA") == "SC"   # SC-Arunthathiyar
 
 
 def test_enrich_frame_adds_category_group():
