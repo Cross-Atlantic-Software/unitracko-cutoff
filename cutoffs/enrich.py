@@ -129,6 +129,13 @@ def _category_group(category: object) -> str:
         return "General"
     if "PWD" in c or c in {"PH", "PD", "DV"}:
         return "PwD"
+    # Karnataka (KCET) reservation codes: base GM/SC/ST/1/2A/2B/3A/3B with an
+    # optional region/medium suffix (G/K/R or H/KH/RH). Anchored so it can't catch
+    # ordinary words like "STATE".
+    km = re.match(r"^(GM|SC|ST|1|2A|2B|3A|3B)(?:G|K|R|H|KH|RH)?$", c)
+    if km:
+        base = km.group(1)
+        return {"GM": "General", "SC": "SC", "ST": "ST"}.get(base, "OBC")
     return "Other"
 
 

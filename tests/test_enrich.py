@@ -143,6 +143,15 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("Unspecified") == "Unspecified"
     assert _category_group(None) == "Unspecified"
     assert _category_group("BH") == "Other"        # unmapped community code
+    # Karnataka (KCET) codes: base GM/SC/ST/1/2A/.. with region/medium suffixes.
+    assert _category_group("GMH") == "General"
+    assert _category_group("GMRH") == "General"
+    assert _category_group("SCKH") == "SC"
+    assert _category_group("STH") == "ST"
+    assert _category_group("2AG") == "OBC"
+    assert _category_group("1R") == "OBC"
+    assert _category_group("3BK") == "OBC"
+    assert _category_group("STATE") == "Other"      # anchored: not read as ST
 
 
 def test_enrich_frame_adds_category_group():

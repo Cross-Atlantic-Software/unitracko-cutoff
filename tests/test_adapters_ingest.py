@@ -21,6 +21,30 @@ def test_real_pdf_adapters_have_rows():
     assert len(bihar) > 200 and bihar["ClosingRank"].notna().any()
 
 
+def test_kcet_load_cached_has_full_college_coverage():
+    # KCET now ships the parsed official KEA PDF snapshot (hundreds of colleges),
+    # not just the 5-college curated sample.
+    df = get_source("kcet").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Karnataka").all()
+    assert df["Institute"].nunique() > 100
+    assert df["ClosingRank"].notna().any()
+    # Karnataka reservation codes are grouped, not dumped into "Other".
+    from cutoffs.enrich import enrich_frame
+    groups = set(enrich_frame(df, get_source("kcet").meta)["CategoryGroup"])
+    assert {"General", "OBC", "SC", "ST"}.issubset(groups)
+
+
+def test_kcet_dedup_drops_identical_cutoff_rows():
+    import pandas as pd
+
+    from cutoffs.adapters.kcet import _dedup
+    row = {"Institute": "X", "Branch": "CS", "Category": "GMG", "Quota": "General",
+           "Year": 2024, "ClosingRank": 1000}
+    out = _dedup(pd.DataFrame([row, dict(row), {**row, "ClosingRank": 2000}]))
+    assert len(out) == 2  # the exact duplicate is dropped, the differing rank kept
+
+
 def test_josaa_load_cached_schema_and_rows():
     df = get_source("josaa").load_cached()
     assert list(df.columns) == COLUMNS
