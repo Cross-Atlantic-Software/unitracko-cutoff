@@ -184,6 +184,12 @@ def test_category_group_normalizes_vocabularies():
     assert _category_group("GEN-PH") == "General"
     assert _category_group("SEBC") == "OBC"
     assert _category_group("EWS-PH") == "EWS"
+    # IPU (Delhi) compound codes + Jharkhand BC tiers.
+    assert _category_group("OPNO") == "General"
+    assert _category_group("OPDF") == "General"
+    assert _category_group("EWNO") == "EWS"
+    assert _category_group("BC-I") == "OBC"
+    assert _category_group("BC-II") == "OBC"
 
 
 def test_enrich_frame_adds_category_group():

@@ -8,6 +8,7 @@ from cutoffs.adapters import (  # noqa: F401  (import = register)
     apeapcet,
     biharpoly,
     gujacpc,
+    ipu,
     jceceb,
     josaa,
     kcet,
@@ -21,5 +22,6 @@ from cutoffs.adapters import (  # noqa: F401  (import = register)
     wbjee,
 )
 
-__all__ = ["_bulk", "apeapcet", "biharpoly", "gujacpc", "jceceb", "josaa", "kcet",
-           "keam", "mhtcet", "ojee", "statepdf", "tnea", "tseamcet", "uptac", "wbjee"]
+__all__ = ["_bulk", "apeapcet", "biharpoly", "gujacpc", "ipu", "jceceb", "josaa",
+           "kcet", "keam", "mhtcet", "ojee", "statepdf", "tnea", "tseamcet",
+           "uptac", "wbjee"]

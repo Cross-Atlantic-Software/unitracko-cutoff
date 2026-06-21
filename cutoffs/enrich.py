@@ -119,8 +119,8 @@ def _category_group(category: object) -> str:
     c = re.sub(r"-(PH|PWD|PWBD|VI|HI)$", "", c).strip()
     if not c or c in {"UNSPECIFIED", "UNKNOWN", "NA", "N/A", "-"}:
         return "Unspecified"
-    if "EWS" in c or c in {"EW", "E-UR", "EUR"}:
-        return "EWS"
+    if "EWS" in c or c.startswith("EW") or c in {"E-UR", "EUR"}:
+        return "EWS"  # incl. IPU EWNO/EWDF
     if c == "SC" or "SCHEDULED CASTE" in c:
         return "SC"
     if c == "ST" or "SCHEDULED TRIBE" in c:
@@ -128,7 +128,7 @@ def _category_group(category: object) -> str:
     if ("OBC" in c or "BACKWARD" in c or "SEBC" in c or c.startswith("BC")
             or c in {"BC", "MBC", "BCA", "BCB", "BCM", "EZ", "MU"}):
         return "OBC"  # incl. Jharkhand BC-I/BC-II, TN BCM, TS/AP BC_A..E
-    if ("GENERAL" in c or "OPEN" in c
+    if ("GENERAL" in c or "OPEN" in c or c.startswith("OP")  # IPU OPNO/OPDF/OPPH
             or c in {"UR", "GM", "GEN", "OP", "SM", "UNRESERVED"}):
         return "General"
     if "PWD" in c or c in {"PH", "PD", "DV"}:

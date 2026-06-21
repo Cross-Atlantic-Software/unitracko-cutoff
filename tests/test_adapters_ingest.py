@@ -11,8 +11,15 @@ from cutoffs.storage import read_parquet
 
 def test_all_adapters_registered():
     assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly", "tseamcet",
-            "apeapcet", "uptac", "tnea", "gujacpc", "ojee",
-            "jceceb"}.issubset(set(source_names()))
+            "apeapcet", "uptac", "tnea", "gujacpc", "ojee", "jceceb",
+            "ipu"}.issubset(set(source_names()))
+
+
+def test_ipu_load_cached_is_delhi():
+    df = get_source("ipu").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Delhi").all()
+    assert df["OpeningRank"].notna().any() and df["ClosingRank"].notna().any()
 
 
 def test_jceceb_load_cached_is_jharkhand():
