@@ -11,7 +11,25 @@ from cutoffs.storage import read_parquet
 
 def test_all_adapters_registered():
     assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly", "tseamcet",
-            "apeapcet", "uptac", "tnea", "gujacpc"}.issubset(set(source_names()))
+            "apeapcet", "uptac", "tnea", "gujacpc", "ojee"}.issubset(set(source_names()))
+
+
+def test_ojee_load_cached_is_odisha():
+    df = get_source("ojee").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Odisha").all()
+    assert df["Institute"].nunique() > 80
+    assert df["ClosingRank"].notna().any()
+
+
+def test_flattable_header_detection():
+    from cutoffs.adapters._flattable import _header_indices
+    colmap = [("institute name", "Institute"), ("stream", "Branch"),
+              ("closing rank", "ClosingRank"), ("opening rank", "OpeningRank")]
+    hdr = _header_indices(["INSTITUTE NAME", "STREAM", "OPENING RANK", "CLOSING RANK"], colmap)
+    assert hdr == {"Institute": 0, "Branch": 1, "OpeningRank": 2, "ClosingRank": 3}
+    # a data row (no header substrings) is not a header
+    assert _header_indices(["IIT Foo", "CSE", "10", "500"], colmap) is None
 
 
 def test_gujacpc_load_cached_is_gujarat():
