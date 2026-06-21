@@ -9,6 +9,7 @@ charset-normalizer==3.4.7
 click==8.4.1
 colorama==0.4.6
 cryptography==49.0.0
+curl_cffi==0.15.0
 duckdb==1.5.3
 et_xmlfile==2.0.0
 gitdb==4.0.12

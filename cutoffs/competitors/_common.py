@@ -64,7 +64,13 @@ def fetch_html(url: str, *, timeout: float = 30.0, impersonate: bool = False,
 
 
 def tables_from_html(html: str) -> list:
-    """Parse every ``<table>`` into a DataFrame (lazy pandas). [] on failure."""
+    """Parse every ``<table>`` into a DataFrame (lazy pandas). [] on failure.
+
+    A single malformed table makes a whole-page ``pd.read_html`` raise (e.g.
+    Shiksha's pages throw ``IndexError``), which used to drop *every* table on the
+    page. So fall back to parsing each ``<table>`` element independently, skipping
+    only the genuinely broken ones.
+    """
     if not html:
         return []
     try:
@@ -73,8 +79,33 @@ def tables_from_html(html: str) -> list:
         import pandas as pd
 
         return pd.read_html(io.StringIO(html))
-    except Exception:  # noqa: BLE001 — no tables / parse error -> []
+    except Exception:  # noqa: BLE001 — one bad table -> retry table-by-table
+        return _tables_individually(html)
+
+
+def _tables_individually(html: str) -> list:
+    """Parse each ``<table>`` element on its own so one bad table can't sink the
+    page. Uses lxml (already a dependency) to split tables in document order.
+    """
+    try:
+        import io
+
+        import lxml.html
+        import pandas as pd
+    except Exception:  # noqa: BLE001 — lxml/pandas absent -> nothing to parse
         return []
+    try:
+        doc = lxml.html.fromstring(html)
+    except Exception:  # noqa: BLE001 — unparseable markup
+        return []
+    out: list = []
+    for el in doc.iter("table"):
+        try:
+            fragment = lxml.html.tostring(el, encoding="unicode")
+            out += pd.read_html(io.StringIO(fragment))
+        except Exception:  # noqa: BLE001 — skip the one malformed table
+            continue
+    return out
 
 
 # --------------------------------------------------------------------------
