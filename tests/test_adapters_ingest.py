@@ -11,8 +11,22 @@ from cutoffs.storage import read_parquet
 
 def test_all_adapters_registered():
     assert {"josaa", "mhtcet", "kcet", "wbjee", "keam", "biharpoly", "tseamcet",
-            "apeapcet", "uptac", "tnea", "gujacpc", "ojee", "jceceb",
-            "ipu"}.issubset(set(source_names()))
+            "apeapcet", "uptac", "tnea", "gujacpc", "ojee", "jceceb", "ipu",
+            "comedk"}.issubset(set(source_names()))
+
+
+def test_comedk_load_cached_is_karnataka():
+    df = get_source("comedk").load_cached()
+    assert list(df.columns) == COLUMNS
+    assert (df["State"] == "Karnataka").all()
+    assert df["Institute"].nunique() > 100
+    assert df["ClosingRank"].notna().any()
+
+
+def test_comedk_branch_strips_code_prefix():
+    from cutoffs.adapters.comedk import _branch
+    assert _branch("AD-Artificial Intelligence & Data Science") == "Artificial Intelligence & Data Science"
+    assert _branch("CS- Computer Science") == "Computer Science"
 
 
 def test_ipu_load_cached_is_delhi():
