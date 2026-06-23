@@ -87,6 +87,17 @@ def _rank_from_raw(raw_cells) -> tuple[int | None, int | None]:
 
 _CATEGORY_KEYS = ("category", "caste", "community", "reservation", "quota")
 
+# An "institute_name" matching this is really a table caption (e.g. "AILET 2026
+# Round 1 BA LLB Cut-Off"), not a college — the aggregators reuse the caption as a
+# pseudo-institute on exam-level cutoff grids. Real college names don't carry a
+# year/"cut-off"/"round"/"merit list".
+_CAPTION_RE = re.compile(r"cut\s*-?\s*off|cutoff|\bround\b|\bdetail|merit list|\b20\d{2}\b",
+                         re.IGNORECASE)
+
+
+def _is_caption(text: str) -> bool:
+    return bool(text) and bool(_CAPTION_RE.search(text))
+
 
 def _category_from_raw(raw_cells) -> str | None:
     """Pull a reservation category out of raw_cells (law/medical grids stash it there)."""
@@ -136,15 +147,33 @@ def _row_signal(row) -> dict | None:
         return None
 
     institute = _clean(row.get("institute_name"))
+    # A caption masquerading as a college name is not a college — blank it so the
+    # deliverable's College Name column only ever holds real institutions. The row
+    # then survives only if it has a category+rank (a legit exam-level grid).
+    if _is_caption(institute):
+        institute = ""
     branch = _clean(row.get("branch_or_course")) or _clean(row.get("program"))
-    # Require something to identify the row: a college, or a category+rank grid.
     category = _clean(row.get("category")) or _category_from_raw(row.get("raw_cells"))
-    if not institute and not (category and (closing or opening)):
-        return None
+    # The row is kept on the strength of its real rank (guaranteed above) plus its
+    # exam. A college/category/branch is preferred, but a bare exam-level cutoff is
+    # still the only data some long-tail exams publish — keep it (college blanked)
+    # rather than drop the exam entirely.
+
+    # Ranks are mislabelled in some source tables: opening must be the better (lower)
+    # rank, so swap an inverted pair rather than ship opening > closing.
+    if opening is not None and closing is not None and opening > closing:
+        opening, closing = closing, opening
 
     year = _year_from(row)
-    # A closing-only grid is the common aggregator shape; fall back to percentile or
-    # score for the closing column only when there's no actual rank.
+    # Closing column: the real closing rank if present; else a percentile/score — but
+    # ONLY when there's no opening rank either. Otherwise we'd mix units (an opening
+    # RANK against a closing MARKS value), which reads as a false opening>closing.
+    if closing is not None:
+        closing_out = closing
+    elif opening is None:
+        closing_out = pct or score
+    else:
+        closing_out = None
     return {
         "Exam": _clean(row.get("exam")),
         "Website": None,
@@ -159,7 +188,7 @@ def _row_signal(row) -> dict | None:
         "Year": year,
         "Round": _clean(row.get("counselling_round")) or None,
         "OpeningRank": opening,
-        "ClosingRank": closing if closing is not None else (pct or score),
+        "ClosingRank": closing_out,
         "SourceURL": _clean(row.get("page_url")) or None,
     }
 

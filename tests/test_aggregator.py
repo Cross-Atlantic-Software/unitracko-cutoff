@@ -6,6 +6,7 @@ import json
 from cutoffs.aggregator import (
     _category_from_raw,
     _clean,
+    _is_caption,
     _numeric,
     _rank_from_raw,
     _row_signal,
@@ -77,9 +78,57 @@ def test_row_signal_keeps_real_cutoff_drops_noise():
     assert grid["ClosingRank"] == 1480
 
 
+def test_is_caption_distinguishes_captions_from_colleges():
+    assert _is_caption("AILET 2026 Round 1 BA LLB Cut-Off")
+    assert _is_caption("AMU BA LLB Cut-Off 2024 Details")
+    assert not _is_caption("Amrita School of Engineering, Coimbatore")
+    assert not _is_caption("RV College of Engineering")
+
+
+def test_caption_college_is_blanked_not_passed_off_as_a_college():
+    # caption-as-college WITH a category -> survives as an exam-level grid, no college:
+    row = _row_signal({
+        "exam": "AILET", "institute_name": "AILET 2026 Round 1 BA LLB Cut-Off",
+        "raw_cells": json.dumps({"Category": "OBC", "Cut off": "330"}),
+    })
+    assert row is not None
+    assert row["Institute"] == ""          # caption blanked, not shipped as a college
+    assert row["Category"] == "OBC"
+    # caption-as-college with NO category but a real rank -> kept as a lower-resolution
+    # exam-level cutoff (college blanked), so the exam isn't lost from coverage:
+    bare = _row_signal({
+        "exam": "AILET", "institute_name": "AILET 2026 Cut-Off", "closing_rank": "330",
+    })
+    assert bare is not None
+    assert bare["Institute"] == ""
+    assert bare["ClosingRank"] == 330
+    # a true non-cutoff row (no rank anywhere) is still dropped:
+    assert _row_signal({"exam": "AILET", "institute_name": "AILET 2026 Cut-Off"}) is None
+
+
+def test_inverted_open_close_ranks_are_swapped():
+    row = _row_signal({
+        "exam": "X", "institute_name": "Some College",
+        "opening_rank": "5000", "closing_rank": "1000",
+    })
+    assert row["OpeningRank"] == 1000      # the better (lower) rank
+    assert row["ClosingRank"] == 5000
+
+
 def test_row_signal_falls_back_to_percentile_for_closing():
     row = _row_signal({
         "exam": "X", "institute_name": "Some College",
         "cutoff_percentile": "98",
     })
     assert row["ClosingRank"] == 98
+
+
+def test_score_fallback_not_mixed_with_an_opening_rank():
+    # opening RANK present but closing rank absent, with a marks/score value: the
+    # score must NOT become ClosingRank (different unit -> false opening>closing).
+    row = _row_signal({
+        "exam": "BHU", "institute_name": "Some College",
+        "opening_rank": "64", "cutoff_score_or_marks": "49",
+    })
+    assert row["OpeningRank"] == 64
+    assert row["ClosingRank"] is None      # not 49 (that's marks, not a rank)

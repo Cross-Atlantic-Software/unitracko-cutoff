@@ -85,9 +85,15 @@ the UI can list them and iterate "all" or one.
        ~third of rows with a real rank/percentile (drops calendars/"will be notified"/
        marketing), recovers Category from `raw_cells` and Year from the caption. A
        clearly-labelled SEPARATE side table (like `mp_aggregator.py`), NEVER merged
-       into `data/cutoffs.parquet`. Lifts UI coverage 19 official -> ~102 exams (+83
-       aggregator-only); surfaced in the "Colleges by Exam" tab's expander, flagged
-       lower-fidelity. Run: `python -m cutoffs.aggregator`.
+       into `data/cutoffs.parquet`. Lifts coverage 19 official -> 134 exams (120 in
+       the aggregator, 115 aggregator-only; ~32.7k rows, 2.4k colleges); surfaced in
+       the "Colleges by Exam" tab's expander, flagged lower-fidelity. Run:
+       `python -m cutoffs.aggregator`. Hardening: blanks caption-as-college values,
+       swaps inverted opening/closing, never mixes a rank with a marks/percentile.
+     - `cutoffs/competitors/_resolve.py` rescues search-landing / `/courses/` links
+       (no slug in the path) by deriving candidate slugs from the search term + exam
+       name (full slug, acronym e.g. 'aivet', noise-stripped); each competitor's
+       `cutoff_urls` falls back to these. Realized only on a fresh competitor scrape.
    - Cat-3 "no link" (~16): per the client, search Google/python and, WHERE POSSIBLE,
      produce a SEPARATE cat-1-shaped 14-column table ("make another table so we know").
      `cutoffs/cat3_provenance.run_cat3` does this — writes `data/cat3_cutoffs.csv`
