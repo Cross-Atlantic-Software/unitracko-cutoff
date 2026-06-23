@@ -80,6 +80,14 @@ the UI can list them and iterate "all" or one.
      (`data/competitor_<name>.parquet`); NEVER merged into the unified schema. `run.py`
      defaults to EVERY exam with that competitor link (the client's cat-2, independent
      of cat-1); `--category cat2` narrows to the no-official-link bucket.
+     - `cutoffs/aggregator.py` DISTILLS those raw competitor tables into the 14-col
+       (+Category) deliverable shape -> `data/aggregator_cutoffs.csv`: keeps only the
+       ~third of rows with a real rank/percentile (drops calendars/"will be notified"/
+       marketing), recovers Category from `raw_cells` and Year from the caption. A
+       clearly-labelled SEPARATE side table (like `mp_aggregator.py`), NEVER merged
+       into `data/cutoffs.parquet`. Lifts UI coverage 19 official -> ~102 exams (+83
+       aggregator-only); surfaced in the "Colleges by Exam" tab's expander, flagged
+       lower-fidelity. Run: `python -m cutoffs.aggregator`.
    - Cat-3 "no link" (~16): per the client, search Google/python and, WHERE POSSIBLE,
      produce a SEPARATE cat-1-shaped 14-column table ("make another table so we know").
      `cutoffs/cat3_provenance.run_cat3` does this — writes `data/cat3_cutoffs.csv`

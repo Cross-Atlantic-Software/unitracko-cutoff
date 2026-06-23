@@ -64,6 +64,22 @@ def cached_catalog(_ver: float) -> pd.DataFrame:
 def cached_colleges(exam: str, _ver: float) -> pd.DataFrame:
     return colleges_for_exam(exam, PARQUET)
 
+
+# Aggregator-sourced cutoffs (competitor tables distilled to the deliverable shape).
+# A SEPARATE, lower-fidelity side table — never merged into the official Parquet.
+from cutoffs.aggregator import AGG_CUTOFFS_CSV
+
+
+def _aggregator_version() -> float:
+    return AGG_CUTOFFS_CSV.stat().st_mtime if AGG_CUTOFFS_CSV.exists() else 0.0
+
+
+@st.cache_data(show_spinner=False)
+def cached_aggregator(_ver: float) -> pd.DataFrame:
+    if not AGG_CUTOFFS_CSV.exists():
+        return pd.DataFrame()
+    return pd.read_csv(AGG_CUTOFFS_CSV)
+
 # Shared display config for the row-level cutoff table (used by more than one tab).
 CUTOFF_DISPLAY_ORDER = [
     "Exam", "Website", "Institute", "City", "State", "Program", "Branch",
@@ -358,7 +374,19 @@ with tab_colleges:
                "rank envelope. Aggregated live in DuckDB.")
 
     exams = cached_distinct("Exam", _data_version())
-    sel_exam = st.selectbox("Exam Name", [""] + exams, key="ce_exam")
+    n_catalog = len(cached_catalog(_catalog_version()))
+    agg_df = cached_aggregator(_aggregator_version())
+    agg_exams = sorted(agg_df["Exam Name"].dropna().unique()) if not agg_df.empty else []
+    agg_only = [e for e in agg_exams if e not in set(exams)]
+    combined = len(set(exams) | set(agg_exams))
+    st.caption(
+        f"**{len(exams)}** exams have high-fidelity **official** cutoff data; "
+        f"another **{len(agg_only)}** are covered by lower-fidelity "
+        f"**aggregator-sourced** data (see the section below) — **{combined} of "
+        f"{n_catalog}** catalogued exams in total. The rest publish no cutoffs or "
+        "sit behind gated portals."
+    )
+    sel_exam = st.selectbox("Exam Name (official data)", [""] + exams, key="ce_exam")
 
     if not sel_exam:
         st.info("Select an exam above to list its colleges.")
@@ -421,6 +449,46 @@ with tab_colleges:
                 st.dataframe(
                     rows, width="stretch", hide_index=True, height=360,
                     column_order=CUTOFF_DISPLAY_ORDER, column_config=CUTOFF_COLUMN_CONFIG,
+                )
+
+    # --- Aggregator-sourced cutoffs (separate, lower-fidelity) --------------
+    if agg_only:
+        st.divider()
+        with st.expander(
+            f"➕  Aggregator-sourced cutoffs — {len(agg_only)} more exams "
+            "(lower fidelity, not official)", expanded=False,
+        ):
+            st.caption(
+                "Distilled from competitor sites (Shiksha, Careers360, CollegeDunia, "
+                "CollegeDekho) into the same deliverable shape, for exams without an "
+                "official adapter. **Kept separate from the official data above** — "
+                "treat as indicative: closing ranks dominate, opening ranks and "
+                "college names are often partial. Every row links its source page."
+            )
+            sel_agg = st.selectbox("Aggregator-covered exam", [""] + agg_only,
+                                   key="ce_agg_exam")
+            if sel_agg:
+                arows = agg_df[agg_df["Exam Name"] == sel_agg].reset_index(drop=True)
+                a1, a2, a3 = st.columns(3)
+                a1.metric("Rows", f"{len(arows):,}")
+                a2.metric("With closing rank", f"{arows['Closing Rank'].notna().sum():,}")
+                yvals = pd.to_numeric(arows["Year - cutoff"], errors="coerce").dropna()
+                a3.metric("Years", f"{int(yvals.min())}–{int(yvals.max())}"
+                          if not yvals.empty else "—")
+                st.dataframe(
+                    arows, width="stretch", hide_index=True, height=420,
+                    column_config={
+                        "Link of website": st.column_config.LinkColumn(
+                            "Website", display_text="open ↗"),
+                        "Link - Data Taken from": st.column_config.LinkColumn(
+                            "Source", display_text="source ↗"),
+                    },
+                )
+                st.download_button(
+                    "⬇️  Download aggregator rows (CSV)",
+                    data=arows.to_csv(index=False).encode("utf-8"),
+                    file_name=f"aggregator_{sel_agg[:30].strip().replace(' ', '_')}.csv",
+                    mime="text/csv",
                 )
 
 # ===========================================================================

@@ -137,6 +137,12 @@ if __name__ == "__main__":  # pragma: no cover - CLI entry for the cron job
     if args.category in ("2", "all"):
         from cutoffs.competitors.run import main as competitors_main
         rc |= competitors_main([])  # all competitors, every exam with a competitor link
+        # Distil the freshly-scraped competitor tables into the labelled, lower-fidelity
+        # aggregator deliverable (SEPARATE side table, never merged into the unified set).
+        from cutoffs.aggregator import run_aggregator
+        a = run_aggregator()
+        print(f"[aggregator] wrote {a['rows']:,} rows across {a['exams']} exams "
+              f"({a['colleges']} colleges) -> {a['path']}")
     if args.category in ("3", "all"):
         from cutoffs.cat3_provenance import run_cat3
         s = run_cat3()
