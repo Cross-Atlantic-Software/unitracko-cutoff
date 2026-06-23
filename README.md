@@ -26,8 +26,13 @@ No always-on server in the data path; everything reads Parquet.
 python -m venv .venv && source .venv/bin/activate   # Linux / macOS
 # python -m venv .venv && .venv\Scripts\activate    # Windows
 pip install -r requirements.txt
-streamlit run app.py                                # http://localhost:8501
+./run.sh                                            # http://localhost:8502
+# (or: streamlit run app.py — but only inside the activated venv)
 ```
+
+> `./run.sh` always launches Streamlit with the venv interpreter, so it can't
+> hit `ModuleNotFoundError` from a stray system-Python `streamlit`. Pass a port
+> as `./run.sh 8501` if you want a different one.
 
 > A venv is platform-specific — don't reuse one created on another OS. On this
 > machine the working environment is `.venv-linux` (use `.venv-linux/bin/python`);
