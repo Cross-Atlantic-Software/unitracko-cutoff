@@ -16,22 +16,36 @@ import re
 from urllib.parse import urlparse
 
 COMPETITOR = "shiksha"
+_DEFAULT_BASE = "https://www.shiksha.com"
 # /<stream>/<slug>-exam  or  /<stream>/<slug>-exam-cutoff
 _EXAM_RE = re.compile(r"^/([^/]+)/(.+?)-exam(?:-cutoff)?/?$")
+# The cutoff hub lives under a stream segment we can't read off a /search link, so
+# the fallback tries the most common streams. Kept short (and slugs capped) so a
+# search-landing exam costs a handful of requests, not dozens, on this gated site.
+_STREAMS = ("engineering", "medicine", "science", "management", "law")
 
 
-def cutoff_urls(sheet_url: str, **_: object) -> list[str]:
-    """Build the ``-exam-cutoff`` hub URL. [] for /search?q= links with no slug."""
+def cutoff_urls(sheet_url: str, *, exam: str | None = None, **_: object) -> list[str]:
+    """Build the ``-exam-cutoff`` hub URL.
+
+    Prefers the exact ``/<stream>/<slug>`` in the path; for ``/search?q=`` landing
+    links falls back to candidate slugs (derived from the search term / exam name)
+    crossed with the common streams.
+    """
+    from cutoffs.competitors._resolve import candidate_slugs, dedupe
+
     p = urlparse(sheet_url or "")
     path = p.path or ""
-    if path.startswith("/search") or not path.strip("/"):
-        return []
+    base = f"{p.scheme}://{p.netloc}" if p.netloc else _DEFAULT_BASE
     m = _EXAM_RE.match(path)
-    if not m:
-        return []
-    stream, slug = m.group(1), m.group(2)
-    base = f"{p.scheme}://{p.netloc}"
-    return [f"{base}/{stream}/{slug}-exam-cutoff"]
+    if m:
+        stream, slug = m.group(1), m.group(2)
+        return [f"{base}/{stream}/{slug}-exam-cutoff"]
+    urls: list[str] = []
+    for slug in candidate_slugs(sheet_url, exam, max_slugs=2):
+        for stream in _STREAMS:
+            urls.append(f"{base}/{stream}/{slug}-exam-cutoff")
+    return dedupe(urls)
 
 
 def exam_slug(sheet_url: str) -> str | None:
@@ -44,7 +58,7 @@ def scrape(sheet_url: str, exam: str, **_: object) -> list[dict]:
 
     slug = exam_slug(sheet_url) or ""
     rows: list[dict] = []
-    for url in cutoff_urls(sheet_url):
+    for url in cutoff_urls(sheet_url, exam=exam):
         html = fetch_html(url, impersonate=True)  # Akamai: needs curl_cffi/chrome
         if not html:
             continue  # blocked / curl_cffi absent -> degrade to empty

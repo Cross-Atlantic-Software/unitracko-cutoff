@@ -13,6 +13,7 @@ import re
 from urllib.parse import urlparse
 
 COMPETITOR = "careers360"
+_DEFAULT_BASE = "https://www.careers360.com"
 _SLUG_RE = re.compile(r"^/(?:exams|articles)/([^/?#]+)")
 
 
@@ -24,14 +25,29 @@ def _slug(path: str) -> str | None:
     return re.sub(r"-cut-?off$", "", m.group(1))
 
 
-def cutoff_urls(sheet_url: str, **_: object) -> list[str]:
-    """Article cutoff URLs on the same vertical subdomain (both -cutoff variants)."""
-    p = urlparse(sheet_url or "")
-    slug = _slug(p.path or "")
-    if not slug:
-        return []
-    base = f"{p.scheme}://{p.netloc}"  # preserve vertical subdomain; www redirects
+def _urls_from_slug(base: str, slug: str) -> list[str]:
     return [f"{base}/articles/{slug}-cutoff", f"{base}/articles/{slug}-cut-off"]
+
+
+def cutoff_urls(sheet_url: str, *, exam: str | None = None, **_: object) -> list[str]:
+    """Article cutoff URLs on the same vertical subdomain (both -cutoff variants).
+
+    Falls back to candidate slugs derived from the search term / exam name when the
+    path carries no ``/exams|/articles`` slug. The vertical subdomain stays whatever
+    the link used (``www`` redirects to the right one), so we don't fan across all
+    verticals — keeping the candidate count polite.
+    """
+    from cutoffs.competitors._resolve import candidate_slugs, dedupe
+
+    p = urlparse(sheet_url or "")
+    base = f"{p.scheme}://{p.netloc}" if p.netloc else _DEFAULT_BASE
+    slug = _slug(p.path or "")
+    if slug:
+        return _urls_from_slug(base, slug)
+    urls: list[str] = []
+    for cand in candidate_slugs(sheet_url, exam):
+        urls += _urls_from_slug(base, cand)
+    return dedupe(urls)
 
 
 def exam_slug(sheet_url: str) -> str | None:
@@ -67,7 +83,7 @@ def scrape(sheet_url: str, exam: str, **_: object) -> list[dict]:
 
     slug = exam_slug(sheet_url) or ""
     rows: list[dict] = []
-    for url in cutoff_urls(sheet_url):
+    for url in cutoff_urls(sheet_url, exam=exam):
         html = fetch_html(url, impersonate=False)
         if not html:
             continue

@@ -30,8 +30,10 @@ from cutoffs.competitors._common import (
 def test_collegedunia_urls():
     assert collegedunia.cutoff_urls("https://collegedunia.com/exams/jee-main") == [
         "https://collegedunia.com/exams/jee-main/cutoff"]
-    # search / course links have no exam slug -> no cutoff URL
-    assert collegedunia.cutoff_urls("https://collegedunia.com/e-search?term=Foo+Bar") == []
+    # a search link with a term now resolves via the offline slug resolver:
+    assert "https://collegedunia.com/exams/foo-bar/cutoff" in \
+        collegedunia.cutoff_urls("https://collegedunia.com/e-search?term=Foo+Bar")
+    # a bare link with neither a search term nor an exam name -> still nothing to derive:
     assert collegedunia.cutoff_urls("https://collegedunia.com/courses/acca") == []
 
 
@@ -59,8 +61,11 @@ def test_shiksha_urls_use_exam_cutoff_suffix():
     # already a cutoff hub -> idempotent
     assert shiksha.cutoff_urls("https://www.shiksha.com/engineering/kcet-exam-cutoff") == [
         "https://www.shiksha.com/engineering/kcet-exam-cutoff"]
-    # generic search landing -> no slug
-    assert shiksha.cutoff_urls("https://www.shiksha.com/search?q=Foo%20Bar") == []
+    # a search landing with a query now resolves via the offline resolver (slug x
+    # common streams); a bare /search with no query and no exam stays empty.
+    resolved = shiksha.cutoff_urls("https://www.shiksha.com/search?q=Foo%20Bar")
+    assert "https://www.shiksha.com/engineering/foo-bar-exam-cutoff" in resolved
+    assert shiksha.cutoff_urls("https://www.shiksha.com/search") == []
 
 
 # --------------------------------------------------------------------------

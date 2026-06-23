@@ -11,22 +11,32 @@ import re
 from urllib.parse import urlparse
 
 COMPETITOR = "collegedunia"
+_DEFAULT_BASE = "https://collegedunia.com"
 _EXAM_SLUG_RE = re.compile(r"^/exams/([^/?#]+)")
 
 
-def cutoff_urls(sheet_url: str, **_: object) -> list[str]:
-    """Build the exam cutoff URL from a sheet landing URL.
-
-    Returns [] for generic ``/e-search?term=`` or ``/courses/`` links that have no
-    resolvable exam slug.
-    """
-    p = urlparse(sheet_url or "")
-    m = _EXAM_SLUG_RE.match(p.path or "")
-    if not m:
-        return []
-    slug = m.group(1)
-    base = f"{p.scheme}://{p.netloc}"
+def _urls_from_slug(base: str, slug: str) -> list[str]:
     return [f"{base}/exams/{slug}/cutoff"]
+
+
+def cutoff_urls(sheet_url: str, *, exam: str | None = None, **_: object) -> list[str]:
+    """Build the exam cutoff URL(s) from a sheet landing URL.
+
+    Prefers the exact ``/exams/<slug>`` slug in the path. For generic
+    ``/e-search?term=`` / ``/courses/`` links with no slug, falls back to candidate
+    slugs derived from the search term / exam name (validated by the scrape).
+    """
+    from cutoffs.competitors._resolve import candidate_slugs, dedupe
+
+    p = urlparse(sheet_url or "")
+    base = f"{p.scheme}://{p.netloc}" if p.netloc else _DEFAULT_BASE
+    m = _EXAM_SLUG_RE.match(p.path or "")
+    if m:
+        return _urls_from_slug(base, m.group(1))
+    urls: list[str] = []
+    for slug in candidate_slugs(sheet_url, exam):
+        urls += _urls_from_slug(base, slug)
+    return dedupe(urls)
 
 
 def exam_slug(sheet_url: str) -> str | None:
@@ -41,7 +51,7 @@ def scrape(sheet_url: str, exam: str, **_: object) -> list[dict]:
 
     slug = exam_slug(sheet_url) or ""
     rows: list[dict] = []
-    for url in cutoff_urls(sheet_url):
+    for url in cutoff_urls(sheet_url, exam=exam):
         html = fetch_html(url, impersonate=False)  # browser-UA httpx is enough
         if not html:
             continue

@@ -70,7 +70,7 @@ def run_competitor(name: str, seg_rows: list[dict[str, str]], categories: set[st
     rows: list[dict] = []
     resolved = with_rows = 0
     for exam, url in targets:
-        if mod.cutoff_urls(url):
+        if mod.cutoff_urls(url, exam=exam):
             resolved += 1
         page_rows = mod.scrape(url, exam)
         if page_rows:

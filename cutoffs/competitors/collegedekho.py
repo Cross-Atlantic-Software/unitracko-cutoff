@@ -19,18 +19,33 @@ _EXAM_SLUG_RE = re.compile(r"^/exam/([^/?#]+)")
 DEFAULT_YEARS = tuple(range(date.today().year - 1, date.today().year - 5, -1))
 
 
-def cutoff_urls(sheet_url: str, *, years: tuple[int, ...] = DEFAULT_YEARS,
-                **_: object) -> list[str]:
-    """Current-year cutoff page plus the ``-<year>-esp`` archives. [] if no slug."""
-    p = urlparse(sheet_url or "")
-    m = _EXAM_SLUG_RE.match(p.path or "")
-    if not m:
-        return []
-    slug = m.group(1)
-    base = f"{p.scheme}://{p.netloc}"
+_DEFAULT_BASE = "https://www.collegedekho.com"
+
+
+def _urls_from_slug(base: str, slug: str, years: tuple[int, ...]) -> list[str]:
     urls = [f"{base}/exam/{slug}/cutoff"]
     urls += [f"{base}/exam/{slug}/cutoff-{y}-esp" for y in years]
     return urls
+
+
+def cutoff_urls(sheet_url: str, *, years: tuple[int, ...] = DEFAULT_YEARS,
+                exam: str | None = None, **_: object) -> list[str]:
+    """Current-year cutoff page plus the ``-<year>-esp`` archives.
+
+    Falls back to candidate slugs derived from the search term / exam name when the
+    path carries no ``/exam/<slug>`` (search-landing / course links).
+    """
+    from cutoffs.competitors._resolve import candidate_slugs, dedupe
+
+    p = urlparse(sheet_url or "")
+    base = f"{p.scheme}://{p.netloc}" if p.netloc else _DEFAULT_BASE
+    m = _EXAM_SLUG_RE.match(p.path or "")
+    if m:
+        return _urls_from_slug(base, m.group(1), years)
+    urls: list[str] = []
+    for slug in candidate_slugs(sheet_url, exam):
+        urls += _urls_from_slug(base, slug, years)
+    return dedupe(urls)
 
 
 def exam_slug(sheet_url: str) -> str | None:
@@ -45,7 +60,7 @@ def scrape(sheet_url: str, exam: str, *, years: tuple[int, ...] = DEFAULT_YEARS,
 
     slug = exam_slug(sheet_url) or ""
     rows: list[dict] = []
-    for url in cutoff_urls(sheet_url, years=years):
+    for url in cutoff_urls(sheet_url, years=years, exam=exam):
         html = fetch_html(url, impersonate=False)
         if not html:
             continue
