@@ -46,6 +46,42 @@ def test_collegedekho_urls_include_year_archives():
     assert collegedekho.cutoff_urls("https://www.collegedekho.com/courses/x") == []
 
 
+def test_collegedekho_derived_slug_skips_archives_on_404(monkeypatch):
+    """A resolver-derived slug whose current-year page 404s must NOT fan out to the
+    year archives — a wrong guess costs one GET, not 1 + len(years)."""
+    from cutoffs.competitors import _common
+
+    seen: list[str] = []
+
+    def fake_fetch(url, **_):
+        seen.append(url)
+        return ""  # every page 404s -> empty html
+
+    monkeypatch.setattr(_common, "fetch_html", fake_fetch)
+    # search-landing link (no /exam/<slug>) -> slugs are derived, all 404.
+    collegedekho.scrape("https://www.collegedekho.com/e-search?q=Foo+Bar+Exam",
+                        "Foo Bar Exam", years=(2024, 2023))
+    # only the per-slug current-year /cutoff probes, never a -esp archive.
+    assert seen and all(u.endswith("/cutoff") for u in seen)
+
+
+def test_collegedekho_path_slug_always_fetches_archives(monkeypatch):
+    """A known-good path slug fetches the full archive set even if a page is empty."""
+    from cutoffs.competitors import _common
+
+    seen: list[str] = []
+
+    def fake_fetch(url, **_):
+        seen.append(url)
+        return ""
+
+    monkeypatch.setattr(_common, "fetch_html", fake_fetch)
+    collegedekho.scrape("https://www.collegedekho.com/exam/kcet", "KCET",
+                        years=(2024, 2023))
+    assert "https://www.collegedekho.com/exam/kcet/cutoff-2024-esp" in seen
+    assert "https://www.collegedekho.com/exam/kcet/cutoff-2023-esp" in seen
+
+
 def test_careers360_urls_preserve_vertical_and_try_both_variants():
     urls = careers360.cutoff_urls("https://medicine.careers360.com/exams/neet")
     assert "https://medicine.careers360.com/articles/neet-cutoff" in urls

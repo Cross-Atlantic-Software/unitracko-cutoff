@@ -54,19 +54,45 @@ def exam_slug(sheet_url: str) -> str | None:
     return m.group(1) if m else None
 
 
+def _slug_candidates(sheet_url: str, exam: str | None) -> list[str]:
+    """The path slug (a single known-good value) or resolver-derived candidates."""
+    path_slug = exam_slug(sheet_url)
+    if path_slug:
+        return [path_slug]
+    from cutoffs.competitors._resolve import candidate_slugs
+
+    return candidate_slugs(sheet_url, exam)
+
+
 def scrape(sheet_url: str, exam: str, *, years: tuple[int, ...] = DEFAULT_YEARS,
            **_: object) -> list[dict]:
     from cutoffs.competitors._common import fetch_html, rows_from_tables
+    from urllib.parse import urlparse
 
-    slug = exam_slug(sheet_url) or ""
+    p = urlparse(sheet_url or "")
+    base = f"{p.scheme}://{p.netloc}" if p.netloc else _DEFAULT_BASE
+    derived = exam_slug(sheet_url) is None
+
     rows: list[dict] = []
-    for url in cutoff_urls(sheet_url, years=years, exam=exam):
-        html = fetch_html(url, impersonate=False)
-        if not html:
-            continue
-        # Pull the year out of the archive URL so undated tables still carry it.
-        ym = re.search(r"cutoff-(\d{4})-esp", url)
-        rows += rows_from_tables(html, competitor=COMPETITOR, exam=exam, slug=slug,
-                                 page_url=url, page_type="exam_cutoff",
-                                 year=ym.group(1) if ym else None)
+    for slug in _slug_candidates(sheet_url, exam):
+        # Current-year page first. For a *derived* slug, only fan out to the year
+        # archives when this page actually exists (non-empty html) — a wrong guess
+        # then costs 1 GET, not 1 + len(years). A path slug is known-good, so it
+        # always fetches the full archive set regardless.
+        cur_url = f"{base}/exam/{slug}/cutoff"
+        cur_html = fetch_html(cur_url, impersonate=False)
+        if cur_html:
+            rows += rows_from_tables(cur_html, competitor=COMPETITOR, exam=exam,
+                                     slug=slug, page_url=cur_url,
+                                     page_type="exam_cutoff", year=None)
+        elif derived:
+            continue  # slug didn't resolve — don't probe its archives
+        for y in years:
+            arch_url = f"{base}/exam/{slug}/cutoff-{y}-esp"
+            html = fetch_html(arch_url, impersonate=False)
+            if not html:
+                continue
+            rows += rows_from_tables(html, competitor=COMPETITOR, exam=exam,
+                                     slug=slug, page_url=arch_url,
+                                     page_type="exam_cutoff", year=str(y))
     return rows
