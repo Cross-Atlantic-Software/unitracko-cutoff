@@ -1,0 +1,57 @@
+{
+  "Tripura Polytechnic Entrance Examination": {
+    "status": "none",
+    "source_url": "https://highereducation.tripura.gov.in/",
+    "note": "Admission is via centralized counselling under DHE Tripura based purely on merit/rank; no public college-branch-wise opening/closing rank cutoff tables found. Official site and competitor pages only describe process and merit lists.",
+    "rows": []
+  },
+  "Uttar Pradesh Common Nursing Entrance Test": {
+    "status": "none",
+    "source_url": "https://collegedunia.com/exams/abvmu-cnet/cutoff",
+    "note": "UP CNET (ABVMU) publishes only category-wise qualifying percentiles (Gen 50, Gen-PwD 45, SC/ST/OBC 40) and rough expected closing-marks ranges, not real college-branch-wise rank tables. Collegedunia/careers360 cutoff pages returned 403 or only estimated ranges. No verifiable college-wise rows.",
+    "rows": []
+  },
+  "Uttarakhand Joint Entrance Examination Polytechnic": {
+    "status": "none",
+    "source_url": "https://engineering.careers360.com/articles/uttarakhand-polytechnic-jeep",
+    "note": "UBTER JEEP counselling is rank-based across ~157 polytechnics but cutoffs are not published as static HTML; careers360 article has no numeric cutoff tables and shiksha cutoff page returned 403. No fetchable college-branch-wise opening/closing rank data.",
+    "rows": []
+  },
+  "Uttarakhand Nursing Entrance Exam": {
+    "status": "none",
+    "source_url": "https://hnbumu.ac.in/admissions/",
+    "note": "HNBUMU nursing admission is via a merit list based on marks out of 100; seats allotted by merit/category/choice. No public college-branch-wise rank cutoff tables; 2026 results not yet declared.",
+    "rows": []
+  },
+  "Uttarakhand Paramedical Entrance Exam": {
+    "status": "none",
+    "source_url": "https://hnbumu.ac.in/admissions/",
+    "note": "HNBUMU paramedical admission is merit-list based (marks out of 100); no public college-branch-wise opening/closing rank cutoff tables found.",
+    "rows": []
+  },
+  "Uttarakhand State Entrance Examination": {
+    "status": "ok",
+    "source_url": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff",
+    "note": "Branch- and category-wise opening/closing ranks for Uttaranchal University from the UKSEE cutoff page on KollegeApply (education portal). Labelled 2024 'expected' and given as rank ranges; recorded the lower bound of each range. Lower-fidelity competitor-portal data, not official UTU. getmyuni UTU page had only round-number JEE Main estimates (excluded).",
+    "rows": [
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Computer Science and Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "General", "Opening Rank": 115905, "Closing Rank": 328120, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Computer Science and Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "ST", "Opening Rank": 637285, "Closing Rank": 637285, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Computer Science and Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "OBC", "Opening Rank": 637285, "Closing Rank": 637285, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Civil Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "General", "Opening Rank": 57220, "Closing Rank": 327490, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Civil Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "ST", "Opening Rank": 542115, "Closing Rank": 686155, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Mechanical Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "General", "Opening Rank": 176725, "Closing Rank": 331835, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Mechanical Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "OBC", "Opening Rank": 446210, "Closing Rank": 771710, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Mechanical Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "ST", "Opening Rank": 446210, "Closing Rank": 771710, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Electrical Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "General", "Opening Rank": 119855, "Closing Rank": 119855, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Electrical Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "ST", "Opening Rank": 427555, "Closing Rank": 509380, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Petroleum Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "General", "Opening Rank": 334940, "Closing Rank": 334940, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"},
+      {"College Name": "Uttaranchal University", "City": "Dehradun", "State": "Uttarakhand", "Program": "B.Tech", "Branch": "Petroleum Engineering", "Year - cutoff": "2024", "Round #": null, "Gender": "Gender-Neutral", "Quota": null, "Category": "ST", "Opening Rank": 512455, "Closing Rank": 512455, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"}
+    ]
+  },
+  "West Bengal Bachelor of Arts Admission": {
+    "status": "none",
+    "source_url": "https://wbcap.in/",
+    "note": "WBCAP UG/BA admission cutoffs are class-12 best-of-five percentage merit lists published per college only on the wbcap.in portal after each allotment phase; no consolidated, fetchable college-wise rank/cutoff table available. Competitor pages describe process only.",
+    "rows": []
+  }
+}

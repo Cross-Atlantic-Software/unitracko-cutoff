@@ -264,6 +264,29 @@ def read_segmentation(path: Path = SEGMENTATION_CSV) -> list[SegRow]:
     return out
 
 
+def official_website_map(path: Path = SEGMENTATION_CSV) -> dict[str, str]:
+    """Map each exam name -> its official website, for connecting side-table rows.
+
+    The deliverable's "Link of website" column should always point at the AUTHORITATIVE
+    source even when the rank/cutoff data itself was distilled from a competitor or
+    web-research page (which lives in "Link - Data Taken from"). Prefers the specific
+    official cutoff URL, falling back to the homepage; skips values flagged as prose
+    rather than a real link. Empty dict if the driver is absent.
+    """
+    out: dict[str, str] = {}
+    for r in read_segmentation(path):
+        cutoff_url = (r.official_cutoff_url or "").strip()
+        homepage = (r.homepage or "").strip()
+        site = ""
+        if cutoff_url and not r.prose_cutoff_url:
+            site = cutoff_url
+        elif homepage and not r.prose_homepage:
+            site = homepage
+        if r.exam and site:
+            out[r.exam] = site
+    return out
+
+
 def write_segmentation(
     rows: list[SegRow], path: Path = SEGMENTATION_CSV,
 ) -> Path:

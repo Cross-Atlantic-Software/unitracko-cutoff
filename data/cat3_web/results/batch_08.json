@@ -1,0 +1,62 @@
+{
+  "Madhya Pradesh Bachelor of Arts Entrance Examination": {
+    "status": "none",
+    "source_url": "https://www.collegedekho.com/articles/mp-ba-admission/",
+    "note": "MP BA admission is merit-based (Class 12 marks via MPOnline ePravesh); pages list colleges and eligibility but publish no college/branch-wise opening/closing ranks or cutoff scores.",
+    "rows": []
+  },
+  "Madhya Pradesh Bachelor of Business Administration Entrance Examination": {
+    "status": "none",
+    "source_url": "https://www.shiksha.com/bba/colleges/bba-colleges-madhya-pradesh",
+    "note": "MP BBA admission via MPOnline ePravesh merit list (Class 12 marks); no college-wise cutoff ranks/scores published. Shiksha listing pages are 403/marketing only.",
+    "rows": []
+  },
+  "Madhya Pradesh Pre Engineering Test": {
+    "status": "none",
+    "source_url": "https://engineering.careers360.com/articles/mp-be-cutoff",
+    "note": "MP PET is defunct; B.Tech admission in MP now runs through DTE MP counselling on JEE Main ranks, not a PET score. DTE/careers360 cutoffs exist only inside downloadable PDFs, with no PET-specific college-wise rank rows readable on the page.",
+    "rows": []
+  },
+  "Madhya Pradesh Pre Nursing Selection Test": {
+    "status": "none",
+    "source_url": "https://esb.mp.gov.in/",
+    "note": "MP ESB PNST produces a merit list (roll number + marks); no public college/branch-wise opening/closing rank table.",
+    "rows": []
+  },
+  "Madhya Pradesh Pre Veterinary and Fisheries Test": {
+    "status": "none",
+    "source_url": "https://esb.mp.gov.in/",
+    "note": "MP ESB PV&FT produces a merit list (roll number + marks) for veterinary/fisheries seats; no public college-wise cutoff rank data.",
+    "rows": []
+  },
+  "Maharaja Sayajirao University of Baroda Fine Arts Entrance Examination": {
+    "status": "none",
+    "source_url": "https://www.careers360.com/university/maharaja-sayajirao-university-of-baroda-vadodara/cut-off",
+    "note": "Faculty of Fine Arts admission is via in-house entrance test + portfolio + interview, published as name-wise merit lists (3 rounds), not college/branch opening-closing ranks. The only structured cutoffs on the MSU cutoff page are GUJCET engineering ranks, which belong to a different exam, so nothing valid for the Fine Arts entrance.",
+    "rows": []
+  },
+  "Maharashtra Bachelor of Science Nursing Common Entrance Test": {
+    "status": "ok",
+    "source_url": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/",
+    "note": "MH B.Sc Nursing CET CAP Round 2 2024 institute-wise closing ranks (Open category) from CollegeDekho, sourced from Maharashtra CET Cell (medical2024.mahacet.org). Only closing ranks for the Open category were published; opening ranks not provided.",
+    "rows": [
+      {"College Name": "B. J. Govt. Medical College & Sassoon Hospital (Code 9115)", "City": "Pune", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 57, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "College of Nursing, Government Medical College & Hospital, Ajni (Code 9212)", "City": "Nagpur", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 82, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "College of Nursing, Grant Govt. Medical College (Code 9111)", "City": "Mumbai", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 117, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Government Medical College & Hospital, College of Nursing (Code 9314)", "City": "Aurangabad", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 178, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Dr. Shankarrao Chavan Government College of Nursing (Code 9366)", "City": "Nanded", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 229, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "K.J. Somaiyya College of Nursing, Hospital & Research Centre (Code 9116)", "City": "Mumbai", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 474, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Bombay Hospital College of Nursing (Code 9112)", "City": "Mumbai", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 493, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Sir H. N. Hospital & Research Centre College of Nursing (Code 9135)", "City": "Mumbai", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 700, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Mahatma Gandhi Mission Trust's Mother Teresa College of Nursing (Code 9315)", "City": "Aurangabad", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 1204, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Chandrapur College of Nursing (Code 9267)", "City": "Chandrapur", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 1386, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Savitribai Phule College of Nursing (Code 9132)", "City": "Kolhapur", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 1499, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Godavari College of Nursing (Code 9119)", "City": "Jalgaon", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 1885, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Dr. G. D. Pol Foundation College of Nursing (Code 9197)", "City": "Navi Mumbai", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 2612, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Dr. Rajendra Gode Institute of Nursing (Code 9253)", "City": "Amravati", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 3936, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Chhatrapati Shivaji Maharaj College of Nursing (Code 9405)", "City": "Navi Mumbai", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 5131, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Helen Rose College of Nursing (Code 9258)", "City": "Yavatmal", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 5393, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"},
+      {"College Name": "Shivai Institute of Nursing (SION) (Code 9370)", "City": "Latur", "State": "Maharashtra", "Program": "B.Sc Nursing", "Branch": "Nursing", "Year - cutoff": "2024", "Round #": "CAP Round 2", "Gender": null, "Quota": null, "Category": "Open", "Opening Rank": null, "Closing Rank": 10131, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"}
+    ]
+  }
+}
