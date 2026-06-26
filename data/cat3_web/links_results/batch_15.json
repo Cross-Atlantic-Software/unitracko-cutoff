@@ -1,0 +1,51 @@
+{
+  "Tripura Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://highereducation.tripura.gov.in/sites/default/files/DEEET_2026_Provisional_Common_Merit_List.pdf",
+    "official_url_verified": true,
+    "official_note": "Tripura polytechnic/diploma admission is via DEEET (Diploma Engineering Entrance Examination of Tripura), conducted by the Directorate of Higher Education, Govt of Tripura. The technical-education section (highereducation.tripura.gov.in/DHE/technical-education) and admission portal (deeet.tripura.gov.in) publish the DEEET provisional common merit list PDF (this URL). The PDF loaded (653KB) but is a per-candidate ranked merit list, not a college/branch opening-closing-rank cutoff table, and its compressed stream was not text-extractable.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Uttar Pradesh Common Nursing Entrance Test": {
+    "official_cutoff_url": "https://abvmuup.edu.in/cnet.php",
+    "official_url_verified": true,
+    "official_note": "Official CNET (Common Nursing Entrance Test) page of Atal Bihari Vajpayee Medical University UP. Confirmed it is the CNET exam page; results, merit list and counselling are served through the linked candidate portal (abvmucet26.co.in / abvmucet25.co.in) which is behind a login, so no static cutoff table is exposed.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Uttarakhand Joint Entrance Examination Polytechnic": {
+    "official_cutoff_url": "https://admissions.ubterjeep.co.in/",
+    "official_url_verified": true,
+    "official_note": "Official UBTER JEEP Admission and eCounselling portal (Uttarakhand Board of Technical Education) for polytechnic admissions. Verified live: lists seat-matrix PDFs (Group-E engineering, Group-P pharmacy, Group-A lateral entry) and the counselling schedule. Seat allotment results / cutoff ranks are behind candidate login, so no static cutoff table is published.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Uttarakhand Nursing Entrance Exam": {
+    "official_cutoff_url": "https://www.hnbumu.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Hemwati Nandan Bahuguna Uttarakhand Medical Education University (HNBUMU), Dehradun conducts the Uttarakhand Nursing entrance exam. Homepage verified live and links the 'Uttarakhand Nursing/Paramedical Entrance Examinations 2026' counselling portal (emsecure.in/HNBUMUNursing2026) and nursing_courses.html. Merit list / results are released through the login portal, so no static cutoff table is exposed.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Uttarakhand Paramedical Entrance Exam": {
+    "official_cutoff_url": "https://www.hnbumu.ac.in/paramedical_courses.html",
+    "official_url_verified": true,
+    "official_note": "HNBUMU (hnbumu.ac.in) conducts the combined Uttarakhand Nursing/Paramedical entrance exam; the paramedical_courses page and the 'Uttarakhand Nursing/Paramedical Entrance Examinations 2026' portal (emsecure.in/HNBUMUNursing2026) are the official channels. Merit list / counselling are behind the login portal; no static cutoff table is published.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Uttarakhand State Entrance Examination": {
+    "official_cutoff_url": "https://uktech.ac.in/",
+    "official_url_verified": false,
+    "official_note": "Uttarakhand Technical University (UTU/UKTech) site. The prior link /en/page/admissions returns a 'Global Page Error' (dead); replaced with the working domain root. UKSEE was scrapped in 2023 and B.Tech 1st-year admission is now via JEE Main; UTU runs counselling/seat allotment (registration started 28 May 2026) through the portal at uktech.ac.in, behind login. already_has_data was true (kollegeapply), so no extraction attempted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "West Bengal Bachelor of Arts Admission": {
+    "official_cutoff_url": "https://wbcap.in/",
+    "official_url_verified": true,
+    "official_note": "West Bengal Centralised Admission Portal (WBCAP) run by the West Bengal State Council of Higher Education — single-window UG admission (including BA) to govt/govt-aided colleges. 1st merit list published 9 June 2026. Merit lists/cutoffs are college-wise and viewable only after selecting a college and logging in, so no consolidated static cutoff table is exposed.",
+    "data_status": "none",
+    "rows": []
+  }
+}

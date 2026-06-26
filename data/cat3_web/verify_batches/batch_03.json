@@ -1,0 +1,363 @@
+[
+  {
+    "exam": "Joint Entrance Test Agriculture",
+    "n_rows": 17,
+    "official_link": "https://jetskrau2026.com/",
+    "data_sources": [
+      "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Jaipur National University",
+        "Branch": "Agriculture",
+        "Category": "UR (General)",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "28.44",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/"
+      },
+      {
+        "College Name": "Jaipur National University",
+        "Branch": "Agriculture",
+        "Category": "ST Female",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "87.11",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/"
+      },
+      {
+        "College Name": "Jaipur National University",
+        "Branch": "Agriculture",
+        "Category": "EWS",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "41.11",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/"
+      },
+      {
+        "College Name": "Jaipur National University",
+        "Branch": "Agriculture",
+        "Category": "SC",
+        "Year - cutoff": "2022",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "32.949",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/"
+      },
+      {
+        "College Name": "Jaipur National University",
+        "Branch": "Agriculture",
+        "Category": "EWS",
+        "Year - cutoff": "2022",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "60.026",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/"
+      }
+    ]
+  },
+  {
+    "exam": "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate",
+    "n_rows": 8,
+    "official_link": "https://admission.kiit.ac.in/management/",
+    "data_sources": [
+      "https://www.getmyuni.com/exams/kiitee-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Kalinga Institute of Industrial Technology (KIIT)",
+        "Branch": "BBA",
+        "Category": "General",
+        "Year - cutoff": "2020",
+        "Opening Rank": null,
+        "Closing Rank": 1800.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/kiitee-cut-off"
+      },
+      {
+        "College Name": "Kalinga Institute of Industrial Technology (KIIT)",
+        "Branch": "BCA",
+        "Category": "General",
+        "Year - cutoff": "2020",
+        "Opening Rank": null,
+        "Closing Rank": 1050.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/kiitee-cut-off"
+      },
+      {
+        "College Name": "Kalinga Institute of Industrial Technology (KIIT)",
+        "Branch": "B.Com",
+        "Category": "General",
+        "Year - cutoff": "2020",
+        "Opening Rank": null,
+        "Closing Rank": 295.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/kiitee-cut-off"
+      },
+      {
+        "College Name": "Kalinga Institute of Industrial Technology (KIIT)",
+        "Branch": "B.Sc (Computer Science)",
+        "Category": "General",
+        "Year - cutoff": "2020",
+        "Opening Rank": null,
+        "Closing Rank": 1800.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/kiitee-cut-off"
+      },
+      {
+        "College Name": "Kalinga Institute of Industrial Technology (KIIT)",
+        "Branch": "B.Sc (Computer Science)",
+        "Category": "General",
+        "Year - cutoff": "2019",
+        "Opening Rank": null,
+        "Closing Rank": 1561.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/kiitee-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Kerala Nursing Entrance Examination",
+    "n_rows": 300,
+    "official_link": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf",
+    "data_sources": [
+      "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "ALN Govt. College of Nursing, Alappuzha",
+        "Branch": "B.Sc. Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "300",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "HCN Holy cross college of Nursing,Kottiyam,Kollam-691571",
+        "Branch": "B.Sc. Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "289.17",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "Socially and Educationally Backward classes[SEBC- Scehduled Caste Economocally Minority 30%] & Scheduled Tribe Weaker Quota College 50% TKN Travancore College of Nursing, Mylapore, Kollam",
+        "Branch": "B.Sc. Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "291.66",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "Socially and Educationally Backward classes[SEBC- Scehduled Caste Economocally Minority 30%] & Scheduled Tribe Weaker Quota College 50% AUN Al Azar College of Nursing, Thodupuzha",
+        "Branch": "B.Sc. Nursing",
+        "Category": "SC",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "280.8",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "SKN SIMET College of Nursing, Ayampara, Kasargode",
+        "Branch": "B.Sc. Nursing",
+        "Category": "SC",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "269.2",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      }
+    ]
+  },
+  {
+    "exam": "Kerala Paramedical Entrance Examination",
+    "n_rows": 114,
+    "official_link": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf",
+    "data_sources": [
+      "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "KMO Govt.Medical College, Kozhikode",
+        "Branch": "B.Sc. Optometry",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "290.83",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "TRT Govt Medical College, Thiruvananthapuram",
+        "Branch": "Bachelor of Radio Therapy Technology",
+        "Category": "EWS",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "285.84",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "ZIT Govt Medical College, Kozhikode",
+        "Branch": "Bachelor of Medical Imaging Technology",
+        "Category": "SC",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "265",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "KMCT College of Allied Health Sciences, KMCT Medical College KTL campus, Manassery. P.O.",
+        "Branch": "B.Sc. Medical Laboratory Technology",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "280.83",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      },
+      {
+        "College Name": "BMR Baby Memorial Hospital Ltd., PB No.13, Kozhikode",
+        "Branch": "B.Sc. Medical Radiological Technology",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "300",
+        "Link - Data Taken from": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf"
+      }
+    ]
+  },
+  {
+    "exam": "Maharashtra Bachelor of Science Nursing Common Entrance Test",
+    "n_rows": 17,
+    "official_link": "https://medical2024.mahacet.org/NURSING-2024/instructions-downloadFile/CUTOFF%202024%20Nursing.pdf",
+    "data_sources": [
+      "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "B. J. Govt. Medical College & Sassoon Hospital (Code 9115)",
+        "Branch": "Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 57.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"
+      },
+      {
+        "College Name": "Dr. Shankarrao Chavan Government College of Nursing (Code 9366)",
+        "Branch": "Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 229.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"
+      },
+      {
+        "College Name": "Mahatma Gandhi Mission Trust's Mother Teresa College of Nursing (Code 9315)",
+        "Branch": "Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 1204.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"
+      },
+      {
+        "College Name": "Dr. G. D. Pol Foundation College of Nursing (Code 9197)",
+        "Branch": "Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 2612.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"
+      },
+      {
+        "College Name": "Shivai Institute of Nursing (SION) (Code 9370)",
+        "Branch": "Nursing",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 10131.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/"
+      }
+    ]
+  },
+  {
+    "exam": "Maharashtra Polytechnic Entrance Examination",
+    "n_rows": 114,
+    "official_link": "https://poly25.dtemaharashtra.gov.in/diploma25/index.php/hp_controller/instwiseallotment",
+    "data_sources": [
+      "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-cse-cutoff/",
+      "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-electronics-and-communication-engineering-cutoff/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Government Polytechnic, Khamgaon",
+        "Branch": "Electronics and Communication Engineering",
+        "Category": "NGOPENH",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 6056.0,
+        "Cutoff Percentile/Score": "91.40",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-electronics-and-communication-engineering-cutoff/"
+      },
+      {
+        "College Name": "Government Residential Women's Polytechnic, Latur",
+        "Branch": "Electronics and Communication Engineering",
+        "Category": "NLSEBCS",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 6616.0,
+        "Cutoff Percentile/Score": "91.20",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-electronics-and-communication-engineering-cutoff/"
+      },
+      {
+        "College Name": "Pankaj Laddhad Institute of Technology & Management Studies, Yelgaon (Vision Buldhana Educational & Welfare Society)",
+        "Branch": "Computer Science and Engineering",
+        "Category": "NGOPENH",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 121326.0,
+        "Cutoff Percentile/Score": "57.60",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-cse-cutoff/"
+      },
+      {
+        "College Name": "Dr. Rajendra Gode Institute of Technology & Research, Amravati",
+        "Branch": "Computer Science and Engineering",
+        "Category": "NGOPENH",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 52115.0,
+        "Cutoff Percentile/Score": "79.00",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-cse-cutoff/"
+      },
+      {
+        "College Name": "Siddhivinayak Technical Campus, School of Engineering & Research Technology, Shirasgon, Nile",
+        "Branch": "Computer Science and Engineering",
+        "Category": "NLOPENH",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 57739.0,
+        "Cutoff Percentile/Score": "77.60",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-cse-cutoff/"
+      }
+    ]
+  }
+]

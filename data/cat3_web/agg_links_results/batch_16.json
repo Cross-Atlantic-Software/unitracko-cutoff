@@ -1,0 +1,37 @@
+{
+  "Uttar Pradesh Combined Agriculture and Technology Entrance Test": {
+    "official_cutoff_url": "https://www.upcatetexam.org/",
+    "official_url_verified": true,
+    "official_note": "Verified official UPCATET portal (run by Banda University of Agriculture & Technology, coordinating 5 UP agri universities). Replaces the wrong/generic upcatet.net. Publishes result/counselling/seat-allotment lists during counselling (results tentative 30 June 2026); cutoffs released at counselling, not as a static page."
+  },
+  "Uttar Pradesh Combined Paramedical Entrance Test": {
+    "official_cutoff_url": "https://www.abvmuup.edu.in/cpet.php",
+    "official_url_verified": true,
+    "official_note": "Verified official CPET page of Atal Bihari Vajpayee Medical University UP (abvmuup). Specific exam page; merit list/counselling are run on this body's portal. More specific than the bare homepage."
+  },
+  "Uttar Pradesh Paramedical Entrance Test": {
+    "official_cutoff_url": "https://www.abvmuup.edu.in/cpet.php",
+    "official_url_verified": true,
+    "official_note": "Same UP paramedical admission conducted by Atal Bihari Vajpayee Medical University UP (CPET). Verified official CPET page; merit-list/counselling handled by this body. Note: from 2026 the body indicated CPET may be replaced by class-12-marks-based paramedical counselling, but abvmuup remains the official body."
+  },
+  "Uttar Pradesh State Entrance Examination Abdul Kalam Technical University": {
+    "official_cutoff_url": "https://uptac.admissions.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Verified official NIC UPTAC OR-CR portal (successor to UPSEE/AKTU admissions). Lists B.Tech/UG/PG/NATA opening & closing ranks 2025 by round/category. Authoritative cutoff source."
+  },
+  "Uttar Pradesh State Entrance Examination Bachelor of Hotel Management and Catering Technology": {
+    "official_cutoff_url": "https://uptac.admissions.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "BHMCT admission is conducted through the same UPTAC (AKTU) counselling. Verified official NIC OR-CR portal carries UG opening/closing ranks including BHMCT. Authoritative."
+  },
+  "Vellore Institute of Technology Design Entrance Examination": {
+    "official_cutoff_url": "https://vit.ac.in/all-courses/ug/bachelor-of-design-programme",
+    "official_url_verified": true,
+    "official_note": "VIT B.Des admission (via VIT-DAT design aptitude test / UCEED + portfolio + interview). Verified official VIT B.Des admissions page. VIT does NOT publish design entrance cutoffs/closing ranks officially; selection is interview/portfolio based, so no official cutoff page exists."
+  },
+  "Vellore Institute of Technology Engineering Entrance Examination": {
+    "official_cutoff_url": "https://viteee.vit.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Verified official VITEEE exam/admissions site. VIT does NOT officially release VITEEE cutoffs/closing ranks (counselling uses internal fee-category ranks 1-5); only third-party portals publish indicative cutoffs. This is the authoritative exam-body site."
+  }
+}

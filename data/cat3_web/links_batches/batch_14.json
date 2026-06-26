@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Sikkim Polytechnic Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://sikkim.gov.in/departments/department-of-human-resource-development",
+    "homepage": "https://sikkim.gov.in/departments/department-of-human-resource-development",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/articles/g-30517-sikkim-polytechnic-admission-important-dates-application-process-and-counselling",
+    "shiksha": "https://www.shiksha.com/college/advanced-technical-training-centre-sikkim-other-54043",
+    "careers360": "https://www.careers360.com/colleges/advanced-technical-training-centre-sikkim",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Sir Jamsetjee Jeejebhoy School of Art Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://cetcell.mahacet.org/",
+    "homepage": "https://www.sirjjschoolofart.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/college/46096-sir-jj-school-of-art-mumbai/admission",
+    "shiksha": "https://www.shiksha.com/college/sir-j-j-school-of-art-d-n-road-fort-mumbai-61299/admission",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "St Xavier's College Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://xaviers.edu/main/index.php/admissions",
+    "homepage": "https://xaviers.edu/main/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off",
+    "collegedunia": "https://collegedunia.com/college/4973-st-xaviers-college-mumbai/admission",
+    "shiksha": "https://www.shiksha.com/college/st-xavier-s-college-mumbai-mahapalika-marg-1184/admission",
+    "careers360": "https://www.careers360.com/colleges/st-xaviers-college-mumbai/admission",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Tamil Nadu Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-tamil-nadu",
+    "homepage": "https://www.tngasa.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Tamil Nadu Dr Ambedkar Law University Entrance Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://tndalu.ac.in/admission.php",
+    "homepage": "https://tndalu.ac.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off",
+    "collegedunia": "https://collegedunia.com/university/25902-tamil-nadu-dr-ambedkar-law-university-tndalu-chennai",
+    "shiksha": "https://www.shiksha.com/university/tamil-nadu-dr-ambedkar-law-university-chennai-21408/admission",
+    "careers360": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/admission",
+    "collegedekho": "https://www.collegedekho.com/colleges/tamil-nadu-dr-ambedkar-law-university-admission"
+  },
+  {
+    "exam": "Tata Institute of Social Sciences Bachelor Admission Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://admissions.tiss.edu/",
+    "homepage": "https://www.tiss.edu/",
+    "already_has_data": true,
+    "existing_data_source": "https://articles.findmycollege.com/tiss-cuet-cutoff/",
+    "collegedunia": "https://collegedunia.com/exams/tiss-bat",
+    "shiksha": "https://www.shiksha.com/science/articles/tiss-admission-through-cuet-blogId-145113",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Tata Institute of Social Sciences Bachelor of Vocation Agriculture Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://admissions.tiss.edu/",
+    "homepage": "https://www.tiss.edu/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  }
+]

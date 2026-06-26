@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Panjab University Design Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://design.puchd.ac.in/show-noticeboard.php",
+    "homepage": "https://design.puchd.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Paramedical State Common Entrance Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "Use respective state counselling portals (e.g., WBJEE JENPAS, ABVMU CPNET, RUHS Paramedical)",
+    "homepage": "State-specific entrance portals",
+    "already_has_data": true,
+    "existing_data_source": "https://www.collegedekho.com/exam/jenpas-ug/cutoff",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Puducherry Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.shiksha.com/university/pondicherry-university-puducherry-25056/course-bba-363521",
+    "homepage": "https://www.pondiuni.edu.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Puducherry Polytechnic Entrance",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://dte.py.gov.in/",
+    "homepage": "https://dte.py.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": "https://engineering.careers360.com/articles/centac-polytechnic",
+    "collegedekho": "https://www.collegedekho.com/articles/centac-diploma-polytechnic-admission-process/"
+  },
+  {
+    "exam": "Punjab Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/university/panjab-university-chandigarh-4026/course-bba-1107291 (Shiksha)",
+    "homepage": "https://www.punjabiuniversity.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Punjab Joint Entrance Test Diploma",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://punjabteched.com/Default.aspx",
+    "homepage": "https://punjabteched.com/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": "https://engineering.careers360.com/articles/punjab-polytechnic-admission",
+    "collegedekho": "https://www.collegedekho.com/articles/punjab-polytechnic-admission/"
+  },
+  {
+    "exam": "Punjab State Board of Technical Education Polytechnic Admission Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://punjabteched.com/Default.aspx",
+    "homepage": "https://punjabteched.com/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": "https://engineering.careers360.com/articles/punjab-polytechnic-admission",
+    "collegedekho": "https://www.collegedekho.com/articles/punjab-polytechnic-admission/"
+  }
+]

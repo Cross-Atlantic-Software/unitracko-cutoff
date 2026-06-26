@@ -1,0 +1,67 @@
+{
+  "Panjab University Design Entrance Examination": {
+    "status": "none",
+    "source_url": "https://design.puchd.ac.in/show-noticeboard.php",
+    "note": "PU UIFT/B.Des admission via PU-CET; the university publishes only a merit list (candidate-wise, roll numbers) and does not release a separate design-program closing-rank/cutoff table. No college-branch-category rank rows are public.",
+    "rows": []
+  },
+  "Paramedical State Common Entrance Test": {
+    "status": "ok",
+    "source_url": "https://www.collegedekho.com/exam/jenpas-ug/cutoff",
+    "note": "Generic exam; WB JENPAS-UG (WBJEEB) is the representative state paramedical CET. CollegeDekho publishes category-wise qualifying cutoff (percentile + raw score) for 2024/2023/2022. These are state-level qualifying cutoffs, not college-branch ranks (college-wise OR-CR sits behind WBJEEB's nic.in counselling report, not statically fetchable).",
+    "rows": [
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2024", "Round #": null, "Gender": null, "Quota": null, "Category": "General (50th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "23.50", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2024", "Round #": null, "Gender": null, "Quota": null, "Category": "General-PwD (45th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "22.4167", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2024", "Round #": null, "Gender": null, "Quota": null, "Category": "SC/ST/OBC incl. PwD (40th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "21.3333", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": null, "Category": "General (50th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "27.1667", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": null, "Category": "General-PwD (45th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "25.8333", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": null, "Category": "SC/ST/OBC incl. PwD (40th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "24.5000", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2022", "Round #": null, "Gender": null, "Quota": null, "Category": "General/EWS/OBC-A (50th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "130", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2022", "Round #": null, "Gender": null, "Quota": null, "Category": "OBC-B (45th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "120", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2022", "Round #": null, "Gender": null, "Quota": null, "Category": "SC (40th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "110", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"},
+      {"College Name": null, "City": null, "State": "West Bengal", "Program": "Paramedical / Allied Health UG", "Branch": null, "Year - cutoff": "2022", "Round #": null, "Gender": null, "Quota": null, "Category": "ST (40th percentile)", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "80", "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"}
+    ]
+  },
+  "Puducherry Bachelor of Business Administration Entrance Examination": {
+    "status": "ok",
+    "source_url": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff",
+    "note": "Admission to BBA (Hons) at Pondicherry University is via CUET-UG. Cutoffs below are CUET closing SCORES (not ranks) by category, year 2024, for Selection List I and III. Recorded as Cutoff Percentile/Score.",
+    "rows": [
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List I", "Gender": null, "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "165", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List I", "Gender": null, "Quota": null, "Category": "OBC", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "123", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List I", "Gender": null, "Quota": null, "Category": "EWS", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "120", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List I", "Gender": null, "Quota": null, "Category": "SC", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "102", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List I", "Gender": null, "Quota": null, "Category": "ST", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "101", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List I", "Gender": null, "Quota": null, "Category": "PH", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "58", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List III", "Gender": null, "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "104", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List III", "Gender": null, "Quota": null, "Category": "OBC", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "93", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List III", "Gender": null, "Quota": null, "Category": "ST", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "82", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List III", "Gender": null, "Quota": null, "Category": "SC", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "76", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"},
+      {"College Name": "Pondicherry University", "City": "Puducherry", "State": "Puducherry", "Program": "BBA (Hons)", "Branch": "BBA (Hons)", "Year - cutoff": "2024", "Round #": "Selection List III", "Gender": null, "Quota": null, "Category": "EWS", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "70", "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"}
+    ]
+  },
+  "Puducherry Polytechnic Entrance": {
+    "status": "none",
+    "source_url": "https://centacpuducherry.in/",
+    "note": "CENTAC polytechnic/diploma admission publishes only candidate merit lists; no public college-wise or branch-wise closing-rank/cutoff table. Careers360/CollegeDekho articles describe the process but contain no cutoff rows.",
+    "rows": []
+  },
+  "Punjab Bachelor of Business Administration Entrance Examination": {
+    "status": "none",
+    "source_url": "https://www.punjabiuniversity.ac.in/",
+    "note": "Punjabi University Patiala BBA has no entrance exam; admission is merit-based (qualifying exam marks) with a candidate merit list. No public college-branch-category closing-rank/cutoff table found (Shiksha cutoff page returned 403).",
+    "rows": []
+  },
+  "Punjab Joint Entrance Test Diploma": {
+    "status": "none",
+    "source_url": "https://punjabteched.com/",
+    "note": "PSBTE&IT diploma admission is based on Class 10 marks merit (no entrance exam), via merit list / seat-allotment on punjabteched.com and pbdiploma.admissions.nic.in. No static college-wise closing-rank/cutoff table is published publicly.",
+    "rows": []
+  },
+  "Punjab State Board of Technical Education Polytechnic Admission Test": {
+    "status": "none",
+    "source_url": "https://punjabteched.com/",
+    "note": "Same PSBTE&IT Punjab diploma admission process; merit/seat-allotment only, no public college-wise cutoff/closing-rank table. Careers360/CollegeDekho articles contain no cutoff rows.",
+    "rows": []
+  }
+}

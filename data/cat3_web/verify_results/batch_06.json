@@ -1,0 +1,10 @@
+{
+  "Uttarakhand State Entrance Examination": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "All 5 sampled Uttaranchal University rows (CSE General 115905/328120, Civil General 57220/327490, Mech OBC 446210/771710, EE ST 427555/509380, Petroleum ST 512455/512455) match the kollegeapply.com page exactly, though the portal labels them 'expected' 2024 cutoffs rather than official UKSEE/uktech.ac.in figures, so treat as lower-fidelity portal data."
+  }
+}

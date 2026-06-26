@@ -264,6 +264,46 @@ def read_segmentation(path: Path = SEGMENTATION_CSV) -> list[SegRow]:
     return out
 
 
+# Web-research-verified official cutoff links that supersede the original sheet's
+# (many of which were generic homepages, third-party pages, or dead URLs).
+OFFICIAL_LINKS_OVERRIDE = ROOT / "data" / "official_cutoff_links.csv"
+
+
+def official_website_map(path: Path = SEGMENTATION_CSV,
+                         override: Path = OFFICIAL_LINKS_OVERRIDE) -> dict[str, str]:
+    """Map each exam name -> its official website, for connecting side-table rows.
+
+    The deliverable's "Link of website" column should always point at the AUTHORITATIVE
+    source even when the rank/cutoff data itself was distilled from a competitor or
+    web-research page (which lives in "Link - Data Taken from"). Prefers the specific
+    official cutoff URL, falling back to the homepage; skips values flagged as prose
+    rather than a real link.
+
+    A web-research override file (``data/official_cutoff_links.csv``: exam ->
+    verified official cutoff link) takes precedence when present — it corrects the
+    many sheet links that were generic homepages, third-party pages, or dead URLs.
+    Empty dict if the driver is absent.
+    """
+    out: dict[str, str] = {}
+    for r in read_segmentation(path):
+        cutoff_url = (r.official_cutoff_url or "").strip()
+        homepage = (r.homepage or "").strip()
+        site = ""
+        if cutoff_url and not r.prose_cutoff_url:
+            site = cutoff_url
+        elif homepage and not r.prose_homepage:
+            site = homepage
+        if r.exam and site:
+            out[r.exam] = site
+    if Path(override).exists():
+        for r in _read_csv(Path(override)):
+            exam = (r.get("exam") or "").strip()
+            url = (r.get("official_cutoff_url") or "").strip()
+            if exam and url:
+                out[exam] = url
+    return out
+
+
 def write_segmentation(
     rows: list[SegRow], path: Path = SEGMENTATION_CSV,
 ) -> Path:

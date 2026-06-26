@@ -169,6 +169,22 @@ def test_write_segmentation_roundtrip():
         assert {"exam", "category", "official_cutoff_url"} <= set(reread[0])
 
 
+def test_official_website_override_takes_precedence():
+    """The web-research override file supersedes the sheet's official link."""
+    from cutoffs.segmentation import official_website_map
+    with tempfile.TemporaryDirectory() as d:
+        seg = write_segmentation(segment(), Path(d) / "seg.csv")
+        rows = read_segmentation(seg)
+        exam = rows[0].exam
+        base = official_website_map(seg, override=Path(d) / "missing.csv")
+        assert exam in base  # sheet provides a link
+        ov = _write(Path(d), "override.csv",
+                    ["exam", "official_cutoff_url", "verified", "note"],
+                    [[exam, "https://official.example/cutoff", "True", "verified"]])
+        merged = official_website_map(seg, override=ov)
+        assert merged[exam] == "https://official.example/cutoff"   # override wins
+
+
 def test_read_segmentation_roundtrips_into_typed_segrows():
     """write -> read reconstructs SegRows with real types — the single source of
     truth every stage (cat-1 bulk, cat-2, cat-3) shares."""

@@ -1,0 +1,50 @@
+{
+  "Joint Entrance Test Agriculture": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "All five sampled values (UR 28.44, ST-F 87.11, EWS 41.11 for 2025; SC 32.949, EWS 60.026 for 2022) appear verbatim on the CollegeDekho page as JET cutoff marks for Jaipur National University Agriculture; correctly placed in the Score column."
+  },
+  "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "GetMyUni KIITEE page confirms all sampled closing ranks (BBA 1800, BCA 1050, B.Com 295, B.Sc-CS 1800 for 2020; B.Sc-CS 1561 for 2019); values are ranks correctly placed in the Closing Rank column."
+  },
+  "Kerala Nursing Entrance Examination": {
+    "fidelity": "official",
+    "sample_checked": 5,
+    "rows_confirmed": false,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Source is the official LBS Centre lastrank.pdf; fetcher could not parse the binary/encoded PDF so exact values weren't re-confirmed, but the score values (300, 289.17, 291.66, etc. out of 300) are internally consistent as last-rank marks correctly in the Score column. Minor parsing artifact: some College Name cells captured a category-description header (e.g. 'Socially and Educationally Backward classes...')."
+  },
+  "Kerala Paramedical Entrance Examination": {
+    "fidelity": "official",
+    "sample_checked": 5,
+    "rows_confirmed": false,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Same official LBS Centre lastrank.pdf source; PDF returned as unparseable binary so values weren't fetch-confirmed, but the paramedical marks (290.83, 285.84, 265, 280.83, 300 out of 300) are internally consistent last-rank scores correctly placed in the Score column."
+  },
+  "Maharashtra Bachelor of Science Nursing Common Entrance Test": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "CollegeDekho MH B.Sc Nursing CAP Round-2 2024 page confirms all sampled Open-category closing ranks (9115=57, 9366=229, 9315=1204, 9197=2612, 9370=10131); ranks correctly placed in Closing Rank column."
+  },
+  "Maharashtra Polytechnic Entrance Examination": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "CollegeDekho DTE Maharashtra Polytechnic ECE page confirms Khamgaon NGOPENH rank 6056/91.40 and Latur NLSEBCS rank 6616/91.20; both rank and percentile columns populated correctly."
+  }
+}

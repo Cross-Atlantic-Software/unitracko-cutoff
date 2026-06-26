@@ -203,6 +203,9 @@ def collect(parquet_glob: str = COMPETITOR_GLOB, *, include_category: bool = Tru
     import pandas as pd
 
     from cutoffs.deliverable import project_records
+    from cutoffs.segmentation import official_website_map
+
+    websites = official_website_map()   # exam -> official site, attached per row below
 
     prepared: list[dict] = []
     seen: set[tuple] = set()
@@ -217,6 +220,9 @@ def collect(parquet_glob: str = COMPETITOR_GLOB, *, include_category: bool = Tru
             if key in seen:
                 continue
             seen.add(key)
+            # Connect the distilled cutoff back to the official site (the competitor
+            # provenance stays in SourceURL / "Link - Data Taken from").
+            row["Website"] = websites.get(row["Exam"])
             prepared.append(row)
     return project_records(prepared, include_category=include_category)
 

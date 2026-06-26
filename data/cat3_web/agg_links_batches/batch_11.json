@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "National Institute of Fashion Technology Entrance Examination",
+    "current_official_cutoff_url": "https://www.nift.ac.in/admission",
+    "homepage": "https://www.nift.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/nift-entrance-exam/cutoff"
+  },
+  {
+    "exam": "O. P. Jindal Global University Entrance Test",
+    "current_official_cutoff_url": "https://jgu.edu.in/admissions/",
+    "homepage": "https://jgu.edu.in/",
+    "aggregator_source": "https://www.shiksha.com/bba/jsat-exam-cutoff"
+  },
+  {
+    "exam": "Odisha Joint Entrance Examination",
+    "current_official_cutoff_url": "https://ojee.nic.in/publicinfo/public/home.aspx",
+    "homepage": "https://ojee.nic.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/ojee/cutoff"
+  },
+  {
+    "exam": "Odisha Joint Entrance Examination Agriculture",
+    "current_official_cutoff_url": "https://ojee.nic.in/publicinfo/public/home.aspx",
+    "homepage": "https://ojee.nic.in/",
+    "aggregator_source": "https://collegedunia.com/exams/ojee/cutoff"
+  },
+  {
+    "exam": "Odisha University of Agriculture and Technology Entrance Examination",
+    "current_official_cutoff_url": "https://ouat.nic.in/admissions/",
+    "homepage": "https://ouat.nic.in/",
+    "aggregator_source": "https://www.shiksha.com/science/ouat-entrance-exam-cutoff"
+  },
+  {
+    "exam": "PES Scholastic Aptitude Test",
+    "current_official_cutoff_url": "https://www.pessat.com/",
+    "homepage": "https://www.pessat.com/",
+    "aggregator_source": "https://www.collegedekho.com/exam/pessat/cutoff"
+  },
+  {
+    "exam": "Panjab University Undergraduate Law Entrance Test",
+    "current_official_cutoff_url": "https://uglaw.puchd.ac.in/",
+    "homepage": "https://pglaw.puchd.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/pu-uglaw/cutoff"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "Jamia Millia Islamia Mass Communication Entrance": {
+    "official_cutoff_url": "https://admission.jmi.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official JMI admission portal (verified, contact admission@jmi.ac.in). Publishes entrance results and merit lists via its 'Click for Results' / EntranceResults section; AJK MCRC Mass Communication entrance result/merit list is declared here each cycle. Specific per-programme merit lists are served through a dynamic result viewer (jmi.ucanapply.com entrance-result-viewer) that requires selecting programme/course. already_has_data=true, so no extraction attempted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Jamia Social Work Entrance": {
+    "official_cutoff_url": "https://admission.jmi.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official JMI admission portal (verified). PG MA/MSW Social Work entrance merit list is published here under the results section; JMI admits to PG courses via offline entrance test and posts a programme-wise merit list. Per-programme merit lists are only viewable through the dynamic ucanapply result viewer (returned HTTP 500 / requires programme selection), so no rank/cutoff rows could be read.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Jammu and Kashmir Bachelor of Business Administration Admission": {
+    "official_cutoff_url": "",
+    "official_url_verified": false,
+    "official_note": "No official cutoff exists. The given current_official_cutoff_url (jakbopee.gov.in) is a typo of jkbopee.gov.in; the J&K Board of Professional Entrance Examinations (verified) conducts only MBBS/BDS, B.E./B.Tech (CET), B.Sc Nursing/GNM, Paramedical, B.Sc/M.Sc Technology, B.Ed and PET — it does NOT conduct BBA. BBA admissions in J&K are run individually by universities (e.g. University of Jammu/Kashmir) via CUET, with no single centralised official cutoff/merit page.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination": {
+    "official_cutoff_url": "https://jipmer.edu.in/announcement/bsc-nursing-ahs-courses-counselling%E2%80%93-2025-26-academic-year",
+    "official_url_verified": false,
+    "official_note": "Official JIPMER B.Sc (Nursing/AHS) counselling & merit-list announcement page (more specific than the previous /education/undergraduate URL). Confirmed via search to host the provisional/category-wise (UR/OBC/EWS/SC/ST) merit list and counselling schedule; admission is now NEET-UG-merit based. Could not be opened in WebFetch (jipmer.edu.in TLS chain rejected: 'unable to verify the first certificate'), so marked unverified though the page is live and official. already_has_data=true.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Jharkhand Bachelor of Business Administration Admission": {
+    "official_cutoff_url": "https://jharkhanduniversities.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Replaced the third-party shiksha link. The Jharkhand Chancellor Portal (jharkhanduniversities.nic.in) is the official admissions portal for Jharkhand state universities, but there is no centralised official BBA cutoff/merit page — BBA admission is CUET-UG / individual-university based (Ranchi University, DSPMU, Vinoba Bhave Univ, etc.). Portal admission sub-pages returned ECONNREFUSED on fetch, hence unverified.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Jharkhand Combined Entrance Competitive Examination Pre Polytechnic Test": {
+    "official_cutoff_url": "https://jceceb.jharkhand.gov.in/",
+    "official_url_verified": true,
+    "official_note": "Official JCECEB board site (verified) — the body that conducts the Jharkhand Pre-Polytechnic / PECE polytechnic entrance and publishes its merit list, counselling notices and seat allotment. The dedicated counselling sub-portal poly.jceceb.org.in currently shows only an IIS default page (off-season), so the board site is the stable official source. No live cutoff/allotment rows available at this time.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Joint Entrance Test Agriculture": {
+    "official_cutoff_url": "https://jetskrau2026.com/",
+    "official_url_verified": true,
+    "official_note": "Official Rajasthan JET (Joint Entrance Test, Agriculture) portal of Swami Keshwanand Rajasthan Agricultural University (SKRAU), Bikaner (verified) — the body that releases the JET result, merit/rank list, category-wise cutoff and counselling/seat-allotment. Replaces the bskkvs.org/admission.php link. At fetch time (pre-exam, June 2026) result/cutoff links were not yet posted; they appear on this portal after the exam. already_has_data=true.",
+    "data_status": "none",
+    "rows": []
+  }
+}

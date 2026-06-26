@@ -1,0 +1,37 @@
+{
+  "Chartered Accountancy Foundation Examination": {
+    "official_cutoff_url": "https://icai.nic.in/caresult/",
+    "official_url_verified": true,
+    "official_note": "Official ICAI result portal (icai.nic.in/caresult). CA Foundation has no rank cutoff; pass = 40% per paper + 50% aggregate, plus a merit/pass-percentage list announced by ICAI. Replaces the careers360 third-party URL. Confirmed via multiple sources as the official result/merit portal (scorecard login also at caresults.icai.org)."
+  },
+  "Chhattisgarh Pre Engineering Test": {
+    "official_cutoff_url": "https://cgdte.admissions.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Official NIC counselling portal of DTE Chhattisgarh where CG PET seat allotment and round-wise cutoffs are published (cutoff PDFs also on cgdteraipur.cgstate.gov.in). More specific than the DTE homepage. Could not fetch: NIC server returns a self-signed-certificate-chain TLS error to the fetcher, but it is the correct official .nic.in domain."
+  },
+  "Chhattisgarh Pre Polytechnic Test": {
+    "official_cutoff_url": "https://cgdte.admissions.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Same official NIC DTE Chhattisgarh counselling portal handles CG PPT (polytechnic/diploma) registration, seat allotment and merit/cutoff lists (also cgdteraipur.cgstate.gov.in). Not fetchable due to self-signed TLS cert error, but it is the correct official .nic.in domain."
+  },
+  "Christ University Entrance Examination": {
+    "official_cutoff_url": "https://christuniversity.in/admission-all",
+    "official_url_verified": true,
+    "official_note": "Official Christ University admissions section. Admission is via entrance test + micro-presentation + interview with no public rank cutoff PDF; this is the authoritative admission/results entry point. Homepage confirmed live on the official domain; kept the existing admission-all URL."
+  },
+  "Cochin University of Science and Technology Combined Admission Test – Marine Engineering": {
+    "official_cutoff_url": "https://admissions.cusat.ac.in/?tag=ranklist",
+    "official_url_verified": false,
+    "official_note": "Official CUSAT admissions portal CAT rank-list section (includes Marine Engineering rank lists/allotment). A category-wise marine last-rank page also exists at doa.cusat.ac.in/marine_lastrank_2024.php but the server refused connection. The admissions portal errored with an unverified-certificate TLS issue to the fetcher; it is the correct official .ac.in domain."
+  },
+  "Common Design Entrance Examination": {
+    "official_cutoff_url": "https://www.ceed.iitb.ac.in/2026/",
+    "official_url_verified": true,
+    "official_note": "Official CEED (IIT Bombay) site; the /2025/ URL redirects here to the current 2026 cycle, which publishes Part-A qualifying cutoffs and results. Updated from the stale /2025/ path. Redirect confirmed on fetch; cutoffs published on this official .iitb.ac.in domain."
+  },
+  "Common Law Admission Test – Undergraduate": {
+    "official_cutoff_url": "https://consortiumofnlus.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official Consortium of NLUs site, which publishes the CLAT UG merit list and round-wise NLU opening/closing-rank cutoffs (under Notifications/Important Events). Fetched live showing current CLAT 2026 content; replaced the cycle-specific clat-2025/notifications path with the durable official root."
+  }
+}

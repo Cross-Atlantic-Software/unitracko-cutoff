@@ -1,0 +1,51 @@
+{
+  "Mizoram Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://mzu.edu.in/category/admissions/",
+    "official_url_verified": false,
+    "official_note": "Official Mizoram University admissions section that lists selected/merit lists. UG (incl. BBA) admission is now CUET-based and MZU publishes campus/affiliated-college merit lists here. Replaces the third-party Shiksha link. Could not fully verify via fetch (mzu.edu.in returns an SSL 'unable to verify first certificate' error), but URL confirmed via search index. Merit lists are candidate rank lists, not college/branch cutoff tables.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Mizoram Engineering Entrance Examination": {
+    "official_cutoff_url": "https://mzu.edu.in/merit-list-for-b-tech-regular-entry-mzueee-2025/",
+    "official_url_verified": false,
+    "official_note": "Official MZUEEE 2025 B.Tech (Regular Entry) merit list page on Mizoram University site (more specific than the homepage). Confirmed via search; could not fetch directly because mzu.edu.in throws an SSL certificate error. already_has_data is true so no extraction attempted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Mizoram Polytechnic Entrance": {
+    "official_cutoff_url": "https://dhte.mizoram.gov.in/page/mizoram-diploma-entrance-examination-2024-mdee-results",
+    "official_url_verified": true,
+    "official_note": "Fetched. Official Mizoram Dept. of Higher & Technical Education (DHTE) MDEE results page (Mizoram Diploma Entrance Examination for polytechnic admission). Links to the official MDEE 2024 results PDF (dhte.mizoram.gov.in/uploads/.../pages-254-mdee-2024-results.pdf). Replaces the generic highereducation.mizoram.gov.in link. The results PDF is a candidate rank/merit list, not a college/branch opening-closing-rank cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Nagaland Engineering Entrance Examination": {
+    "official_cutoff_url": "https://dte.nagaland.gov.in/index.php/jee/",
+    "official_url_verified": true,
+    "official_note": "Fetched. Official Directorate of Technical Education, Nagaland page for JEE(Main)-based undergraduate engineering (B.E/B.Tech) admission; directs to jeemain.nta.nic.in. Nagaland has no separate state engineering entrance merit list with college/branch ranks - degree engineering admission is JEE-based, so no official state cutoff table exists. Merit/circular notices also appear at dte.nagaland.gov.in/index.php/results/.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Nagaland Polytechnic Entrance": {
+    "official_cutoff_url": "https://dte.nagaland.gov.in/index.php/results/",
+    "official_url_verified": true,
+    "official_note": "Fetched. Official DTE Nagaland results page listing Diploma Entrance Examination (DEE) merit/selection lists for state Government Polytechnics & NTTC, e.g. MERIT-LIST-OF-APPLICANTS-TO-DIPLOMA-PROGRAMMES-2026-2027.pdf and Selected-candidates-for-Diploma-2026.pdf. The PDFs are candidate-level merit/selection lists, not college/branch opening-closing-rank cutoff tables.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Narsee Monjee Institute of Management Studies Law Aptitude Test": {
+    "official_cutoff_url": "https://nlat.nmims.edu/",
+    "official_url_verified": true,
+    "official_note": "Fetched. Official NMIMS NLAT/LAT law entrance exam portal (SVKM's NMIMS, Kirit P. Mehta School of Law) for BA LL.B.(Hons) and BBA LL.B.(Hons). Result/merit list is accessed via candidate login on the portal; admission is merit-rank + campus-preference based. More authoritative than the generic nmims.edu/admission link. already_has_data is true so no extraction attempted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "National Forensic Sciences University Forensic Science Entrance Examination": {
+    "official_cutoff_url": "https://nfsu.ac.in/gujarat_merit_list",
+    "official_url_verified": true,
+    "official_note": "Fetched. Official NFSU (Gandhinagar/Gujarat campus) merit list page carrying NFAT-based Forensic Science merit lists: B.Sc.-M.Sc. Forensic Science (First/Second/Third/Comprehensive call PDFs, AY 2025-26) and M.Sc. Forensic Science. Main hub nfsu.ac.in/meritlist links to per-campus pages. More specific to forensic science than the nfsu.ac.in/admission homepage. Merit list PDFs are candidate rank/score lists (counselling-call lists), not a college/branch opening-closing-rank cutoff table, so no deliverable cutoff rows could be honestly extracted.",
+    "data_status": "none",
+    "rows": []
+  }
+}

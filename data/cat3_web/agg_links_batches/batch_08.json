@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "Kerala Fisheries Entrance Examination",
+    "current_official_cutoff_url": "https://admissions.kufos.ac.in/",
+    "homepage": "https://admissions.kufos.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/keam/cutoff"
+  },
+  {
+    "exam": "Kerala Food Technology Entrance",
+    "current_official_cutoff_url": "https://admissions.kau.in/",
+    "homepage": "https://admissions.kau.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/keam/cutoff"
+  },
+  {
+    "exam": "Kerala Forestry Entrance Examination",
+    "current_official_cutoff_url": "https://admissions.kau.in/",
+    "homepage": "https://admissions.kau.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/keam/cutoff"
+  },
+  {
+    "exam": "Kerala Law Entrance Examination",
+    "current_official_cutoff_url": "https://cee.kerala.gov.in/kerala-law-entrance-examination/",
+    "homepage": "https://cee.kerala.gov.in/",
+    "aggregator_source": "https://law.careers360.com/articles/klee-cutoff"
+  },
+  {
+    "exam": "Kerala Veterinary Entrance Examination",
+    "current_official_cutoff_url": "https://admissions.kvasu.ac.in/",
+    "homepage": "https://admissions.kvasu.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/keam/cutoff"
+  },
+  {
+    "exam": "Lovely Professional University National Entrance and Scholarship Test",
+    "current_official_cutoff_url": "https://nest.lpu.in/",
+    "homepage": "https://nest.lpu.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/lpunest/cutoff"
+  },
+  {
+    "exam": "Lovely Professional University National Entrance and Scholarship Test Design",
+    "current_official_cutoff_url": "https://nest.lpu.in/design/",
+    "homepage": "https://nest.lpu.in/design/",
+    "aggregator_source": "https://www.collegedekho.com/exam/lpunest/cutoff"
+  }
+]

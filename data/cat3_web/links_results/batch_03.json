@@ -1,0 +1,51 @@
+{
+  "Delhi College of Art Entrance Examination": {
+    "official_cutoff_url": "https://colart.delhi.gov.in/notifications",
+    "official_url_verified": true,
+    "official_note": "College of Art (Univ. of Delhi), colart.delhi.gov.in. The provided /admissions URL is dead (404). The notifications page (verified) is where the official entrance/practical-test merit & eligible-candidate lists are published, e.g. 'LIST OF ELIGIBLE CANDIDATES FOR PRACTICAL TEST AND VIVA VOCE MFA 2026'. BFA admission = CUET (50%) + practical-based entrance test (50%); lists are name-based, not college/branch rank cutoffs.",
+    "data_status": "none",
+    "rows": []
+  },
+  "English and Foreign Languages University Entrance Examination – Pashto and Persian": {
+    "official_cutoff_url": "https://www.efluniversity.ac.in/",
+    "official_url_verified": true,
+    "official_note": "EFLU Hyderabad. The provided /admissions2025 URL is dead (404). UG admission (incl. BA Pashto/Persian) is now entirely CUET-UG based with no separate EFLU UG entrance; merit lists are published via the homepage admissions section (UG public-notice PDF and CUET counselling). PG/PhD use Samarth portals. No public college/branch rank cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Goa Common Entrance Test": {
+    "official_cutoff_url": "https://dte.goa.gov.in/admission/degree-admission-lists",
+    "official_url_verified": true,
+    "official_note": "DTE Goa. GCET as an exam has been discontinued (2025+ B.E. admission is JEE Main-based). The current authoritative documents are the 'MERIT LIST - B.E.' and 'Eligibility List - B.E.' PDFs (2026) on this verified DTE degree-admission-lists page. GCET answer keys/results archive also at dte.goa.gov.in/result/gcet-results. Merit lists are candidate-rank lists, not college/branch cutoff tables.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Goa Common Entrance Test – Engineering": {
+    "official_cutoff_url": "https://dte.goa.gov.in/admission/degree-admission-lists",
+    "official_url_verified": true,
+    "official_note": "DTE Goa engineering (B.E.) admissions. Verified page hosts 'MERIT LIST - B.E.' (2026-06-18) and 'Eligibility List - B.E.' (2026-06-08) PDFs. GCET engineering exam discontinued; B.E. merit now JEE Main-based. Lists are candidate-rank merit lists, not college-wise rank cutoffs.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Goa Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://dte.goa.gov.in/admission/diploma-admission-lists",
+    "official_url_verified": true,
+    "official_note": "DTE Goa diploma/polytechnic admissions. Verified page hosts 'MERIT LIST - FIRST YEAR AND SECOND YEAR DIPLOMA COURSES' (2026-05-27, 12 MB) and 'DIPLOMA ELIGIBILITY LIST' (2026-05-22) PDFs. Diploma merit is based on qualifying-exam marks; documents are candidate merit lists, not college/branch rank cutoff tables.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Gujarat Common Entrance Test – Polytechnic": {
+    "official_cutoff_url": "https://gujdiploma.admissions.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official ACPDC (Admission Committee for Professional Diploma Courses), Gujarat NIC e-counselling portal for diploma/polytechnic admissions (verified). The provided acpdc.gujarat.gov.in/meritlist.aspx URL is dead (404); this NIC portal is the live authoritative source for merit list / seat allotment / cutoffs. already_has_data=true, so no extraction performed.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Haryana Agriculture Entrance Examination": {
+    "official_cutoff_url": "https://admissions.hau.ac.in/",
+    "official_url_verified": true,
+    "official_note": "CCS Haryana Agricultural University (CCSHAU) online pre-admission portal (verified, 'CCSHAU :: ONLINE PRE-ADMISSION'). Admission via CCSHAU CET; merit lists are published per round but are accessed behind candidate login, so no public static college/branch rank cutoff table is exposed.",
+    "data_status": "none",
+    "rows": []
+  }
+}

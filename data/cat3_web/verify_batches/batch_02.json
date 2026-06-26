@@ -1,0 +1,352 @@
+[
+  {
+    "exam": "Indian Institute of Space Science and Technology Admission",
+    "n_rows": 20,
+    "official_link": "https://www.iist.ac.in/admission/undergraduate-admissions-statistics",
+    "data_sources": [
+      "https://phodu.club/blogs/iist-jee-advanced-cutoff/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Indian Institute of Space Science and Technology (IIST)",
+        "Branch": "Aerospace Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "Closing 28.61% (Opening 43.06%) of JEE Advanced marks",
+        "Link - Data Taken from": "https://phodu.club/blogs/iist-jee-advanced-cutoff/"
+      },
+      {
+        "College Name": "Indian Institute of Space Science and Technology (IIST)",
+        "Branch": "Electronics & Communication Engineering (Avionics)",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "Closing 28.33% (Opening 40.56%) of JEE Advanced marks",
+        "Link - Data Taken from": "https://phodu.club/blogs/iist-jee-advanced-cutoff/"
+      },
+      {
+        "College Name": "Indian Institute of Space Science and Technology (IIST)",
+        "Branch": "Dual Degree (B.Tech + M.S./M.Tech)",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "Closing 28.06% (Opening 36.94%) of JEE Advanced marks",
+        "Link - Data Taken from": "https://phodu.club/blogs/iist-jee-advanced-cutoff/"
+      },
+      {
+        "College Name": "Indian Institute of Space Science and Technology (IIST)",
+        "Branch": "B.Tech Computer Science (Data Science)",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "Closing 30.28% (Opening 42.78%) of JEE Advanced marks",
+        "Link - Data Taken from": "https://phodu.club/blogs/iist-jee-advanced-cutoff/"
+      },
+      {
+        "College Name": "Indian Institute of Space Science and Technology (IIST)",
+        "Branch": "B.Tech Computer Science (Data Science)",
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "Closing 13.61% (Opening 13.61%) of JEE Advanced marks",
+        "Link - Data Taken from": "https://phodu.club/blogs/iist-jee-advanced-cutoff/"
+      }
+    ]
+  },
+  {
+    "exam": "Indian Institutes of Science Education and Research Aptitude Test",
+    "n_rows": 88,
+    "official_link": "https://iiseradmission.in/",
+    "data_sources": [
+      "https://engineering.careers360.com/articles/iiser-merit-list-and-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "IISER Berhampur",
+        "Branch": "BS-MS",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 1990.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/iiser-merit-list-and-cutoff"
+      },
+      {
+        "College Name": "IISER Kolkata",
+        "Branch": "BS-MS",
+        "Category": "OBC-NCL",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 534.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/iiser-merit-list-and-cutoff"
+      },
+      {
+        "College Name": "IISER Pune",
+        "Branch": "BS-MS",
+        "Category": "OBC-NCL",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 44.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/iiser-merit-list-and-cutoff"
+      },
+      {
+        "College Name": "IISER Thiruvananthapuram",
+        "Branch": "BS-MS",
+        "Category": "SC",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 269.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/iiser-merit-list-and-cutoff"
+      },
+      {
+        "College Name": "IISER Bhopal",
+        "Branch": "BS-Economics",
+        "Category": "Kashmiri Migrant",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 29.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/iiser-merit-list-and-cutoff"
+      }
+    ]
+  },
+  {
+    "exam": "Indira Gandhi National Tribal University Entrance Examination Folk Literature",
+    "n_rows": 4,
+    "official_link": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf",
+    "data_sources": [
+      "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Indira Gandhi National Tribal University",
+        "Branch": "Tribal Studies-Art-Culture & Folk Literature",
+        "Category": "OBC",
+        "Year - cutoff": "2025-26",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "58.0",
+        "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"
+      },
+      {
+        "College Name": "Indira Gandhi National Tribal University",
+        "Branch": "Tribal Studies-Art-Culture & Folk Literature",
+        "Category": "SC",
+        "Year - cutoff": "2025-26",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "50.0",
+        "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"
+      },
+      {
+        "College Name": "Indira Gandhi National Tribal University",
+        "Branch": "Tribal Studies-Art-Culture & Folk Literature",
+        "Category": "ST",
+        "Year - cutoff": "2025-26",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "76.0",
+        "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"
+      },
+      {
+        "College Name": "Indira Gandhi National Tribal University",
+        "Branch": "Tribal Studies-Art-Culture & Folk Literature",
+        "Category": "UR",
+        "Year - cutoff": "2025-26",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "35.45",
+        "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"
+      }
+    ]
+  },
+  {
+    "exam": "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts",
+    "n_rows": 37,
+    "official_link": "https://nchmcounselling.nic.in/or-cr/",
+    "data_sources": [
+      "https://www.toprankers.com/nchmct-jee-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "IHM Delhi, Pusa",
+        "Branch": "Hospitality & Hotel Administration",
+        "Category": "Open",
+        "Year - cutoff": "2026",
+        "Opening Rank": 2.0,
+        "Closing Rank": 300.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.toprankers.com/nchmct-jee-cut-off"
+      },
+      {
+        "College Name": "IHM Guwahati",
+        "Branch": "Hospitality & Hotel Administration",
+        "Category": "Open",
+        "Year - cutoff": "2026",
+        "Opening Rank": 129.0,
+        "Closing Rank": 7651.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.toprankers.com/nchmct-jee-cut-off"
+      },
+      {
+        "College Name": "IHM Bengaluru",
+        "Branch": "Hospitality & Hotel Administration",
+        "Category": "EWS",
+        "Year - cutoff": "2026",
+        "Opening Rank": 1720.0,
+        "Closing Rank": 5851.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.toprankers.com/nchmct-jee-cut-off"
+      },
+      {
+        "College Name": "IHM Kolkata",
+        "Branch": "Hospitality & Hotel Administration",
+        "Category": "SC",
+        "Year - cutoff": "2026",
+        "Opening Rank": 2082.0,
+        "Closing Rank": 8408.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.toprankers.com/nchmct-jee-cut-off"
+      },
+      {
+        "College Name": "IHM Hyderabad",
+        "Branch": "Hospitality & Hotel Administration",
+        "Category": "ST",
+        "Year - cutoff": "2026",
+        "Opening Rank": 4411.0,
+        "Closing Rank": 8080.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.toprankers.com/nchmct-jee-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Jamia Millia Islamia Mass Communication Entrance",
+    "n_rows": 18,
+    "official_link": "https://admission.jmi.ac.in/",
+    "data_sources": [
+      "https://media.careers360.com/articles/jmi-mass-communication-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Jamia Millia Islamia",
+        "Branch": "Convergent Journalism",
+        "Category": "General",
+        "Year - cutoff": "2019",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "191",
+        "Link - Data Taken from": "https://media.careers360.com/articles/jmi-mass-communication-cutoff"
+      },
+      {
+        "College Name": "Jamia Millia Islamia",
+        "Branch": "Convergent Journalism",
+        "Category": "Muslim OBC/ST",
+        "Year - cutoff": "2019",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "139",
+        "Link - Data Taken from": "https://media.careers360.com/articles/jmi-mass-communication-cutoff"
+      },
+      {
+        "College Name": "Jamia Millia Islamia",
+        "Branch": "Mass Communication",
+        "Category": "Muslim (MM)",
+        "Year - cutoff": "2019",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "147",
+        "Link - Data Taken from": "https://media.careers360.com/articles/jmi-mass-communication-cutoff"
+      },
+      {
+        "College Name": "Jamia Millia Islamia",
+        "Branch": "Mass Communication",
+        "Category": "PwD - Hearing impairment",
+        "Year - cutoff": "2019",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "72",
+        "Link - Data Taken from": "https://media.careers360.com/articles/jmi-mass-communication-cutoff"
+      },
+      {
+        "College Name": "Jamia Millia Islamia",
+        "Branch": "Mass Communication",
+        "Category": "Muslim",
+        "Year - cutoff": "2018",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "185-171",
+        "Link - Data Taken from": "https://media.careers360.com/articles/jmi-mass-communication-cutoff"
+      }
+    ]
+  },
+  {
+    "exam": "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination",
+    "n_rows": 6,
+    "official_link": "https://jipmer.edu.in/announcement/bsc-nursing-ahs-courses-counselling%E2%80%93-2025-26-academic-year",
+    "data_sources": [
+      "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "JIPMER",
+        "Branch": "Nursing",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 277.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+      },
+      {
+        "College Name": "JIPMER",
+        "Branch": "Nursing",
+        "Category": "EWS",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 1350.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+      },
+      {
+        "College Name": "JIPMER",
+        "Branch": "Nursing",
+        "Category": "SC",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 3630.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+      },
+      {
+        "College Name": "JIPMER",
+        "Branch": "Nursing",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 11584.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+      },
+      {
+        "College Name": "JIPMER",
+        "Branch": "Nursing",
+        "Category": "General PwD",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 49182.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+      }
+    ]
+  }
+]

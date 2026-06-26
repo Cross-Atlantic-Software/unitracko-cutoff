@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Jamia Millia Islamia Mass Communication Entrance",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://admission.jmi.ac.in/",
+    "homepage": "https://www.jmi.ac.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://media.careers360.com/articles/jmi-mass-communication-cutoff",
+    "collegedunia": "https://collegedunia.com/e-search?term=Jamia+Millia+Islamia+Mass+Communication+Entrance",
+    "shiksha": "https://www.shiksha.com/university/jamia-millia-islamia-delhi-843/course-b-a-hons-in-mass-media-hindi-10958?rf=searchWidget&landing=clp&isource=csearch",
+    "careers360": "https://media.careers360.com/articles/jmi-entrance-exam",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Jamia Social Work Entrance",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://admission.jmi.ac.in/",
+    "homepage": "https://www.jmi.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Jamia+Social+Work+Entrance",
+    "shiksha": "https://www.shiksha.com/university/jamia-millia-islamia-delhi-843/admission?isource=csearch&rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": "https://www.collegedekho.com/colleges/jamia-millia-islamia-admission"
+  },
+  {
+    "exam": "Jammu and Kashmir Bachelor of Business Administration Admission",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.jakbopee.gov.in/",
+    "homepage": "https://www.jakbopee.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Jammu+and+Kashmir+Bachelor+of+Business+Administration+Admission",
+    "shiksha": "https://www.shiksha.com/search?q=Jammu%20and%20Kashmir%20Bachelor%20of%20Business%20Administration%20Admission&rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": "https://www.collegedekho.com/bba-colleges-in-jammu-kashmir/"
+  },
+  {
+    "exam": "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://jipmer.edu.in/education/undergraduate",
+    "homepage": "https://jipmer.edu.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/",
+    "collegedunia": "https://collegedunia.com/e-search?term=Jawaharlal+Institute+of+Postgraduate+Medical+Education+and+Research+Nursing+Entrance+Examination",
+    "shiksha": "https://www.shiksha.com/search?q=Jawaharlal%20Institute%20of%20Postgraduate%20Medical%20Education%20and%20Research%20Nursing%20Entr&rf=searchWidget",
+    "careers360": "https://medicine.careers360.com/articles/jipmer-bsc-nursing-admission",
+    "collegedekho": "https://www.collegedekho.com/articles/jipmer-bsc-nursing-cutoff/"
+  },
+  {
+    "exam": "Jharkhand Bachelor of Business Administration Admission",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-jharkhand",
+    "homepage": "https://jharkhanduniversities.nic.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Jharkhand+Bachelor+of+Business+Administration+Admission",
+    "shiksha": "https://www.shiksha.com/bba/colleges/bba-colleges-india?rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": "https://www.collegedekho.com/bba-colleges-in-jharkhand/"
+  },
+  {
+    "exam": "Jharkhand Combined Entrance Competitive Examination Pre Polytechnic Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://jceceb.jharkhand.gov.in/",
+    "homepage": "https://jceceb.jharkhand.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "http://collegedunia.com/e-search?term=Jharkhand+Combined+Entrance+Competitive+Examination+Pre+Polytechnic+Test",
+    "shiksha": NaN,
+    "careers360": "https://engineering.careers360.com/exams/pece",
+    "collegedekho": "https://www.collegedekho.com/exam/jharkhand-pcece"
+  },
+  {
+    "exam": "Joint Entrance Test Agriculture",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.bskkvs.org/admission.php",
+    "homepage": "https://www.bskkvs.org/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.collegedekho.com/articles/rajasthan-jet-cutoff-jaipur-national-university/",
+    "collegedunia": "https://collegedunia.com/e-search?term=Joint+Entrance+Test+Agriculture",
+    "shiksha": "https://www.shiksha.com/search?q=Joint%20Entrance%20Test%20Agriculture&rf=searchWidget",
+    "careers360": "https://university.careers360.com/articles/jet-agriculture",
+    "collegedekho": NaN
+  }
+]

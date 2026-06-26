@@ -1,0 +1,71 @@
+{
+  "All India Veterinary Entrance Test": {
+    "status": "ok",
+    "source_url": "https://www.getmyuni.com/exams/aipvt-cut-off",
+    "note": "AIPVT (now subsumed into NEET-based VCI counselling). Only category-wise cutoff RANK ranges published, no college-level breakdown. Range recorded as opening (low) / closing (high) rank per category.",
+    "rows": [
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "General", "Opening Rank": 1340, "Closing Rank": 3626, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "OBC", "Opening Rank": 7632, "Closing Rank": 8391, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "SC", "Opening Rank": 10624, "Closing Rank": 33870, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "ST", "Opening Rank": 64459, "Closing Rank": 70744, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2019", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "General", "Opening Rank": 1360, "Closing Rank": 3586, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2019", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "OBC", "Opening Rank": 7652, "Closing Rank": 8350, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2019", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "SC", "Opening Rank": 10636, "Closing Rank": 33852, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"},
+      {"College Name": null, "City": null, "State": null, "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science", "Year - cutoff": "2019", "Round #": null, "Gender": null, "Quota": "All India 15%", "Category": "ST", "Opening Rank": 64485, "Closing Rank": 70707, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"}
+    ]
+  },
+  "Armed Forces Medical College Entrance Examination": {
+    "status": "ok",
+    "source_url": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/",
+    "note": "AFMC MBBS admits via NEET; only single-college gender-wise cutoff MARKS published (no rank). Score values are NEET marks out of 720. 2016-2020 from collegedekho article; 2024 General corroborated by getmyuni.",
+    "rows": [
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2020", "Round #": null, "Gender": "Male", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "618", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2020", "Round #": null, "Gender": "Female", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "637", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2019", "Round #": null, "Gender": "Male", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "596", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2019", "Round #": null, "Gender": "Female", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "610", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2018", "Round #": null, "Gender": "Male", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "570", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2018", "Round #": null, "Gender": "Female", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "600", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2017", "Round #": null, "Gender": "Male", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "498", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2017", "Round #": null, "Gender": "Female", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "536", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2016", "Round #": null, "Gender": "Male", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "478", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2016", "Round #": null, "Gender": "Female", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "537", "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2024", "Round #": null, "Gender": "Male", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "666", "Link - Data Taken from": "https://www.getmyuni.com/college/armed-forces-medical-college-afmc-pune-cut-off"},
+      {"College Name": "Armed Forces Medical College", "City": "Pune", "State": "Maharashtra", "Program": "MBBS", "Branch": "MBBS", "Year - cutoff": "2024", "Round #": null, "Gender": "Female", "Quota": null, "Category": "General", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": "681", "Link - Data Taken from": "https://www.getmyuni.com/college/armed-forces-medical-college-afmc-pune-cut-off"}
+    ]
+  },
+  "Arunachal Pradesh Polytechnic Entrance Examination": {
+    "status": "none",
+    "source_url": "https://www.collegedekho.com/articles/arunachal-pradesh-joint-entrance-exam-apjee/",
+    "note": "DHTE does not pre-announce branch/college-wise closing ranks; from 2026 selection is Class-X merit based (written test cancelled). No public college-wise cutoff rows found on official, collegedunia, careers360, or collegedekho pages.",
+    "rows": []
+  },
+  "Aryabhatta Knowledge University Entrance Examination": {
+    "status": "none",
+    "source_url": "https://akubihar.ac.in/",
+    "note": "AKU is an affiliating university; admissions to its colleges run through BCECE/UGEAC/NEET/JEE state counselling, not a single AKU exam with college-branch cutoffs. The entrance produces roll-number merit lists only; no exam-level college-wise cutoff table found.",
+    "rows": []
+  },
+  "Assam Agriculture Entrance Examination": {
+    "status": "ok",
+    "source_url": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off",
+    "note": "AAU UG admissions (B.V.Sc / B.Sc Agri / B.Sc Community Science) run on NEET / ICAR AIEEA ranks; figures are NEET-based admission opening/closing ranks at AAU Jorhat (not the older AAU-CET). General category, overall across rounds.",
+    "rows": [
+      {"College Name": "Assam Agricultural University", "City": "Jorhat", "State": "Assam", "Program": "B.V.Sc & A.H.", "Branch": "Animal Husbandry", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "General", "Opening Rank": 51584, "Closing Rank": 61503, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"},
+      {"College Name": "Assam Agricultural University", "City": "Jorhat", "State": "Assam", "Program": "B.V.Sc & A.H.", "Branch": "Veterinary Science and Animal Husbandry", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India", "Category": "General", "Opening Rank": 158725, "Closing Rank": 212398, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"},
+      {"College Name": "Assam Agricultural University", "City": "Jorhat", "State": "Assam", "Program": "B.Sc Agriculture (Hons)", "Branch": "Agriculture", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India", "Category": "General", "Opening Rank": 209920, "Closing Rank": 301348, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"},
+      {"College Name": "Assam Agricultural University", "City": "Jorhat", "State": "Assam", "Program": "B.Sc Community Science (Hons)", "Branch": "Community Science", "Year - cutoff": "2023", "Round #": null, "Gender": null, "Quota": "All India", "Category": "General", "Opening Rank": 400749, "Closing Rank": 682708, "Cutoff Percentile/Score": null, "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"}
+    ]
+  },
+  "Assam Polytechnic Entrance Examination": {
+    "status": "none",
+    "source_url": "https://dte.assam.gov.in/portlets/polytechnic-admission",
+    "note": "Assam PAT cutoffs are published per round on the DTE portal as downloadable allotment files, but no accessible static college/branch/category cutoff rows found via official, sarvgyan, collegedunia, or collegedekho pages.",
+    "rows": []
+  },
+  "AVEE - Assam Veterinary Entrance Examination": {
+    "status": "none",
+    "source_url": "https://vetbifg.ac.in/admission-notice.php",
+    "note": "AAU-VET publishes only category-wise roll/registration-number merit lists (no college-branch cutoff ranks). Admission is to the single College of Veterinary Science; no public college-wise cutoff table found.",
+    "rows": []
+  }
+}

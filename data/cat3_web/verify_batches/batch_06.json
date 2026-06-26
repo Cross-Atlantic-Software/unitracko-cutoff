@@ -1,0 +1,62 @@
+[
+  {
+    "exam": "Uttarakhand State Entrance Examination",
+    "n_rows": 12,
+    "official_link": "https://uktech.ac.in/",
+    "data_sources": [
+      "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Uttaranchal University",
+        "Branch": "Computer Science and Engineering",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": 115905.0,
+        "Closing Rank": 328120.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"
+      },
+      {
+        "College Name": "Uttaranchal University",
+        "Branch": "Civil Engineering",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": 57220.0,
+        "Closing Rank": 327490.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"
+      },
+      {
+        "College Name": "Uttaranchal University",
+        "Branch": "Mechanical Engineering",
+        "Category": "OBC",
+        "Year - cutoff": "2024",
+        "Opening Rank": 446210.0,
+        "Closing Rank": 771710.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"
+      },
+      {
+        "College Name": "Uttaranchal University",
+        "Branch": "Electrical Engineering",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": 427555.0,
+        "Closing Rank": 509380.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"
+      },
+      {
+        "College Name": "Uttaranchal University",
+        "Branch": "Petroleum Engineering",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": 512455.0,
+        "Closing Rank": 512455.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.kollegeapply.com/exams/uttarakhand-state-entrance-exam/cutoff"
+      }
+    ]
+  }
+]

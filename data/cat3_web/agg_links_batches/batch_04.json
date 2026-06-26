@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "Common University Entrance Test – Undergraduate",
+    "current_official_cutoff_url": "https://cuetug.ntaonline.in/",
+    "homepage": "https://cuet.nta.nic.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/cuet/cutoff"
+  },
+  {
+    "exam": "Company Secretary Executive Entrance Test",
+    "current_official_cutoff_url": "No official cutoff. CSEET is a qualifying examination.",
+    "homepage": "https://www.icsi.edu/",
+    "aggregator_source": "https://www.shiksha.com/engineering/cseet-exam-cutoff"
+  },
+  {
+    "exam": "Consortium of Medical Engineering and Dental Colleges of Karnataka Undergraduate Entrance Test",
+    "current_official_cutoff_url": "https://comedk.org/uploads/engineering-cutoff-ranks.pdf",
+    "homepage": "https://www.comedk.org/",
+    "aggregator_source": "https://engineering.careers360.com/articles/comedk-uget-cutoff"
+  },
+  {
+    "exam": "Delhi Common Entrance Test for Polytechnic Admission",
+    "current_official_cutoff_url": "https://cetdelhi.nic.in/webinfo/public/home.aspx",
+    "homepage": "https://cetdelhi.nic.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/delhi-cet/cutoff"
+  },
+  {
+    "exam": "Footwear Design and Development Institute All India Selection Test",
+    "current_official_cutoff_url": "https://fddiindia.com/admission-new/",
+    "homepage": "https://fddiindia.com/",
+    "aggregator_source": "https://www.collegedekho.com/exam/fddi-aist/cutoff"
+  },
+  {
+    "exam": "Gujarat Common Entrance Test",
+    "current_official_cutoff_url": "https://gujacpc.admissions.nic.in/",
+    "homepage": "https://gujcet.gseb.org/",
+    "aggregator_source": "https://www.collegedekho.com/exam/gujcet/cutoff"
+  },
+  {
+    "exam": "Gujarat Common Entrance Test – Medical and Pharmacy",
+    "current_official_cutoff_url": "https://www.medadmgujarat.org/ug/home.aspx",
+    "homepage": "https://www.medadmgujarat.org/",
+    "aggregator_source": "https://www.collegedekho.com/exam/gujcet/cutoff"
+  }
+]

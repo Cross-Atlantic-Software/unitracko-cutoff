@@ -80,6 +80,21 @@ def cached_aggregator(_ver: float) -> pd.DataFrame:
         return pd.DataFrame()
     return pd.read_csv(AGG_CUTOFFS_CSV)
 
+
+from cutoffs.cat3_web import OUT_CSV as WEB_CUTOFFS_CSV
+
+
+def _web_version() -> float:
+    return WEB_CUTOFFS_CSV.stat().st_mtime if WEB_CUTOFFS_CSV.exists() else 0.0
+
+
+@st.cache_data(show_spinner=False)
+def cached_web(_ver: float) -> pd.DataFrame:
+    """Cat-3 web-research side table (lower fidelity, separate from official)."""
+    if not WEB_CUTOFFS_CSV.exists():
+        return pd.DataFrame()
+    return pd.read_csv(WEB_CUTOFFS_CSV)
+
 # Shared display config for the row-level cutoff table (used by more than one tab).
 CUTOFF_DISPLAY_ORDER = [
     "Exam", "Website", "Institute", "City", "State", "Program", "Branch",
@@ -378,13 +393,16 @@ with tab_colleges:
     agg_df = cached_aggregator(_aggregator_version())
     agg_exams = sorted(agg_df["Exam Name"].dropna().unique()) if not agg_df.empty else []
     agg_only = [e for e in agg_exams if e not in set(exams)]
-    combined = len(set(exams) | set(agg_exams))
+    web_df = cached_web(_web_version())
+    web_exams = sorted(web_df["Exam Name"].dropna().unique()) if not web_df.empty else []
+    web_only = [e for e in web_exams if e not in set(exams) | set(agg_exams)]
+    combined = len(set(exams) | set(agg_exams) | set(web_exams))
     st.caption(
         f"**{len(exams)}** exams have high-fidelity **official** cutoff data; "
-        f"another **{len(agg_only)}** are covered by lower-fidelity "
-        f"**aggregator-sourced** data (see the section below) — **{combined} of "
-        f"{n_catalog}** catalogued exams in total. The rest publish no cutoffs or "
-        "sit behind gated portals."
+        f"another **{len(agg_only)}** come from lower-fidelity "
+        f"**aggregator-sourced** data and **{len(web_only)}** from targeted "
+        f"**web research** (both below) — **{combined} of {n_catalog}** catalogued "
+        f"exams in total. The rest publish no cutoffs or sit behind gated portals."
     )
     sel_exam = st.selectbox("Exam Name (official data)", [""] + exams, key="ce_exam")
 
@@ -463,7 +481,8 @@ with tab_colleges:
                 "CollegeDekho) into the same deliverable shape, for exams without an "
                 "official adapter. **Kept separate from the official data above** — "
                 "treat as indicative: closing ranks dominate, opening ranks and "
-                "college names are often partial. Every row links its source page."
+                "college names are often partial. Each row is connected to the exam's "
+                "**official website** and links the competitor **source page** it came from."
             )
             sel_agg = st.selectbox("Aggregator-covered exam", [""] + agg_only,
                                    key="ce_agg_exam")
@@ -488,6 +507,46 @@ with tab_colleges:
                     "⬇️  Download aggregator rows (CSV)",
                     data=arows.to_csv(index=False).encode("utf-8"),
                     file_name=f"aggregator_{sel_agg[:30].strip().replace(' ', '_')}.csv",
+                    mime="text/csv",
+                )
+
+    # --- Web-research-sourced cutoffs (separate, lower-fidelity) ------------
+    if web_only:
+        st.divider()
+        with st.expander(
+            f"🔎  Web-research-sourced cutoffs — {len(web_only)} more exams "
+            "(targeted search, not official)", expanded=False,
+        ):
+            st.caption(
+                "For exams reachable by neither an official adapter nor the competitor "
+                "aggregator, a pool of agents searched the open web for each exam's "
+                "actual cutoff page (official PDFs, education portals) and extracted "
+                "ranks — or, where only marks/percentile cutoffs exist, those (shown in "
+                "the *Cutoff Percentile/Score* column). **Kept separate from the official "
+                "data above** — treat as indicative; every row links its source page."
+            )
+            sel_web = st.selectbox("Web-research-covered exam", [""] + web_only,
+                                   key="ce_web_exam")
+            if sel_web:
+                wrows = web_df[web_df["Exam Name"] == sel_web].reset_index(drop=True)
+                w1, w2, w3 = st.columns(3)
+                w1.metric("Rows", f"{len(wrows):,}")
+                w2.metric("With closing rank", f"{wrows['Closing Rank'].notna().sum():,}")
+                w3.metric("With marks/percentile",
+                          f"{wrows['Cutoff Percentile/Score'].notna().sum():,}")
+                st.dataframe(
+                    wrows, width="stretch", hide_index=True, height=420,
+                    column_config={
+                        "Link of website": st.column_config.LinkColumn(
+                            "Website", display_text="open ↗"),
+                        "Link - Data Taken from": st.column_config.LinkColumn(
+                            "Source", display_text="source ↗"),
+                    },
+                )
+                st.download_button(
+                    "⬇️  Download web-research rows (CSV)",
+                    data=wrows.to_csv(index=False).encode("utf-8"),
+                    file_name=f"webresearch_{sel_web[:30].strip().replace(' ', '_')}.csv",
                     mime="text/csv",
                 )
 

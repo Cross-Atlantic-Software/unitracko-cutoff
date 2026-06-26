@@ -1,0 +1,37 @@
+{
+  "Joint Entrance Examination Council Uttar Pradesh Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://jeecup.admissions.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official JEECUP (Joint Entrance Examination Council, Polytechnic, UP) NIC admissions/eCounselling portal. Verified live: hosts Round-wise choice filling, rank cards and the OR-CR (opening/closing rank) link under eServices. Homepage is itself the counselling/cutoff portal."
+  },
+  "Joint Entrance Examination JAC Delhi Joint Admission Counselling (JEE Main)": {
+    "official_cutoff_url": "https://jacdelhi.admissions.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official Joint Admission Committee Delhi NIC portal (Session 2026, B.Tech/B.Arch for DTU, NSUT, IIITD, IGDTUW, DSEU). Verified live: eServices has OR-CR and Allotment Result; news section links institution-wise Round-1 seat-allocation cutoff documents."
+  },
+  "Joint Entrance Examination JoSAA Joint Seat Allocation (JEE Main and Advanced)": {
+    "official_cutoff_url": "https://josaa.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Official JoSAA OR-CR gateway. Verified live: links to 'Opening and Closing Ranks 2026' and previous-year OR-CR on josaa.admissions.nic.in (current page: josaa.admissions.nic.in/Applicant/seatallotmentresult/currentorcr.aspx). Authoritative IIT/NIT/IIIT/GFTI cutoffs."
+  },
+  "Joint Integrated Programme in Management Admission Test": {
+    "official_cutoff_url": "https://www.iimj.ac.in/programs/ipm/ipm-admission-policy.php",
+    "official_url_verified": true,
+    "official_note": "IIM Jammu IPM (JIPMAT) admission-policy page. Verified live: gives selection criteria (JIPMAT percentile 70% + Class 10 15% + Class 12 15%) and category-wise sectional percentile cutoffs. JIPMAT is run by NTA for IIM Jammu and IIM Bodh Gaya, which each publish their own merit cutoffs."
+  },
+  "Karnataka Common Entrance Test": {
+    "official_cutoff_url": "https://cetonline.karnataka.gov.in/kea/",
+    "official_url_verified": false,
+    "official_note": "Official Karnataka Examinations Authority (KEA) portal; KCET seat allotment and round-wise cutoff (opening/closing rank) PDFs are published here (e.g. /kea/ugcet2025). Confirmed official via search but the fetcher timed out / bot-blocks, so marked unverified. Replaces the narrower results-login page in the input."
+  },
+  "Kerala Dairy Technology Entrance": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/",
+    "official_url_verified": true,
+    "official_note": "B.Tech (Dairy Technology, KVASU) admission is done through KEAM by the Commissioner for Entrance Examinations (CEE) Kerala; allotment and last-rank cutoffs are published by CEE under the Centralised Allotment Process (KEAM last-rank PDFs, e.g. cee.kerala.gov.in/keam20XX/list/lastrank/). Replaces admissions.kau.in (TLS-error and not the cutoff publisher)."
+  },
+  "Kerala Engineering Architecture Medical Entrance Examination": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/",
+    "official_url_verified": true,
+    "official_note": "Official CEE Kerala site (Commissioner for Entrance Examinations). Verified live: conducts KEAM and the Centralised Allotment Process; publishes rank lists and category/round-wise last-rank cutoffs (per-year KEAM portal e.g. /keam2026/, with last-rank PDFs under /keamYYYY/list/lastrank/). Input's /keam-2025/ path is the prior-year edition."
+  }
+}

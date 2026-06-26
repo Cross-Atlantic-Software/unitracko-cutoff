@@ -1,0 +1,364 @@
+[
+  {
+    "exam": "Birla Institute of Technology Mesra Entrance Examination",
+    "n_rows": 42,
+    "official_link": "https://www.bitmesra.ac.in/admission/1/department/11",
+    "data_sources": [
+      "https://phodu.club/blogs/bit-mesra-cutoff-jee-mains/",
+      "https://www.pw.live/iit-jee/exams/bit-mesra-jee-main-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Birla Institute of Technology, Mesra",
+        "Branch": "B.Tech Computer Science and Engineering",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 22317.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://phodu.club/blogs/bit-mesra-cutoff-jee-mains/"
+      },
+      {
+        "College Name": "Birla Institute of Technology, Mesra",
+        "Branch": "B.Tech Mechanical Engineering",
+        "Category": "Open",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 90773.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://phodu.club/blogs/bit-mesra-cutoff-jee-mains/"
+      },
+      {
+        "College Name": "Birla Institute of Technology, Mesra",
+        "Branch": "B.Tech Electronics & Communication Engineering",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 27182.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.pw.live/iit-jee/exams/bit-mesra-jee-main-cutoff"
+      },
+      {
+        "College Name": "Birla Institute of Technology, Mesra",
+        "Branch": "B.Tech Mechanical Engineering",
+        "Category": "Open",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 59004.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.pw.live/iit-jee/exams/bit-mesra-jee-main-cutoff"
+      },
+      {
+        "College Name": "Birla Institute of Technology, Mesra",
+        "Branch": "B.Tech Artificial Intelligence & Machine Learning",
+        "Category": "OBC",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 8260.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.pw.live/iit-jee/exams/bit-mesra-jee-main-cutoff"
+      }
+    ]
+  },
+  {
+    "exam": "DAIICT Entrance Test",
+    "n_rows": 12,
+    "official_link": "https://www.daiict.ac.in/undergraduate-admissions-all-india-category",
+    "data_sources": [
+      "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Dhirubhai Ambani University (DAIICT)",
+        "Branch": "Electronics Engineering (VLSI Design)",
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": 92.0,
+        "Closing Rank": 144.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off"
+      },
+      {
+        "College Name": "Dhirubhai Ambani University (DAIICT)",
+        "Branch": "Mathematics and Computing",
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": 23.0,
+        "Closing Rank": 35.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off"
+      },
+      {
+        "College Name": "Dhirubhai Ambani University (DAIICT)",
+        "Branch": "ICT with Computational Science",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": 11000.0,
+        "Closing Rank": 16000.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off"
+      },
+      {
+        "College Name": "Dhirubhai Ambani University (DAIICT)",
+        "Branch": "Information and Communication Technology",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": 300.0,
+        "Closing Rank": 600.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off"
+      },
+      {
+        "College Name": "Dhirubhai Ambani University (DAIICT)",
+        "Branch": "Mathematics and Computing",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": 400.0,
+        "Closing Rank": 700.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Defence Institute of Advanced Technology Entrance Examination",
+    "n_rows": 38,
+    "official_link": "https://www.diat.ac.in/admission",
+    "data_sources": [
+      "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Defence Institute of Advanced Technology (DIAT)",
+        "Branch": "Data Science",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "546 (GATE)",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off"
+      },
+      {
+        "College Name": "Defence Institute of Advanced Technology (DIAT)",
+        "Branch": "Communication and Signal Processing",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "401 (GATE)",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off"
+      },
+      {
+        "College Name": "Defence Institute of Advanced Technology (DIAT)",
+        "Branch": "Automation & Robotics",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "462 (GATE)",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off"
+      },
+      {
+        "College Name": "Defence Institute of Advanced Technology (DIAT)",
+        "Branch": "Modeling and Simulation",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "398 (GATE)",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off"
+      },
+      {
+        "College Name": "Defence Institute of Advanced Technology (DIAT)",
+        "Branch": "Materials Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "192 (GATE)",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Gujarat Common Entrance Test – Polytechnic",
+    "n_rows": 300,
+    "official_link": "https://gujdiploma.admissions.nic.in/",
+    "data_sources": [
+      "https://static.collegedekho.com/media/uploads/2024/07/19/gujarat-polytechnic-round-1-insitute-wise-cutoff-2024_iCikdQU.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "A D Patel Institute of Technology, New V V Nagar",
+        "Branch": "AUTOMOBILE ENGG",
+        "Category": "OPEN/General",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 22095.0,
+        "Cutoff Percentile/Score": "176 marks",
+        "Link - Data Taken from": "https://static.collegedekho.com/media/uploads/2024/07/19/gujarat-polytechnic-round-1-insitute-wise-cutoff-2024_iCikdQU.pdf"
+      },
+      {
+        "College Name": "BALASINOR COLLEGE OF POLYTECHNIC,BALASINOR, MAHISAGAR",
+        "Branch": "MECHANICAL ENGG",
+        "Category": "OPEN/General",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 42440.0,
+        "Cutoff Percentile/Score": "106 marks",
+        "Link - Data Taken from": "https://static.collegedekho.com/media/uploads/2024/07/19/gujarat-polytechnic-round-1-insitute-wise-cutoff-2024_iCikdQU.pdf"
+      },
+      {
+        "College Name": "DR.S.& S.S.GANDHI COLLEGE OF ENGG. AND TECHNOLOGY, SURAT",
+        "Branch": "MECHANICAL ENGG",
+        "Category": "OPEN/General",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 16440.0,
+        "Cutoff Percentile/Score": "191 marks",
+        "Link - Data Taken from": "https://static.collegedekho.com/media/uploads/2024/07/19/gujarat-polytechnic-round-1-insitute-wise-cutoff-2024_iCikdQU.pdf"
+      },
+      {
+        "College Name": "GOVERNMENT POLYTECHNIC, BHUJ",
+        "Branch": "COMPUTER ENGG.",
+        "Category": "OPEN/General",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 17705.0,
+        "Cutoff Percentile/Score": "188 marks",
+        "Link - Data Taken from": "https://static.collegedekho.com/media/uploads/2024/07/19/gujarat-polytechnic-round-1-insitute-wise-cutoff-2024_iCikdQU.pdf"
+      },
+      {
+        "College Name": "GOVERNMENT POLYTECHNIC, VADNAGAR",
+        "Branch": "CIVIL ENGG.",
+        "Category": "OPEN/General",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 39708.0,
+        "Cutoff Percentile/Score": "124 marks",
+        "Link - Data Taken from": "https://static.collegedekho.com/media/uploads/2024/07/19/gujarat-polytechnic-round-1-insitute-wise-cutoff-2024_iCikdQU.pdf"
+      }
+    ]
+  },
+  {
+    "exam": "Indian Institute of Petroleum and Energy Entrance Examination",
+    "n_rows": 46,
+    "official_link": "https://iipe.ac.in/Academics/Cutoff.html",
+    "data_sources": [
+      "https://iipe.ac.in/Academics/Cutoff.html",
+      "https://www.careers360.com/university/indian-institute-of-petroleum-and-energy-visakhapatnam/cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Indian Institute of Petroleum and Energy (IIPE)",
+        "Branch": "Applied Geology",
+        "Category": "CRL (General)",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": 136.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iipe.ac.in/Academics/Cutoff.html"
+      },
+      {
+        "College Name": "Indian Institute of Petroleum and Energy (IIPE)",
+        "Branch": "Applied Geology",
+        "Category": "EWS",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": 235.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iipe.ac.in/Academics/Cutoff.html"
+      },
+      {
+        "College Name": "Indian Institute of Petroleum and Energy (IIPE)",
+        "Branch": "Mechanical Engineering",
+        "Category": "CRL (General)",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 16137.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/indian-institute-of-petroleum-and-energy-visakhapatnam/cut-off"
+      },
+      {
+        "College Name": "Indian Institute of Petroleum and Energy (IIPE)",
+        "Branch": "Chemical Engineering",
+        "Category": "SC",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 3880.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/indian-institute-of-petroleum-and-energy-visakhapatnam/cut-off"
+      },
+      {
+        "College Name": "Indian Institute of Petroleum and Energy (IIPE)",
+        "Branch": "Mechanical Engineering",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 1738.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/indian-institute-of-petroleum-and-energy-visakhapatnam/cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Indian Institute of Science Bachelor of Science Research Admission",
+    "n_rows": 180,
+    "official_link": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf",
+    "data_sources": [
+      "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Indian Institute of Science (IISc)",
+        "Branch": "Admission via IISER Aptitude Test (IAT)",
+        "Category": "General",
+        "Year - cutoff": "2025-26",
+        "Opening Rank": null,
+        "Closing Rank": 43.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf"
+      },
+      {
+        "College Name": "Indian Institute of Science (IISc)",
+        "Branch": "Admission via IISER Aptitude Test (IAT)",
+        "Category": "ST",
+        "Year - cutoff": "2024-25",
+        "Opening Rank": null,
+        "Closing Rank": 69.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf"
+      },
+      {
+        "College Name": "Indian Institute of Science (IISc)",
+        "Branch": "Admission via JEE (Advanced)",
+        "Category": "SC",
+        "Year - cutoff": "2023-24",
+        "Opening Rank": null,
+        "Closing Rank": 20558.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf"
+      },
+      {
+        "College Name": "Indian Institute of Science (IISc)",
+        "Branch": "Admission via NEET (UG)",
+        "Category": "EWS",
+        "Year - cutoff": "2022-23",
+        "Opening Rank": null,
+        "Closing Rank": 20596.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf"
+      },
+      {
+        "College Name": "Indian Institute of Science (IISc)",
+        "Branch": "Admission via JEE (Advanced)",
+        "Category": "Kashmiri Migrant",
+        "Year - cutoff": "2021-22",
+        "Opening Rank": null,
+        "Closing Rank": 10000.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf"
+      }
+    ]
+  }
+]

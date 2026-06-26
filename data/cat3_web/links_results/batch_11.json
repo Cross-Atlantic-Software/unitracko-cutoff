@@ -1,0 +1,51 @@
+{
+  "National Institute of Mental Health and Neuro Sciences Bachelor of Science Neurophysiology Entrance Examination": {
+    "official_cutoff_url": "https://www.nimhans.ac.in/academics/admissions",
+    "official_url_verified": false,
+    "official_note": "Official NIMHANS admissions page (admission notifications, prospectus, entrance/merit results for UG B.Sc courses incl. Neurophysiology Technology). Selection is on entrance-test merit; published lists are candidate roll-number merit lists for this single institute, not college/branch/category cutoff tables. Could not fetch via WebFetch (TLS certificate verification error on nimhans.ac.in); page confirmed to exist via search.",
+    "data_status": "none",
+    "rows": []
+  },
+  "National Rail and Transportation Institute Transport Technology Entrance Examination": {
+    "official_cutoff_url": "https://gsv.ac.in/admission-notification/",
+    "official_url_verified": true,
+    "official_note": "Official Gati Shakti Vishwavidyalaya (formerly NRTI), Vadodara admission-notification page (loads; lists 2026-27 admission brochure/notifications and B.Tech programs). B.Tech admission is via JEE Main + JoSAA/CSAB, so authoritative closing ranks live on josaa.nic.in; GSV does not publish its own rank-cutoff table here.",
+    "data_status": "none",
+    "rows": []
+  },
+  "National Standard Examination": {
+    "official_cutoff_url": "https://www.iapt.org.in/exams.html",
+    "official_url_verified": false,
+    "official_note": "Official IAPT National Standard Examination (NSEP/NSEC/NSEB/NSEA/NSEJS) page; IAPT publishes results, Minimum Admissible Score (MAS) and state/national merit lists at iapt.org.in (e.g. state cut-off PDFs under /images/nse_*). already_has_data true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences Bachelor of Science Nursing Entrance Examination": {
+    "official_cutoff_url": "https://neigrihms.gov.in/examsresults.html",
+    "official_url_verified": true,
+    "official_note": "Official NEIGRIHMS Examination Results page (loads; lists B.Sc Nursing entrance-exam result + PG merit lists). Admission/merit is NEET-UG-score based for this single institute; published output is a candidate merit/result list, not a college/branch/category cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Odisha Diploma Entrance Test": {
+    "official_cutoff_url": "https://skill.samsodisha.gov.in/diploma/Cutoffmark_Diploma.aspx",
+    "official_url_verified": false,
+    "official_note": "Official SAMS Odisha (SCTEVT/DTET) diploma 'Academic Session Wise Cut-Off Marks (%)' page. Note: Odisha discontinued the written Diploma Entrance Test (DET) from 2016-17; diploma admission is now Class-10 merit based via skill.samsodisha.gov.in. The cutoff-marks and category-wise merit/allotment pages are ASP.NET postback pages that returned an application error / require an in-portal session, so data could not be extracted via WebFetch.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Odisha Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://skill.samsodisha.gov.in/diploma/Cutoffmark_Diploma.aspx",
+    "official_url_verified": false,
+    "official_note": "Same official SAMS Odisha diploma portal as Odisha DET; 'Academic Session Wise Cut-Off Marks (%) Diploma' page plus institute/category-wise merit (MeritlistFresh.aspx) and allotment (Dip_SeatAllotmentFresh.aspx) pages. Admission is merit-based (Class-10 marks). ASP.NET pages returned an error / need a portal session, so no rows extractable via WebFetch.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Online Facilitation System for Students Bihar University Admission": {
+    "official_cutoff_url": "https://www.ofssbihar.in/Higher-Education/index.aspx",
+    "official_url_verified": false,
+    "official_note": "Official OFSS Bihar (BSEB) portal for Intermediate/Class-11 and graduation admissions; college/stream-wise selection (merit/cut-off) lists are published per round on the OFSS portal (ofssbihar.net/ofssbihar.in). already_has_data true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  }
+}

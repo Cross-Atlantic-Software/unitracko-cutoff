@@ -1,0 +1,333 @@
+[
+  {
+    "exam": "Mizoram Engineering Entrance Examination",
+    "n_rows": 27,
+    "official_link": "https://mzu.edu.in/merit-list-for-b-tech-regular-entry-mzueee-2025/",
+    "data_sources": [
+      "https://www.careers360.com/university/mizoram-university-aizawl/cut-off",
+      "https://www.getmyuni.com/college/mizoram-university-aizawl-cut-off/jee-main"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Mizoram University",
+        "Branch": "Architecture",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": 1203.0,
+        "Closing Rank": 1258.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/mizoram-university-aizawl/cut-off"
+      },
+      {
+        "College Name": "Mizoram University",
+        "Branch": "Architecture",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": 1203.0,
+        "Closing Rank": 1251.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/mizoram-university-aizawl/cut-off"
+      },
+      {
+        "College Name": "Mizoram University",
+        "Branch": "Computer Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 60031.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/mizoram-university-aizawl-cut-off/jee-main"
+      },
+      {
+        "College Name": "Mizoram University",
+        "Branch": "Electronics & Communication Engineering",
+        "Category": "SC",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 12556.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/mizoram-university-aizawl-cut-off/jee-main"
+      },
+      {
+        "College Name": "Mizoram University",
+        "Branch": "Information Technology",
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 5929.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/college/mizoram-university-aizawl-cut-off/jee-main"
+      }
+    ]
+  },
+  {
+    "exam": "Narsee Monjee Institute of Management Studies Law Aptitude Test",
+    "n_rows": 2,
+    "official_link": "https://nlat.nmims.edu/",
+    "data_sources": [
+      "https://www.collegedekho.com/colleges/nmims-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "NMIMS Kirit P. Mehta School of Law",
+        "Branch": "Law",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "70 percentile",
+        "Link - Data Taken from": "https://www.collegedekho.com/colleges/nmims-cutoff"
+      },
+      {
+        "College Name": "NMIMS Kirit P. Mehta School of Law",
+        "Branch": "Law",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "70 percentile",
+        "Link - Data Taken from": "https://www.collegedekho.com/colleges/nmims-cutoff"
+      }
+    ]
+  },
+  {
+    "exam": "National Standard Examination",
+    "n_rows": 10,
+    "official_link": "https://www.iapt.org.in/exams.html",
+    "data_sources": [
+      "https://www.pw.live/olympiad/exams/iapt-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": null,
+        "Branch": "Physics",
+        "Category": "General",
+        "Year - cutoff": "2023-24",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "MAS 99 (of 240)",
+        "Link - Data Taken from": "https://www.pw.live/olympiad/exams/iapt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Biology",
+        "Category": "General",
+        "Year - cutoff": "2023-24",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "MAS 70",
+        "Link - Data Taken from": "https://www.pw.live/olympiad/exams/iapt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Astronomy",
+        "Category": "General",
+        "Year - cutoff": "2023-24",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "MAS 84",
+        "Link - Data Taken from": "https://www.pw.live/olympiad/exams/iapt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Junior Science",
+        "Category": "General",
+        "Year - cutoff": "2023-24",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "MAS 86",
+        "Link - Data Taken from": "https://www.pw.live/olympiad/exams/iapt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Physics",
+        "Category": "General",
+        "Year - cutoff": "2024-25",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "MAS 83",
+        "Link - Data Taken from": "https://www.pw.live/olympiad/exams/iapt-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Online Facilitation System for Students Bihar University Admission",
+    "n_rows": 25,
+    "official_link": "https://www.ofssbihar.in/Higher-Education/index.aspx",
+    "data_sources": [
+      "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "YASHWANT INTER SCHOOL KHIJARSARAI",
+        "Branch": "Science",
+        "Category": "SC",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "63.60",
+        "Link - Data Taken from": "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks"
+      },
+      {
+        "College Name": "+2 ANTI UCHH VIDYALAY ANTI",
+        "Branch": "Science",
+        "Category": "SC",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "71.00",
+        "Link - Data Taken from": "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks"
+      },
+      {
+        "College Name": "UTKRAMIT UCHCH MADHYAMIK SISWAR",
+        "Branch": "Science",
+        "Category": "SC",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "53.80",
+        "Link - Data Taken from": "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks"
+      },
+      {
+        "College Name": "UTKRAMIT M S GOPHA KALA",
+        "Branch": "Science",
+        "Category": "EBC",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "71.00",
+        "Link - Data Taken from": "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks"
+      },
+      {
+        "College Name": "+2 JANTA H/SCHOOL, DUMARIA",
+        "Branch": "Science",
+        "Category": "OBC",
+        "Year - cutoff": "2026",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "74.80",
+        "Link - Data Taken from": "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks"
+      }
+    ]
+  },
+  {
+    "exam": "Paramedical State Common Entrance Test",
+    "n_rows": 10,
+    "official_link": "https://wbjeeb.nic.in/jenpas-ug/",
+    "data_sources": [
+      "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": null,
+        "Branch": null,
+        "Category": "General (50th percentile)",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "23.50",
+        "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+      },
+      {
+        "College Name": null,
+        "Branch": null,
+        "Category": "SC/ST/OBC incl. PwD (40th percentile)",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "21.3333",
+        "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+      },
+      {
+        "College Name": null,
+        "Branch": null,
+        "Category": "SC/ST/OBC incl. PwD (40th percentile)",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "24.5000",
+        "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+      },
+      {
+        "College Name": null,
+        "Branch": null,
+        "Category": "OBC-B (45th percentile)",
+        "Year - cutoff": "2022",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "120",
+        "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+      },
+      {
+        "College Name": null,
+        "Branch": null,
+        "Category": "ST (40th percentile)",
+        "Year - cutoff": "2022",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "80",
+        "Link - Data Taken from": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+      }
+    ]
+  },
+  {
+    "exam": "Puducherry Bachelor of Business Administration Entrance Examination",
+    "n_rows": 11,
+    "official_link": "https://www.centacpuducherry.in/",
+    "data_sources": [
+      "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Pondicherry University",
+        "Branch": "BBA (Hons)",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "165",
+        "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"
+      },
+      {
+        "College Name": "Pondicherry University",
+        "Branch": "BBA (Hons)",
+        "Category": "EWS",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "120",
+        "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"
+      },
+      {
+        "College Name": "Pondicherry University",
+        "Branch": "BBA (Hons)",
+        "Category": "PH",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "58",
+        "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"
+      },
+      {
+        "College Name": "Pondicherry University",
+        "Branch": "BBA (Hons)",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "82",
+        "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"
+      },
+      {
+        "College Name": "Pondicherry University",
+        "Branch": "BBA (Hons)",
+        "Category": "EWS",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "70",
+        "Link - Data Taken from": "https://www.selectyouruniversity.com/blog/pondicherry-university-cutoff"
+      }
+    ]
+  }
+]

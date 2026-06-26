@@ -1,0 +1,37 @@
+{
+  "National Institute of Fashion Technology Entrance Examination": {
+    "official_cutoff_url": "https://www.nift.ac.in/admissions-archive",
+    "official_url_verified": true,
+    "official_note": "Official NIFT admissions archive; lists 'Opening and Closing Rank Details for NIFT Counselling' and 'Opening and Closing CMR for Seat Allocation' PDFs by round/year. More specific than the generic /admission page."
+  },
+  "O. P. Jindal Global University Entrance Test": {
+    "official_cutoff_url": "",
+    "official_url_verified": false,
+    "official_note": "JGU/JSAT admission is holistic and merit/interview-based; the official admissions page (jgu.edu.in/admissions/) explicitly states no published cutoffs/closing ranks. No official cutoff or merit-rank page exists."
+  },
+  "Odisha Joint Entrance Examination": {
+    "official_cutoff_url": "https://ojee.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Official OJEE opening-and-closing-rank (cutoff) hub on ojee.nic.in, with grid/list views per OJEE-2025 round. Replaces the generic publicinfo homepage."
+  },
+  "Odisha Joint Entrance Examination Agriculture": {
+    "official_cutoff_url": "https://ojee.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Same official OJEE opening/closing-rank portal; OJEE publishes its cutoffs centrally on ojee.nic.in/or-cr/. (Odisha agriculture UG admission proper is run by OUAT; this entry is treated as the OJEE counselling cutoff page.)"
+  },
+  "Odisha University of Agriculture and Technology Entrance Examination": {
+    "official_cutoff_url": "https://ouat.ac.in/admissions/",
+    "official_url_verified": true,
+    "official_note": "Correct official domain is ouat.ac.in (NOT ouat.nic.in). Homepage confirmed official with an Admissions nav link; merit list and counselling notices for the OUAT Common Entrance Examination are published here during the admission season."
+  },
+  "PES Scholastic Aptitude Test": {
+    "official_cutoff_url": "",
+    "official_url_verified": false,
+    "official_note": "PES University does not officially publish PESSAT cutoff/closing ranks (effective cutoff = last allotted rank in counselling). PESSAT discontinued for B.Tech from 2026 (now JEE Main/KCET). Only an admissions/registration portal (admissions.pes.edu) exists, with no cutoff page."
+  },
+  "Panjab University Undergraduate Law Entrance Test": {
+    "official_cutoff_url": "https://uglaw.puchd.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official PU UGLAW (BA/B.Com LL.B 5-yr) admission portal on puchd.ac.in; carries the entrance-test result link, and the tentative/final merit list and counselling cutoffs are published here after results. Correct official domain."
+  }
+}
