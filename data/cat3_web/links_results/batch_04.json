@@ -1,0 +1,51 @@
+{
+  "Haryana Bachelor of Arts Entrance Examination": {
+    "official_cutoff_url": "https://admissions.highereduhry.ac.in/",
+    "official_url_verified": false,
+    "official_note": "Official Directorate of Higher Education (DHE), Haryana centralized online admission portal where BA merit/selection lists are published (via 'Know your result'). Admission is merit-based on Class 12 marks, not a ranked entrance exam, so no opening/closing rank cutoffs exist. Linked from the verified DHE page https://highereduhry.ac.in/forms/WebPages/Admissions; the portal itself failed automated fetch (SSL certificate not verifiable) but is the genuine official source. No third-party portal used.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Haryana Bachelor of Business Administration Admission": {
+    "official_cutoff_url": "https://admissions.highereduhry.ac.in/",
+    "official_url_verified": false,
+    "official_note": "Same official DHE Haryana centralized online admission portal; BBA merit/selection lists published here. Merit-based on Class 12 marks (no entrance exam ranks). Linked from verified page https://highereduhry.ac.in/forms/WebPages/Admissions. Portal failed automated SSL fetch but is the authoritative source. Replaces the prior third-party shiksha link.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Himachal Pradesh Bachelor of Arts Entrance Examination": {
+    "official_cutoff_url": "https://www.hpuniv.ac.in/innerpage/view_admission_notice_archive.php",
+    "official_url_verified": true,
+    "official_note": "Himachal Pradesh University (official .ac.in) admission notices page — UG admission (incl. BA) is merit-based on qualifying-exam marks, with course-wise merit lists released as admission notices by the university/departments; there is no single static BA cutoff table or opening/closing rank. Verified to load and be the official HPU admission notices source. Replaces the prior careers360 generic link.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Himachal Pradesh Bachelor of Business Administration Admission": {
+    "official_cutoff_url": "https://www.hpuniv.ac.in/innerpage/view_admission_notice_archive.php",
+    "official_url_verified": true,
+    "official_note": "Himachal Pradesh University official admission notices page; BBA UG admission is merit-based (qualifying-exam marks) with merit lists published as admission notices. No static cutoff/rank table. Verified official HPU page; replaces the prior third-party shiksha link.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Himachal Pradesh Polytechnic Admission Test": {
+    "official_cutoff_url": "https://www.hptechboard.com/results-pat",
+    "official_url_verified": false,
+    "official_note": "Official Himachal Pradesh Takniki Shiksha Board (HPTSB), Dharamshala PAT results/counselling page (conducting body for the HP Polytechnic Admission Test / HP PAT). Publishes PAT result gazette and seat-allotment/counselling results; e.g. result gazette PDF https://www.hptechboard.com/assets/ckfinder/userfiles/files/Final%20Answer%20Key%20PAT/PAT-2025_Result_.pdf. College/branch closing-rank cutoffs are produced through the counselling/seat-allotment rounds on this portal. Page returns HTTP 403 to automated fetch but is the genuine official source (confirmed via search). More specific than the bare homepage.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Himachal Pradesh Polytechnic Entrance": {
+    "official_cutoff_url": "https://www.hptechboard.com/results-pat",
+    "official_url_verified": false,
+    "official_note": "Same exam as HP PAT (HP Polytechnic Admission Test) conducted by HPTSB Dharamshala. Official PAT results/counselling page where result gazette and seat-allotment cutoffs are published. Returns HTTP 403 to automated fetch but is the authentic official source; more specific than the homepage.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Indian Institute of Petroleum and Energy Entrance Examination": {
+    "official_cutoff_url": "https://iipe.ac.in/Academics/Cutoff.html",
+    "official_url_verified": true,
+    "official_note": "Official IIPE Visakhapatnam (.ac.in) cutoff page listing B.Tech (JoSAA/JEE-Advanced) and M.Sc category-wise closing ranks by year, with downloadable PDFs e.g. https://iipe.ac.in/Academics/pdf/CUT%20OFF%20RANKS%202024-25.pdf and 2023-24. Verified to load; more specific than the prior admissions.php link. already_has_data=true (source https://iipe.ac.in/Academics/Cutoff.html), so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  }
+}

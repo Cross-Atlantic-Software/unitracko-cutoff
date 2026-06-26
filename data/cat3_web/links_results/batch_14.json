@@ -1,0 +1,51 @@
+{
+  "Sikkim Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://www.sikkim.gov.in/departments/education-department/technical-education-in-sikkim",
+    "official_url_verified": true,
+    "official_note": "Official Sikkim Govt (HRDD) technical-education page covering the state polytechnics (ATTC, CCCT). Polytechnic diploma admission is run by the Directorate of Technical Education, HRDD; merit lists are posted on the HRDD notice board / EMMIS portal (education.sikkim.gov.in, emmishe.sikkim.gov.in), which are ASP.NET/PDF-gated. No static cutoff table is published. Prior current_official_cutoff_url was a generic HRDD department homepage.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Sir Jamsetjee Jeejebhoy School of Art Entrance Examination": {
+    "official_cutoff_url": "https://cetcell.mahacet.org/",
+    "official_url_verified": false,
+    "official_note": "BFA admission to Sir JJ School of Art is through MAH-AAC-CET conducted by the Maharashtra State CET Cell. cetcell.mahacet.org is the official CET-cell body (confirmed via search; returns HTTP 403 to automated fetch but is live). The year-specific CAP merit list / category cutoffs are published on the admission portal e.g. fineart2025.mahacet.org/FINEART2025/login. No openly accessible static cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "St Xavier's College Entrance Examination": {
+    "official_cutoff_url": "https://entrancetest.xaviers.edu/",
+    "official_url_verified": true,
+    "official_note": "Official St Xavier's College Mumbai Entrance Test (XET) portal where UG merit lists/results are published. Selection = 60% XET + 40% Class 12. Page loads as a JS app (no static table). already_has_data is true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Tamil Nadu Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://www.tngasa.in/",
+    "official_url_verified": true,
+    "official_note": "Official Tamil Nadu Govt Arts & Science Colleges Admission (TNGASA) online counselling portal. BBA admission uses the TNGASA general rank list based on Class 12 marks; college-wise rank/merit lists are published here as PDFs behind the portal, with no static cutoff table accessible. Prior current_official_cutoff_url was a Shiksha third-party page.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Tamil Nadu Dr Ambedkar Law University Entrance Test": {
+    "official_cutoff_url": "https://tndalu.ac.in/admission-cut-off-mark-2025-26",
+    "official_url_verified": true,
+    "official_note": "Official TNDALU page titled 'LAW ADMISSION CUT-OFF MARKS' listing ~12 downloadable cutoff PDFs by program/round/category (5-Year B.A.LL.B affiliated colleges, 3-Year LL.B, SOEL 5-Year Honours, 7.5% special reservation, 2-Year LL.M, etc.). Admission is merit-based on qualifying-exam marks, not an entrance test. already_has_data is true, so per-PDF row extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Tata Institute of Social Sciences Bachelor Admission Test": {
+    "official_cutoff_url": "https://admissions.tiss.edu/",
+    "official_url_verified": false,
+    "official_note": "Official TISS admissions portal (also reachable at admissions.tiss.ac.in). UG/Bachelor admission is now via CUET-UG; TISS publishes campus/course-wise merit lists rather than separate cutoff scores. WebFetch hit a TLS certificate error (environmental), so could not render content. already_has_data is true.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Tata Institute of Social Sciences Bachelor of Vocation Agriculture Entrance Examination": {
+    "official_cutoff_url": "https://sve.tiss.edu/TISS/index.php?p=viewProgramme&programmeId=2",
+    "official_url_verified": true,
+    "official_note": "Official TISS School of Vocational Education programme page for the Bachelor in Agriculture (B.Voc). Admission details are via the Admission Brochure/Timeline (sve.tiss.edu/admission); no static cutoff or merit table is published on the site.",
+    "data_status": "none",
+    "rows": []
+  }
+}

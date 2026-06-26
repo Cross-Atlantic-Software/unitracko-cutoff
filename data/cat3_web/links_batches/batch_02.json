@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Chhattisgarh Agriculture Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://vyapam.cgstate.gov.in/",
+    "homepage": "https://vyapam.cgstate.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Chhattisgarh+Agriculture+Entrance+Examination",
+    "shiksha": "https://www.shiksha.com/science/colleges/agriculture-colleges-india?rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": "http://collegedekho.com/exam/cg-pat"
+  },
+  {
+    "exam": "Chhattisgarh Pre Pharmacy and Health Sciences Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://cgdme.admissions.nic.in/",
+    "homepage": "https://vyapam.cgstate.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Chhattisgarh+Pre+Pharmacy+and+Health+Sciences+Test",
+    "shiksha": "https://www.shiksha.com/medicine-health-sciences/pharmacy/ranking/top-pharmacy-colleges-in-chhattisgarh/117-2-104-0-0",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "College of Art Chandigarh Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://chandigarh.gov.in/collegeart/admissions",
+    "homepage": "https://chandigarh.gov.in/collegeart/home",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=College+of+Art+Chandigarh+Entrance+Examination",
+    "shiksha": "https://www.shiksha.com/college/government-college-of-arts-chandigarh-29707?rf=searchWidget&landing=ilp&isource=csearch",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Craft Instructor Training Scheme Admission",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://nimionlineadmission.in/",
+    "homepage": "https://nimionlineadmission.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Craft+Instructor+Training+Scheme+Admission",
+    "shiksha": "https://www.shiksha.com/search?q=Craft%20Instructor%20Training%20Scheme%20Admission&rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Dadra & Nagar Haveli Polytechnic Entrance",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://daman.nic.in/education/",
+    "homepage": "https://daman.nic.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Dadra+%26+Nagar+Haveli+Polytechnic+Entrance",
+    "shiksha": "https://www.shiksha.com/medicine-health-sciences/colleges/colleges-dadra-and-nagar-haveli?rf=searchWidget&landing=ctp&isource=csearch",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "DAIICT Entrance Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.daiict.ac.in/admissions",
+    "homepage": "https://www.daiict.ac.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.getmyuni.com/college/dhirubhai-ambani-institute-of-information-and-communication-daiict-gandhinagar-technology-gandhinagar-cut-off",
+    "collegedunia": "https://collegedunia.com/e-search?term=DAIICT+Entrance+Test",
+    "shiksha": "https://ask.shiksha.com/what-is-the-opening-and-closing-rank-for-daiict-gandhi-nagar-for-other-state-students-in-jee-mains-qna-4076747?rf=searchWidget&landing=qdp&isource=csearch",
+    "careers360": "https://www.careers360.com/university/dhirubhai-ambani-university-gandhinagar/admission",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Defence Institute of Advanced Technology Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.diat.ac.in/admission",
+    "homepage": "https://www.diat.ac.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.getmyuni.com/college/defence-institute-of-advanced-technology-diat-pune-cut-off",
+    "collegedunia": "https://collegedunia.com/e-search?term=Defence+Institute+of+Advanced+Technology+Entrance+Examination",
+    "shiksha": "https://www.shiksha.com/college/defence-institute-of-advanced-technology-pune-65105?rf=searchWidget&landing=ilp&isource=csearch",
+    "careers360": NaN,
+    "collegedekho": NaN
+  }
+]

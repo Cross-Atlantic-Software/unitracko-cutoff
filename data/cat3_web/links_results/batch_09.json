@@ -1,0 +1,51 @@
+{
+  "Maharashtra Paramedical Common Entrance Test": {
+    "official_cutoff_url": "https://dmer.maharashtra.gov.in/english/admission/paramedical-admission/",
+    "official_url_verified": true,
+    "official_note": "Official DMER (Directorate of Medical Education & Research, Maharashtra) paramedical admission page, listing BPMT and B.Sc Optometry admission notices/process for AY 2025-26. The CAP counselling/merit portal is a State CET Cell mahacet subdomain (current_official_cutoff_url https://medical2025.mahacet.org/ returned HTTP 403 to the fetcher - host exists but not bot-verifiable). DMER page is the authoritative paramedical admission source but publishes process notices, not college-wise cutoff tables.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Maharashtra Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://poly25.dtemaharashtra.gov.in/diploma25/index.php/hp_controller/instwiseallotment",
+    "official_url_verified": true,
+    "official_note": "Verified working: official DTE Maharashtra First Year Post-SSC Diploma (polytechnic) institute-wise CAP allotment page, listing 148+ institutes with downloadable CAP I-IV allotment/cutoff PDFs for 2025-26. already_has_data is true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Manipur Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "",
+    "official_url_verified": false,
+    "official_note": "Manipur University BBA admission is merit-based on CUET-UG scores (no separate university BBA entrance test); selection is via the Samarth admission portal (manipurunivadm.samarth.edu.in) under manipuruniv.ac.in. No official BBA-specific merit list or college/branch cutoff page is published; the existing current_official_cutoff_url pointed to a third-party Shiksha page (not official).",
+    "data_status": "none",
+    "rows": []
+  },
+  "Manipur Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://dte.mn.gov.in/",
+    "official_url_verified": false,
+    "official_note": "Directorate of Technical Education, Manipur is the authoritative body that publishes the polytechnic admission merit list (downloadable by application number/DOB). The site dte.mn.gov.in refused connection at fetch time (could not bot-verify), so no specific merit-list page or cutoff table could be confirmed. No third-party-free official cutoff table available.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Meghalaya Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://nehu.ac.in/admission/announcement",
+    "official_url_verified": false,
+    "official_note": "NEHU (North-Eastern Hill University) BBA admission is CUET-UG/merit-based; final selection is via a university cutoff and merit list posted on the NEHU admission announcements page. Fetch failed on a TLS certificate error (site reachable in browser); no BBA-specific college/branch cutoff table published. Prior current_official_cutoff_url was a third-party Shiksha page (not official).",
+    "data_status": "none",
+    "rows": []
+  },
+  "Meghalaya Engineering Entrance Examination": {
+    "official_cutoff_url": "https://megeducation.gov.in/dhte/pages/merit%20list.html",
+    "official_url_verified": true,
+    "official_note": "Verified working: official Meghalaya Directorate of Higher & Technical Education (DHTE) merit list page, listing selected-candidate merit list PDFs for B.Tech admission (e.g. Nagaland University quota, AY 2023-24/2021-22/2020-21) and other technical programmes. The earlier current_official_cutoff_url (megtechedu.gov.in) refused connection. Lists are candidate-name selection lists, not college/branch cutoff rank tables, so no rows extracted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Meghalaya Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://megeducation.gov.in/dhte/pages/merit%20list.html",
+    "official_url_verified": true,
+    "official_note": "Verified working: official Meghalaya DHTE merit list page, listing 'Merit List of candidates selected for Diploma Level Engg/Pharmacy Courses' PDFs (AY 2021-22, 2020-21) plus Printing Technology diploma lists. The earlier current_official_cutoff_url (megtechedu.gov.in) refused connection. These are candidate-name selection lists, not college/branch cutoff rank tables, so no rows extracted.",
+    "data_status": "none",
+    "rows": []
+  }
+}

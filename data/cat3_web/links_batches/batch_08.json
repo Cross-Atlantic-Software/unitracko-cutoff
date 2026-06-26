@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Madhya Pradesh Bachelor of Arts Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/humanities-social-sciences/colleges/ba-colleges-madhya-pradesh",
+    "homepage": "https://epravesh.mponline.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": "https://www.collegedekho.com/articles/mp-ba-admission/"
+  },
+  {
+    "exam": "Madhya Pradesh Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-madhya-pradesh",
+    "homepage": "https://epravesh.mponline.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Madhya Pradesh Pre Engineering Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://dte.mponline.gov.in/portal/",
+    "homepage": "https://dte.mponline.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Madhya Pradesh Pre Nursing Selection Test",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://esb.mp.gov.in/",
+    "homepage": "https://esb.mp.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Madhya Pradesh Pre Veterinary and Fisheries Test",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://esb.mp.gov.in/",
+    "homepage": "https://esb.mp.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Maharaja Sayajirao University of Baroda Fine Arts Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://msubaroda.ac.in/admission/",
+    "homepage": "https://msubaroda.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/university/25500-maharaja-sayajirao-university-of-baroda-msu-vadodara",
+    "shiksha": "https://www.shiksha.com/university/msu-the-maharaja-sayajirao-university-of-baroda-vadodara-37071/courses/arts-fine-visual-performing-s",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Maharashtra Bachelor of Science Nursing Common Entrance Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://medical2025.mahacet.org/",
+    "homepage": "https://cetcell.mahacet.org/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.collegedekho.com/news/mh-bsc-nursing-cap-round-2-cutoff-2024-released-institute-wise-second-closing-ranks-57198/",
+    "collegedunia": "https://collegedunia.com/exams/mh-bsc-nursing-cet",
+    "shiksha": "https://www.shiksha.com/nursing/mh-bsc-nursing-cet-exam",
+    "careers360": "https://medicine.careers360.com/exams/mh-bsc-nursing-cet",
+    "collegedekho": NaN
+  }
+]

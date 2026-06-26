@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Maharashtra Paramedical Common Entrance Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://medical2025.mahacet.org/",
+    "homepage": "https://cetcell.mahacet.org/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Maharashtra Polytechnic Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://poly25.dtemaharashtra.gov.in/diploma25/index.php/hp_controller/instwiseallotment",
+    "homepage": "https://poly25.dtemaharashtra.gov.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.collegedekho.com/articles/dte-maharashtra-polytechnic-electronics-and-communication-engineering-cutoff/",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Manipur Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-manipur",
+    "homepage": "https://www.manipuruniv.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Manipur Polytechnic Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://dte.mn.gov.in/",
+    "homepage": "https://dte.mn.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Meghalaya Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-meghalaya",
+    "homepage": "https://www.nehu.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Meghalaya Engineering Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://megtechedu.gov.in/",
+    "homepage": "https://megtechedu.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Meghalaya Polytechnic Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://megtechedu.gov.in/",
+    "homepage": "https://megtechedu.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "Indian Institute of Science Bachelor of Science Research Admission": {
+    "official_cutoff_url": "https://iisc.ac.in/wp-content/uploads/2025/08/BS-PROGRAM-CUT-OFFS-2021-2025_AR_final.pdf",
+    "official_url_verified": true,
+    "official_note": "Official IISc-published PDF 'Year-wise Cutoff for Bachelor of Science (Research) Programme' (2021-2025), JEE-Advanced category-rank cutoffs. URL resolves to the official iisc.ac.in domain (matches existing_data_source). Generic current_official_cutoff_url replaced with this specific cutoff document.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Indian Institute of Space Science and Technology Admission": {
+    "official_cutoff_url": "https://www.iist.ac.in/admission/undergraduate-admissions-statistics",
+    "official_url_verified": true,
+    "official_note": "Official IIST 'Undergraduate Admissions: Statistics' page showing opening/closing JEE-Advanced percentages and admission ranks by category (General/EWS/OBC/SC/ST) per programme for 2017-2025. More specific than the generic current_official_cutoff_url; verified loads with cutoff data.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Indian Institutes of Science Education and Research Aptitude Test": {
+    "official_cutoff_url": "https://iiseradmission.in/",
+    "official_url_verified": false,
+    "official_note": "Official IISER Joint Admissions Committee portal (iiseradmission.in) where round-wise IAT cutoffs / merit list / seat allotment are published. Actual cutoff and merit-list data are behind candidate login (no public static cutoff page); could not fetch directly (SSL handshake error on our side). Already has data via existing source.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Indira Gandhi National Tribal University Entrance Examination Folk Literature": {
+    "official_cutoff_url": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf",
+    "official_url_verified": true,
+    "official_note": "Official IGNTU 'Provisional Selection List - Second Open Counselling (UG/PG Admission 2025-26)' PDF on igntu.ac.in. Contains the selected-candidate merit list for B.A. (Tribal Studies-Art-Culture & Folk Literature) Honours, with category, admission mode (CUET / NON-CUET 12th-merit) and scores. Closing cutoffs below are derived as the lowest selected score per seat-quota; admission portal: https://igntuadm.samarth.edu.in/2025/.",
+    "data_status": "ok",
+    "rows": [
+      {"College Name": "Indira Gandhi National Tribal University", "City": "Amarkantak (Anuppur)", "State": "Madhya Pradesh", "Program": "B.A. (Tribal Studies-Art-Culture & Folk Literature) (Honours / Honours with Research)", "Branch": "Tribal Studies-Art-Culture & Folk Literature", "Year - cutoff": "2025-26", "Round #": "Open Counselling Round 2", "Gender": null, "Quota": "NON-CUET (Class 12 merit %)", "Category": "OBC", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": 58.0, "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"},
+      {"College Name": "Indira Gandhi National Tribal University", "City": "Amarkantak (Anuppur)", "State": "Madhya Pradesh", "Program": "B.A. (Tribal Studies-Art-Culture & Folk Literature) (Honours / Honours with Research)", "Branch": "Tribal Studies-Art-Culture & Folk Literature", "Year - cutoff": "2025-26", "Round #": "Open Counselling Round 2", "Gender": null, "Quota": "NON-CUET (Class 12 merit %)", "Category": "SC", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": 50.0, "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"},
+      {"College Name": "Indira Gandhi National Tribal University", "City": "Amarkantak (Anuppur)", "State": "Madhya Pradesh", "Program": "B.A. (Tribal Studies-Art-Culture & Folk Literature) (Honours / Honours with Research)", "Branch": "Tribal Studies-Art-Culture & Folk Literature", "Year - cutoff": "2025-26", "Round #": "Open Counselling Round 2", "Gender": null, "Quota": "NON-CUET (Class 12 merit %)", "Category": "ST", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": 76.0, "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"},
+      {"College Name": "Indira Gandhi National Tribal University", "City": "Amarkantak (Anuppur)", "State": "Madhya Pradesh", "Program": "B.A. (Tribal Studies-Art-Culture & Folk Literature) (Honours / Honours with Research)", "Branch": "Tribal Studies-Art-Culture & Folk Literature", "Year - cutoff": "2025-26", "Round #": "Open Counselling Round 2", "Gender": null, "Quota": "CUET (CUET-UG score)", "Category": "UR", "Opening Rank": null, "Closing Rank": null, "Cutoff Percentile/Score": 35.45, "Link - Data Taken from": "https://igntu.ac.in/ETResult2025/Result%20UG%20PG%20Open%20Counselling.pdf"}
+    ]
+  },
+  "Indira Kala Sangeet University Entrance": {
+    "official_cutoff_url": "https://www.iksv.ac.in/portal/admission",
+    "official_url_verified": true,
+    "official_note": "Official admission page of Rajkumari Indira Singh Kala Sangeet Vishwavidyalaya (IKSV), Khairagarh (iksv.ac.in). Publishes audition/aptitude 'Selected Students' merit lists (2025-26 List II/III) across Faculties of Music/Dance/Visual Arts/Arts. Admission is audition+interview based; merit lists are candidate-name lists with no college/branch/category opening-closing rank cutoff table to extract.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts": {
+    "official_cutoff_url": "https://nchmcounselling.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Official NCHMCT e-counselling OR-CR (opening-closing rank) page on nchmcounselling.nic.in. NCHM JEE is the national entrance for IHM B.Sc Hospitality/Culinary programmes; institute-wise opening/closing ranks per round (2021-2026) are published here via the admissions.nic.in report links. Replaces the third-party shiksha.com current URL. Already has data.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Integrated Bachelor of Arts and Bachelor of Education Entrance Examination": {
+    "official_cutoff_url": "https://exams.nta.nic.in/ncet/",
+    "official_url_verified": true,
+    "official_note": "Official NTA NCET portal (exams.nta.nic.in/ncet) - the National Common Entrance Test conducted by NTA on behalf of NCTE for the 4-year Integrated Teacher Education Programme (includes integrated BA B.Ed). NTA publishes scorecards/results here; college-wise cutoffs/merit lists are released by individual participating universities, so no single official cutoff table exists. Replaces the third-party shiksha.com current URL.",
+    "data_status": "none",
+    "rows": []
+  }
+}

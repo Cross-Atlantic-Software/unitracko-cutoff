@@ -1,0 +1,51 @@
+{
+  "Rabindra Bharati University Entrance": {
+    "official_cutoff_url": "https://www.rbu.ac.in/home/noticeall",
+    "official_url_verified": true,
+    "official_note": "Official RBU notices page; fetched OK. Carries admission and merit-list publication notices (e.g. '1st merit list 4-year UG Programme (B.F.A.) under NCCF', dated 23 June 2026). Actual merit lists are name-based PDFs linked from here; rbu.ac.in/home/admission returns 404.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Rajasthan Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://dceapp.rajasthan.gov.in/DCE_Application/SearchMeritNew.aspx",
+    "official_url_verified": false,
+    "official_note": "Replaced the wrong Shiksha link. Rajasthan BBA admission to govt colleges is merit-based (Class-12 marks, no separate entrance) and handled by Dept of College Education; this is the official central merit/waiting-status portal (dceapp.rajasthan.gov.in). Per-college BBA merit list PDFs are also published under hte.rajasthan.gov.in. Not fetched (interactive ASP.NET form). No college/branch rank table available.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Rajasthan Engineering Admission Process": {
+    "official_cutoff_url": "https://reap2025.com/seat-allotment.php",
+    "official_url_verified": false,
+    "official_note": "Official REAP (Centre for Electronic Governance, Govt of Rajasthan) seat-allotment/cutoff page; confirmed via search as the live REAP 2025 counselling portal. WebFetch returned HTTP 403 (bot-block), so not directly verified. already_has_data=true.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Rajasthan University of Health Sciences Entrance Examination": {
+    "official_cutoff_url": "https://ruhsraj.org.in/",
+    "official_url_verified": false,
+    "official_note": "Official RUHS site is ruhsraj.org.in (the old ruhsraj.org/admission/ has an invalid TLS certificate). RUHS conducts NEET-based counselling and publishes cutoffs/closing ranks here. Both domains returned 403/cert errors to WebFetch (bot-block), so not directly verified. already_has_data=true (careers360 cutoff source).",
+    "data_status": "none",
+    "rows": []
+  },
+  "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination": {
+    "official_cutoff_url": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf",
+    "official_url_verified": true,
+    "official_note": "Official RGIPT B.Tech 2025-26 Round-1 first-seat-allotment cutoff PDF; fetch returned a valid PDF (105 KB). Parent admission page: https://www.rgipt.ac.in/BTech-Admission-2025-26/ . PDF is a scanned/non-text-extractable layout so individual rows could not be parsed, but it is the authoritative cutoff document. already_has_data=true.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Rashtriya Raksha University (Police)": {
+    "official_cutoff_url": "https://rru.ac.in/admission",
+    "official_url_verified": false,
+    "official_note": "Official admission page of Rashtriya Raksha University (national police/security university, Gandhinagar); confirmed via search. Program-wise merit lists are published as separate pages (e.g. https://rru.ac.in/b-tech-cse-first-merit-list/). WebFetch returned 403/429 (bot-block/rate-limit), so not directly verified and rows could not be read.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Sikkim Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://cus.ac.in/index.php/en/admissions-2025-26-all-info-page",
+    "official_url_verified": false,
+    "official_note": "Replaced the wrong Sikkim Manipal University Shiksha link. Homepage cus.ac.in is Sikkim University / Central University of Sikkim; UG admission (incl. BBA) is CUET-based, with merit lists/info on this official admissions page (application portal: cusadmission.samarth.edu.in). Not fetched directly; no rank/merit table located.",
+    "data_status": "none",
+    "rows": []
+  }
+}

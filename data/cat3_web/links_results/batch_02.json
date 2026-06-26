@@ -1,0 +1,51 @@
+{
+  "Chhattisgarh Agriculture Entrance Examination": {
+    "official_cutoff_url": "https://vyapam.cgstate.gov.in/",
+    "official_url_verified": false,
+    "official_note": "CG Vyapam (Chhattisgarh Professional Examination Board) is the official body that conducts CG PAT and publishes its result and combined merit list; agriculture-stream counselling/seat allotment is run by IGKV Raipur. No stable static cutoff page exists (merit lists are PDFs). Could not load the homepage via fetch (repeated timeouts), but its official status is confirmed across sources.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Chhattisgarh Pre Pharmacy and Health Sciences Test": {
+    "official_cutoff_url": "https://cgdte.admissions.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Replaced the prior cgdme.admissions.nic.in URL, which is the Directorate of Medical Education portal (MBBS/BDS/MDS/BPT only, verified - no pharmacy). CG PPHT pharmacy (B.Pharm/D.Pharm) counselling, merit list and seat allotment are run by the Directorate of Technical Education at cgdte.admissions.nic.in (confirmed via multiple sources, incl. Round-wise seat allotment). Could not load via fetch (self-signed certificate in chain blocked the tool).",
+    "data_status": "none",
+    "rows": []
+  },
+  "College of Art Chandigarh Entrance Examination": {
+    "official_cutoff_url": "https://gcart.edu.in/",
+    "official_url_verified": true,
+    "official_note": "Official Government College of Art, Chandigarh site (verified). Publishes admission merit lists for its aptitude-test/portfolio admissions - BFA/DFASA merit list (merit-list.php), MFA/ADFASA discrepancy list, and specialization-wise lists (Painting, Sculpture, Applied Art, Graphics, All-India pool). Lists are PDF/HTML by year; direct merit-list.php fetch was refused by the tool but is referenced from the verified homepage.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Craft Instructor Training Scheme Admission": {
+    "official_cutoff_url": "https://nimionlineadmission.in/",
+    "official_url_verified": true,
+    "official_note": "Official NIMI / DGT (Ministry of Skill Development & Entrepreneurship) CITS online admission portal (verified). Publishes AICET results, trade-wise merit list, qualifying cutoff marks and Round-wise seat allotment (Round 1 allotment published). Individual allotment results are behind candidate login (cits2026.nimi.co.in); no public static cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Dadra & Nagar Haveli Polytechnic Entrance": {
+    "official_cutoff_url": "https://dhtednhdd.in/merit-list.html",
+    "official_url_verified": true,
+    "official_note": "Replaced the generic daman.nic.in/education/ URL. This is the official Dept. of Higher & Technical Education (UT of DNH & DD) merit-list page (verified) for Govt. Polytechnic diploma-engineering admissions - lists provisional merit lists by priority (Domicile & Schooling, Domicile, Govt Employee, Other State) plus discrepancy lists. Lists are linked documents, not a single static rank table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "DAIICT Entrance Test": {
+    "official_cutoff_url": "https://www.daiict.ac.in/undergraduate-admissions-all-india-category",
+    "official_url_verified": true,
+    "official_note": "Official Dhirubhai Ambani University (formerly DA-IICT) B.Tech All-India-category admissions page (verified). Admission is merit-based on JEE Main All India Rank; the page lists eligibility, the six B.Tech programs (312 seats) and process but no numeric category cutoffs (those come via JoSAA/JEE rank). already_has_data was true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Defence Institute of Advanced Technology Entrance Examination": {
+    "official_cutoff_url": "https://www.diat.ac.in/admission",
+    "official_url_verified": true,
+    "official_note": "Official DIAT, Pune admission homepage (verified). Gateway to Admission Notifications, Forms & Downloads, and programme pages (M.Tech via GATE, M.Sc., Ph.D.); shortlists/merit are posted as notifications, no static numeric cutoff table on the page. already_has_data was true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  }
+}

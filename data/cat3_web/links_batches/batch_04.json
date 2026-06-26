@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Haryana Bachelor of Arts Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.collegedekho.com/courses/ba-bachelor-of-arts-colleges-in-haryana/",
+    "homepage": "https://highereduhry.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Haryana+Bachelor+of+Arts+Entrance+Examination",
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Haryana Bachelor of Business Administration Admission",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-haryana",
+    "homepage": "https://highereduhry.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Haryana+Bachelor+of+Business+Administration+Admission",
+    "shiksha": NaN,
+    "careers360": "https://www.careers360.com/courses/bba-bachelor-of-business-administration",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Himachal Pradesh Bachelor of Arts Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.careers360.com/courses/ba-bachelor-of-arts",
+    "homepage": "https://www.hpuniv.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Himachal+Pradesh+Bachelor+of+Arts+Entrance+Examination",
+    "shiksha": "https://www.shiksha.com/college/department-of-evening-studies-himachal-pradesh-university-shimla-132611/course-bachelor-of-arts-b-a-651857?rf=searchWidget&landing=clp&isource=csearch",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Himachal Pradesh Bachelor of Business Administration Admission",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-himachal-pradesh",
+    "homepage": "https://www.hpuniv.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Himachal+Pradesh+Bachelor+of+Business+Administration+Admission",
+    "shiksha": "https://www.shiksha.com/university/himachal-pradesh-university-shimla-22226/course-bachelor-of-business-administration-bba-59436?rf=searchWidget&landing=clp&isource=csearch",
+    "careers360": "https://www.careers360.com/courses/bba-bachelor-of-business-administration",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Himachal Pradesh Polytechnic Admission Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.hptechboard.com/",
+    "homepage": "https://www.hptechboard.com/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Himachal+Pradesh+Polytechnic+Admission+Test",
+    "shiksha": "https://www.shiksha.com/exams/hp-pat-exam?isource=csearch&rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Himachal Pradesh Polytechnic Entrance",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.hptechboard.com/",
+    "homepage": "https://www.hptechboard.com/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/e-search?term=Himachal+Pradesh+Polytechnic+Entrance",
+    "shiksha": "https://www.shiksha.com/search?q=Himachal%20Pradesh%20Polytechnic%20Entrance&rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Indian Institute of Petroleum and Energy Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.iipe.ac.in/admissions.php",
+    "homepage": "https://www.iipe.ac.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://iipe.ac.in/Academics/Cutoff.html",
+    "collegedunia": "https://collegedunia.com/e-search?term=Indian+Institute+of+Petroleum+and+Energy+Entrance+Examination",
+    "shiksha": "https://www.shiksha.com/search?q=Indian%20Institute%20of%20Petroleum%20and%20Energy%20Entrance%20Examination&rf=searchWidget",
+    "careers360": NaN,
+    "collegedekho": NaN
+  }
+]

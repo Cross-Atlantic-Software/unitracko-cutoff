@@ -23,6 +23,8 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "data" / "cat3_web" / "results"
+# Second pass (official-link search) that also extracted some rows from official PDFs.
+LINKS_RESULTS_DIR = ROOT / "data" / "cat3_web" / "links_results"
 OUT_CSV = ROOT / "data" / "cat3_web_cutoffs.csv"
 
 # The deliverable 14 columns + Category + a fidelity note, in client order.
@@ -60,52 +62,59 @@ def _has_signal(row: dict) -> bool:
                for k in ("Opening Rank", "Closing Rank", "Cutoff Percentile/Score"))
 
 
-def load_results(results_dir: Path = RESULTS_DIR,
+def load_results(results_dir=RESULTS_DIR,
                  websites: dict[str, str] | None = None) -> tuple[list[dict], dict]:
     """Read every ``batch_*.json``; return (deliverable rows, per-exam status map).
 
-    ``websites`` maps exam -> official site; each row's "Link of website" is set to
-    it so the cutoff is connected to the AUTHORITATIVE source, while the third-party
-    page the data was actually scraped from stays in "Link - Data Taken from".
+    ``results_dir`` may be a single directory or an iterable of directories (the
+    first-pass extraction plus the official-link second pass, which also pulled rows
+    from a few official PDFs). ``websites`` maps exam -> official site; each row's
+    "Link of website" is set to it so the cutoff is connected to the AUTHORITATIVE
+    source, while the page the data was actually scraped from stays in
+    "Link - Data Taken from".
     """
     if websites is None:
         from cutoffs.segmentation import official_website_map
         websites = official_website_map()
+    dirs = [results_dir] if isinstance(results_dir, (str, Path)) else list(results_dir)
     rows: list[dict] = []
     status: dict[str, dict] = {}
-    for path in sorted(Path(results_dir).glob("batch_*.json")):
-        try:
-            blob = json.loads(path.read_text(encoding="utf-8"))
-        except (ValueError, OSError):
-            continue
-        for exam, info in blob.items():
-            if not isinstance(info, dict):
+    for d in dirs:
+        for path in sorted(Path(d).glob("batch_*.json")):
+            try:
+                blob = json.loads(path.read_text(encoding="utf-8"))
+            except (ValueError, OSError):
                 continue
-            kept = 0
-            for raw in info.get("rows") or []:
-                row = {c: raw.get(c) for c in _ROW_FIELDS}
-                row["Opening Rank"] = _coerce_rank(row.get("Opening Rank"))
-                row["Closing Rank"] = _coerce_rank(row.get("Closing Rank"))
-                if not _has_signal(row):
+            for exam, info in blob.items():
+                if not isinstance(info, dict):
                     continue
-                # If the agent didn't capture a per-row source, fall back to the
-                # exam's overall source page so provenance is never lost.
-                if not row.get("Link - Data Taken from"):
-                    row["Link - Data Taken from"] = info.get("source_url")
-                row["Exam Name"] = exam
-                # Connect to the official site; provenance stays in "Link - Data Taken from".
-                row["Link of website"] = websites.get(exam) or info.get("source_url")
-                rows.append(row)
-                kept += 1
-            status[exam] = {
-                "status": info.get("status"),
-                "note": info.get("note"),
-                "rows_kept": kept,
-            }
+                kept = 0
+                for raw in info.get("rows") or []:
+                    row = {c: raw.get(c) for c in _ROW_FIELDS}
+                    row["Opening Rank"] = _coerce_rank(row.get("Opening Rank"))
+                    row["Closing Rank"] = _coerce_rank(row.get("Closing Rank"))
+                    if not _has_signal(row):
+                        continue
+                    # If the agent didn't capture a per-row source, fall back to the
+                    # exam's overall source page so provenance is never lost.
+                    if not row.get("Link - Data Taken from"):
+                        row["Link - Data Taken from"] = info.get("source_url")
+                    row["Exam Name"] = exam
+                    # Connect to the official site; provenance stays in "Link - Data Taken from".
+                    row["Link of website"] = websites.get(exam) or info.get("source_url")
+                    rows.append(row)
+                    kept += 1
+                prior = status.get(exam, {"rows_kept": 0})
+                status[exam] = {
+                    "status": info.get("status") or info.get("data_status"),
+                    "note": info.get("note") or info.get("official_note"),
+                    "rows_kept": prior["rows_kept"] + kept,
+                }
     return rows, status
 
 
-def build(results_dir: Path = RESULTS_DIR, out_csv: Path = OUT_CSV) -> pd.DataFrame:
+def build(results_dir=(RESULTS_DIR, LINKS_RESULTS_DIR),
+          out_csv: Path = OUT_CSV) -> pd.DataFrame:
     """Aggregate the batches into the deliverable side table and write it to CSV."""
     rows, status = load_results(results_dir)
     df = pd.DataFrame(rows, columns=COLUMNS)

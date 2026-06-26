@@ -1,0 +1,51 @@
+{
+  "Bachelor of Hotel Management and Catering Technology Entrance Exam": {
+    "official_cutoff_url": "https://nchmcounselling.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official NCHMCT admission & eCounselling portal (NTA NCHM JEE). Fetched OK: shows seat-allotment results and an OR-CR (opening/closing rank) eService for B.Sc. HHA / M.Sc. HA. This is the authoritative counselling/cutoff source. Current URL confirmed working.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Bachelor of Science in Nautical Science Admission": {
+    "official_cutoff_url": "https://www.imu.edu.in/imunew/",
+    "official_url_verified": false,
+    "official_note": "Indian Maritime University (IMU CET) admissions hub. IMU publishes IMU CET opening/closing ranks (OR-CR) per counselling round here via the 'IMU CET Cut-Off' link. Could not be machine-verified by the fetcher due to an SSL certificate chain error on imu.edu.in, but the domain/path is the genuine official site (the batch's prod_id=101 page lives under this hub). already_has_data was true, so no extraction attempted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Bharati Vidyapeeth Common Entrance Test": {
+    "official_cutoff_url": "https://bvducet.bharatividyapeeth.edu/",
+    "official_url_verified": true,
+    "official_note": "Official Bharati Vidyapeeth Deemed University CET portal (BVP CET). Fetched OK: registration/exam platform that carries a 'CET Results' link and 'Admission and Counselling Updates'. The merit list (ranked candidate list, top ~5000) and scorecards are released here but sit behind candidate login / a separate results portal (bvuniversity.edu.in/cet-results), so no public cutoff table is exposed.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Birla Institute of Technology Mesra Entrance Examination": {
+    "official_cutoff_url": "https://www.bitmesra.ac.in/admission/1/department/11",
+    "official_url_verified": true,
+    "official_note": "Replaced the batch URL (bitmesra.ac.in/Show_Brochure_Details/Admission_Criteria) which returns HTTP 404. This is the working official BIT Mesra admission hub (Dean of Admissions page, 'Current Admission Notification 2026-27', brochure, admission procedure). BIT Mesra UG admission is via JEE Main through JoSAA/CSAB, so the authoritative round-wise opening/closing ranks are actually published on JoSAA (josaa.nic.in OR-CR), not on a static BIT Mesra page. already_has_data was true.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Central Sanskrit University Entrance Examination – Sanskrit Studies": {
+    "official_cutoff_url": "https://www.sanskrit.nic.in/admissions_notifications.php",
+    "official_url_verified": false,
+    "official_note": "Official Central Sanskrit University admissions-notifications page (replaces the batch's admission.php, which is a wrong/singular path; correct hub is admissions.php / admissions_notifications.php). CSU publishes category-wise & campus-wise merit lists here and via the Samarth portal (sanskritadm.samarth.edu.in). Could not be machine-verified by the fetcher due to an SSL certificate chain error on sanskrit.nic.in, but the page is confirmed to exist via search and is the genuine .nic.in official site. Merit lists are per-cycle PDFs; no standing public cutoff table found.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Chandigarh Polytechnic Entrance": {
+    "official_cutoff_url": "https://chdpolyadmissions.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Official Chandigarh polytechnic (diploma) admissions/counselling NIC portal. Currently unreachable (connection refused on both https and http) — these NIC counselling portals are seasonal and go offline outside the active admission cycle, so the URL is the correct official one but could not be verified live now. Seat-allotment / opening-closing ranks are published here during counselling. (Note: JEE/engineering admissions for Chandigarh are separate, under JAC Chandigarh at jacchd.admissions.nic.in.)",
+    "data_status": "none",
+    "rows": []
+  },
+  "Chennai Mathematical Institute Entrance Examination": {
+    "official_cutoff_url": "https://www.cmi.ac.in/admissions/",
+    "official_url_verified": true,
+    "official_note": "Official CMI admissions page. Fetched OK: links to 'Entrance Examination Results 2026' and detailed exam-paper solutions. CMI does NOT publish public cutoffs/scorecards — selection results are communicated to candidates directly by email and the merit list (name + registration number of selected candidates) is not exposed as a static table. So no cutoff/rank rows are extractable.",
+    "data_status": "none",
+    "rows": []
+  }
+}

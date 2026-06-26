@@ -1,0 +1,51 @@
+{
+  "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate": {
+    "official_cutoff_url": "https://admission.kiit.ac.in/management/",
+    "official_url_verified": false,
+    "official_note": "Official KIIT/KSOM management (MBA/BBA via KIITEE) admission page on the kiit.ac.in domain. Fetch returned a transient connection error (ECONNREFUSED) and the main admission site kiitee.kiit.ac.in returned 403 to the fetcher, but both are the genuine official domains. KIITEE merit list/cutoff is released via candidate login on kiitee.kiit.ac.in; no public static rank table. already_has_data true, so no extraction attempted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Karnataka Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "",
+    "official_url_verified": false,
+    "official_note": "No dedicated Karnataka state-level BBA entrance exam / official cutoff exists. KEA (kea.kar.nic.in) conducts KCET (engineering/medical/etc.) and KMAT is for MBA, not undergraduate BBA. BBA admission in Karnataka is merit-based (qualifying-exam marks) or via national tests like CUET, with no central official BBA rank/cutoff page. Current link was a Shiksha (third-party) listing.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Kashmir Polytechnic Entrance": {
+    "official_cutoff_url": "https://jkbote.ac.in/notice.php",
+    "official_url_verified": true,
+    "official_note": "Polytechnic/diploma admission in J&K and Ladakh is handled by JKBOTE (Jammu & Kashmir Board of Technical Education), not JKBOPEE. This notices page lists the official 'Provisional Merit List' and 'Provisional Selection List for Admission in Polytechnic Colleges in J&K and Ladakh' (2025 and 2026) as Google Drive PDFs. Verified the page loads and links are present. Selection is on Class-10 marks; the lists are Drive-hosted PDFs not extractable as structured college/branch/category rank rows.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Kerala Nursing Entrance Examination": {
+    "official_cutoff_url": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf",
+    "official_url_verified": true,
+    "official_note": "Kerala BSc Nursing admission is conducted by LBS Centre for Science & Technology (Govt. of Kerala), NOT KEAM/CEE. Replaced the wrong cee.kerala.gov.in/keam-2025 link. This is the official 'last rank' cutoff PDF (loaded, 191KB, 15 pages); the live rank-list interface is lbscentre.in/paramnursingnew/Ranklist.aspx (also verified, with Type/Quota filters for nursing). already_has_data true; PDF is the existing data source so no re-extraction.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Kerala Paramedical Entrance Examination": {
+    "official_cutoff_url": "https://lbscentre.in/paramnursingnew/downloads/lastrank.pdf",
+    "official_url_verified": true,
+    "official_note": "Kerala Paramedical admission is conducted by LBS Centre for Science & Technology (Govt. of Kerala). This official last-rank PDF (loaded, 191KB) covers paramedical streams; live rank-list filter page is lbscentre.in/paramnursingnew/Ranklist.aspx (verified, includes paramedical categories NU/ML/PY/CV/OP/PT/MR/DT/OT). Replaced the generic lbscentre.kerala.gov.in homepage. already_has_data true; PDF is the existing data source.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Kerala Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://www.polyadmission.org/",
+    "official_url_verified": true,
+    "official_note": "Official DTE Kerala / SITTTR polytechnic (diploma) admission portal, verified live. Diploma admission sub-portal is polyadmission.org/diploma. Rank list and seat allotment ('last index' cutoffs) are released here but require candidate login (Application Number + DOB); no public static last-rank/cutoff table is exposed, so no structured rows extractable.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Ladakh Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://highereducation.ladakh.gov.in/",
+    "official_url_verified": true,
+    "official_note": "Official Higher Education Ladakh single-window portal (verified live), the authoritative body for UG admissions including the University of Ladakh which offers BBA. Replaced the third-party collegedekho link. Admission is merit-based via the UG Admission Notification 2025-26 (dcs.uol.ac.in); shortlisted-candidate lists are posted as PDFs but there is no public BBA rank/cutoff table to extract.",
+    "data_status": "none",
+    "rows": []
+  }
+}

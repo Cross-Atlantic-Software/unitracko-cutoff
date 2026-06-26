@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "Rabindra Bharati University Entrance",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://rbu.ac.in/home/admission",
+    "homepage": "https://rbu.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": "https://www.shiksha.com/university/rabindra-bharati-university-kolkata-25277/admission",
+    "careers360": "https://www.careers360.com/university/rabindra-bharati-university-kolkata",
+    "collegedekho": "https://www.collegedekho.com/university/rabindra-bharati-university"
+  },
+  {
+    "exam": "Rajasthan Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/bba/colleges/bba-colleges-rajasthan (Shiksha)",
+    "homepage": "https://hte.rajasthan.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Rajasthan Engineering Admission Process",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://reap2025.com/seat-allotment.php",
+    "homepage": "https://reap2025.com/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/",
+    "collegedunia": "https://collegedunia.com/exams/reap",
+    "shiksha": NaN,
+    "careers360": "https://engineering.careers360.com/articles/reap",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Rajasthan University of Health Sciences Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.ruhsraj.org/admission/",
+    "homepage": "https://www.ruhsraj.org/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off",
+    "collegedunia": "https://collegedunia.com/university/58459-rajasthan-university-of-health-sciences-ruhs-jaipur",
+    "shiksha": "https://www.shiksha.com/university/rajasthan-university-of-health-sciences-jaipur-52201",
+    "careers360": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur",
+    "collegedekho": "https://www.collegedekho.com/university/rajasthan-university-for-health-sciences-ruhs-jaipur"
+  },
+  {
+    "exam": "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.rgipt.ac.in/admission.html",
+    "homepage": "https://www.rgipt.ac.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf",
+    "collegedunia": "https://collegedunia.com/college/14733-rajiv-gandhi-institute-of-petroleum-technology-rgipt-amethi/admission",
+    "shiksha": "https://www.shiksha.com/college/rajiv-gandhi-institute-of-petroleum-technology-amethi-46857",
+    "careers360": "https://engineering.careers360.com/articles/rgipt-btech-admission",
+    "collegedekho": "https://www.collegedekho.com/colleges/rgipt-admission"
+  },
+  {
+    "exam": "Rashtriya Raksha University (Police)",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://rru.ac.in/admissions/",
+    "homepage": "https://rru.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/university/25507-rashtriya-raksha-university-rru-ahmedabad/admission",
+    "shiksha": "https://www.shiksha.com/university/rashtriya-raksha-university-gandhinagar-182157/admission",
+    "careers360": "https://www.careers360.com/university/rashtriya-raksha-university-gandhinagar/admission",
+    "collegedekho": NaN
+  },
+  {
+    "exam": "Sikkim Bachelor of Business Administration Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.shiksha.com/university/sikkim-manipal-university-gangtok-3132/course-bba-167176",
+    "homepage": "https://cus.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  }
+]

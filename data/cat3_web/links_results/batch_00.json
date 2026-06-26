@@ -1,0 +1,65 @@
+{
+  "All India Veterinary Entrance Test": {
+    "official_cutoff_url": "https://vci.admissions.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Veterinary Council of India admission & eCounselling portal (NIC-hosted). AIPVT is scrapped; veterinary admission now via NEET-UG through this VCI portal, which publishes round-wise allotment results and seat matrices for A.Y. 2025-26. Replaces the generic mcc.nic.in homepage link.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Armed Forces Medical College Entrance Examination": {
+    "official_cutoff_url": "https://afmc.nic.in/MBBSAdmission",
+    "official_url_verified": true,
+    "official_note": "Official AFMC Pune MBBS Admission page (HTTP 200 via curl; afmc.nic.in serves a self-signed TLS chain so browser fetch warns). AFMC MBBS merit list/shortlist PDFs are published here based on NEET-UG. Replaces the wrong neet.nta.nic.in link.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Arunachal Pradesh Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf",
+    "official_url_verified": true,
+    "official_note": "Official APJEE 2025 Diploma (Mathematics & Science) result/merit list PDF from Arunachal Pradesh State Council for Technical Education (Directorate of Higher & Technical Education). Downloaded and parsed (258 candidates, category-wise rank + marks). Portal: apdhte.nic.in / apdhte.admissions.nic.in.",
+    "data_status": "ok",
+    "rows": [
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 1, "Cutoff Percentile/Score": 163, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 2, "Cutoff Percentile/Score": 155, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 3, "Cutoff Percentile/Score": 148, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 4, "Cutoff Percentile/Score": 126, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 5, "Cutoff Percentile/Score": 124, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 6, "Cutoff Percentile/Score": 109, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 7, "Cutoff Percentile/Score": 108, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 8, "Cutoff Percentile/Score": 105, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 9, "Cutoff Percentile/Score": 97, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "I", "Opening Rank": null, "Closing Rank": 10, "Cutoff Percentile/Score": 93, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "II", "Opening Rank": null, "Closing Rank": 1, "Cutoff Percentile/Score": 51, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "II", "Opening Rank": null, "Closing Rank": 2, "Cutoff Percentile/Score": 41, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"},
+      {"College Name": null, "City": "Itanagar", "State": "Arunachal Pradesh", "Program": "Diploma (Engineering)", "Branch": "Mathematics & Science stream", "Year - cutoff": "2025", "Round #": null, "Gender": null, "Quota": null, "Category": "II", "Opening Rank": null, "Closing Rank": 3, "Cutoff Percentile/Score": 38, "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"}
+    ]
+  },
+  "Aryabhatta Knowledge University Entrance Examination": {
+    "official_cutoff_url": "https://akubihar.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official Aryabhatta Knowledge University, Patna site (HTTP 302 -> /EN/Default.aspx, an ASP.NET portal). Results/merit lists are published per program on result.akubihar.ac.in; no single static public entrance-cutoff page exists. No extractable cutoff table found.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Assam Agriculture Entrance Examination": {
+    "official_cutoff_url": "https://www.aau.ac.in/admission",
+    "official_url_verified": true,
+    "official_note": "Official Assam Agricultural University admission page (HTTP 200; the prior aau.ac.in/admission.html returns 404). Links to the live counselling/admission portal admission.aau.ac.in and /results where AAU CET merit lists/cutoffs are posted (released ~July-Aug). Already has data.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Assam Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://dte-assamadm.samarth.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official DTE Assam (Govt of Assam) Samarth counselling & admission portal for 3-year Diploma in Govt Polytechnics, session 2026-27 (HTTP 200). PAT exam scrapped; merit based on HSLC marks; allotment guidelines posted here (registration currently closed). Dept page: dte.assam.gov.in/portlets/polytechnic-admission. No static cutoff table to extract.",
+    "data_status": "none",
+    "rows": []
+  },
+  "AVEE - Assam Veterinary Entrance Examination": {
+    "official_cutoff_url": "https://www.aau.ac.in/admission",
+    "official_url_verified": true,
+    "official_note": "The listed vetbifg.ac.in link is dead (connection refused). AVEE/AAU-VET is conducted by Assam Agricultural University for B.V.Sc&AH admission at College of Veterinary Science Khanapara & Lakhimpur; merit list/cutoff published via the AAU admission portal (HTTP 200). No extractable cutoff table found.",
+    "data_status": "none",
+    "rows": []
+  }
+}

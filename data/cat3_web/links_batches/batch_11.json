@@ -1,0 +1,86 @@
+[
+  {
+    "exam": "National Institute of Mental Health and Neuro Sciences Bachelor of Science Neurophysiology Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.nimhans.ac.in/education/admission-notifications/",
+    "homepage": "https://www.nimhans.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/university/25619-national-institute-of-mental-health-and-neuro-sciences-nimhans-bangalore/bachelor-of-science-bsc-neurophysiology-technology-2991",
+    "shiksha": "https://www.shiksha.com/college/national-institute-of-mental-health-and-neurosciences-hosur-road-bangalore-25138/admission",
+    "careers360": "https://www.careers360.com/university/national-institute-of-mental-health-and-neuro-sciences-bangalore/admission",
+    "collegedekho": "https://www.collegedekho.com/university/national-institute-of-mental-health-and-neuro-sciences-admission"
+  },
+  {
+    "exam": "National Rail and Transportation Institute Transport Technology Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://gsv.ac.in/admissions/",
+    "homepage": "https://gsv.ac.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/university/59399-national-rail-and-transportation-institute-nrti-vadodara",
+    "shiksha": NaN,
+    "careers360": "https://www.careers360.com/university/gati-shakti-vishwavidyalaya-vadodara",
+    "collegedekho": "https://www.collegedekho.com/colleges/nrti-vadodara"
+  },
+  {
+    "exam": "National Standard Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.iapt.org.in/exams.html",
+    "homepage": "https://www.iapt.org.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://www.pw.live/olympiad/exams/iapt-cut-off",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": NaN
+  },
+  {
+    "exam": "North Eastern Indira Gandhi Regional Institute of Health and Medical Sciences Bachelor of Science Nursing Entrance Examination",
+    "cutoff_status": "Official Merit List",
+    "current_official_cutoff_url": "https://www.neigrihms.gov.in/admission/",
+    "homepage": "https://www.neigrihms.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": "https://collegedunia.com/college/57875-north-eastern-indira-gandhi-regional-institute-of-health-and-medical-sciences-neigrihms-shillong/bachelor-of-science-bsc-nursing-2993",
+    "shiksha": "https://www.shiksha.com/college/neigrihms-college-of-nursing-shillong-187373/admission",
+    "careers360": "https://www.careers360.com/colleges/north-eastern-indira-gandhi-regional-institute-of-health-and-medical-sciences-shillong/bsc-nursing-course",
+    "collegedekho": "https://www.collegedekho.com/articles/neigrihms-bsc-nursing-entrance-exam/"
+  },
+  {
+    "exam": "Odisha Diploma Entrance Test",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://skill.samsodisha.gov.in/meritlist.aspx",
+    "homepage": "https://skill.samsodisha.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": "https://www.collegedekho.com/articles/odisha-polytechnic-admissions/"
+  },
+  {
+    "exam": "Odisha Polytechnic Entrance Examination",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://skill.samsodisha.gov.in/",
+    "homepage": "https://skill.samsodisha.gov.in/",
+    "already_has_data": false,
+    "existing_data_source": "",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": NaN,
+    "collegedekho": "https://www.collegedekho.com/articles/odisha-polytechnic-admissions/"
+  },
+  {
+    "exam": "Online Facilitation System for Students Bihar University Admission",
+    "cutoff_status": "Official Cutoff",
+    "current_official_cutoff_url": "https://www.ofssbihar.in/Higher-Education/index.aspx",
+    "homepage": "https://www.ofssbihar.in/",
+    "already_has_data": true,
+    "existing_data_source": "https://school.careers360.com/boards/bseb/bihar-ofss-intermediate-cutoff-marks",
+    "collegedunia": NaN,
+    "shiksha": NaN,
+    "careers360": "https://school.careers360.com/boards/bseb/ofss-bihar-admission/",
+    "collegedekho": "https://www.collegedekho.com/articles/ofss-bihar-admission-brd/"
+  }
+]

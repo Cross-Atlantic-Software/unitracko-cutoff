@@ -1,0 +1,51 @@
+{
+  "Madhya Pradesh Bachelor of Arts Entrance Examination": {
+    "official_cutoff_url": "https://epravesh.highereducation.mp.gov.in/",
+    "official_url_verified": true,
+    "official_note": "Official MP Dept. of Higher Education ePravesh admission portal; UG (BA) admission is merit-based, provisional merit lists and seat allotment are published here. Replaces the prior third-party Shiksha link. Merit lists/allotment letters are login-gated PDFs (per-candidate), so no public college-wise cutoff table is exposed.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Madhya Pradesh Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://epravesh.highereducation.mp.gov.in/",
+    "official_url_verified": true,
+    "official_note": "Same official MP ePravesh portal; BBA UG admission is merit-based with provisional merit lists/allotment published here. Replaces the prior third-party Shiksha link. Allotment/merit data is behind student login, no public cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Madhya Pradesh Pre Engineering Test": {
+    "official_cutoff_url": "https://dte.mponline.gov.in/Portal/Services/OnlineCounselling/NW/Utilities/Citizen/frmYearWiseCutoff.aspx",
+    "official_url_verified": true,
+    "official_note": "Official DTE MP (MPOnline) year-wise cutoff utility for engineering/pharmacy/diploma counselling (admission now JEE-Main based via DTE). Page loaded; it is an ASP.NET filter form (course/institute/branch/category) that renders opening/closing ranks only after selecting filters, so no static rows are extractable. More specific than the prior generic dte.mponline.gov.in/portal/ link.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Madhya Pradesh Pre Nursing Selection Test": {
+    "official_cutoff_url": "http://esb.mp.gov.in/results/RESULT_25/PNST_GNMTST_RES25/default_Results.htm",
+    "official_url_verified": false,
+    "official_note": "Official MP Employees Selection Board (ESB) result page for PNST/GNMTST 2025 (esb.mp.gov.in domain, from official search result). Could not WebFetch-verify (server TLS certificate chain error), but it is the authoritative ESB result/merit portal. Results are per-candidate scorecards via roll-no/DOB lookup; no public college-wise cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Madhya Pradesh Pre Veterinary and Fisheries Test": {
+    "official_cutoff_url": "https://esb.mp.gov.in/results/RESULT_22/PVFT_RES22/default_Results.htm",
+    "official_url_verified": false,
+    "official_note": "Official MP ESB PV&FT result/merit page (esb.mp.gov.in domain, year 2022 result archive; RESULT_21 also exists). Could not WebFetch-verify due to ESB TLS certificate error, but it is the authoritative ESB result portal. Per-candidate result lookup, no public college-wise cutoff table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Maharaja Sayajirao University of Baroda Fine Arts Entrance Examination": {
+    "official_cutoff_url": "https://msubaroda.ac.in/academics/FFA",
+    "official_url_verified": false,
+    "official_note": "Official MSU Baroda Faculty of Fine Arts page; admission is via programme-specific entrance tests and merit/provisional admission lists are posted here (e.g. Accessory Design merit list 2026-27). Could not WebFetch-verify (msubaroda.ac.in TLS certificate chain error), but confirmed via search as the official FFA site. Merit lists are notice PDFs, no structured cutoff rank table.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Maharashtra Bachelor of Science Nursing Common Entrance Test": {
+    "official_cutoff_url": "https://medical2024.mahacet.org/NURSING-2024/instructions-downloadFile/CUTOFF%202024%20Nursing.pdf",
+    "official_url_verified": false,
+    "official_note": "Official Maharashtra CET Cell BSc Nursing CAP 2024 cutoff PDF (medical2024.mahacet.org, the CET Cell counselling domain); general live cutoff portal is https://cetcell.mahacet.org/cutoff-explorer/. WebFetch returned 403 for both (anti-bot), but these are the authoritative CET Cell sources. already_has_data is true, so extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  }
+}

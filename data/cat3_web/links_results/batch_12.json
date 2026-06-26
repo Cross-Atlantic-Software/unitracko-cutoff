@@ -1,0 +1,51 @@
+{
+  "Panjab University Design Entrance Examination": {
+    "official_cutoff_url": "https://design.puchd.ac.in/show-noticeboard.php",
+    "official_url_verified": false,
+    "official_note": "Official noticeboard of PU's School of Design where B.Des merit/admission notices are posted; server refused connection (ECONNREFUSED) at fetch time so could not confirm live. B.Des (Fashion & Lifestyle Design) admission is via PU-CET (UG); the merit list is published at cetug.puchd.ac.in / ugadmissions.puchd.ac.in. No standalone cutoff table found.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Paramedical State Common Entrance Test": {
+    "official_cutoff_url": "https://wbjeeb.nic.in/jenpas-ug/",
+    "official_url_verified": false,
+    "official_note": "Generic multi-state label; the representative official body is WBJEEB's JENPAS-UG (Joint Entrance for Nursing, Paramedical & Allied Sciences). Official portal wbjeeb.nic.in/jenpas-ug; opening/closing rank counselling reports are published under admissions.nic.in/wbjeeb (ORCR report). Already_has_data=true, extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Puducherry Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://www.centacpuducherry.in/",
+    "official_url_verified": true,
+    "official_note": "Puducherry UG (incl. BBA) admission is handled by CENTAC (Centralised Admission Committee, Govt. of Puducherry); homepage links live UG Non-NEET (Arts/Science/Commerce) draft & revised merit lists. The Shiksha link in the sheet was a generic course page (wrong). Pondicherry University BBA(Hons) UG merit lists are at admissions.pondiuni.edu.in/admissions/meritlist_UG.php. Already_has_data=true, extraction skipped.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Puducherry Polytechnic Entrance": {
+    "official_cutoff_url": "https://www.centacpuducherry.in/",
+    "official_url_verified": true,
+    "official_note": "CENTAC (Centralised Admission Committee, Govt. of Puducherry) conducts Puducherry polytechnic/diploma admission. Homepage publishes round-wise merit lists and cut-off pages (e.g. .../htmlpages/<year>/non-neet/first_round_professional_cutoff.html), but the actual cutoff values are inside linked Google Drive PDFs and merit lists are candidate-level, so no machine-readable college/branch cutoff rows could be extracted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Punjab Bachelor of Business Administration Entrance Examination": {
+    "official_cutoff_url": "https://cetug.puchd.ac.in/",
+    "official_url_verified": false,
+    "official_note": "Sheet pointed to a generic Shiksha course page (wrong). Panjab University BBA admission is via PU-CET (UG); merit list/cutoffs published at cetug.puchd.ac.in (UG admissions: ugadmissions.puchd.ac.in/meritdispout.php). Could not load a single dedicated BBA cutoff table; no rows extracted.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Punjab Joint Entrance Test Diploma": {
+    "official_cutoff_url": "https://punjabteched.com/",
+    "official_url_verified": true,
+    "official_note": "PSBTE & IT (Punjab State Board of Technical Education & Industrial Training) conducts Punjab diploma/polytechnic admission (Punjab JET). Official site punjabteched.com (frameset) carries the Diploma Admission / merit list / seat-allotment links; allotment/merit results are behind candidate login and exam results sit at results.pbteched.net, so no static college/branch cutoff table available for extraction.",
+    "data_status": "none",
+    "rows": []
+  },
+  "Punjab State Board of Technical Education Polytechnic Admission Test": {
+    "official_cutoff_url": "https://punjabteched.com/",
+    "official_url_verified": true,
+    "official_note": "Same conducting body as Punjab JET Diploma: PSBTE & IT, punjabteched.com. Diploma admission merit lists and seat allotment are accessed via the Punjab Diploma Admission link (login-gated); diploma exam results at results.pbteched.net. No static cutoff rank table exposed for extraction.",
+    "data_status": "none",
+    "rows": []
+  }
+}
