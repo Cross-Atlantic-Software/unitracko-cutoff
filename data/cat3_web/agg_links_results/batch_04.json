@@ -1,0 +1,37 @@
+{
+  "Common University Entrance Test – Undergraduate": {
+    "official_cutoff_url": "https://cuet.nta.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official NTA CUET-UG site (scorecard/result portal). NTA does NOT publish cutoffs and there is no centralized CUET-UG counselling — each participating university releases its own course/category-wise cutoff & merit list. No single official cutoff page exists; this is the authoritative result domain. (cuetug.ntaonline.in is only a registration/counselling-services portal.)"
+  },
+  "Company Secretary Executive Entrance Test": {
+    "official_cutoff_url": "https://www.icsi.edu/exam/exam-results/",
+    "official_url_verified": true,
+    "official_note": "CSEET is a qualifying exam with fixed pass marks (min 40% per paper, 50% aggregate) — there is NO rank-based cutoff or merit-list cutoff. This is the official ICSI exam-results hub (links to e-marks statement and the 'Qualifying marks for CS Examinations' doc); closest official artifact."
+  },
+  "Consortium of Medical Engineering and Dental Colleges of Karnataka Undergraduate Entrance Test": {
+    "official_cutoff_url": "https://www.comedk.org/uploads/Engineering-Cut-Off-Ranks-after-Round-1-Allotment%20-Notified-on-28.07.2025.pdf",
+    "official_url_verified": true,
+    "official_note": "Official COMEDK engineering closing/cutoff ranks PDF after Round 1 allotment (notified 28.07.2025); fetched a live 1.1MB PDF from comedk.org. The previous URL (engineering-cutoff-ranks.pdf) is dead (404). COMEDK publishes a fresh round-wise/year-wise PDF each cycle under comedk.org/uploads/."
+  },
+  "Delhi Common Entrance Test for Polytechnic Admission": {
+    "official_cutoff_url": "https://cetdelhi.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Official NIC CET-Delhi (DTTE, Govt of NCT Delhi) counselling/result/seat-allotment portal where polytechnic allotment & closing ranks are published. Connection refused at fetch time (seasonal portal active around June results), but confirmed as the correct official domain by the DTTE page tte.delhi.gov.in/tte/common-entrance-test."
+  },
+  "Footwear Design and Development Institute All India Selection Test": {
+    "official_cutoff_url": "https://fddiindia.com/admission-process",
+    "official_url_verified": true,
+    "official_note": "Official FDDI admission-process page (live). FDDI publishes an AIST Common Merit List (CML) and runs online counselling here / via admissions.fddiindia.com — no separate rank-cutoff page. The previous URL (/admission-new/) returns 404."
+  },
+  "Gujarat Common Entrance Test": {
+    "official_cutoff_url": "https://gujacpc.admissions.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official Gujarat ACPC (Admission Committee for Professional Courses, DTE Gujarat) eCounselling portal for GUJCET-based BE/B.Tech admissions; merit list and Round-wise opening/closing-rank cutoffs are published here (also acpc.gujarat.gov.in). Cutoff/merit links appear after candidate login / in Activity Board."
+  },
+  "Gujarat Common Entrance Test – Medical and Pharmacy": {
+    "official_cutoff_url": "https://www.medadmgujarat.org/ug/home.aspx",
+    "official_url_verified": true,
+    "official_note": "Official ACPUGMEC (Admission Committee for Professional UG Medical Courses, Gujarat) portal — publishes category-wise merit lists, round-wise rank/institute-wise allotment results and last-rank cutoffs for MBBS/BDS/BAMS/BHMS. (Note: medical admission is NEET-based; pharmacy degree admission in Gujarat is actually handled by ACPC at gujacpc.admissions.nic.in.)"
+  }
+}

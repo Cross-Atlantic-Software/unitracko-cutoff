@@ -1,0 +1,37 @@
+{
+  "SRM Institute Admission Test": {
+    "official_cutoff_url": "https://www.srmist.edu.in/admission-india/",
+    "official_url_verified": false,
+    "official_note": "SRMJEEE is SRMIST's own test; srmist.edu.in is the official domain. SRM does not publish a static cutoff table - results/counselling/admission are handled via srmist.edu.in and the application portal applications.srmist.edu.in. Admission page returned HTTP 403 to the fetcher (bot-block) but is the correct official domain."
+  },
+  "SRM Joint Engineering Entrance Examination": {
+    "official_cutoff_url": "https://www.srmist.edu.in/admission-india/",
+    "official_url_verified": false,
+    "official_note": "Same as SRMJEEE - SRMIST's own engineering entrance test. Official domain srmist.edu.in; no static cutoff page published (results/counselling via portal). Admission page 403'd the fetcher (bot-block) but is correct official domain."
+  },
+  "School of Fashion Technology Entrance Test": {
+    "official_cutoff_url": "https://www.soft.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official MKSSS School of Fashion Technology (SOFT Pune) site. The prior /admission/ path now 404s. Per official process merit list/results for SOFT CET are published on the institute's admission portal, not on a static cutoff page. Homepage verified live; no dedicated cutoff URL exists."
+  },
+  "Sharda University Admission Test": {
+    "official_cutoff_url": "https://suat.sharda.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official SUAT (Sharda University Online Admission Test) site, verified live. Navigation covers About/Test Process/Fee/Apply; no separate cutoff or merit-list page is published (SUAT has no public closing-rank table). More specific than the generic sharda.ac.in/admissions/suat link."
+  },
+  "Sharda University Admission Test Engineering": {
+    "official_cutoff_url": "https://suat.sharda.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Same SUAT exam (engineering programmes admitted via SUAT). Official suat.sharda.ac.in verified live; no dedicated cutoff/merit page published officially."
+  },
+  "Symbiosis Entrance Test": {
+    "official_cutoff_url": "https://www.set-test.org/",
+    "official_url_verified": true,
+    "official_note": "Official Symbiosis Entrance Test (SET) site, verified live. Results announced on set-test.org; category-wise cutoffs/merit & wait lists are published on each Symbiosis institute's own site after results, not as one static cutoff page on set-test.org."
+  },
+  "Symbiosis Institute Of Media Entrance": {
+    "official_cutoff_url": "https://www.simc.edu/admissions",
+    "official_url_verified": true,
+    "official_note": "Official SIMC Pune admissions page, verified live - publishes merit lists (MBA-CM 1st/2nd merit list, GE-PI shortlist links) and program selection criteria/eligibility. This is the authoritative cutoff/merit page; SIMC admits via SNAP/SET plus institute process."
+  }
+}

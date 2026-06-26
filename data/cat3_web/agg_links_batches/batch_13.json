@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "SRM Institute Admission Test",
+    "current_official_cutoff_url": "https://applications.srmist.edu.in/",
+    "homepage": "https://applications.srmist.edu.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/srmjeee-cutoff"
+  },
+  {
+    "exam": "SRM Joint Engineering Entrance Examination",
+    "current_official_cutoff_url": "https://applications.srmist.edu.in/",
+    "homepage": "https://applications.srmist.edu.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/srmjeee-cutoff"
+  },
+  {
+    "exam": "School of Fashion Technology Entrance Test",
+    "current_official_cutoff_url": "https://www.soft.ac.in/admission/",
+    "homepage": "https://www.soft.ac.in/",
+    "aggregator_source": "https://www.shiksha.com/college/mksss-school-of-fashion-technology/soft-cet-exam-cutoff"
+  },
+  {
+    "exam": "Sharda University Admission Test",
+    "current_official_cutoff_url": "https://www.sharda.ac.in/admissions/suat",
+    "homepage": "https://www.sharda.ac.in/admissions/suat",
+    "aggregator_source": "https://www.shiksha.com/engineering/suat-exam-cutoff"
+  },
+  {
+    "exam": "Sharda University Admission Test Engineering",
+    "current_official_cutoff_url": "https://www.sharda.ac.in/admissions/suat",
+    "homepage": "https://www.sharda.ac.in/admissions/suat",
+    "aggregator_source": "https://www.shiksha.com/engineering/suat-exam-cutoff"
+  },
+  {
+    "exam": "Symbiosis Entrance Test",
+    "current_official_cutoff_url": "https://www.set-test.org/",
+    "homepage": "https://www.set-test.org/",
+    "aggregator_source": "https://www.collegedekho.com/exam/set/cutoff"
+  },
+  {
+    "exam": "Symbiosis Institute Of Media Entrance",
+    "current_official_cutoff_url": "https://www.simc.edu/admissions",
+    "homepage": "https://www.simc.edu/",
+    "aggregator_source": "https://www.collegedekho.com/exam/set/cutoff"
+  }
+]

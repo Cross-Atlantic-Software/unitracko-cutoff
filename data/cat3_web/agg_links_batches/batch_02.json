@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "Bihar Engineering Entrance Examination",
+    "current_official_cutoff_url": "https://bceceboard.bihar.gov.in/",
+    "homepage": "https://bceceboard.bihar.gov.in/",
+    "aggregator_source": "https://collegedunia.com/exams/bcece/cutoff"
+  },
+  {
+    "exam": "Bihar Polytechnic Common Entrance Competitive Examination",
+    "current_official_cutoff_url": "https://bceceboard.bihar.gov.in/pdfviewer.php?type=download&file=2025/PE_OpeningClosingRank.pdf",
+    "homepage": "https://bceceboard.bihar.gov.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/dcece/cutoff"
+  },
+  {
+    "exam": "Birla Institute of Technology and Science Admission Test",
+    "current_official_cutoff_url": "https://www.bitsadmission.com/bitsat/2025/BITSAT-2025_Cut-off_Scores.pdf",
+    "homepage": "https://www.bitsadmission.com/",
+    "aggregator_source": "https://www.collegedekho.com/exam/bitsat/cutoff"
+  },
+  {
+    "exam": "Central Teacher Eligibility Test",
+    "current_official_cutoff_url": "https://ctet.nic.in/webinfo/public/home.aspx",
+    "homepage": "https://ctet.nic.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/ctet/cutoff"
+  },
+  {
+    "exam": "Chandigarh University Common Entrance Test",
+    "current_official_cutoff_url": "https://www.cuchd.in/admissions/",
+    "homepage": "https://cucet.cuchd.in/",
+    "aggregator_source": "https://collegedunia.com/exams/cucet/cutoff"
+  },
+  {
+    "exam": "Chandigarh University Common Entrance Test – Engineering",
+    "current_official_cutoff_url": "https://www.cuchd.in/admissions/engineering/",
+    "homepage": "https://cucet.cuchd.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/cuet/cutoff"
+  },
+  {
+    "exam": "Chartered Accountancy Final Examination",
+    "current_official_cutoff_url": "https://www.catestseries.org/blogs/icai-ca-final-result-dec-2022---qualifying-marks--passing-criteria---merit-list.php",
+    "homepage": "https://www.icai.org/",
+    "aggregator_source": "https://www.collegedekho.com/exam/ca-final/cutoff"
+  }
+]

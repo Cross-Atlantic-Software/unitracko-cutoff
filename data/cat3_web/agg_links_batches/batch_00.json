@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "ALLIANCE UNIVERSITY ENTRANCE TEST",
+    "current_official_cutoff_url": "https://www.alliance.edu.in/admissions",
+    "homepage": "https://www.alliance.edu.in/",
+    "aggregator_source": "https://www.shiksha.com/bba/christ-university-entrance-test-cuet-exam-cutoff"
+  },
+  {
+    "exam": "Actuarial Common Entrance Test",
+    "current_official_cutoff_url": "https://actuariesindia.org/education/examinations",
+    "homepage": "https://actuariesindia.org/",
+    "aggregator_source": "https://www.collegedekho.com/exam/acet/cutoff"
+  },
+  {
+    "exam": "Aligarh Muslim University Entrance Examination – Law",
+    "current_official_cutoff_url": "https://www.amucontrollerexams.com/",
+    "homepage": "https://www.amucontrollerexams.com/",
+    "aggregator_source": "https://law.careers360.com/articles/amu-ba-llb-cutoff"
+  },
+  {
+    "exam": "Aligarh Muslim University Undergraduate Entrance Test",
+    "current_official_cutoff_url": "https://www.amucontrollerexams.com/",
+    "homepage": "https://www.amucontrollerexams.com/",
+    "aggregator_source": "https://www.collegedekho.com/exam/amueee/cutoff"
+  },
+  {
+    "exam": "All India Law Entrance Test",
+    "current_official_cutoff_url": "https://nationallawuniversitydelhi.in/",
+    "homepage": "https://nationallawuniversitydelhi.in/",
+    "aggregator_source": "https://law.careers360.com/articles/ailet-cutoff"
+  },
+  {
+    "exam": "Amity University Entrance Examination",
+    "current_official_cutoff_url": "https://www.amity.edu/admission-procedure",
+    "homepage": "https://www.amity.edu/admission",
+    "aggregator_source": "https://www.collegedekho.com/exam/amity-jee/cutoff-2025-esp"
+  },
+  {
+    "exam": "Amrita Engineering Entrance Examination",
+    "current_official_cutoff_url": "https://www.amrita.edu/admissions/btech/cutoff/",
+    "homepage": "https://www.amrita.edu/admissions/btech/",
+    "aggregator_source": "https://engineering.careers360.com/articles/aeee-cutoff"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "Presidency University Bachelor Degree Entrance Test": {
+    "official_cutoff_url": "https://www.presiuniv.ac.in/web/notices.php",
+    "official_url_verified": true,
+    "official_note": "Official Presidency University notices page; verified it hosts PUBDET/PUMDET subject-wise provisional merit lists and rank lists (as received from WBJEEB). PUBDET is conducted by WBJEEB; merit list PDFs (e.g. PUBDET2024_meritlist.pdf) are published here. The admission.php page only has application links, no results."
+  },
+  "Punjab Para Medical Entrance Test Baba Farid University of Health Sciences": {
+    "official_cutoff_url": "https://bfuhs.ac.in/",
+    "official_url_verified": true,
+    "official_note": "BFUHS (Faridkot) is the official PPMET conducting body; result/merit list 2026 published as PDF at bfuhs.ac.in (declared 12 Jun 2026). The configured AllNotifications.aspx now returns HTTP 404; homepage verified and links the entrance-test portals (e.g. nursing26online) and notifications where PPMET merit list/counselling notices appear."
+  },
+  "Rajasthan Pre Bachelor of Education and Basic School Teaching Certificate Entrance Examination": {
+    "official_cutoff_url": "https://ptetvmoukota2025.in/",
+    "official_url_verified": true,
+    "official_note": "Official VMOU Kota PTET 2025 counselling/allotment portal; search-confirmed that college allotment lists and letters (1st on 25 Jul 2025, 2nd on 18 Aug 2025) are released here. This is the year-specific official portal for Rajasthan PTET."
+  },
+  "Rajasthan Pre Veterinary Test": {
+    "official_cutoff_url": "https://rajuvas.ac.in/admission/",
+    "official_url_verified": true,
+    "official_note": "Official RAJUVAS (Bikaner) admission portal. The configured rajuvas.org/admission.php is dead (rajuvas.org 301-redirects to rajuvas.ac.in and .../admission.php 404s). RAJUVAS conducts RPVT and runs BVSc & AH counselling here; admission page verified and references the Pre PG/RPVT information bulletin and counselling."
+  },
+  "Rajasthan University Law Entrance Test": {
+    "official_cutoff_url": "https://www.uniraj.ac.in/index.php?mid=192&exid=5",
+    "official_url_verified": true,
+    "official_note": "Dedicated RULET page on the official University of Rajasthan (UNIRAJ) site; verified it carries RULET admission/merit-list schedules, results and counselling/personal-interview notices (content currently archival RULET-2019 but it is the canonical RULET notice page). admissions.univraj.org/rul/ is the linked online application portal."
+  },
+  "Rajasthan University of Health Sciences Bachelor of Science Nursing Entrance Examination": {
+    "official_cutoff_url": "https://www.ruhsraj.org/admission/",
+    "official_url_verified": false,
+    "official_note": "RUHS Jaipur (ruhsraj.org) is the official body conducting the RUHS CUET for BSc Nursing; merit list/result published at ruhsraj.org (declared 2 Jun 2026) and counselling run via the CUET portal. Correct official domain but the fetcher hit a TLS certificate name-mismatch (ERR_TLS_CERT_ALTNAME_INVALID), so could not fully fetch the page."
+  },
+  "Rajasthan University of Health Sciences Paramedical Entrance Examination": {
+    "official_cutoff_url": "https://www.ruhsraj.org/admission/",
+    "official_url_verified": false,
+    "official_note": "RUHS Jaipur (ruhsraj.org) conducts the RUHS CUET covering paramedical courses (B.Sc MLT, Oph.Tech, BRT); merit list/result and counselling published at ruhsraj.org. Correct official domain but the fetcher hit a TLS certificate name-mismatch (ERR_TLS_CERT_ALTNAME_INVALID), so could not fully fetch the page."
+  }
+}

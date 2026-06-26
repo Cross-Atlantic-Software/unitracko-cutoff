@@ -1,0 +1,20 @@
+[
+  {
+    "exam": "West Bengal Joint Entrance Examination",
+    "current_official_cutoff_url": "https://admissions.nic.in/WBJEEB/Applicant/Report/OpenCloseRank.aspx",
+    "homepage": "https://wbjeeb.nic.in/wbjee/",
+    "aggregator_source": "https://www.collegedekho.com/exam/wbjee/cutoff"
+  },
+  {
+    "exam": "West Bengal Joint Entrance Test for Nursing, Paramedical and Allied Sciences Undergraduate",
+    "current_official_cutoff_url": "https://wbjeeb.nic.in/jenpas-ug/",
+    "homepage": "https://wbjeeb.nic.in/jenpas-ug/",
+    "aggregator_source": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+  },
+  {
+    "exam": "West Bengal Paramedical Entrance Test",
+    "current_official_cutoff_url": "https://wbjeeb.nic.in/jenpas-ug/",
+    "homepage": "https://wbjeeb.nic.in/jenpas-ug/",
+    "aggregator_source": "https://www.collegedekho.com/exam/jenpas-ug/cutoff"
+  }
+]

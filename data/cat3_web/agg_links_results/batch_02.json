@@ -1,0 +1,37 @@
+{
+  "Bihar Engineering Entrance Examination": {
+    "official_cutoff_url": "https://bceceboard.bihar.gov.in/pdf_Web/BC_ENG25_FCOFF.pdf",
+    "official_url_verified": true,
+    "official_note": "Official BCECEB first-round opening/closing rank PDF for BCECE[Engineering]-2025. Directly fetched - returns a real ~795KB PDF from the official bceceboard.bihar.gov.in domain; search result title confirms 'FIRST ROUND OPENING AND CLOSING RANK OF BCECE[ENGINEERING]-2025'. Replaces the generic homepage. (UGEAC2025_FCOFF.pdf is a valid sibling for the JEE-Main-based UGEAC stream.)"
+  },
+  "Bihar Polytechnic Common Entrance Competitive Examination": {
+    "official_cutoff_url": "https://bceceboard.bihar.gov.in/pdf_Web/DC_PE25_FOCFF.pdf",
+    "official_url_verified": true,
+    "official_note": "Official BCECEB DCECE[PE]-2025 first-round opening/closing rank PDF (Bihar Polytechnic). Fetched directly and returned a real ~598KB PDF. The prior PE_OpeningClosingRank.pdf path in the sheet appears stale/non-current."
+  },
+  "Birla Institute of Technology and Science Admission Test": {
+    "official_cutoff_url": "https://bitsadmission.com/FD/BITSAT_cutOffs.html?yr=2024-2025",
+    "official_url_verified": true,
+    "official_note": "Official BITS admission first-degree BITSAT cutoff-scores page (bitsadmission.com). Directly fetched and verified: campus- and program-wise cut-off scores (Pilani/Goa/Hyderabad) covering 2017-2018 through 2025-2026. Replaces the prior BITSAT-2025_Cut-off_Scores.pdf link, which now returns HTTP 404."
+  },
+  "Central Teacher Eligibility Test": {
+    "official_cutoff_url": "https://ctet.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official CBSE CTET site (NIC-hosted). CTET has no rank cutoff; it publishes qualifying marks (60% General / 55% reserved) and result links here. No dedicated standalone cutoff page exists, so the official site is the authoritative source."
+  },
+  "Chandigarh University Common Entrance Test": {
+    "official_cutoff_url": "https://cucet.cuchd.in/",
+    "official_url_verified": true,
+    "official_note": "Official CUCET entrance portal of Chandigarh University. CUCET is a scholarship-cum-admission test (up to 100% scholarship, qualifying ~30%) with no published rank cutoff; this is the authoritative exam/results portal. More specific than the cuchd.in/admissions/ homepage previously listed."
+  },
+  "Chandigarh University Common Entrance Test – Engineering": {
+    "official_cutoff_url": "https://cucet.cuchd.in/",
+    "official_url_verified": true,
+    "official_note": "Same exam as CUCET, engineering stream. Official CUCET exam portal (verified). The previously listed cuchd.in/admissions/engineering/ returns HTTP 404. No separate engineering rank cutoff/merit list is published; admission/scholarship is decided by CUCET score, so the official CUCET portal is the authoritative link."
+  },
+  "Chartered Accountancy Final Examination": {
+    "official_cutoff_url": "https://icai.nic.in/caresult/",
+    "official_url_verified": false,
+    "official_note": "Official ICAI / NIC CA exam result portal (CA Final result, scorecard and merit list of top rankers). Fetcher timed out, but search confirms icai.nic.in/caresult as the official result page. CA Final has no rank cutoff; pass criteria are 40% per paper / 50% aggregate per group. Replaces the third-party catestseries.org blog link."
+  }
+}

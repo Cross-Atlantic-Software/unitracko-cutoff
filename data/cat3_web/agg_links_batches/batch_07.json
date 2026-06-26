@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "Joint Entrance Examination Council Uttar Pradesh Polytechnic Entrance Examination",
+    "current_official_cutoff_url": "https://jeecup.admissions.nic.in/",
+    "homepage": "https://jeecup.admissions.nic.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/jeecup-cutoff"
+  },
+  {
+    "exam": "Joint Entrance Examination JAC Delhi Joint Admission Counselling (JEE Main)",
+    "current_official_cutoff_url": "https://jacdelhi.admissions.nic.in/",
+    "homepage": "https://jacdelhi.admissions.nic.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/jee-main-cutoff"
+  },
+  {
+    "exam": "Joint Entrance Examination JoSAA Joint Seat Allocation (JEE Main and Advanced)",
+    "current_official_cutoff_url": "https://josaa.nic.in/or-cr/",
+    "homepage": "https://josaa.nic.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/jee-main-cutoff"
+  },
+  {
+    "exam": "Joint Integrated Programme in Management Admission Test",
+    "current_official_cutoff_url": "https://www.iimj.ac.in/academics/ipm",
+    "homepage": "https://www.iimj.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/jipmat/cutoff"
+  },
+  {
+    "exam": "Karnataka Common Entrance Test",
+    "current_official_cutoff_url": "https://keaonline.karnataka.gov.in/ugcet_result_2025/main/results.php",
+    "homepage": "https://cetonline.karnataka.gov.in/kea/",
+    "aggregator_source": "https://www.collegedekho.com/exam/kcet/cutoff"
+  },
+  {
+    "exam": "Kerala Dairy Technology Entrance",
+    "current_official_cutoff_url": "https://admissions.kau.in/",
+    "homepage": "https://admissions.kau.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/keam/cutoff"
+  },
+  {
+    "exam": "Kerala Engineering Architecture Medical Entrance Examination",
+    "current_official_cutoff_url": "https://cee.kerala.gov.in/keam-2025/",
+    "homepage": "https://cee.kerala.gov.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/keam/cutoff"
+  }
+]

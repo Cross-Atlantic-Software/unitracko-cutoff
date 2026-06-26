@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "Indian Maritime University Common Entrance Test",
+    "current_official_cutoff_url": "https://www.imu.edu.in/imunew/index.php?prod_id=101",
+    "homepage": "https://www.imu.edu.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/imu-cet/cutoff"
+  },
+  {
+    "exam": "Jain Entrance Test",
+    "current_official_cutoff_url": "https://www.jainuniversity.ac.in/jet",
+    "homepage": "https://www.jainuniversity.ac.in/jet",
+    "aggregator_source": "https://www.shiksha.com/engineering/jet-exam-cutoff"
+  },
+  {
+    "exam": "Jamia Millia Islamia Engineering Entrance Examination",
+    "current_official_cutoff_url": "https://admission.jmi.ac.in/",
+    "homepage": "https://www.jmi.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/jmiee/cutoff"
+  },
+  {
+    "exam": "Jharkhand Combined Entrance Competitive Examination",
+    "current_official_cutoff_url": "https://jceceb.jharkhand.gov.in/",
+    "homepage": "https://jceceb.jharkhand.gov.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/jcece/cutoff"
+  },
+  {
+    "exam": "Joint Entrance Examination Advanced IIT Joint Admission (JEE Advanced)",
+    "current_official_cutoff_url": "https://josaa.nic.in/or-cr/",
+    "homepage": "https://jeeadv.ac.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/jee-main-cutoff"
+  },
+  {
+    "exam": "Joint Entrance Examination CSAB NEUT North Eastern States and Union Territories (JEE Main)",
+    "current_official_cutoff_url": "https://csab.nic.in/",
+    "homepage": "https://csab.nic.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/jee-main-cutoff"
+  },
+  {
+    "exam": "Joint Entrance Examination CSAB Special Rounds (JEE Main)",
+    "current_official_cutoff_url": "https://csab.nic.in/",
+    "homepage": "https://csab.nic.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/jee-main-cutoff"
+  }
+]

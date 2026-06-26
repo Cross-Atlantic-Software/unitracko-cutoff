@@ -1,0 +1,37 @@
+{
+  "Guru Gobind Singh Indraprastha University Common Entrance Test": {
+    "official_cutoff_url": "https://ipu.admissions.nic.in/cutt-off-2024-25/",
+    "official_url_verified": true,
+    "official_note": "Official IPU CET counselling portal (ipu.admissions.nic.in) cutoff page; publishes round-wise opening/closing rank PDFs by CET programme code. Better than the generic portal homepage."
+  },
+  "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Hotel Management and Catering Technology": {
+    "official_cutoff_url": "https://ipu.admissions.nic.in/cutt-off-2024-25/",
+    "official_url_verified": true,
+    "official_note": "Same official IPU counselling cutoff page; BHMCT is one of the CET programme codes whose round-wise cutoff PDFs are listed here."
+  },
+  "Guru Gobind Singh Indraprastha University Common Entrance Test for Bachelor of Journalism and Mass Communication": {
+    "official_cutoff_url": "https://ipu.admissions.nic.in/cutt-off-2024-25/",
+    "official_url_verified": true,
+    "official_note": "Same official IPU counselling cutoff page; BJMC is one of the CET programme codes whose round-wise cutoff PDFs are listed here."
+  },
+  "Himachal Pradesh Common Entrance Test": {
+    "official_cutoff_url": "https://counselling-hptu.hp.gov.in/",
+    "official_url_verified": true,
+    "official_note": "Official HPTU/HPCET counselling portal (.gov.in), linked from himtu.ac.in/en/admissions/hpcet. Replaces the wrong current URL (hptechboard.com is the HP Technical Education Board, a different body). Cutoffs are determined round-wise during counselling here. HPTU homepage: himtu.ac.in."
+  },
+  "Indian Council of Agricultural Research All India Entrance Examination for Admission Undergraduate": {
+    "official_cutoff_url": "https://icarcounseling.com/",
+    "official_url_verified": true,
+    "official_note": "Official ICAR UG online counselling portal (maintained for ICAR, links to icar.org.in); has a 'Cut Off - 2025' section for CUET (ICAR-UG). Replaces icaradmission.in. Note: icarcounselling.com (double-l) is a dead/parked domain that redirects to a parking page."
+  },
+  "Indian Institute of Art and Design Entrance Test": {
+    "official_cutoff_url": "https://www.iiad.edu.in/admissions/",
+    "official_url_verified": false,
+    "official_note": "Correct official IIAD admissions page for the iDAT entrance, but the fetcher is bot-blocked (HTTP 403); confirmed live via search. IIAD does not publish a numeric cutoff/closing-rank list - selection is portfolio/interview based, so no dedicated cutoff page exists."
+  },
+  "Indian Institute of Foreign Trade Entrance Examination": {
+    "official_cutoff_url": "https://www.iift.ac.in/iift/new-admissions.php",
+    "official_url_verified": true,
+    "official_note": "Official IIFT MBA(IB) admissions hub (the old admissions.php now 404s). IIFT admits on CAT score; the official cutoff/shortlist criteria are in the Selection Criteria PDF linked here (e.g. iift.ac.in/iift/docs/LatestUpdates/Selection_Criteria_MBA_2026-28.pdf) - no traditional rank cutoff list."
+  }
+}

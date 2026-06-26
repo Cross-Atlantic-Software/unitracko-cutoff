@@ -1,0 +1,37 @@
+{
+  "Kerala Fisheries Entrance Examination": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/keam2024/last_rank",
+    "official_url_verified": true,
+    "official_note": "KUFOS B.Tech (Food Technology) admission is via KEAM and seats are allotted through CEE Kerala's centralised process; closing/last ranks for the Agriculture/Forestry/Veterinary/Fisheries (AFVF) stream are published as PDFs on this CEE Kerala Last Rank page (verified to list Agriculture, Forestry, Veterinary and Fisheries). KUFOS body portal: admission.kufos.ac.in (slow/timeout on fetch). BFSc is NEET-based."
+  },
+  "Kerala Food Technology Entrance": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/keam2024/last_rank",
+    "official_url_verified": true,
+    "official_note": "No separate Food Technology entrance; KCAET Tavanur (KAU) B.Tech Food Engineering admission is via KEAM, with last/closing ranks published by CEE Kerala. This verified Last Rank page lists Agriculture/Forestry/Veterinary/Fisheries and engineering course PDFs. Replaces the generic admissions.kau.in homepage."
+  },
+  "Kerala Forestry Entrance Examination": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/keam2024/last_rank",
+    "official_url_verified": true,
+    "official_note": "No standalone forestry exam; B.Sc (Hons.) Forestry at KAU College of Forestry, Vellanikkara is admitted through KEAM/CEE Kerala counselling. CEE Kerala Last Rank page (verified) publishes the Agriculture/Forestry/Veterinary/Fisheries closing-rank PDFs. Replaces generic admissions.kau.in homepage."
+  },
+  "Kerala Law Entrance Examination": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/",
+    "official_url_verified": true,
+    "official_note": "KLEE is conducted by CEE Kerala. The prior URL /kerala-law-entrance-examination/ now 404s. CEE Kerala homepage (verified) hosts the current LLB admission/allotment portals (/llb32026/, /llb52026/, /llm2025/) where KLEE rank lists and seat allotments are published each cycle. Rank lists for 2025 were released here."
+  },
+  "Kerala Veterinary Entrance Examination": {
+    "official_cutoff_url": "https://cee.kerala.gov.in/keam2024/last_rank",
+    "official_url_verified": true,
+    "official_note": "No separate vet entrance; KVASU BVSc & AH admission is NEET-based and allotted via CEE Kerala's AFVF (Agriculture/Forestry/Veterinary/Fisheries) counselling. CEE Kerala Last Rank page (verified) publishes the Veterinary closing-rank PDFs. KVASU body portal application.kvasu.ac.in is the official application gateway but does not display cutoffs (the file's admissions.kvasu.ac.in refused connection)."
+  },
+  "Lovely Professional University National Entrance and Scholarship Test": {
+    "official_cutoff_url": "https://www.lpu.in/nest/",
+    "official_url_verified": true,
+    "official_note": "Official LPUNEST page (nest.lpu.in 301-redirects to www.lpu.in/nest/, verified). LPUNEST is a scholarship/admission test; results and scholarship-bracket scorecards are issued to candidates via login, with no public college/branch closing-rank cutoff table published. This is the authoritative official exam page."
+  },
+  "Lovely Professional University National Entrance and Scholarship Test Design": {
+    "official_cutoff_url": "https://www.lpu.in/nest/",
+    "official_url_verified": true,
+    "official_note": "LPUNEST is a single unified entrance/scholarship test across disciplines (incl. design); there is no separate 'design' exam page (nest.lpu.in/design/ -> www.lpu.in/nest/design/ returns 404). Authoritative official page is www.lpu.in/nest/ (verified). No public cutoff/closing-rank table; results via candidate login."
+  }
+}

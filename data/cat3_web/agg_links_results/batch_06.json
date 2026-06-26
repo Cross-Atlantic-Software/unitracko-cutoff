@@ -1,0 +1,37 @@
+{
+  "Indian Maritime University Common Entrance Test": {
+    "official_cutoff_url": "https://www.imu.edu.in/imunew/results",
+    "official_url_verified": false,
+    "official_note": "Official IMU results/merit-list page on imu.edu.in (results + counselling rank lists published in PDF after each round). Fetcher hit a TLS 'unable to verify first certificate' error; domain and page confirmed via search."
+  },
+  "Jain Entrance Test": {
+    "official_cutoff_url": "https://set.jainuniversity.ac.in/jet-results",
+    "official_url_verified": true,
+    "official_note": "Official JET results portal (set.jainuniversity.ac.in) publishing JET merit lists (day/session-wise PDFs), scholarship lists and merit-counselling lists for B.Tech admissions. Jain publishes cutoffs alongside results rather than a fixed table. Replaces generic jainuniversity.ac.in/jet."
+  },
+  "Jamia Millia Islamia Engineering Entrance Examination": {
+    "official_cutoff_url": "https://admission.jmi.ac.in/EntranceResults/DeclaredResultsLists",
+    "official_url_verified": true,
+    "official_note": "Official JMI admission portal declared-results page listing entrance results/merit (rank) lists; B.Tech merit/cutoff lists are published here (JMI B.Tech now via JEE Main rank list). More specific than admission.jmi.ac.in homepage."
+  },
+  "Jharkhand Combined Entrance Competitive Examination": {
+    "official_cutoff_url": "https://jceceb.jharkhand.gov.in/links/counselling.aspx",
+    "official_url_verified": false,
+    "official_note": "Official JCECEB counselling page listing counselling notices and round-wise seat-allotment/cutoff PDFs (jceceb.jharkhand.gov.in/IMP_l/*.pdf). Gov server timed out on fetch; official domain and counselling page confirmed via search. More specific than the homepage."
+  },
+  "Joint Entrance Examination Advanced IIT Joint Admission (JEE Advanced)": {
+    "official_cutoff_url": "https://josaa.admissions.nic.in/applicant/seatmatrix/openingclosingrankarchieve.aspx",
+    "official_url_verified": true,
+    "official_note": "Official JoSAA opening & closing ranks (OR-CR) archive (2016-2025), filterable by year/round/institute/program/category. For IITs ranks are JEE Advanced AIR. Direct cutoff page, better than josaa.nic.in/or-cr generic."
+  },
+  "Joint Entrance Examination CSAB NEUT North Eastern States and Union Territories (JEE Main)": {
+    "official_cutoff_url": "https://csab.nic.in/document-category/neut-orcr/",
+    "official_url_verified": true,
+    "official_note": "Official CSAB NEUT Opening and Closing Rank document category on csab.nic.in. Page loads but currently shows 'No Documents found' (off-season; populated when NEUT round OR-CR PDFs are released). Official CSAB domain confirmed."
+  },
+  "Joint Entrance Examination CSAB Special Rounds (JEE Main)": {
+    "official_cutoff_url": "https://csab.nic.in/csab-special/",
+    "official_url_verified": true,
+    "official_note": "Official CSAB Special Round page on csab.nic.in linking to 'CSAB Special Opening and Closing Ranks' (admissions.nic.in/csabspl OR-CR archive) plus brochures/schedules. Cutoffs published as OR-CR per round."
+  }
+}

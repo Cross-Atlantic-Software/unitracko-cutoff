@@ -1,0 +1,37 @@
+{
+  "Andhra Pradesh Engineering and Agriculture and Pharmacy Common Entrance Test": {
+    "official_cutoff_url": "https://eapcet-sche.aptonline.in/EAPCET/",
+    "official_url_verified": true,
+    "official_note": "Official APSCHE AP EAPCET counselling portal (live). Publishes college-wise last rank / opening-closing rank reports during counselling. The prior deep link .../Views/CollegeWiseLastRank.aspx now returns 404 (2026 counselling not yet open); the portal root is the stable cutoff hub."
+  },
+  "Andhra Pradesh Law Common Entrance Test": {
+    "official_cutoff_url": "https://lawcet-sche.aptonline.in/LAWCET/Home/CollegeWiseAllotmentReport",
+    "official_url_verified": true,
+    "official_note": "Verified live: official AP LAWCET/PGLCET College-Wise Allotment Report (APSCHE, run by SPMVV Tirupati). Filterable by college/branch showing rank, category and allotted phase per candidate — the official cutoff/last-rank source."
+  },
+  "Andhra Pradesh Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://appolycet.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Official AP POLYCET site (NIC). Publishes 'ADMISSIONS LAST RANK DETAILS' PDFs (e.g. APPOLYCET2023ADMSLASTRANKDETAILS.pdf) confirmed via search index. Fetcher got ECONNREFUSED (NIC blocks the bot), so domain is correct but not fetch-verified."
+  },
+  "Assam Combined Entrance Examination": {
+    "official_cutoff_url": "https://cee.dtecounselling.in/",
+    "official_url_verified": false,
+    "official_note": "Replaced astu.ac.in (only hosts result). Official DTE Assam CEE counselling portal that publishes opening/closing-rank cut-off PDFs (e.g. /public/official/cut-off-r2.pdf). Redirects to dtecounselling.in which returns 403 to the fetcher (bot-block), so domain confirmed via search but not fetch-verified."
+  },
+  "Baba Farid University of Health Sciences Punjab Para Medical Entrance Test": {
+    "official_cutoff_url": "https://bfuhs.ac.in/",
+    "official_url_verified": true,
+    "official_note": "Official BFUHS Faridkot site (live) carrying PPMET / BSc Nursing entrance admission notices and merit list. The prior AllNotifications.aspx path now 404s; PPMET merit list and counselling notices are published from the homepage admission-notices section."
+  },
+  "Banaras Hindu University Undergraduate Entrance Test – Law": {
+    "official_cutoff_url": "https://admission.bhu.ac.in/",
+    "official_url_verified": true,
+    "official_note": "BHU law (LLB / BA LLB) admission is now via CUET; the old bhuonline.in application portal is deprecated. admission.bhu.ac.in is the live official BHU admission portal for merit list / seat allotment (counselling also surfaced via Samarth bhucuetpg.samarth.edu.in)."
+  },
+  "Bihar Combined Entrance Competitive Examination": {
+    "official_cutoff_url": "https://bceceboard.bihar.gov.in/pdf_Web/BC_ENG25_FCOFF.pdf",
+    "official_url_verified": true,
+    "official_note": "Official BCECE[ENGINEERING]-2025 First Round opening & closing rank PDF (fetched/downloaded from bceceboard.bihar.gov.in). The prior link pointed to UGMAC (medical) and 404s. Board homepage bceceboard.bihar.gov.in lists all round-wise rank PDFs for BCECE engineering/agriculture/pharmacy."
+  }
+}

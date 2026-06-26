@@ -1,0 +1,37 @@
+{
+  "Narsee Monjee Institute of Management Studies National Test for Programs After Twelfth": {
+    "official_cutoff_url": "https://npat.nmims.edu/",
+    "official_url_verified": true,
+    "official_note": "Official NMIMS NPAT portal (fetched). Registration/info portal; program/campus-wise cutoff and merit lists are published on this portal (downloadable PDFs / step-5 'Merit List and Admission Status') rather than on a separate static cutoff page. No standalone public cutoff URL exists."
+  },
+  "National Aptitude Test in Architecture": {
+    "official_cutoff_url": "https://www.nata.in/",
+    "official_url_verified": true,
+    "official_note": "Official Council of Architecture NATA site. Qualifying cutoff (70/200) and scorecards are declared here after results; no separate static cutoff page — admission cutoffs are college-specific (NATA only sets the qualifying threshold)."
+  },
+  "National Council for Hotel Management Joint Entrance Examination": {
+    "official_cutoff_url": "https://nchmcounselling.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Official NCHMCT eCounselling OR-CR page (fetched). Lists opening/closing rank reports for B.Sc (HHA) and M.Sc (HA), 2021–2026, with per-year download links. Specific cutoff page — better than the homepage."
+  },
+  "National Council for Hotel Management and Catering Technology Joint Entrance Examination": {
+    "official_cutoff_url": "https://nchmcounselling.nic.in/or-cr/",
+    "official_url_verified": true,
+    "official_note": "Same exam (NCHMCT JEE). Official NCHMCT eCounselling OR-CR page (fetched) with year-wise opening/closing rank reports for B.Sc (HHA) and M.Sc (HA)."
+  },
+  "National Eligibility cum Entrance Test Undergraduate": {
+    "official_cutoff_url": "https://mcc.nic.in/ug-medical-counselling/",
+    "official_url_verified": true,
+    "official_note": "Official MCC UG Medical Counselling page (fetched). Hosts NEET-UG AIQ seat-allotment results, seat matrix and round-wise closing-rank reports. More specific than mcc.nic.in homepage. (NEET qualifying cutoffs are by NTA; admission closing ranks come from MCC counselling.)"
+  },
+  "National Entrance Screening Test": {
+    "official_cutoff_url": "https://www.nestexam.in/",
+    "official_url_verified": true,
+    "official_note": "Official NEST exam site. Results, scorecard and category-wise cutoffs (MAP/SMAS) are released here; admission merit lists are maintained by the respective institutes (NISER Bhubaneswar / UM-DAE CEBS Mumbai). No separate static cutoff URL."
+  },
+  "National Institute of Design Design Aptitude Test Toy Design": {
+    "official_cutoff_url": "https://admissions.nid.edu/",
+    "official_url_verified": true,
+    "official_note": "Official NID Ahmedabad admissions portal (fetched). Links to B.Des/M.Des DAT Mains results and round-wise seat allotment; cutoffs are realised through seat-allotment rounds (incl. Toy & Game Design) rather than a standalone static cutoff page."
+  }
+}

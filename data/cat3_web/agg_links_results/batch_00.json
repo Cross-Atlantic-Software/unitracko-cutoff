@@ -1,0 +1,37 @@
+{
+  "ALLIANCE UNIVERSITY ENTRANCE TEST": {
+    "official_cutoff_url": "https://www.alliance.edu.in/programmes/btech/admission-process",
+    "official_url_verified": true,
+    "official_note": "Official Alliance University admission/selection-criteria page (AUSAT/AUEET/AMAT). Alliance does not publish entrance-test opening/closing cutoffs; admission is profile + own-test based. No dedicated cutoff/merit page exists; this is the closest official selection page."
+  },
+  "Actuarial Common Entrance Test": {
+    "official_cutoff_url": "https://www.actuariesindia.org/entrance-exam-result",
+    "official_url_verified": false,
+    "official_note": "Official IAI ACET results page. Correct official domain but the fetcher hit a TLS certificate error (unable to verify first certificate). ACET is declared pass/fail only (absolute 50% pass mark); no rank/cutoff list is published, only the results page."
+  },
+  "Aligarh Muslim University Entrance Examination – Law": {
+    "official_cutoff_url": "https://www.amucontrollerexams.com/",
+    "official_url_verified": true,
+    "official_note": "Official AMU Controller of Examinations portal where BA LLB merit lists / 'Results of Examination' (Select/Memo/Special-category PDFs with roll no & rank) are published. No permanent law-specific cutoff URL; merit-list PDFs are posted here per cycle."
+  },
+  "Aligarh Muslim University Undergraduate Entrance Test": {
+    "official_cutoff_url": "https://www.amucontrollerexams.com/",
+    "official_url_verified": true,
+    "official_note": "Official AMU Controller of Examinations portal; AMUEEE (and other UG) results / merit lists are released here as PDFs (Select List, Memo List, Special Category) with roll no & rank. AMU does not publish a numeric cutoff page; merit lists serve as the cutoff."
+  },
+  "All India Law Entrance Test": {
+    "official_cutoff_url": "http://www.nationallawuniversitydelhi.in/",
+    "official_url_verified": false,
+    "official_note": "Official NLU Delhi site, which doubles as the AILET portal (homepage titled 'AILET 2026'). AILET counselling schedules and round-wise BA LLB/LLM merit lists & cut-offs are published here. HTTPS fetch failed with TLS cert altname-invalid (bot/TLS block) but it is the correct official domain."
+  },
+  "Amity University Entrance Examination": {
+    "official_cutoff_url": "https://www.amity.edu/admission-procedure-cutoff.aspx",
+    "official_url_verified": true,
+    "official_note": "Official Amity admission/cutoff navigation page. Amity admission is rolling and profile/CUET/ASAT-based; it does not publish fixed entrance-test cutoff ranks/scores. This page lists program eligibility but shows no numeric cutoff; no true cutoff/merit page exists."
+  },
+  "Amrita Engineering Entrance Examination": {
+    "official_cutoff_url": "https://aeee.amrita.edu/",
+    "official_url_verified": true,
+    "official_note": "Official AEEE admission portal (amrita.edu/admissions/btech/cutoff/ now 301-redirects here). AEEE results/ranks and CSAP counselling are published here. Amrita explicitly does NOT release opening/closing cutoff ranks; allotment is rank + preference based, so no formal cutoff list exists."
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "exam": "Symbiosis Institute of Design Entrance Test",
+    "current_official_cutoff_url": "https://www.sid.edu.in/admissions",
+    "homepage": "https://www.sid.edu.in/",
+    "aggregator_source": "https://www.shiksha.com/college/symbiosis-institute-of-design-symbiosis-international-pune/seed-exam-cutoff"
+  },
+  {
+    "exam": "Symbiosis Institute of Technology Engineering Entrance Examination",
+    "current_official_cutoff_url": "https://www.sitpune.edu.in/admissions",
+    "homepage": "https://www.sitpune.edu.in/",
+    "aggregator_source": "https://engineering.careers360.com/articles/siteee-cutoff"
+  },
+  {
+    "exam": "Symbiosis Law Admission Test",
+    "current_official_cutoff_url": "https://www.slat-test.org/",
+    "homepage": "https://www.slat-test.org/",
+    "aggregator_source": "https://law.careers360.com/articles/slat-cutoff"
+  },
+  {
+    "exam": "Symbiosis Liberal Arts Entrance",
+    "current_official_cutoff_url": "https://ssla.edu.in/admissions",
+    "homepage": "https://ssla.edu.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/set/cutoff"
+  },
+  {
+    "exam": "Tamil Nadu Engineering Admissions",
+    "current_official_cutoff_url": "https://www.tneaonline.org/pages/opening-closing-ranks.html",
+    "homepage": "https://www.tneaonline.org/",
+    "aggregator_source": "https://collegedunia.com/exams/tnea/cutoff"
+  },
+  {
+    "exam": "Tamil Nadu Polytechnic Entrance Examination",
+    "current_official_cutoff_url": "https://www.tndte.gov.in/site/polytechnic-admission/",
+    "homepage": "https://www.tndte.gov.in/",
+    "aggregator_source": "https://collegedunia.com/exams/tnea/cutoff"
+  },
+  {
+    "exam": "Telangana Engineering Agriculture and Pharmacy Common Entrance Test Biology Physics Chemistry Stream",
+    "current_official_cutoff_url": "https://eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx",
+    "homepage": "https://eapcet.tgche.ac.in/",
+    "aggregator_source": "https://www.collegedekho.com/exam/ts-eamcet/cutoff"
+  }
+]

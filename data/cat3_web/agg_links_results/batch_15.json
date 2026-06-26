@@ -1,0 +1,37 @@
+{
+  "Telangana Law Common Entrance Test": {
+    "official_cutoff_url": "https://lawcetadm.tgche.ac.in/",
+    "official_url_verified": false,
+    "official_note": "Official TS LAWCET counselling/admissions portal (TSCHE) that publishes web-option seat allotment and last-rank lists; SSL certificate expired so the fetcher was blocked, but multiple searches confirm this is the authoritative counselling domain. Exam/result + rank-card site is lawcet.tgche.ac.in."
+  },
+  "Telangana State Engineering Agriculture and Medical Common Entrance Test": {
+    "official_cutoff_url": "https://tgeapcet.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official TG EAPCET (formerly TS EAMCET) counselling portal where seat allotment and college/branch last-rank (closing-rank) details are published; strongly confirmed via search. The previously listed eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx returns 'Invalid Access' (dead/old portal); eapcet.tgche.ac.in is only the rank-card/result site."
+  },
+  "Telangana State Polytechnic Common Entrance Test": {
+    "official_cutoff_url": "https://polycet.sbtet.telangana.gov.in/",
+    "official_url_verified": false,
+    "official_note": "Official SBTET Telangana POLYCET portal that releases rank card, qualifying cutoff and round-wise counselling/seat-allotment results; fetcher blocked by a TLS certificate-verification error, but it is the correct .gov.in domain (search-confirmed)."
+  },
+  "Tripura Board of Joint Entrance Examination": {
+    "official_cutoff_url": "https://tbjee.nic.in/",
+    "official_url_verified": false,
+    "official_note": "Official TBJEE (Tripura JEE) site; hosts the PCM/PCB rank-wise merit lists as PDFs (e.g. Common-Result List_PCB.pdf) used for counselling/admission. Fetch was refused (ECONNREFUSED / bot-block) but search confirms merit lists are published here. tbjee.tripura.gov.in is a mirror."
+  },
+  "Undergraduate Common Entrance Examination for Design": {
+    "official_cutoff_url": "https://www.uceed.iitb.ac.in/2026/",
+    "official_url_verified": true,
+    "official_note": "Official UCEED (IIT Bombay) admissions page; verified to list the BDes seat-allotment PDFs for Rounds I-IV containing institute-wise opening and closing category ranks for IIT Bombay/Delhi/Guwahati/Hyderabad/Indore/Roorkee and IIITDM Jabalpur."
+  },
+  "Unitedworld Institute of Design Entrance Examination": {
+    "official_cutoff_url": "https://www.uid.edu.in/admissions/",
+    "official_url_verified": false,
+    "official_note": "Official UID (Karnavati University) admissions page; fetcher blocked by a TLS cert (altname) error. UID does NOT publish numeric cutoffs/ranks — selection is via UID DAT + Situation Test + Portfolio Evaluation, so no official cutoff page exists; this admissions page is the closest authoritative source."
+  },
+  "University of Petroleum and Energy Studies Design Entrance Examination": {
+    "official_cutoff_url": "https://www.upes.ac.in/admissions/admission-alerts/upesdat",
+    "official_url_verified": true,
+    "official_note": "Verified official UPESDAT (UPES Design) admissions page with eligibility and merit-based selection criteria for B.Des/M.Des. UPES does not publish numeric cutoff ranks — selection is via UPESDAT/national test score + portfolio + interview, so no dedicated cutoff page exists."
+  }
+}

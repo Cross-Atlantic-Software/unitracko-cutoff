@@ -1,0 +1,17 @@
+{
+  "West Bengal Joint Entrance Examination": {
+    "official_cutoff_url": "https://admissions.nic.in/WBJEEB/Applicant/Report/OpenCloseRank.aspx",
+    "official_url_verified": false,
+    "official_note": "Correct official NIC/WBJEEB opening-closing rank report endpoint on admissions.nic.in. Page loads but is a session-gated ASP.NET report ('Something went wrong'/session-expired when fetched without a counselling session), so it cannot be statically fetched. Search confirms WBJEEB publishes round-wise OR-CR for WBJEE on this NIC portal after each allotment."
+  },
+  "West Bengal Joint Entrance Test for Nursing, Paramedical and Allied Sciences Undergraduate": {
+    "official_cutoff_url": "https://wbjeeb.nic.in/jenpas-ug/",
+    "official_url_verified": true,
+    "official_note": "Official WBJEEB JENPAS-UG page (fetched OK). Hosts candidate sign-in, rank card (e.g. 'Rank Card for JENPAS-UG 2025'), and counselling/seat-allotment access. WBJEEB conducts JENPAS-UG counselling and publishes round-wise opening/closing ranks via this portal; the actual OR-CR report is the session-gated orcrreport.aspx under admissions.nic.in/wbjeeb. This homepage is the stable official cutoff/result entry point."
+  },
+  "West Bengal Paramedical Entrance Test": {
+    "official_cutoff_url": "https://wbjeeb.nic.in/jenpas-ug/",
+    "official_url_verified": true,
+    "official_note": "West Bengal paramedical admission is now conducted under WBJEEB JENPAS-UG (Joint Entrance Test for Nursing, Paramedical and Allied Sciences). Same official page as JENPAS-UG (fetched OK): rank card, counselling and seat-allotment/opening-closing-rank access for paramedical courses. No separate standalone 'Paramedical Entrance Test' cutoff site exists; this is the authoritative source."
+  }
+}

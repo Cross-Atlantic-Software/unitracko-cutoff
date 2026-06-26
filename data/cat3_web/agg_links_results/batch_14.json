@@ -1,0 +1,37 @@
+{
+  "Symbiosis Institute of Design Entrance Test": {
+    "official_cutoff_url": "https://sid.edu.in/programmes-offered/admission-process",
+    "official_url_verified": true,
+    "official_note": "Official SID (sid.edu.in) admission-process page describing the SEED-based selection (online SEED exam + portfolio + PRPI + PI). SID is merit-list based and does not publish numeric rank cutoffs; this is the authoritative admission/selection page. More specific than the generic /admissions URL."
+  },
+  "Symbiosis Institute of Technology Engineering Entrance Examination": {
+    "official_cutoff_url": "https://www.sitpune.edu.in/",
+    "official_url_verified": true,
+    "official_note": "Official SIT Pune site (sitpune.edu.in). Admission is merit-list based via SITEEE/JEE Main/MHT-CET; SIT does not publish fixed cutoff ranks, merit lists appear on the official site during admissions. The /admissions deep-link currently returns a PHP error, so the homepage is given as the working official entry point."
+  },
+  "Symbiosis Law Admission Test": {
+    "official_cutoff_url": "https://www.slat-test.org/",
+    "official_url_verified": true,
+    "official_note": "Official SLAT exam site (slat-test.org). Results delivered via the linked score-card portal; category-wise merit/wait lists and cutoffs are released by each of the four Symbiosis Law Schools on their own portals, not as a single numeric cutoff table."
+  },
+  "Symbiosis Liberal Arts Entrance": {
+    "official_cutoff_url": "https://www.set-test.org/ssla",
+    "official_url_verified": true,
+    "official_note": "Official SET portal page for SSLA (Symbiosis School for Liberal Arts) admission via the Symbiosis Entrance Test. Lists merit-list declaration dates and PI stage; selection is merit-list based (SET + PI), no numeric rank cutoff published. More specific than the generic ssla.edu.in/admissions URL."
+  },
+  "Tamil Nadu Engineering Admissions": {
+    "official_cutoff_url": "https://cutoff.tneaonline.org/",
+    "official_url_verified": true,
+    "official_note": "Official Government of Tamil Nadu (DoTE) TNEA cutoff portal, dedicated to publishing college/branch/category-wise cutoffs and opening-closing ranks. Sits under the official tneaonline.org domain; preferred over the generic opening-closing-ranks.html static page."
+  },
+  "Tamil Nadu Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://www.tnpoly.in/",
+    "official_url_verified": false,
+    "official_note": "Official DOTE Tamil Nadu polytechnic admission portal (tnpoly.in) where merit-based allotment/rank/counselling data is published (no entrance exam; selection on 10th/SSLC marks). Fetcher returned only the page title (bot-block), and the previously listed tndte.gov.in/site/polytechnic-admission/ now refuses connection; tnpoly.in is the correct live official portal."
+  },
+  "Telangana Engineering Agriculture and Pharmacy Common Entrance Test Biology Physics Chemistry Stream": {
+    "official_cutoff_url": "https://eapcet.tgche.ac.in/TSEAMCET/EamcetLastRankDetails.aspx",
+    "official_url_verified": false,
+    "official_note": "Correct official TG EAPCET (TS EAMCET) last-rank/cutoff page on the TGCHE conducting-body domain (eapcet.tgche.ac.in). Direct deep-link returns 'Invalid Access' (requires in-session navigation / bot-blocks the fetcher), so unverified by fetch though the domain and page are authoritative. Cutoffs are released as last ranks; mirror at tgeapcet.nic.in."
+  }
+}

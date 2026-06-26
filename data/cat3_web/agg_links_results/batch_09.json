@@ -1,0 +1,37 @@
+{
+  "Madhya Pradesh Polytechnic Entrance Examination": {
+    "official_cutoff_url": "https://dte.mponline.gov.in/portal/",
+    "official_url_verified": false,
+    "official_note": "Official DTE MP MPOnline portal. MP PPT entrance discontinued from 2025; polytechnic admission now via Class-10 merit + online counselling, with seat-allotment/merit lists published on this portal (dte.mponline.gov.in). Fetcher could not load (gov ASP.NET portal) but domain confirmed official via search."
+  },
+  "Madhya Pradesh Pre Agriculture Test": {
+    "official_cutoff_url": "https://esb.mp.gov.in/results/RESULT_25/PAT_RES25/default_Results.htm",
+    "official_url_verified": false,
+    "official_note": "Official MP Employees Selection Board (MPESB/ESB) PAT result/merit page on esb.mp.gov.in. Final merit/result published here; downstream counselling/cutoffs via RVSKVV/JNKVV through MPOnline. Page TLS-errored in fetcher (cert chain) but is the correct official ESB result URL surfaced in search."
+  },
+  "Madhya Pradesh Pre Polytechnic Test": {
+    "official_cutoff_url": "https://dte.mponline.gov.in/portal/",
+    "official_url_verified": false,
+    "official_note": "Official DTE MP MPOnline portal where MP PPT/polytechnic seat allotment and merit lists are published. Entrance test discontinued from 2025 (admission via Class-10 merit + counselling on this portal). Could not fetch (gov portal) but domain confirmed official."
+  },
+  "Maharashtra Common Entrance Test": {
+    "official_cutoff_url": "https://cetcell.mahacet.org/",
+    "official_url_verified": false,
+    "official_note": "Official Maharashtra State CET Cell site (MHT-CET). CAP cutoffs (opening/closing ranks per institute/course) are published here each round; CAP registration on the year's FE portal (e.g. fe2026.mahacet.org). Homepage returned HTTP 403 to fetcher (bot-block) but confirmed official/correct via search."
+  },
+  "Manipal Academy of Higher Education Design Entrance Examination": {
+    "official_cutoff_url": "https://counseling.manipal.edu/",
+    "official_url_verified": true,
+    "official_note": "Official MAHE online counselling portal (counseling.manipal.edu) where program-wise closing ranks / seat allotment for MAHE entrance programs are published. Design admission merit prepared by MAHE; cutoffs/allotment surfaced here and on manipal.edu. Portal page loaded and confirmed as the official MAHE counselling entry point."
+  },
+  "Manipal Entrance Test": {
+    "official_cutoff_url": "https://counseling.manipal.edu/",
+    "official_url_verified": true,
+    "official_note": "Official MAHE online counselling portal where MET branch/campus-wise closing ranks and seat-allotment results are released (Round 1/2 cutoffs published here; also mirrored on manipal.edu). Portal fetched and confirmed official."
+  },
+  "Military Nursing Service Entrance Examination": {
+    "official_cutoff_url": "https://joinindianarmy.nic.in/",
+    "official_url_verified": true,
+    "official_note": "Official Join Indian Army portal (joinindianarmy.nic.in). MNS B.Sc Nursing shortlist/merit lists are uploaded here; final merit prepared by DGMS from NEET-UG + ToGIGE/interview/medical. Replaced the prior Authentication.aspx login link with the official portal homepage; site loaded and confirmed official (notifications/results section)."
+  }
+}
