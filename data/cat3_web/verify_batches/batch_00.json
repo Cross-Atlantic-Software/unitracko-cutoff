@@ -1,0 +1,353 @@
+[
+  {
+    "exam": "All India Veterinary Entrance Test",
+    "n_rows": 8,
+    "official_link": "https://vci.admissions.nic.in/",
+    "data_sources": [
+      "https://www.getmyuni.com/exams/aipvt-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": null,
+        "Branch": "Veterinary Science",
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": 1340.0,
+        "Closing Rank": 3626.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Veterinary Science",
+        "Category": "SC",
+        "Year - cutoff": "2023",
+        "Opening Rank": 10624.0,
+        "Closing Rank": 33870.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Veterinary Science",
+        "Category": "General",
+        "Year - cutoff": "2019",
+        "Opening Rank": 1360.0,
+        "Closing Rank": 3586.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Veterinary Science",
+        "Category": "SC",
+        "Year - cutoff": "2019",
+        "Opening Rank": 10636.0,
+        "Closing Rank": 33852.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"
+      },
+      {
+        "College Name": null,
+        "Branch": "Veterinary Science",
+        "Category": "ST",
+        "Year - cutoff": "2019",
+        "Opening Rank": 64485.0,
+        "Closing Rank": 70707.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.getmyuni.com/exams/aipvt-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Armed Forces Medical College Entrance Examination",
+    "n_rows": 12,
+    "official_link": "https://afmc.nic.in/MBBSAdmission",
+    "data_sources": [
+      "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/",
+      "https://www.getmyuni.com/college/armed-forces-medical-college-afmc-pune-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Armed Forces Medical College",
+        "Branch": "MBBS",
+        "Category": "General",
+        "Year - cutoff": "2020",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "618",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"
+      },
+      {
+        "College Name": "Armed Forces Medical College",
+        "Branch": "MBBS",
+        "Category": "General",
+        "Year - cutoff": "2019",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "610",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"
+      },
+      {
+        "College Name": "Armed Forces Medical College",
+        "Branch": "MBBS",
+        "Category": "General",
+        "Year - cutoff": "2017",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "498",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"
+      },
+      {
+        "College Name": "Armed Forces Medical College",
+        "Branch": "MBBS",
+        "Category": "General",
+        "Year - cutoff": "2016",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "537",
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/afmc-mbbs-admission-2022-check-admission-process-cutoff-eligibility-criteria/"
+      },
+      {
+        "College Name": "Armed Forces Medical College",
+        "Branch": "MBBS",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "681",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/armed-forces-medical-college-afmc-pune-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Arunachal Pradesh Polytechnic Entrance Examination",
+    "n_rows": 13,
+    "official_link": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf",
+    "data_sources": [
+      "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": null,
+        "Branch": "Mathematics & Science stream",
+        "Category": "I",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 1.0,
+        "Cutoff Percentile/Score": "163",
+        "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"
+      },
+      {
+        "College Name": null,
+        "Branch": "Mathematics & Science stream",
+        "Category": "I",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 4.0,
+        "Cutoff Percentile/Score": "126",
+        "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"
+      },
+      {
+        "College Name": null,
+        "Branch": "Mathematics & Science stream",
+        "Category": "I",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 7.0,
+        "Cutoff Percentile/Score": "108",
+        "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"
+      },
+      {
+        "College Name": null,
+        "Branch": "Mathematics & Science stream",
+        "Category": "I",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 10.0,
+        "Cutoff Percentile/Score": "93",
+        "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"
+      },
+      {
+        "College Name": null,
+        "Branch": "Mathematics & Science stream",
+        "Category": "II",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 3.0,
+        "Cutoff Percentile/Score": "38",
+        "Link - Data Taken from": "https://apdhte.nic.in/JEE/JEE_25/Result_APJEE_Diploma_2025.pdf"
+      }
+    ]
+  },
+  {
+    "exam": "Assam Agriculture Entrance Examination",
+    "n_rows": 4,
+    "official_link": "https://www.aau.ac.in/admission",
+    "data_sources": [
+      "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Assam Agricultural University",
+        "Branch": "Animal Husbandry",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": 51584.0,
+        "Closing Rank": 61503.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"
+      },
+      {
+        "College Name": "Assam Agricultural University",
+        "Branch": "Veterinary Science and Animal Husbandry",
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": 158725.0,
+        "Closing Rank": 212398.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"
+      },
+      {
+        "College Name": "Assam Agricultural University",
+        "Branch": "Agriculture",
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": 209920.0,
+        "Closing Rank": 301348.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"
+      },
+      {
+        "College Name": "Assam Agricultural University",
+        "Branch": "Community Science",
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": 400749.0,
+        "Closing Rank": 682708.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.careers360.com/university/assam-agricultural-university-jorhat/cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Bachelor of Hotel Management and Catering Technology Entrance Exam",
+    "n_rows": 189,
+    "official_link": "https://nchmcounselling.nic.in/",
+    "data_sources": [
+      "https://hospitality.careers360.com/articles/nchmct-jee-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "IHM Bengaluru",
+        "Branch": null,
+        "Category": "OBC",
+        "Year - cutoff": "2026",
+        "Opening Rank": 1222.0,
+        "Closing Rank": 4493.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://hospitality.careers360.com/articles/nchmct-jee-cutoff"
+      },
+      {
+        "College Name": "IHM Kolkata",
+        "Branch": null,
+        "Category": "SC",
+        "Year - cutoff": "2026",
+        "Opening Rank": 2082.0,
+        "Closing Rank": 8408.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://hospitality.careers360.com/articles/nchmct-jee-cutoff"
+      },
+      {
+        "College Name": "SIHM-Durgapur",
+        "Branch": null,
+        "Category": "Open",
+        "Year - cutoff": "2026",
+        "Opening Rank": 3943.0,
+        "Closing Rank": 7537.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://hospitality.careers360.com/articles/nchmct-jee-cutoff"
+      },
+      {
+        "College Name": "IHM Jaipur",
+        "Branch": null,
+        "Category": "Open",
+        "Year - cutoff": "2026",
+        "Opening Rank": 2611.0,
+        "Closing Rank": 8197.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://hospitality.careers360.com/articles/nchmct-jee-cutoff"
+      },
+      {
+        "College Name": "Army IHM, Bangalore",
+        "Branch": null,
+        "Category": "Open",
+        "Year - cutoff": "2026",
+        "Opening Rank": 1836.0,
+        "Closing Rank": 3476.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://hospitality.careers360.com/articles/nchmct-jee-cutoff"
+      }
+    ]
+  },
+  {
+    "exam": "Bachelor of Science in Nautical Science Admission",
+    "n_rows": 39,
+    "official_link": "https://www.imu.edu.in/imunew/",
+    "data_sources": [
+      "https://engineering.careers360.com/articles/imu-cet-cutoff"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "IMU Chennai",
+        "Branch": null,
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 577.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/imu-cet-cutoff"
+      },
+      {
+        "College Name": "IMU Chennai",
+        "Branch": null,
+        "Category": "SC",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 80.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/imu-cet-cutoff"
+      },
+      {
+        "College Name": "IMU Chennai",
+        "Branch": null,
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": 67.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/imu-cet-cutoff"
+      },
+      {
+        "College Name": "IMU Chennai",
+        "Branch": null,
+        "Category": "General",
+        "Year - cutoff": "2023",
+        "Opening Rank": null,
+        "Closing Rank": 121.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/imu-cet-cutoff"
+      },
+      {
+        "College Name": "Indian Maritime University",
+        "Branch": null,
+        "Category": "General (All India)",
+        "Year - cutoff": "2022",
+        "Opening Rank": null,
+        "Closing Rank": 1423.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://engineering.careers360.com/articles/imu-cet-cutoff"
+      }
+    ]
+  }
+]

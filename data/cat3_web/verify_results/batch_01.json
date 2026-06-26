@@ -1,0 +1,50 @@
+{
+  "Birla Institute of Technology Mesra Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "phodu.club page confirms exact JEE Main closing ranks (CSE General 2024 = 22317, Mechanical 2024 = 90773); BIT Mesra admits via JEE Main not its own entrance exam, so ranks are real but the channel (JEE Main, third-party portal) should be labelled."
+  },
+  "DAIICT Entrance Test": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": true,
+    "verdict_note": "getmyuni confirms the sampled values (VLSI 2023 92/144, M&C 2023 23/35, ICT-CS 2024 11000/16000), but rank scales are mixed across years (2023 ranks 23-144 vs 2024 ranks 11000-16000) implying GUJCET/merit ranks vs JEE Main AIR conflated; admission is JEE Main+GUJCET not a 'DAIICT Entrance Test'."
+  },
+  "Defence Institute of Advanced Technology Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "getmyuni confirms GATE M.Tech closing scores (Data Science 546, Comm&Signal 401, Auto&Robotics 462, Materials 192); DIAT admits via GATE not its own exam, and scores are correctly placed in the score column tagged '(GATE)'."
+  },
+  "Gujarat Common Entrance Test – Polytechnic": {
+    "fidelity": "official",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Read the cited PDF directly: it is the official ACPDC Gujarat Diploma Engineering 2023-24 institutewise-branchwise cutoff; verified DR.S.& S.S.GANDHI College Mechanical Engg OPEN = Merit Rank 16440 / Merit Marks 191 matching the sample; rank in rank column, marks in score column, both correct."
+  },
+  "Indian Institute of Petroleum and Energy Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": true,
+    "verdict_note": "iipe.ac.in shows Applied Geology values (CRL 136, EWS 235) but these are M.Sc admission-list ranks (IIT JAM-based) wrongly labelled as the B.Tech entrance and year '2026', and First/Third admission lists are conflated; careers360 B.Tech rows are JEE Main/JoSAA ranks; values real but channel/level/year misclassified."
+  },
+  "Indian Institute of Science Bachelor of Science Research Admission": {
+    "fidelity": "official",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Official IISc BS-program cutoff PDF confirms the sampled figures (IAT General ~43 2025, IAT ST 69 2024, JEE-Advanced SC 20558 2023) across IAT/JEE-Adv/JEE-Main/NEET/KVPY channels which are correctly named in the Branch column; ranks in the rank column, units correct."
+  }
+}

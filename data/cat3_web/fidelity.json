@@ -1,0 +1,187 @@
+{
+  "All India Veterinary Entrance Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "All sampled General/SC/ST opening-closing ranks for 2019 and 2023 appear verbatim on getmyuni's AIPVT cut-off page, but the page labels the 2023 figures 'Expected Cut Off' and adds an estimation discl"
+  },
+  "Armed Forces Medical College Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "Scores 618/610/498/537 and the 2024 figure 681 all appear on the cited pages as AFMC NEET cutoff marks (out of 720) and AFMC admits via NEET, so values are real and correctly placed in the score colum"
+  },
+  "Arunachal Pradesh Polytechnic Entrance Examination": {
+    "fidelity": "derived",
+    "drop": true,
+    "note": "The official PDF is a raw candidate merit list (names, roll no, category, marks, rank) where the sampled 'Closing Rank' values 1/4/7/10 with marks 163/126/108/93 are individual candidates' merit posit"
+  },
+  "Assam Agriculture Entrance Examination": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "All four branch/year opening-closing ranks (Animal Husbandry 2025 51584-61503, Veterinary 2023, Agriculture 2023, Community Science 2023) appear verbatim on careers360's AAU Jorhat page, but the page "
+  },
+  "Bachelor of Hotel Management and Catering Technology Entrance Exam": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "NCHMCT JEE opening-closing ranks are real and on careers360 (IHM Jaipur Open 2611-8197 and Army IHM Bangalore 1836-3476 matched exactly); three others differed from the page's reported figures, consis"
+  },
+  "Bachelor of Science in Nautical Science Admission": {
+    "fidelity": "portal",
+    "drop": true,
+    "note": "IMU CET ranks come from careers360, but the headline value 577 labelled Nautical Science 2025 is actually B.Tech Marine Engineering's 2025 closing rank (Nautical Science 2025 is 849 on the page), so c"
+  },
+  "Birla Institute of Technology Mesra Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "phodu.club page confirms exact JEE Main closing ranks (CSE General 2024 = 22317, Mechanical 2024 = 90773); BIT Mesra admits via JEE Main not its own entrance exam, so ranks are real but the channel (J"
+  },
+  "DAIICT Entrance Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "getmyuni confirms the sampled values (VLSI 2023 92/144, M&C 2023 23/35, ICT-CS 2024 11000/16000), but rank scales are mixed across years (2023 ranks 23-144 vs 2024 ranks 11000-16000) implying GUJCET/m"
+  },
+  "Defence Institute of Advanced Technology Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "getmyuni confirms GATE M.Tech closing scores (Data Science 546, Comm&Signal 401, Auto&Robotics 462, Materials 192); DIAT admits via GATE not its own exam, and scores are correctly placed in the score "
+  },
+  "Gujarat Common Entrance Test – Polytechnic": {
+    "fidelity": "official",
+    "drop": false,
+    "note": "Read the cited PDF directly: it is the official ACPDC Gujarat Diploma Engineering 2023-24 institutewise-branchwise cutoff; verified DR.S.& S.S.GANDHI College Mechanical Engg OPEN = Merit Rank 16440 / "
+  },
+  "Indian Institute of Petroleum and Energy Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "iipe.ac.in shows Applied Geology values (CRL 136, EWS 235) but these are M.Sc admission-list ranks (IIT JAM-based) wrongly labelled as the B.Tech entrance and year '2026', and First/Third admission li"
+  },
+  "Indian Institute of Science Bachelor of Science Research Admission": {
+    "fidelity": "official",
+    "drop": false,
+    "note": "Official IISc BS-program cutoff PDF confirms the sampled figures (IAT General ~43 2025, IAT ST 69 2024, JEE-Advanced SC 20558 2023) across IAT/JEE-Adv/JEE-Main/NEET/KVPY channels which are correctly n"
+  },
+  "Indian Institute of Space Science and Technology Admission": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "All 5 sampled values (% of JEE Advanced marks) match the cited phodu.club page exactly (Aerospace Gen 43.06/28.61, ECE 40.56/28.33, CS-DS 42.78/30.28, CS-DS ST 14.44/13.61); IIST admits via JEE Advanc"
+  },
+  "Indian Institutes of Science Education and Research Aptitude Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "careers360 confirms 3 of 5 (Berhampur Gen 1990, Kolkata OBC-NCL 534, Bhopal Eco KM 29) but Pune OBC-NCL shows 257 not 44 and Trivandrum SC shows 453 not 269 (likely a different counselling round misla"
+  },
+  "Indira Gandhi National Tribal University Entrance Examination Folk Literature": {
+    "fidelity": "derived",
+    "drop": false,
+    "note": "Official IGNTU PDF is a per-candidate open-counselling allotment list, not a cutoff table; the Folk Literature rows actually show CUET 53.59/52.81/48.35, and the deliverable's UR=35.45 traces to an SC"
+  },
+  "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "toprankers confirms all 5 NCHMCT JEE 2026 Round-1 rank pairs exactly (Delhi-Pusa Open 2-300, Guwahati Open 129-7651, Bengaluru EWS 1720-5851, Kolkata SC 2082-8408, Hyderabad ST 4411-8080); branch labe"
+  },
+  "Jamia Millia Islamia Mass Communication Entrance": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "careers360 confirms the entrance-test mark scores (Convergent Journalism Gen 2019=191, Mass Comm MM 2019=147, PwD hearing 2019=72, Muslim 2018=185-171), correctly placed in the score column as marks n"
+  },
+  "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "collegedekho confirms all 5 JIPMER B.Sc Nursing 2024 Round-1 closing ranks exactly (Gen 277, EWS 1350, SC 3630, ST 11584, Gen-PwD 49182) but the page labels them NEET ranks, so admission channel is NE"
+  },
+  "Joint Entrance Test Agriculture": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "All five sampled values (UR 28.44, ST-F 87.11, EWS 41.11 for 2025; SC 32.949, EWS 60.026 for 2022) appear verbatim on the CollegeDekho page as JET cutoff marks for Jaipur National University Agricultu"
+  },
+  "Kalinga Institute of Industrial Technology Entrance Examination Management Undergraduate": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "GetMyUni KIITEE page confirms all sampled closing ranks (BBA 1800, BCA 1050, B.Com 295, B.Sc-CS 1800 for 2020; B.Sc-CS 1561 for 2019); values are ranks correctly placed in the Closing Rank column."
+  },
+  "Kerala Nursing Entrance Examination": {
+    "fidelity": "official",
+    "drop": false,
+    "note": "Source is the official LBS Centre lastrank.pdf; fetcher could not parse the binary/encoded PDF so exact values weren't re-confirmed, but the score values (300, 289.17, 291.66, etc. out of 300) are int"
+  },
+  "Kerala Paramedical Entrance Examination": {
+    "fidelity": "official",
+    "drop": false,
+    "note": "Same official LBS Centre lastrank.pdf source; PDF returned as unparseable binary so values weren't fetch-confirmed, but the paramedical marks (290.83, 285.84, 265, 280.83, 300 out of 300) are internal"
+  },
+  "Maharashtra Bachelor of Science Nursing Common Entrance Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "CollegeDekho MH B.Sc Nursing CAP Round-2 2024 page confirms all sampled Open-category closing ranks (9115=57, 9366=229, 9315=1204, 9197=2612, 9370=10131); ranks correctly placed in Closing Rank column"
+  },
+  "Maharashtra Polytechnic Entrance Examination": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "CollegeDekho DTE Maharashtra Polytechnic ECE page confirms Khamgaon NGOPENH rank 6056/91.40 and Latur NLSEBCS rank 6616/91.20; both rank and percentile columns populated correctly."
+  },
+  "Mizoram Engineering Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "careers360 confirms B.Arch General OR 1203 / CR 1251-1258 and getmyuni confirms CS 60031, ECE-SC 12556, IT-ST 5929 exactly, but both pages state these are JEE Main/JoSAA closing ranks, not MZUEEE's ow"
+  },
+  "Narsee Monjee Institute of Management Studies Law Aptitude Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "collegedekho shows a 70-percentile General 2024 cutoff for NMIMS Kirit P. Mehta School of Law, but the page labels it a CLAT cutoff (NMIMS accepts CLAT or NMIMS-LAT), so it is plausible portal data ra"
+  },
+  "National Standard Examination": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "pw.live confirms the NSE MAS thresholds Physics 99, Biology 70, Junior Science 86 (2023-24) and Physics 83 (2024-25 Group B); only Astronomy differs slightly (page shows MAS 87/76 vs sampled 84), so v"
+  },
+  "Online Facilitation System for Students Bihar University Admission": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "careers360 confirms school-wise intermediate cutoff percentages including YASHWANT INTER SCHOOL KHIJARSARAI Science-SC 63.60; these are real OFSS class-11 admission minimum-mark cutoffs, correctly pla"
+  },
+  "Paramedical State Common Entrance Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "collegedekho confirms JENPAS-UG qualifying scores General-50th 23.50 (2024), SC/ST/OBC-40th 21.33 (2024) & 24.50 (2023), OBC-B 120 and ST 80 (2022) exactly; real category qualifying percentile-scores "
+  },
+  "Puducherry Bachelor of Business Administration Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "selectyouruniversity confirms Pondicherry University BBA(Hons) 2024 cutoffs General up to 165, EWS 90-120, PH 37-58, ST 82, but the page states these are CUET scores (admission via CUET, not the named"
+  },
+  "Rajasthan Engineering Admission Process": {
+    "fidelity": "suspect",
+    "drop": true,
+    "note": "Values appear on the collegedekho article but are explicitly labelled 'Closing Rank 2025 (Expected)' and given as ranges (e.g. JECRC CSE '18,000-20,000' collapsed to 20000, GIT '1,800-2,200' to 2200),"
+  },
+  "Rajasthan University of Health Sciences Entrance Examination": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "Careers360 lists RUHS B.Sc Nursing 2024 category scores; General 85 matches, but OBC 77/ST 71 don't match the govt-table values (OBC 84-85, ST 77-80) and EWS 60/ST 55 are from the private-college tabl"
+  },
+  "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "All five sampled opening/closing ranks match RGIPT's own official Round-1 2025 cutoff PDF exactly (e.g. CSE Gen 1906-14179, Chemical SC 2750-4370), but admission is via JEE Main rank not an RGIPT-spec"
+  },
+  "St Xavier's College Entrance Examination": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "GetMyUni lists St Xavier's Mumbai category cutoffs (BA Gen 97% 2025, BMS Gen 79.84% 2024 both confirmed); these are HSC merit percentages and the rows lack Branch so SC 58%/OBC 78% are drawn from diff"
+  },
+  "Tamil Nadu Dr Ambedkar Law University Entrance Test": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "Careers360 confirms the TNDALU 2025 merit-list cutoff marks (SOEL OC 88.680, ST 81.700, affiliated ST 69.160); these are +2 merit marks (no real entrance test) reproduced from a reputable portal."
+  },
+  "Tata Institute of Social Sciences Bachelor Admission Test": {
+    "fidelity": "official-proxy",
+    "drop": false,
+    "note": "FindMyCollege confirms the TISS 2025 cutoff percentiles (Guwahati Gen 44/EWS 41/OBC-NCL 39, Tuljapur Gen 41), but these are CUET-UG percentiles since TISS BA admits via CUET, so should be labelled as "
+  },
+  "Uttarakhand State Entrance Examination": {
+    "fidelity": "portal",
+    "drop": false,
+    "note": "All 5 sampled Uttaranchal University rows (CSE General 115905/328120, Civil General 57220/327490, Mech OBC 446210/771710, EE ST 427555/509380, Petroleum ST 512455/512455) match the kollegeapply.com pa"
+  }
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "exam": "Rajasthan Engineering Admission Process",
+    "n_rows": 31,
+    "official_link": "https://reap2025.com/seat-allotment.php",
+    "data_sources": [
+      "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Jaipur Engineering College and Research Centre",
+        "Branch": "Computer Science Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 20000.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/"
+      },
+      {
+        "College Name": "Global Institute of Technology, Jaipur",
+        "Branch": "Computer Science Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 2200.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/"
+      },
+      {
+        "College Name": "Government Engineering College, Ajmer",
+        "Branch": "Information Technology",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 6000.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/"
+      },
+      {
+        "College Name": "MBM University, Jodhpur",
+        "Branch": "Civil Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 4402.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/"
+      },
+      {
+        "College Name": "MBM University, Jodhpur",
+        "Branch": "Petroleum Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": 3731.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.collegedekho.com/articles/reap-rank-wise-colleges-list/"
+      }
+    ]
+  },
+  {
+    "exam": "Rajasthan University of Health Sciences Entrance Examination",
+    "n_rows": 20,
+    "official_link": "https://ruhsraj.org.in/",
+    "data_sources": [
+      "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "RUHS College of Nursing Sciences, Jaipur",
+        "Branch": "B.Sc Nursing",
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "85",
+        "Link - Data Taken from": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off"
+      },
+      {
+        "College Name": "Government Colleges (Rajasthan)",
+        "Branch": "B.Sc Nursing",
+        "Category": "OBC",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "77",
+        "Link - Data Taken from": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off"
+      },
+      {
+        "College Name": "Government Colleges (Rajasthan)",
+        "Branch": "B.Sc Nursing",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "71",
+        "Link - Data Taken from": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off"
+      },
+      {
+        "College Name": "Private INC-Approved Colleges (Rajasthan)",
+        "Branch": "B.Sc Nursing",
+        "Category": "EWS",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "60",
+        "Link - Data Taken from": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off"
+      },
+      {
+        "College Name": "Private INC-Approved Colleges (Rajasthan)",
+        "Branch": "B.Sc Nursing",
+        "Category": "ST",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "55",
+        "Link - Data Taken from": "https://www.careers360.com/university/rajasthan-university-of-health-sciences-jaipur/cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination",
+    "n_rows": 51,
+    "official_link": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf",
+    "data_sources": [
+      "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+        "Branch": "B.Tech. in Computer Science and Engineering",
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": 1906.0,
+        "Closing Rank": 14179.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf"
+      },
+      {
+        "College Name": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+        "Branch": "B.Tech. in Chemical Engineering",
+        "Category": "SC",
+        "Year - cutoff": "2025",
+        "Opening Rank": 2750.0,
+        "Closing Rank": 4370.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf"
+      },
+      {
+        "College Name": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+        "Branch": "B.Tech. in Information Technology",
+        "Category": "OBC-NCL",
+        "Year - cutoff": "2025",
+        "Opening Rank": 7072.0,
+        "Closing Rank": 8562.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf"
+      },
+      {
+        "College Name": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+        "Branch": "B.Tech. in Petroleum Engineering",
+        "Category": "EWS",
+        "Year - cutoff": "2025",
+        "Opening Rank": 3373.0,
+        "Closing Rank": 4508.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf"
+      },
+      {
+        "College Name": "Rajiv Gandhi Institute of Petroleum Technology (RGIPT)",
+        "Branch": "B.Tech. in Computer Science & Design Engineering",
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": 1862.0,
+        "Closing Rank": 1876.0,
+        "Cutoff Percentile/Score": null,
+        "Link - Data Taken from": "https://www.rgipt.ac.in/BTech-Admission-2025-26/assets/pdf/Cutoff%20List%20Round%201%20first%20seat%20allotemnt%202025.pdf"
+      }
+    ]
+  },
+  {
+    "exam": "St Xavier's College Entrance Examination",
+    "n_rows": 26,
+    "official_link": "https://entrancetest.xaviers.edu/",
+    "data_sources": [
+      "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "St. Xavier's College, Mumbai",
+        "Branch": null,
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "97%",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off"
+      },
+      {
+        "College Name": "St. Xavier's College, Mumbai",
+        "Branch": null,
+        "Category": "SC",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "58%",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off"
+      },
+      {
+        "College Name": "St. Xavier's College, Mumbai",
+        "Branch": null,
+        "Category": "OBC",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "78%",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off"
+      },
+      {
+        "College Name": "St. Xavier's College, Mumbai",
+        "Branch": null,
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "69%",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off"
+      },
+      {
+        "College Name": "St. Xavier's College, Mumbai",
+        "Branch": null,
+        "Category": "General",
+        "Year - cutoff": "2024",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "79.84%",
+        "Link - Data Taken from": "https://www.getmyuni.com/college/st-xaviers-college-mumbai-cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Tamil Nadu Dr Ambedkar Law University Entrance Test",
+    "n_rows": 27,
+    "official_link": "https://tndalu.ac.in/admission-cut-off-mark-2025-26",
+    "data_sources": [
+      "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "School of Excellence in Law (SOEL), TNDALU",
+        "Branch": null,
+        "Category": "OC",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "88.680",
+        "Link - Data Taken from": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off"
+      },
+      {
+        "College Name": "School of Excellence in Law (SOEL), TNDALU",
+        "Branch": null,
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "81.700",
+        "Link - Data Taken from": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off"
+      },
+      {
+        "College Name": "Affiliated Law Colleges (TNDALU)",
+        "Branch": null,
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "69.160",
+        "Link - Data Taken from": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off"
+      },
+      {
+        "College Name": "School of Excellence in Law (SOEL), TNDALU",
+        "Branch": null,
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "92.000",
+        "Link - Data Taken from": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off"
+      },
+      {
+        "College Name": "School of Excellence in Law (SOEL), TNDALU",
+        "Branch": null,
+        "Category": "ST",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "64.600",
+        "Link - Data Taken from": "https://www.careers360.com/university/the-tamilnadu-dr-ambedkar-law-university-chennai/cut-off"
+      }
+    ]
+  },
+  {
+    "exam": "Tata Institute of Social Sciences Bachelor Admission Test",
+    "n_rows": 4,
+    "official_link": "https://admissions.tiss.edu/",
+    "data_sources": [
+      "https://articles.findmycollege.com/tiss-cuet-cutoff/"
+    ],
+    "sample_rows": [
+      {
+        "College Name": "TISS Guwahati Campus",
+        "Branch": null,
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "44",
+        "Link - Data Taken from": "https://articles.findmycollege.com/tiss-cuet-cutoff/"
+      },
+      {
+        "College Name": "TISS Guwahati Campus",
+        "Branch": null,
+        "Category": "EWS",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "41",
+        "Link - Data Taken from": "https://articles.findmycollege.com/tiss-cuet-cutoff/"
+      },
+      {
+        "College Name": "TISS Guwahati Campus",
+        "Branch": null,
+        "Category": "OBC (Non-Creamy Layer)",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "39",
+        "Link - Data Taken from": "https://articles.findmycollege.com/tiss-cuet-cutoff/"
+      },
+      {
+        "College Name": "TISS Tuljapur Off-Campus",
+        "Branch": null,
+        "Category": "General",
+        "Year - cutoff": "2025",
+        "Opening Rank": null,
+        "Closing Rank": null,
+        "Cutoff Percentile/Score": "41",
+        "Link - Data Taken from": "https://articles.findmycollege.com/tiss-cuet-cutoff/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "Rajasthan Engineering Admission Process": {
+    "fidelity": "suspect",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": true,
+    "unit_issue": false,
+    "verdict_note": "Values appear on the collegedekho article but are explicitly labelled 'Closing Rank 2025 (Expected)' and given as ranges (e.g. JECRC CSE '18,000-20,000' collapsed to 20000, GIT '1,800-2,200' to 2200), i.e. portal estimates not a published REAP cutoff."
+  },
+  "Rajasthan University of Health Sciences Entrance Examination": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Careers360 lists RUHS B.Sc Nursing 2024 category scores; General 85 matches, but OBC 77/ST 71 don't match the govt-table values (OBC 84-85, ST 77-80) and EWS 60/ST 55 are from the private-college table, so values are plausible portal data with some category/table mixing."
+  },
+  "Rajiv Gandhi Institute of Petroleum Technology Bachelor of Technology Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "All five sampled opening/closing ranks match RGIPT's own official Round-1 2025 cutoff PDF exactly (e.g. CSE Gen 1906-14179, Chemical SC 2750-4370), but admission is via JEE Main rank not an RGIPT-specific exam, so label as proxy."
+  },
+  "St Xavier's College Entrance Examination": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "GetMyUni lists St Xavier's Mumbai category cutoffs (BA Gen 97% 2025, BMS Gen 79.84% 2024 both confirmed); these are HSC merit percentages and the rows lack Branch so SC 58%/OBC 78% are drawn from different courses, plausible portal data."
+  },
+  "Tamil Nadu Dr Ambedkar Law University Entrance Test": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Careers360 confirms the TNDALU 2025 merit-list cutoff marks (SOEL OC 88.680, ST 81.700, affiliated ST 69.160); these are +2 merit marks (no real entrance test) reproduced from a reputable portal."
+  },
+  "Tata Institute of Social Sciences Bachelor Admission Test": {
+    "fidelity": "official-proxy",
+    "sample_checked": 4,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "FindMyCollege confirms the TISS 2025 cutoff percentiles (Guwahati Gen 44/EWS 41/OBC-NCL 39, Tuljapur Gen 41), but these are CUET-UG percentiles since TISS BA admits via CUET, so should be labelled as a proxy."
+  }
+}

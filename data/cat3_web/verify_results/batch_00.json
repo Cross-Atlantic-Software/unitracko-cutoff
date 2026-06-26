@@ -1,0 +1,50 @@
+{
+  "All India Veterinary Entrance Test": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "All sampled General/SC/ST opening-closing ranks for 2019 and 2023 appear verbatim on getmyuni's AIPVT cut-off page, but the page labels the 2023 figures 'Expected Cut Off' and adds an estimation disclaimer (AIPVT was discontinued after 2019), so the 2023 rows are projections rather than published cutoffs."
+  },
+  "Armed Forces Medical College Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "Scores 618/610/498/537 and the 2024 figure 681 all appear on the cited pages as AFMC NEET cutoff marks (out of 720) and AFMC admits via NEET, so values are real and correctly placed in the score column; minor classification flaw is that these are boys/girls-specific marks (e.g. 681 is the 2024 girls cutoff) all labelled 'General'."
+  },
+  "Arunachal Pradesh Polytechnic Entrance Examination": {
+    "fidelity": "derived",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": true,
+    "unit_issue": true,
+    "verdict_note": "The official PDF is a raw candidate merit list (names, roll no, category, marks, rank) where the sampled 'Closing Rank' values 1/4/7/10 with marks 163/126/108/93 are individual candidates' merit positions, not a published cutoff table; the document itself states everyone with marks >=1 is eligible, so there is no real category cutoff to extract."
+  },
+  "Assam Agriculture Entrance Examination": {
+    "fidelity": "portal",
+    "sample_checked": 4,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "All four branch/year opening-closing ranks (Animal Husbandry 2025 51584-61503, Veterinary 2023, Agriculture 2023, Community Science 2023) appear verbatim on careers360's AAU Jorhat page, but the page states these are NEET All-India ranks, so admission is via NEET not a dedicated Assam ag exam."
+  },
+  "Bachelor of Hotel Management and Catering Technology Entrance Exam": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "NCHMCT JEE opening-closing ranks are real and on careers360 (IHM Jaipur Open 2611-8197 and Army IHM Bangalore 1836-3476 matched exactly); three others differed from the page's reported figures, consistent with Round 1 vs Round 2 2026 ambiguity rather than fabrication, so values are plausible but round labelling should be checked."
+  },
+  "Bachelor of Science in Nautical Science Admission": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": false,
+    "drop_recommended": true,
+    "unit_issue": true,
+    "verdict_note": "IMU CET ranks come from careers360, but the headline value 577 labelled Nautical Science 2025 is actually B.Tech Marine Engineering's 2025 closing rank (Nautical Science 2025 is 849 on the page), so course/branch mapping is wrong; only ST 2024=67 matched cleanly while SC 2024=80 did not match the page's 66, indicating the Nautical-Science rows are conflated with other IMU courses."
+  }
+}

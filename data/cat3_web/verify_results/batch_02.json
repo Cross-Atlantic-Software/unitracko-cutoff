@@ -1,0 +1,50 @@
+{
+  "Indian Institute of Space Science and Technology Admission": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "All 5 sampled values (% of JEE Advanced marks) match the cited phodu.club page exactly (Aerospace Gen 43.06/28.61, ECE 40.56/28.33, CS-DS 42.78/30.28, CS-DS ST 14.44/13.61); IIST admits via JEE Advanced rank so these are JEE-Advanced-channel cutoffs, correctly placed in the score column."
+  },
+  "Indian Institutes of Science Education and Research Aptitude Test": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": false,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "careers360 confirms 3 of 5 (Berhampur Gen 1990, Kolkata OBC-NCL 534, Bhopal Eco KM 29) but Pune OBC-NCL shows 257 not 44 and Trivandrum SC shows 453 not 269 (likely a different counselling round mislabeled); real IISER IAT closing-rank data but accuracy of those two rows unverified."
+  },
+  "Indira Gandhi National Tribal University Entrance Examination Folk Literature": {
+    "fidelity": "derived",
+    "sample_checked": 4,
+    "rows_confirmed": false,
+    "drop_recommended": false,
+    "unit_issue": true,
+    "verdict_note": "Official IGNTU PDF is a per-candidate open-counselling allotment list, not a cutoff table; the Folk Literature rows actually show CUET 53.59/52.81/48.35, and the deliverable's UR=35.45 traces to an SC candidate's score (misclassified) while ST/OBC/SC values are scattered candidate scores derived as thresholds."
+  },
+  "Institute of Hotel Management Catering Technology Entrance Vegetarian Culinary Arts": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "toprankers confirms all 5 NCHMCT JEE 2026 Round-1 rank pairs exactly (Delhi-Pusa Open 2-300, Guwahati Open 129-7651, Bengaluru EWS 1720-5851, Kolkata SC 2082-8408, Hyderabad ST 4411-8080); branch labeled Hospitality & Hotel Administration not Vegetarian Culinary Arts."
+  },
+  "Jamia Millia Islamia Mass Communication Entrance": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "careers360 confirms the entrance-test mark scores (Convergent Journalism Gen 2019=191, Mass Comm MM 2019=147, PwD hearing 2019=72, Muslim 2018=185-171), correctly placed in the score column as marks not ranks; values are old (2018-2019)."
+  },
+  "Jawaharlal Institute of Postgraduate Medical Education and Research Nursing Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "collegedekho confirms all 5 JIPMER B.Sc Nursing 2024 Round-1 closing ranks exactly (Gen 277, EWS 1350, SC 3630, ST 11584, Gen-PwD 49182) but the page labels them NEET ranks, so admission channel is NEET not a JIPMER-own nursing exam."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Mizoram Engineering Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "careers360 confirms B.Arch General OR 1203 / CR 1251-1258 and getmyuni confirms CS 60031, ECE-SC 12556, IT-ST 5929 exactly, but both pages state these are JEE Main/JoSAA closing ranks, not MZUEEE's own exam ranks, so it should be labelled as a JEE-Main proxy."
+  },
+  "Narsee Monjee Institute of Management Studies Law Aptitude Test": {
+    "fidelity": "portal",
+    "sample_checked": 2,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "collegedekho shows a 70-percentile General 2024 cutoff for NMIMS Kirit P. Mehta School of Law, but the page labels it a CLAT cutoff (NMIMS accepts CLAT or NMIMS-LAT), so it is plausible portal data rather than an NLAT-specific official figure."
+  },
+  "National Standard Examination": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "pw.live confirms the NSE MAS thresholds Physics 99, Biology 70, Junior Science 86 (2023-24) and Physics 83 (2024-25 Group B); only Astronomy differs slightly (page shows MAS 87/76 vs sampled 84), so values are real IAPT qualification scores from a third-party portal."
+  },
+  "Online Facilitation System for Students Bihar University Admission": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "careers360 confirms school-wise intermediate cutoff percentages including YASHWANT INTER SCHOOL KHIJARSARAI Science-SC 63.60; these are real OFSS class-11 admission minimum-mark cutoffs, correctly placed in the score column."
+  },
+  "Paramedical State Common Entrance Test": {
+    "fidelity": "portal",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "collegedekho confirms JENPAS-UG qualifying scores General-50th 23.50 (2024), SC/ST/OBC-40th 21.33 (2024) & 24.50 (2023), OBC-B 120 and ST 80 (2022) exactly; real category qualifying percentile-scores in the correct column."
+  },
+  "Puducherry Bachelor of Business Administration Entrance Examination": {
+    "fidelity": "official-proxy",
+    "sample_checked": 5,
+    "rows_confirmed": true,
+    "drop_recommended": false,
+    "unit_issue": false,
+    "verdict_note": "selectyouruniversity confirms Pondicherry University BBA(Hons) 2024 cutoffs General up to 165, EWS 90-120, PH 37-58, ST 82, but the page states these are CUET scores (admission via CUET, not the named CENTAC BBA entrance), so it should be labelled a CUET proxy."
+  }
+}

@@ -25,6 +25,8 @@ ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "data" / "cat3_web" / "results"
 # Second pass (official-link search) that also extracted some rows from official PDFs.
 LINKS_RESULTS_DIR = ROOT / "data" / "cat3_web" / "links_results"
+# Adversarial QA verdicts: per-exam fidelity tier + drop flag (see verify_results/).
+FIDELITY_JSON = ROOT / "data" / "cat3_web" / "fidelity.json"
 OUT_CSV = ROOT / "data" / "cat3_web_cutoffs.csv"
 
 # The deliverable 14 columns + Category + a fidelity note, in client order.
@@ -32,8 +34,16 @@ COLUMNS = [
     "Exam Name", "Link of website", "College Name", "City", "State", "Program",
     "Branch", "Year - cutoff", "Round #", "Gender", "Quota", "Category",
     "Opening Rank", "Closing Rank", "Cutoff Percentile/Score",
-    "Link - Data Taken from",
+    "Link - Data Taken from", "Fidelity",
 ]
+
+
+def load_fidelity(path: Path = FIDELITY_JSON) -> dict[str, dict]:
+    """Per-exam QA verdict: ``{exam: {fidelity, drop, note}}``. Empty if absent."""
+    try:
+        return json.loads(Path(path).read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return {}
 
 # Row-level fields the agents emit (super-set of COLUMNS minus Exam Name/website).
 _ROW_FIELDS = [
@@ -76,6 +86,7 @@ def load_results(results_dir=RESULTS_DIR,
     if websites is None:
         from cutoffs.segmentation import official_website_map
         websites = official_website_map()
+    fidelity = load_fidelity()
     dirs = [results_dir] if isinstance(results_dir, (str, Path)) else list(results_dir)
     rows: list[dict] = []
     status: dict[str, dict] = {}
@@ -88,6 +99,10 @@ def load_results(results_dir=RESULTS_DIR,
             for exam, info in blob.items():
                 if not isinstance(info, dict):
                     continue
+                verdict = fidelity.get(exam, {})
+                if verdict.get("drop"):
+                    continue  # adversarial QA flagged this exam's rows as unreliable
+                tier = verdict.get("fidelity")
                 kept = 0
                 for raw in info.get("rows") or []:
                     row = {c: raw.get(c) for c in _ROW_FIELDS}
@@ -102,6 +117,7 @@ def load_results(results_dir=RESULTS_DIR,
                     row["Exam Name"] = exam
                     # Connect to the official site; provenance stays in "Link - Data Taken from".
                     row["Link of website"] = websites.get(exam) or info.get("source_url")
+                    row["Fidelity"] = tier
                     rows.append(row)
                     kept += 1
                 prior = status.get(exam, {"rows_kept": 0})
