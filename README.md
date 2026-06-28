@@ -9,8 +9,8 @@ It works on two decoupled layers:
 
 | Layer | Question it answers | Source | Size |
 |-------|---------------------|--------|------|
-| **Breadth — Catalog** | *What exams exist, who runs them, where do their cutoffs live?* | `cutoffexamsheet.xlsx` + `EXAMlinkssheet.xlsx` → classified + enriched + official-link-verified + cutoff status & aggregator fallbacks | **317 exams**, 25 categories, 36 states/UTs |
-| **Depth — Cutoffs** | *What are the actual opening/closing ranks?* | real PDF-parsed data + curated snapshots | **~12,900 rows / ~500 colleges**, 10 bodies |
+| **Breadth — Catalog** | *What exams exist, who runs them, where do their cutoffs live?* | `cutoffexamsheet.xlsx` + `EXAMlinkssheet.xlsx` → classified + enriched + official-link-verified + cutoff status & aggregator fallbacks | **321 exams**, 25 categories, 36 states/UTs |
+| **Depth — Cutoffs** | *What are the actual opening/closing ranks?* | real PDF-parsed data + curated snapshots | **~159k rows / ~3,500 colleges**, 19 bodies (2022–2025) |
 
 ```
 adapters / scrapers ─▶ normalize ─▶ Parquet ─┐
@@ -73,7 +73,7 @@ boards), or JS/CAPTCHA (TN academic). So a generic *landing-page* scrape harvest
 goes straight to the authoritative file. We therefore:
 
 - parse the **official cutoff PDFs / on-portal reports** for ~13 bodies covering
-  12 states + COMEDK — **~3,500 colleges, ~200k rows** of real opening/closing
+  12 states + COMEDK — **~3,500 colleges, ~159k rows** of real opening/closing
   ranks. Each body is one adapter under `cutoffs/adapters/`. Layout coverage:
   - **per-college matrix** (category × branch grid): KCET, COMEDK
   - **per-institute/course matrix** (CAP stages): MHT-CET
